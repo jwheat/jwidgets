@@ -1,0 +1,1580 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: "Noto Sans", Calibri, Helvetica, Tahoma, Verdana, sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+    background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active, a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b, strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren"t caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+button, input, select, textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button, input {
+    line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+button, select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+vertical-align:-30%;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==========================================================================
+   NetNutrition App Specific Styles
+   ========================================================================== */
+
+/*Page level and content styles */
+.cbo_nn_page {
+    /* margin: 50px auto auto auto; */
+    width: 100%;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.cbo_nn_page td {
+    padding: 9px
+}
+
+.cbo_nn_page img {
+border: 0;}
+.cbo_nn_page div {
+}
+FORM TBODY {
+    margin-left: inherit;
+    margin-right: inherit;
+    border-top: 0px;
+}
+#myMealButtons {
+    padding: 0px;
+    background-color: transparent;
+}
+.cbo_nn_traitNavButton {
+    padding: 10px;
+    /* background-color: #efefef; */
+}
+/* Button Styles */
+/* Normal state */
+.cbo_nn_sideUnitCell a, button {
+
+}
+#myMealButtons button[type], .cbo_nn_itemNavButtonPanel button[type], .cbo_nn_traitNavButton button[type], button#traitClear[type] {
+
+}
+
+.cbo_nn_itemNavButtonPanel > table {
+    margin: auto;
+}
+
+/* IE7 */
+*:first-child + html #myMealButtons button[type], *:first-child + html .cbo_nn_itemNavButtonPanel button[type], *:first-child + html .cbo_nn_traitNavButton button[type], *:first-child + html button#traitClear[type] {
+    padding: 4px 10px 3px 10px;
+    cursor: pointer;
+}
+/* end Normal state */
+/* Hover state */
+.cbo_nn_sideUnitCell a:hover, #myMealButtons button:hover, .cbo_nn_itemNavButtonPanel button:hover, .cbo_nn_traitNavButton button:hover {
+}
+/* End Hover state */
+/* Disabled buttons */
+button[disabled=disabled], button[disabled=disabled]:hover {
+    color: #004b85;
+    background-color: #fff;
+    border-color: #fff;
+    cursor: default;
+}
+/* Individual buttons */
+.cbo_nn_myMealUpdateButton {
+}
+.cbo_nn_myMealItemNutritionButton {
+}
+.cbo_nn_myMealNutritionButton {
+}
+.cbo_nn_myMealClearMealButton {
+    color: #fff;
+}
+button#traitClear {
+}
+.cbo_nn_traitClearFilterButton {
+}
+.cbo_nn_traitNavButton {
+}
+/* End Button Styles */
+
+.cbo_nn_headerDiv {
+    /* width: 1200px; */
+    /* background-color: #004b85; */
+    /* margin-bottom: 10px; */
+    /* position: relative; */
+    /* display: block; */
+    height: 120px;
+    /* margin: auto; */
+    /* padding: 20px 0; */
+    /* overflow: auto; */
+}
+
+.cbo_nn_footerDiv {
+    position: relative;
+    bottom: 0px;
+width:960px;
+    margin: 0 auto;
+    clear: both;
+background-color:#fff;
+}
+.cbo_nn_mainContent {
+    width: 1170px;
+    /* float: left; */
+    /* background-color: #fff; */
+    margin: 20px auto 0 auto;
+    overflow: auto;
+}
+.cbo_nn_leftColumn {
+    float: left;
+    width: 262px;
+    margin-right: 1%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+}
+.cbo_nn_centerColumn {
+    float: left;
+    width: 50%;
+    margin-right: 1%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    /* box-shadow: 4px 4px 5px rgba(0, 0, 0, .5); */
+}
+.cbo_nn_rightColumn {
+   float: right;
+   width: 22%;
+   margin-right: 1%;
+   display: inline-block;
+   padding: 10px;
+   background-color:#efefef;
+   border: 1px solid #ddd;
+   /* border-left: 1px solid #ddd; */
+}
+
+.cbo_nn_panelDiv {
+    display:inline-block;
+}
+
+.cbo_nn_panelHeaderDiv {
+    display:inline-block
+}
+
+.cbo_nn_menuPanelDiv {
+    width:100%;
+}
+.cbo_nn_childUnitPanelDiv {
+    width:100%;
+}
+.cbo_nn_coursesPanelDiv {
+    width:100%;
+}
+.cbo_nn_unitsPanelDiv {
+    width:100%;
+}
+
+.cbo_nn_unitsPanelDiv img {
+    max-width: 130px;
+}
+
+.cbo_nn_myMealPanelDiv {
+    width: 100%;
+    /* border-left: 1px solid #efefef; */
+}
+.cbo_nn_goalsPanelDiv {
+    width:100%;
+}
+.cbo_nn_itemPanelDiv {
+    width:100%;
+}
+.cbo_nn_traitsPanelDiv {
+    width:100%;
+}
+.cbo_nn_disclaimerPanelDiv {
+    width:100%;
+}
+.cbo_nn_staticPanelDiv {
+    width:100%;
+}
+
+.cbo_nn_searchPanelDiv{
+    width: 100%;
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Menu Panel Styles  */
+.cbo_nn_menuPlaceHolder {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.cbo_nn_menuTable {
+    width: 100%;
+}
+
+.cbo_nn_menuCell > table {
+    width: 100%;
+}
+.cbo_nn_menuTable table table {
+}
+.cbo_nn_menuTableDiv {
+    width: 100%;
+    text-align: left;
+}
+.cbo_nn_menuCell {
+    padding: 8px 16px;
+    vertical-align: top;
+}
+.cbo_nn_menuCell a:link {
+    text-decoration: none;
+        margin:0 6px 0px 0px;
+}
+.cbo_nn_menuCell a:visited {
+    text-decoration: none;
+}
+.cbo_nn_menuListDiv {
+    padding: 10px;
+    background-color: #fff;
+}
+
+div#MenuList {
+    padding-bottom: 0px;
+}
+
+.cbo_nn_itemNavButtonPanel {
+margin: 10px 0px 10px 0px;
+}
+.cbo_nn_itemNavButtonPanel table {
+    margin: auto;
+}
+.cbo_nn_itemNavButtonPanel td {
+    padding: 0px;
+    margin: 0px;
+}
+.cbo_nn_itemGroupRow {
+    font-size: small;
+    font-weight: bold;
+    padding-left: 5px;
+background-color:#ccddff;
+}
+
+td.cbo_nn_itemGroupRow {
+    background-color: #ddd;
+}
+
+.cbo_nn_menuHeaderDiv {
+    color: #004b85;
+    font-weight: bold;
+    font-size: medium;
+}
+.cbo_nn_MenuUnitName {
+    padding: 1px;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+.cbo_nn_itemNutritionButton {
+}
+.cbo_nn_itemAdditemButton {
+
+}
+
+.cbo_nn_itemAdditemButton:hover {
+    background-color: #378EEC;
+    border-color: #378EEC;
+}
+
+/* My Meal Styles */
+.cbo_nn_myMealDiv {
+    width: auto;
+    padding: 10px;
+    /* background-color: #efefef; */
+    /* border-left: 1px solid #ddd; */
+}
+.cbo_nn_myMealHeaderDiv {
+    font-weight: bold;
+    color: #004b85;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font: 22px/32px 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+}
+.cbo_nn_myMealListDiv {
+}
+
+.cbo_nn_myMealListDiv img {
+    cursor: pointer;
+}
+.cbo_nn_myMealNavButton {
+}
+/* Nutrition Goal Panel */
+.cbo_nn_goalsDiv {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.cbo_nn_goalsHeaderDiv {
+    padding: 0px;
+    font-size: normal;
+font-weight:bold;
+    width: 100%;
+color:#1a6eca;
+    padding: 10px 10px 0px 10px;
+    background-color: #E4F1FF;
+}
+.cbo_nn_goalsListDiv {
+    padding: 0px 10px 10px 10px;
+    background-color: #E4F1FF;
+}
+/*  Filter trait panel styles */
+.cbo_nn_traitDiv {
+}
+.cbo_nn_traitDiv table {
+    padding: 0px;
+    margin: 0px;
+}
+.cbo_nn_traitHeaderDiv {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    color: #004b85;
+    padding: 10px 10px 0px 10px;
+    /* background-color: #efefef; */
+    font: 22px/32px 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+}
+.cbo_nn_traitListDiv {
+    padding: 0px 10px 0px 10px;
+    /* background-color: #efefef; */
+}
+.cbo_nn_traitTable {
+}
+.cbo_nn_traitCell {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 11px;
+    color: #666666;
+    vertical-align: top;
+}
+
+.cbo_nn_traitCell img {
+vertical-align:-20%;
+margin-right:2px;
+width: 20px;
+/*! margin-top: 15px; */
+}
+/* Child Unit Panel Styles */
+.cbo_nn_childUnitListDiv {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px; 
+    /* background-color: #E4F1FF; */
+}
+.cbo_nn_childUnitListDiv A:link, .cbo_nn_childUnitListDiv A:visited {
+color:#808080;
+}
+.cbo_nn_childUnitListDiv A:hover {
+color:#1a6eca;
+}
+.cbo_nn_childUnitHeaderDiv {
+    padding: 2px;
+    width: auto;
+    font-weight: bold;
+    font-size: medium;
+}
+.cbo_nn_childUnitsTable {
+    width: 100%;
+border-collapse:separate;
+margin-top:8px;
+padding-top:8px;
+text-align:center;
+}
+.cbo_nn_childUnitsCell {
+    padding: 7px;
+    vertical-align: top;
+}
+.cbo_nn_childUnitsCell a:link a:visited {
+}
+.cbo_nn_childUnitToParent {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+}
+.cbo_nn_childUnitDescriptionDiv {
+    font-size: xx-small;
+    width: 100%;
+}
+/* Unit Panel Styles */
+.cbo_nn_unitPanel {
+    position: relative;
+    width: 200px;
+}
+.cbo_nn_unitListPanel {
+    border: 1px solid black;
+}
+.cbo_nn_unitsSubUnitPanel {
+    border: 1px solid black;
+}
+.cbo_nn_unitListDiv {
+    padding-bottom: 30px;
+    background-color: #fff;
+    border-bottom: solid 2px #afafaf;
+    margin-bottom: 30px;
+}
+.cbo_nn_unitHeaderDiv {
+    padding: 0px;
+    width: auto;
+    /* font-weight: bold; */
+    /* font-size: 22px; */
+    /* font-style: italic; */
+    color: #273d5e;
+    margin-bottom: 10px;
+    font: 29px/32px 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+}
+.cbo_nn_unitsTable {
+}
+.cbo_nn_unitsCell {
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: top;
+}
+.cbo_nn_unitsCell A:link, .cbo_nn_unitsCell A:visited {
+    background-color: #273d5e;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cbo_nn_unitsCell A:hover {
+    background-color:#afafaf;
+ 
+}
+.cbo_nn_unitsCell A:hover {
+}
+.cbo_nn_unitToParent {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+}
+.cbo_nn_unitDescriptionDiv {
+    font-size: xx-small;
+    width: 100%;
+    float: left;
+}
+/*  Tree List styles*/
+.cbo_nn_unitTreeListDiv {
+    width: 100%;
+}
+.cbo_nn_unitTreeListDiv, .cbo_nn_unitTreeListDiv ul, .cbo_nn_unitTreeListDiv li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cbo_nn_unitTreeListDiv ul {
+}
+.cbo_nn_unitTreeListDiv li {
+    line-height: 200%;
+    margin-top: 1px;
+    cursor: default;
+    text-indent: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+.cbo_nn_unitTreeListDiv li.collapsed, .cbo_nn_unitTreeListDiv li.expanded {
+    cursor: pointer;
+}
+/* first level */
+.cbo_nn_unitTreeListDiv li, .cbo_nn_unitTreeListDiv li.collapsed {
+    background: #eee url(../images/buttons/collapsed.gif) no-repeat 5px .4em;
+}
+.cbo_nn_unitTreeListDiv li.expanded {
+    background: #eee url(../images/buttons/expanded.gif) no-repeat 5px .4em;
+}
+/* second level */
+.cbo_nn_unitTreeListDiv li ul, .cbo_nn_unitTreeListDiv li li {
+    background: #f8f8f8;
+    font-weight: normal;
+}
+.cbo_nn_unitTreeListDiv li li.collapsed {
+    background: #f8f8f8 url("../images/buttons/collapsed.gif") no-repeat 5px .4em;
+}
+.cbo_nn_unitTreeListDiv li li.expanded {
+    background: #f8f8f8 url(../images/buttons/expanded.gif) no-repeat 5px .4em;
+}
+/* third level */
+.cbo_nn_unitTreeListDiv li li ul, .cbo_nn_unitTreeListDiv li li li {
+    background: #fff;
+}
+.cbo_nn_unitTreeListDiv li li li.collapsed {
+    background: #fff url(../images/buttons/collapsed.gif) no-repeat 5px .4em;
+}
+.cbo_nn_unitTreeListDiv li li li.expanded {
+    background: #fff url(../images/buttons/expanded.gif) no-repeat 5px .4em;
+}
+/* fourth level */
+.cbo_nn_unitTreeListDiv li li li li {
+    text-indent: 0;
+    margin-left: 30px;
+    width: auto;
+}
+/* etc. */
+/* buttons */
+p.cbo_nn_unitTreeListDiv {
+    height: 1.5em;
+    text-align: center;
+}
+p.cbo_nn_unitTreeListDiv a {
+    float: left;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0 10px;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    cursor: pointer;
+}
+p.cbo_nn_unitTreeListDiv a:hover {
+    background: #f8f8f8;
+}
+/* float fix */
+.cbo_nn_unitTreeListDiv li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.cbo_nn_unitTreeListDiv li {
+    display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .cbo_nn_unitTreeListDiv li {
+    height: 1%;
+}
+.cbo_nn_unitTreeListDiv li {
+    display: block;
+}
+/* Item Panel Styles */
+.cbo_nn_itemGridDiv {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    overflow: auto;
+    margin-top: 20px; 
+}
+.cbo_nn_itemGridTable {
+    width: 100%;
+}
+.cbo_nn_itemGridTable tr {
+    background-color: #fff;
+    border-bottom: #efefef;
+}
+.cbo_nn_itemGridTable td {
+}
+.cbo_nn_itemGridTable td img {
+vertical-align:-20%;
+margin-left:3px;
+}
+.cbo_nn_itemGridTable tr td:first-child {
+    color: #273d5e;
+}
+.cbo_nn_itemHeaderDiv {
+    padding: 6px 2px;
+    width: auto;
+    background-color: #273d5e;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    font-size: .9em
+}
+
+.cbo_nn_itemColumnSelection, .cbo_nn_itemColumnName, .cbo_nn_itemColumnPortion, .cbo_nn_itemColumnServings,.cbo_nn_itemColumnPrice {
+    color: #273d5e;
+}
+
+.cbo_nn_itemColumnSelection, .cbo_nn_itemColumnName, .cbo_nn_itemColumnPortion {
+text-align:left;
+} 
+
+.cbo_nn_itemColumnServings,.cbo_nn_itemColumnPrice {
+text-align:right;
+}
+
+.cbo_nn_itemGridTable th {
+    padding-left: 5px;
+}
+.cbo_nn_itemGridTable td {
+    text-align: left;
+}
+/* Nutrition Label Styles */
+.cbo_nn_NutritionLabelDiv {
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 220px;
+    /* margin-left: -125px; */
+    z-index: 20000;
+}
+.cbo_nn_LabelHeader {
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+}
+.cbo_nn_LabelSubHeader {
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    padding: 0px;
+}
+.cbo_nn_LabelLabel {
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    padding: 0px;
+}
+.cbo_nn_LabelDetail {
+    font-family: Arial,sans-serif;
+    padding: 2px;
+}
+.cbo_nn_itemHover:hover {
+    color: #666;
+}
+.cbo_nn_LabelDetailPadded {
+    font-family: Arial;
+    padding-left: 10px;
+}
+/*Summary */
+
+#nutritionGridPanel:before {
+    /* position: fixed; */
+    /* top: 0px; */
+    /* bottom: 0px; */
+    /* width: 100%; */
+    /* background-color: #000; */
+    /* opacity: 0.8; */
+    /* content: ""; */
+}
+#nutritionGridPanel {
+    width: 1200px;
+    /* height: 900px; */
+    margin: auto;
+    position: absolute;
+    top: 20% !important;
+    left: 50%;
+    margin-left: -600px;
+    /* max-width: 80%; */
+}
+/* for the collection of images */
+.cbo_nn_unitImagesDiv {
+    min-height: 100px;
+}
+
+.cbo_nn_unitImages {
+    margin-bottom: 10px;
+}
+
+/* for each individual image */
+.cbo_nn_unitImage {
+    width: 260px;
+    min-height: 100px;
+    float: left;
+}
+/* places the text to overlay the image */
+.cbo_nn_unitImageDiv span {
+    position: relative;
+    display: block;
+    top: 0px;
+    width: 230px;
+    text-align: center;
+    color: black;
+    font: 26px Georgia,Times New Roman, Serif;
+    text-shadow: 2px 2px 2px #333; /* Non-IE browsers */;
+    filter: Shadow (Color=#333333, Direction=135, Strength=2); /* IE7 and under */;
+    -ms-filter: "Shadow(Color=#333333, Direction=135, Strength=2"; /* IE 8 */
+}
+/* places the text to overlay the image */
+.cbo_nn_unitImageDiv a:visited, a:link {
+}
+/* size the image properly */
+.cbo_nn_unitImage {
+    width: 230px;
+    height: 240px;
+}
+/* Disclaimer Panel Styles */
+.cbo_nn_disclaimerInnerDiv {
+    color: #666;
+    padding: 10px;
+    font-size: 11px;
+}
+.cbo_nn_disclaimerHeaderDiv {
+    padding: 2px;
+    width: auto;
+    text-align: left;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+        margin-bottom: 10px;
+    display: none;
+}
+/* Nutrition Grid */
+.cbo_nn_NutritionGridContainerDiv {
+    position: absolute;
+    z-index: 20000 !important;
+    overflow: visible;
+    left: 20px;
+    top: 20px;
+}
+.cbo_nn_NutritionGridInternalDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: small;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #afafaf;
+}
+/*  Courses Panel */
+.cbo_nn_coursesTable {
+    width: 100%;
+    clear: both;
+}
+.cbo_nn_coursesCell {
+    padding: 7px;
+    font-size: small;
+    color: #666666;
+    vertical-align: top;
+}
+.cbo_nn_coursesCell a:link {
+    border-bottom-style: groove;
+    border-bottom-width: thin;
+    border-bottom-color: #114580;
+    font-size: small;
+    color: #1A6EC9;
+    text-decoration: none;
+}
+.cbo_nn_coursesCell a:visited {
+    border-bottom-style: groove;
+    border-bottom-width: thin;
+    border-bottom-color: #114580;
+    font-size: small;
+    color: #1A6EC9;
+    text-decoration: none;
+}
+.cbo_nn_coursesListDiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.cbo_nn_coursesHeaderDiv {
+    padding: 2px;
+    width: auto;
+    font-weight: bold;
+}
+.cbo_nn_courseName {
+    padding: 1px;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+/* back button */
+.cbo_nn_backButton {
+}
+.cbo_nn_backButtonDiv {
+    /* width: 80px; */
+    /* margin: 10px auto; */
+}
+.cbo_nn_navBarOuterDiv {
+    width: 100%;
+}
+.cbo_nn_navBarButtonDiv {
+    width: 100%;
+}
+.cbo_nn_navBarMenuDiv {
+    width: 100%;
+}
+.cbo_nn_navBarCourseDiv {
+    width: 100%;
+}
+.cbo_nn_navBarUnitDiv {
+    width: 100%;
+}
+.cbo_nn_navBarTable {
+    width: 100%;
+}
+.cbo_nn_navBarLeftCell {
+    width: 33%;
+    text-align: left;
+}
+.cbo_nn_navBarRightCell {
+    width: 33%;
+    text-align: right;
+}
+.cbo_nn_navBarCenterCell {
+    width: 33%;
+    text-align: center;
+}
+.cbo_nn_myMealsButton {
+    width: 100%;
+}
+.cbo_nn_itemHover {
+    cursor: pointer;
+}
+.cbo_nn_buttonImage {
+vertical-align:-15%;
+}
+.cbo_nn_itemCheckBox {
+    width: 30px;
+}
+.cbo_nn_menuLink {
+}
+.cbo_nn_menuPrimaryRow {
+}
+.cbo_nn_menuAlternateRow {
+}
+.cbo_nn_itemPrimaryRow td, .cbo_nn_itemAlternateRow td {
+    width: auto;
+    min-width: 32px;
+}
+.cbo_nn_itemAlternateRow td {
+    background-color: #FFFFFF;
+}
+.cbo_nn_traitPrimaryRow, .cbo_nn_traitAlternateRow {
+    padding: 0px;
+    margin: 0px;
+}
+.cbo_nn_traitPrimaryRow {
+}
+.cbo_nn_traitAlternateRow {
+}
+.cbo_nn_unitsPrimaryRow {
+    margin-bottom: 10px;
+    display: block;
+}
+.cbo_nn_unitsAlternateRow {
+margin-bottom: 10px;
+display: block; 
+}
+.cbo_nn_childUnitsAlternateRow {
+}
+.cbo_nn_childUnitsPrimaryRow {
+}
+.cbo_nn_coursesPrimaryRow {
+}
+.cbo_nn_coursesAlternateRow {
+}
+.cbo_nn_NutritionLabelDiv {
+    /* padding: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.69); */
+    /* position: absolute; */
+    top: 0px;
+    /* bottom: 0px; */
+    /* left: 0px; */
+    /* right: 0px; */
+    /* visibility: hidden; */
+}
+#nutritionGrid {
+    margin: 0px;
+}
+.cbo_nn_NutritionLabelTable {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: #000000;
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 1px !important;
+    moz-box-shadow: rgba(0, 0, 0, 0.3) 2px 3px 2px !important;
+    padding: 1px !important;
+    webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 3px 2px !important;
+    width: 250px !important;
+}
+.cbo_nn_NutritionLabelTable td {
+    margin: 1px !important;
+    padding: 1px !important;
+}
+.cbo_nn_LabelHeader {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    width: 100%;
+}
+.cbo_nn_LabelSubHeader {
+    color: #000000;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    width: 100%;
+}
+.cbo_nn_LabelBorderedSubHeader {
+    border-bottom: 1px #000000 solid;
+}
+.cbo_nn_LabelLabel {
+    color: #000000;
+    font-family: "Arial";
+    font-weight: bold;
+    padding: 0px;
+}
+.cbo_nn_LabelBottomBorderLabel {
+    border-bottom: 9px #000000 solid;
+    color: #000000;
+    font-family: "Arial";
+    font-weight: bold;
+    padding: 0px;
+}
+.cbo_nn_LabelDetail {
+    color: #000000;
+    font-family: "Arial";
+    padding: 0px;
+}
+.cbo_nn_LabelLeftPaddedDetail {
+    color: #000000;
+    font-family: "Arial";
+    padding-left: 8px;
+}
+.cbo_nn_LabelPrimaryDetail {
+    color: #000000;
+    font-family: "Arial";
+    padding-left: 8px;
+    text-align: right;
+    width: 30%;
+}
+.cbo_nn_LabelPrimaryDetailPercent {
+    color: #000000;
+    font-family: "Arial";
+    padding-left: 8px;
+    text-align: right;
+    width: 30%;
+}
+.cbo_nn_LabelDetailPadded {
+    color: #000000;
+    font-family: "Arial";
+    padding-left: 10px;
+}
+.cbo_nn_LabelSecondaryTable {
+    border-bottom: 1px #cccccc solid;
+    border-top: 1px #cccccc solid;
+}
+.cbo_nn_SecondaryNutrient {
+    color: #000000;
+    font-family: "Arial";
+    padding: 0px;
+    width: 48%;
+}
+.cbo_nn_SecondaryNutrientSpacer {
+    text-align: center;
+    vertical-align: middle;
+    width: 4%;
+}
+.cbo_nn_NutritionGridContainerDiv {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    z-index: 20000;
+}
+.cbo_nn_NutritionGridInternalDiv {
+    /* background-color: #FFFFFF; */
+    /* border: 2px solid black; */
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    position: relative;
+}
+.cbo_nn_NutritionGridInternalDiv {
+    margin: 5px;
+}
+.cbo_nn_NutritionGrid {
+    margin: 30px 30px 60px 30px;
+}
+.cbo_nn_NutritionGridHeaderData {
+    border-left: 1px solid #afafaf;
+    color: #424242;
+    background-color: #efefef;
+}
+.cbo_nn_NutritionGridHeaderPercent {
+    border-left: 1px solid #afafaf;
+    color: #424242;
+    background-color: #efefef;
+}
+.cbo_nn_NutritionGridItemName {
+    /* background-color: #eee; */
+    border: 1px solid #c0c0c0;
+    width: 250px;
+    word-wrap: break-word;
+}
+.cbo_nn_NutritionGridData {
+    border: 1px solid #c0c0c0;
+}
+.cbo_nn_NutritionGridPercent {
+    border: 1px solid #c0c0c0;
+}
+.cbo_nn_NutritionGridSummary {
+    background-color: #f7f2ee;
+    border: 1px solid #c0c0c0;
+    text-align: left;
+}
+.cbo_nn_NutritionGridScheduleHeader {
+    background-color: #004b85;
+    /* border: 1px solid #fff; */
+    color:#fff;
+    text-align: left;
+}
+.cbo_nn_NutritionGridScheduleSummary {
+    background-color: rgba(0, 139, 247, 0.21);
+    border: 1px solid #c0c0c0;
+    text-align: left;
+}
+.cbo_nn_sideUnitPanelDiv {
+    margin-bottom: 10px;
+}
+.cbo_nn_sideUnitInnerDiv {
+    padding: 0px 10px 10px 10px;
+}
+.cbo_nn_sideUnitTable {
+}
+.cbo_nn_sideUnitCell {
+    padding-left: 15px;
+}
+.cbo_nn_sideUnitPrimaryRow {
+}
+.cbo_nn_sideUnitAlternateRow {
+}
+.cbo_nn_sideUnitHeader {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding: 10px 10px 0px 10px;
+    /* background-color: #27 #d5E; */
+    font: 25px/32px 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+}
+.cbo_nn_PanelErrorDiv {
+    padding: 10px;
+}
+.cbo_nn_mobileItemName {
+}
+.cbo_nn_mobileShowNutrition {
+}
+.cbo_nn_closeButton {
+    float: right;
+    height: 32px;
+    width: 60px;
+    margin: 0px;
+    padding: 1px;
+    border: none;
+    background: none !important;
+}.cbo_nn_unitTreeParent{}
+.cbo_nn_unitTreeParentNoChild{}
+.cbo_nn_LabelLeftPaddedDetailIncomplete
+{
+  color: #990000;
+}
+.cbo_nn_LabelPrimaryDetailIncomplete
+{
+  color: #990000;
+}
+.cbo_nn_LabelPrimaryDetailPercentIncomplete
+{
+  color: #990000;
+}
+.cbo_nn_SecondaryNutrientIncomplete
+{
+  color: #990000;
+}
+.cbo_nn_NutritionGridDataIncomplete
+{
+  border: 1px solid #c0c0c0;
+  color: #990000;
+}
+.cbo_nn_NutritionGridPercentIncomplete
+{
+  border: 1px solid #c0c0c0;
+  color: #990000;
+}
+.cbo_nn_LabelDetailIncomplete
+{
+  color: #990000;
+}
+.cbo_nn_SecondaryNutrientLabel
+{
+}
+.cbo_nn_npTable{}
+.cbo_nn_npRow{}
+.cbo_nn_npCell{vertical-align:top;}
+.cbo_nn_AdditonalNutrientLabel{}
+.cbo_nn_AdditonalNutrientIncomplete{}
+.MobileHomeLogo{}
+.FilterHeaderAllergy{}
+.FilterHeaderPreference{}
+.HeaderBar{}
+.UnitHeader{}
+.MealHeader{}
+.CourseHeader{}
+.cbo_nn_PleaseWait{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+}
+.cbo_nn_PleaseWaitText{}
+.cbo_nn_menuLinkCell{}
+
+.cbo_nn_menuPanelDiv > .cbo_nn_menuListDiv > .cbo_nn_menuListDiv > .cbo_nn_menuTableDiv > .cbo_nn_menuTable > tbody > .cbo_nn_menuPrimaryRow > .cbo_nn_menuCell > table > tbody > tr:nth-child(odd) {
+    font-weight: bold;
+    background-color: #273d5e;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cbo_nn_menuPanelDiv > .cbo_nn_menuListDiv > .cbo_nn_menuListDiv > .cbo_nn_menuTableDiv > .cbo_nn_menuTable > tbody > .cbo_nn_menuAlternateRow > .cbo_nn_menuCell > table > tbody > tr:nth-child(odd) {
+    font-weight: bold;
+    background-color: #273d5e;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cbo_nn_parentImageCell{}
+.cbo_nn_parentNameCell{}
+.cbo_nn_printfriendlyButton{}
+.cbo_nn_unitListImage{
+    max-width: 125px;
+}
+.cbo_nn_unitImageLink{}
+.cbo_nn_unitNameLink{}
+
+
+.cbo_nn_contactUsPanelDiv{}
+.cbo_nn_contactUsHeaderDiv{}
+
+.cbo_nn_searchLabelDiv{
+    font-weight: bold;
+    color: #004b85;
+    text-align: left;
+}
+
+.cbo_nn_searchTextBoxDiv{
+    width: 100%;
+    max-width:250px;
+    display:inline-block;
+}
+.cbo_nn_clearSearchButton{}
+
+input#NNSearch {
+    float: left;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid #B8D1Ec;
+}
+
+button#clearSearch {
+    margin: auto;
+    float: left;
+    width: 10%;
+    height: 23px;
+    padding: 3px 0px 0px 0px ;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+button {
+    padding: 6px 8px 6px 8px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    color: #004b85;
+    height: 35px;
+    margin: 0px 5px 10px 0px;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    background-color: #ddd;
+    border-color: #ddd;
+    color: #004b85;
+}
+
+div#searchPanel {
+    padding: 0px;
+    background-color: transparent;
+}
+
+button#mealNutSummary {
+    width: 100%;
+}
+
+button#myMealClear {
+    width: 100%;
+}
+
+button#traitClear {
+    width: 100%;
+}

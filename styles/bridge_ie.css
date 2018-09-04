@@ -1,0 +1,359 @@
+@font-face {
+	font-family: 'raleway-light';
+	src: url('../fonts/raleway-light-webfont.eot');
+	src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/raleway-light-webfont.woff') format('woff'),
+		url('../fonts/raleway-light-webfont.ttf') format('truetype')/*,
+		url('files/fonts/raleway-light-webfont.svg#itc_mendoza_roman_bookitalic') format('svg')*/;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#storycard-container *, #storycard-container *:after, #storycard-container *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#story-nav *, #story-nav *:after, #story-nav *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+#storycard-container {
+  width:880px;
+}
+
+#storycard-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#storycard-container .storycard {
+   width:380px; height:306px; /* 400x306 */
+   position:relative;
+   background-color:#f0f0f0;
+   border:1px solid #cbcbcb; border-radius:2px;
+   float:left; margin:0 26px 26px 0;
+   padding:0;
+   cursor:pointer;
+}
+
+#storycard-container .storycard .text-section {
+   padding:16px 16px 10px 20px;
+   height:116px; /*116*/
+   border-bottom:1px solid #cbcbcb;
+}
+
+
+#content #storycard-container .storycard h2 {
+ font-family: priori-sans-bold;
+ font-size:24px;
+ line-height:1em;
+ color:#273d5e;
+ margin-bottom:4px;
+ text-shadow: none;
+ 
+}
+
+#storycard-container .storycard .storycard-caption {
+ font-family: raleway-light;/*priori-sans-bold;*/
+ font-size:16px;
+ line-height:1em;
+ color:#666666;
+ margin-bottom:4px;
+}
+
+#storycard-container .storycard .storycard-cat {
+ font-family: raleway-light;/*priori-sans-bold;*/
+ font-size:12px;
+ color:#666666;
+ margin:0;
+}
+
+#storycard-container .storycard.has-photo .storycard-cat:before {
+  content: '';
+  display:block;
+  float:right;
+  background: url(../new_img/photo-icon.png) no-repeat;
+  width:23px; height:23px;
+  margin-left:4px;
+}
+
+
+#storycard-container .storycard.has-video .storycard-cat:after {
+  content: '';
+  display:block;
+  float:right;
+  background: url(../new_img/video-icon.png) no-repeat;
+  width:23px; height:23px;
+}
+
+
+
+
+#storycard-container .storycard .storycard-img-container {
+  border:1px solid #dfdfdf;
+  height:188px;
+  width:378px;
+  overflow:hidden;
+  position:relative;
+}
+
+#storycard-container .storycard img {
+  max-width:none;
+}
+
+#storycard-container .storycard .storycard-read {
+  position:absolute;
+  width:140px; height:36px;
+  font-family: priori-sans-bold;
+  font-size:24px;
+  line-height:1em;
+  /*background-color:#273d5e;*/
+  color:white;
+  right:0;
+  bottom:0;
+  padding:6px 8px;
+  background: #273d5e url(../new_img/readmore.png) no-repeat 124px -250px;
+  transition: all 0.4s ease;
+}
+
+#storycard-container .storycard:hover .storycard-read {
+    opacity:0.9;
+    width:100%;
+    height:100%;
+    padding:90px 120px;
+    background: #273d5e url(../new_img/readmore.png) no-repeat 129px 40px;
+}
+
+
+/* Desktop base slider */
+
+#content .alt_gallery {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  position:relative;
+  padding:0;
+  min-height:0; 
+}
+
+#content .alt_gallery ul.slides {
+  padding:0;
+  margin:0;  
+}
+
+
+#content .alt_gallery ul.slides li {
+  display:block; float:left; /*width:100%; height:300px;*/
+  min-height:0;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+
+#content .alt_gallery ul.slides li img {
+  display:block;
+  /*max-width:none;*/
+}
+
+#content .alt_gallery ul.slides li .overlay {
+  display:block;
+  position:absolute;
+  width:100%;
+  height:100%;
+  /*z-index:4;*/
+  top:0;
+  /*max-width:none;*/
+  color:white;
+  
+}
+
+#content .alt_gallery .overlay div {
+  width:65%;
+}
+
+#content .alt_gallery ul.slides li .overlay.slide-alignleft {
+  background: linear-gradient(to right, rgba(40, 52, 94, 0.5), rgba(40, 52, 94, 0) 80%)
+}
+
+#content .alt_gallery ul.slides li .overlay.slide-aligncenter {
+  background: linear-gradient(to right, rgba(40, 52, 94, 0) 10%, rgba(40, 52, 94, 0.5) 50%, rgba(40, 52, 94, 0) 90%)
+}
+
+#content .alt_gallery ul.slides li .overlay.slide-alignright {
+  background: linear-gradient(to left, rgba(40, 52, 94, 0.5), rgba(40, 52, 94, 0) 80%)
+}
+
+
+#content .alt_gallery .overlay.slide-alignleft div {
+  margin:10% 8%;
+  text-align:left;
+}
+
+#content .alt_gallery .overlay.slide-aligncenter div {
+  margin:10% auto;
+  text-align:center;
+}
+
+#content .alt_gallery .overlay.slide-alignright div {
+  margin:10% 8% auto auto;
+  text-align:right;
+}
+
+
+#main #content .alt_gallery .overlay h2 {
+  font-family: priori-sans-bold;
+  font-size:46px;
+  color:white;
+  text-shadow:0 0 12px black, 2px 2px 4px rgba(0,0,0,0.5)
+}
+
+#content .alt_gallery .overlay p {
+  font-family: mendoza-book;
+  font-size:22px;
+  text-shadow:0 0 12px black, 2px 2px 4px rgba(0,0,0,0.5);
+  line-height:1.1em;
+}
+
+#content .alt_gallery .overlay a {
+  color:#293e5d;
+  background-color:#75adcf;
+  text-transform:uppercase;
+  padding:8px 12px;
+  border-radius:5px;
+  text-decoration:none;
+  display:inline-block;
+  font-size:10px;
+  line-height:1em;
+}
+
+
+#content .alt_gallery .flex-direction-nav a {
+    background: url("../new_img/arrows-32.png") no-repeat scroll 0 0;
+    height: 32px;
+    left: 3%;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 45%;
+    /*transition: opacity 0.3s ease 0s;*/
+    width: 32px;
+}
+
+#content .alt_gallery .flex-direction-nav a:hover {
+  background-position: 0 -32px;
+}
+
+
+#content .alt_gallery .flex-direction-nav .flex-next {
+    background-position: -32px 0;
+    left: auto;
+    right: 3%;
+}
+
+#content .alt_gallery .flex-direction-nav .flex-next:hover {
+  background-position: -32px -32px;
+}
+  
+
+/** Desktop card menu/filter **/
+#story-nav {
+   /*display:table;*/
+/*position:relative;*/
+   width:100%;
+   margin:35px 0;
+   
+}
+
+#story-nav #mobile-filter {
+  display:none;
+}
+
+#story-nav ul.story-nav {
+ display:table; /*-row;*/
+ width:100%;
+ margin:0;
+ padding:0;
+}
+#story-nav ul.story-nav li {
+ display:table-cell;
+ background:none; padding:0;
+ width:33%;
+ text-align:center;
+ color:#344968;
+ font-size:13px;
+ padding:0;
+ border-bottom: 3px solid #ccc;
+ /*transition: all 0.5s ease;*/
+}
+
+#story-nav ul.story-nav li a {
+  text-decoration:none;
+  padding: 14px 0 0 45px;
+  cursor: pointer;
+  /*transition: all 0.5s ease;*/
+}
+  
+#story-nav ul.story-nav li.stories-viewall a {
+  background: url(../new_img/view-all.png) no-repeat 0 10px;
+}
+
+#story-nav ul.story-nav li.stories-alumni a {
+  background: url(../new_img/our-alumni.png) no-repeat 13px 0;
+}
+
+#story-nav ul.story-nav li.stories-campus a {
+  background: url(../new_img/our-campus.png) no-repeat 5px 8px;
+}
+
+
+#story-nav ul.story-nav li:hover, #story-nav ul.story-nav li.active-nav {
+  border-bottom: 3px solid #344968;
+}            
+
+#story-nav ul.story-nav li.stories-viewall:hover a, #story-nav ul.story-nav li.stories-viewall.active-nav a {
+  background-position: 0 -35px;
+}
+
+#story-nav ul.story-nav li.stories-alumni:hover a, #story-nav ul.story-nav li.stories-alumni.active-nav a {
+  background-position: 13px -35px;
+}
+
+#story-nav ul.story-nav li.stories-campus:hover a, #story-nav ul.story-nav li.stories-campus.active-nav a {
+  background-position: 5px -35px;
+}
+            
+
+#story-nav ul.story-subnav {
+ display:table; /*-row;*/
+ width:55%;
+ margin:10px auto;
+ padding:0;
+}
+
+#story-nav ul#subnav-campus.story-subnav {
+  float:right;
+}
+
+
+
+#story-nav ul.story-subnav li {
+ display:table-cell;
+ background:none; padding:0;
+ width:33%;
+ text-align:center;
+ color:#344968;
+ font-size:13px;
+ padding:0;
+}
+
+#story-nav ul.story-subnav li a {
+  text-decoration:none;
+  /*padding: 14px 0 0 45px;*/
+}
+

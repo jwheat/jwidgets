@@ -1,0 +1,388 @@
+#messiah-glance {    
+    font-family: priori-sans-bold, sans-serif;
+}
+
+#messiah-glance .center {
+    text-align: center;
+}
+
+#messiah-glance .right {
+    text-align: right;
+}
+
+#messiah-glance .half {
+    width: 50%;
+}
+
+#messiah-glance .third {
+    width: 33%;
+}
+
+#messiah-glance hr {
+    border: none;
+    display: block;
+    height: 1px;
+    background: #74accf;
+    margin: 20px 0;
+}
+
+#messiah-glance hr.black {
+    border: none;
+    display: block;
+    height: 1px;
+    background: #000;
+    margin: 20px 0;
+}
+
+#messiah-glance .banner-heading.title {
+    background: transparent;
+    text-shadow: none;
+    float: none;
+    margin-bottom: .5em;
+}
+
+#messiah-glance .banner-heading.title:before,
+#messiah-glance .banner-heading.title:after {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    position: relative;
+    bottom: 3px;
+}
+
+#messiah-glance .banner-heading.title:before {
+    background: url(/site/custom_scripts/styles/img/glance//blue-banner-left.png) no-repeat 0 0;
+    margin-right: 10px;
+}
+
+#messiah-glance .banner-heading.title:after {
+    background: url(/site/custom_scripts/styles/img/glance/blue-banner-right.png) no-repeat 0 0;
+    margin-left: 10px;
+}
+
+#messiah-glance h2.strike {
+    color: #74accf;
+    font-size: 35px;
+    text-align: center;
+    margin: .5em 0;
+}
+
+#messiah-glance h2.strike span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#messiah-glance h2.strike:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #000;
+    position: relative;
+    bottom: .5em;
+}
+
+#messiah-glance table {
+    width: 100%;
+}
+
+#messiah-glance table td {
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#messiah-glance table span {
+    display: block;
+    font-size: 32px;
+    line-height: 32px;
+    color: #293e5d;
+}
+
+#messiah-glance .border-r {
+    border-right: 1px solid #74accf;
+}
+
+#messiah-glance .border-l {
+    border-left: 1px solid #74accf;
+}
+
+#messiah-glance .border-t {
+    border-top: 1px solid #74accf;
+}
+
+#messiah-glance .border-b {
+    border-bottom: 1px solid #74accf;
+}
+
+#messiah-glance .glance-title,
+#messiah-glance .glance-small-title {
+    text-transform: uppercase;
+    line-height: 36px;
+    display: block;
+}
+
+#messiah-glance .glance-title {
+    font-size: 32px;
+}
+
+#messiah-glance .glance-small-title {
+    font-size: 24px;
+}
+
+#messiah-glance .big-txt {
+    font-size: 90px;
+    line-height: 70px;
+}
+
+#messiah-glance .txt {
+    display: block;
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+    min-height: 8em;
+}
+
+#messiah-glance .txt-s2 {
+    font-size: 27px;
+    line-height: 27px;
+}
+
+#messiah-glance .txt-s3 {
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#messiah-glance .txt-s4 {
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#messiah-glance .light-blue {
+    color: #74accf;
+}
+
+#messiah-glance .subspan {
+    display: inline;
+}
+
+#messiah-glance a.button {
+    display: inline-block;
+    background: #293e5d;
+    padding: 0 20px;
+    border-radius: 3px;
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+#messiah-glance a.light-btn {
+    background: #dddddd;
+    color: #293e5d;
+}
+
+#messiah-glance .banner,
+#messiah-glance .banner-left,
+#messiah-glance .banner-right {
+    display: inline-block !important;
+    padding: 10px 2px;
+}
+
+#messiah-glance .banner-left,
+#messiah-glance .banner-right {
+    width: 32px;
+    height: 18px;
+}
+
+#messiah-glance .banner-left {
+    background: url(/site/custom_scripts/styles/img/glance/blue-banner-left.png) no-repeat 0 10px;
+}
+
+#messiah-glance .banner-right {
+    background: url(/site/custom_scripts/styles/img/glance/blue-banner-right.png) no-repeat 0 10px;
+}
+
+#messiah-glance .tuition {
+    background: url(/site/custom_scripts/styles/img/glance/tuition-and-aid.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 10px;
+}
+
+#messiah-glance .rankings {
+    background: url(/site/custom_scripts/styles/img/glance/rankings-and-recognition.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 10px;
+}
+
+#messiah-glance .img-box h2.strike {
+    text-shadow: none;
+    margin: 0;
+}
+
+#messiah-glance .img-box h2.strike span {
+    background: transparent;
+}
+
+#messiah-glance .img-box h2.strike:before ,
+#messiah-glance .img-box h2.strike:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    bottom: .25em;
+}
+
+#messiah-glance .tuition h2.strike:before ,
+#messiah-glance .tuition h2.strike:after {
+    width: 35%;
+}
+
+#messiah-glance .rankings h2.strike:before ,
+#messiah-glance .rankings h2.strike:after {
+    width: 25%;
+}
+
+#messiah-glance .float-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#messiah-glance .float {
+    float: left;
+}
+
+#messiah-glance .float ul {
+    list-style: none;
+}
+
+#messiah-glance .float ul li {
+    background: none;
+    padding-bottom: 2px;
+}
+
+#messiah-glance .white-txt,
+#messiah-glance .white-txt * {
+    color: #fff;
+}
+
+#messiah-glance .nav-btn {
+    padding: 70px 20px 20px 20px;
+    width: 11%;
+    min-width: 86px;
+    box-sizing: border-box;
+}
+
+#messiah-glance .nav-btn a {
+    display: block;
+    width: 46px;
+    height: 46px;
+}
+
+#messiah-glance .slide-content {
+    padding: 20px;
+    width: 78%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#messiah-glance .pad-box {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#messiah-glance .rankings .undergrad:before,
+#messiah-glance .rankings .grad:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    background: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#messiah-glance .rankings .undergrad:before {
+    background: #74ACCF;
+}
+
+#messiah-glance .rankings .grad:before {
+    background: #fff;
+}
+
+#messiah-glance .slide-content .third.pad-box {
+    background-size: contain;
+}
+
+#messiah-glance .gallery .flex-direction-nav a {
+    top: calc(50% - 32px);
+    left: 10px;
+}
+
+#messiah-glance .gallery .flex-direction-nav .flex-next {
+    left: auto;
+    right: 10px;
+}
+
+@media (min-width: 1205px) {
+
+    #messiah-glance .rankings.img-box div .gallery:nth-child(2),
+    #messiah-glance .rankings.img-box div .gallery:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1204px) {
+
+    #messiah-glance .rankings.img-box div .gallery:first-child,
+    #messiah-glance .rankings.img-box div .gallery:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media (max-width: 999px) {
+
+    #messiah-glance .rankings.img-box div .gallery:first-child,
+    #messiah-glance .rankings.img-box div .gallery:nth-child(2) {
+        display: none;
+    }
+
+    #messiah-glance .slide-content .third.pad-box {
+        margin: 1% !important;
+    }
+    
+    #messiah-glance .slide-content .third.pad-box:before {
+        padding-top: 100%;
+    }
+
+    #messiah-glance .gallery .flex-direction-nav {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 766px) {
+
+    #messiah-glance .rankings .gallery {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1209px) {
+
+    #messiah-glance .rankings h2.strike:before,
+    #messiah-glance .rankings h2.strike:after {
+        width: 10%;
+    }
+
+}
