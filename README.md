@@ -60,7 +60,7 @@
 - 100022     Quick links (with image and content)
 - 100023     "library - search "
 - 100024     Events list (narrow list)
-- 100025     Heading <H2>
+- 100025     Heading 
 - 100026     Custom Gallery 2
 - 100027     z-About tabs
 - 100028     Homepage: video background
