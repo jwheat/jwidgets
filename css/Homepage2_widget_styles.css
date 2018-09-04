@@ -1,0 +1,75 @@
+div.styles11 ul li {
+width: 45%;
+float: left;
+padding: 0 10px 0 !important;
+margin: 8px 0 0 0 !important;
+background:url(http://mcweb.messiah.edu/new/final/images/arrow-05.png) no-repeat 0 7px ;
+}
+
+div.styles11 ul {
+  list-style:none !important;
+width: 100%;
+overflow: auto;
+}
+div.styles22 .widget-advert-link span {
+background: none repeat scroll 0% 0% #f0f0f0 !important;
+border-radius: 5px;
+border: 1px solid #DDD;
+padding: 0px 29px 0px 25px !important;
+}
+
+div.styles22 .widget-advert-link {
+    display: table;
+    height: 57px !important;
+    width: 100%;
+    font: 18px/24px "aptifer-sans",sans-serif;
+    color: #273D5E !important;
+    letter-spacing: 1px;
+    margin: 0px 0px 2px;
+}
+div.styles21 .events-widget .list li {
+    width: 100% !important;
+}
+
+div.styles21 .events-widget {
+    padding: 20px 20px 30px 20px !important;
+}
+div.styles13 {
+position: relative;
+ overflow: hidden!important;
+}
+div.styles13 p a {
+position: absolute; 
+top: 0;
+left: 10px;
+color:#fff;
+text-decoration: none; 
+font: 18px/22px 'mendoza-book',serif;
+text-transform: uppercase;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.56);
+background: none repeat scroll 0% 0% rgba(39, 61, 94, 0.85);
+padding: 15px 21px;
+letter-spacing: 2px;
+
+}
+
+div.styles13 img {
+float: left; 
+width: 100%;
+}
+
+div.styles13 img:hover{
+opacity: 0.7; 
+filter: alpha(opacity=70);
+}
+div.styles30 .contact-box {
+    padding: 2px 10px 10px 20px !important;
+}
+div.styles28 .mpw-container .left-image {width: 30% !important;}
+div.styles28 .mpw-container .mpw-right {width: 60% !important;}
+div.styles28 .mpw-container { width: 95% !important;}
+div.styles20 .widget-quick-links {
+    background: none repeat scroll 0% 0% #fff !important;
+    padding: 5px 10px 10px 0px !important;
+    border: none !important; 
+}
