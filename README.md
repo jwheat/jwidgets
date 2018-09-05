@@ -1,6 +1,4 @@
 # Widgets
-
-
 - 2     Image
 - 3     Sub-category links
 - 4     Documents - Jadu
@@ -158,4 +156,27 @@
 - 100137     SNAAP - Theatre and Dance
 - 100138     Development Office Homepage
 - 100139     Static Homepage Feature
+
+
+Include the following at the top of all widget code to allow easy integration with Jadu
+<?php
+  //$dev = false;
+  $dev = true;
+  $version = date('YmdHis');
+  $folder = '';
+  if (!$dev) {
+    $version = '1';
+    $folder = '/site/custom_scripts/styles/';
+  }
+  if ($dev) {
+    $version = '1';
+    $folder = 'styles/';
+  }
+?>
+
+
+Include ‘<?php echo $folder; ?>’ in all asset links. Example: 
+
+data-src="<?php echo $folder; ?>img/snaap-music/hero-bg.jpg" />
+
 
