@@ -1,0 +1,386 @@
+@font-face {
+  font-family: 'priori-sans-reg';
+  src: url('fonts/priori-sans-regular-1361508596-webfont.eot');
+  src: url('fonts/priori-sans-regular-1361508596-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/priori-sans-regular-1361508596-webfont.woff2') format('woff2'),
+       url('fonts/priori-sans-regular-1361508596-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'priori-sans-bold';
+	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
+	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
+		url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
+		url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'mendoza-medium';
+	src: url('fonts/mendozaroman-medium-webfont.eot');
+	src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
+		url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
+		url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+	font-weight: normal;
+	font-stpx;yle: normal;
+}
+@font-face {
+	font-family: 'mendoza-book';
+	src: url('fonts/mendozaroman-book-webfont.eot');
+	src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/mendozaroman-book-webfont.woff') format('woff'),
+		url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
+		url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'mendoza-book-italic';
+	src: url('fonts/mendozaroman-bookitalic-webfont.eot');
+	src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
+		url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
+		url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'priori-sans-bold';
+		src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
+	}
+	@font-face {
+		font-family: 'mendoza-medium';
+		src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+	}
+	@font-face {
+		font-family: 'mendoza-book-italic';
+		src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+	}
+	@font-face {
+		font-family: 'mendoza-book';
+		src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+	}
+	@font-face {
+		font-family: 'aptifer-sans-bold';
+		src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+	}
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-2 {
+    height: 100vh;
+    max-height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-2.car2-undergrad {    
+    background: url(img/homepage-carousel/undergrad-bg.png) 0 0 no-repeat scroll;
+    background-size: cover;
+}
+
+.carousel-2.car2-grad {    
+    background: url(img/homepage-carousel/grad-bg.png) 0 0 no-repeat scroll;
+    background-size: cover;
+}
+
+.carousel-2.car2-academics {    
+    background: url(img/homepage-carousel/academics-bg.jpg) 0 0 no-repeat scroll;
+    background-size: cover;
+}
+
+.carousel-2.car2-abroad {    
+    background: url(img/homepage-carousel/abroad-bg.png) 0 0 no-repeat scroll;
+    background-size: cover;
+}
+
+.carousel-2.car2-careers {    
+    background: url(img/homepage-carousel/careers-bg.png) 0 0 no-repeat scroll;
+    background-size: cover;
+}
+
+.car2-content {
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 62px);
+    position: relative;
+}
+
+.car2-content > div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*===== CONTENT =====*/
+
+.car2-content-info {
+    padding: 0 20px 0 100px;
+    position: relative;
+    top: 81px;
+}
+
+.car2-content-info h2,
+.car2-content-info p,
+.car2-content-info a {
+    color: #fff;
+}
+
+.car2-content-info h2 {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.car2-content-info p {
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 1em 0 1.5em 0;
+}
+
+.car2-content-info .car2-button {
+    background-color: #7CADCF;
+    border-radius: 5px;    
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.car2-content-info .car2-button:nth-of-type(2) {
+    margin-left: 15px;
+}
+
+/*===== SIDEBAR =====*/
+
+.car2-sidebar {
+    position: relative;
+    top: 81px;
+}
+
+.car2-sidebar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.car2-sidebar > ul {
+    list-style: none;
+    float: right;
+    width: 238px;
+}
+
+.car2-sidebar > ul li {
+    background-color: #273d5e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 18px;
+    margin-bottom: 2px;
+}
+
+.car2-sidebar > ul li:last-child {
+    background-color: #252525;
+}
+
+.car2-sidebar > ul li a {
+    color: #fff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.car2-sidebar > ul li a i.fa {
+    float: right;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align: middle;
+    width: 24px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+/*===== SLIDEOUT =====*/
+
+.car2-slideout {
+    background-color: rgba(117,173,207,0.35);
+    width: 466px !important;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+}
+
+.car2-slideout.closed {
+    left: calc(100% - 75px);
+    right: initial;
+    transition: .5s;
+}
+
+.car2-slideout .car2-slideout-header {
+    background-color: #7CADCF;
+}
+
+.car2-slideout .car2-slideout-header p {
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 78px;
+    margin: 0;
+    padding: 0 25px 0 75px;
+    position: relative;
+}
+
+.car2-slideout .car2-slideout-header .fa {
+    font-size: 36px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.car2-slideout-content {
+    padding: 25px 25px 25px 75px;
+}
+
+.car2-slideout-content,
+.car2-slideout-content p,
+.car2-slideout-content a {
+    color: #fff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.car2-slideout-content::after,
+.car2-links ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*===== ALIGNMENT =====*/
+
+.align-text-right .car2-content .car2-content-info {
+    width: 100%;
+    text-align: right;
+    padding: 0 65px 0 0;
+}
+
+.align-text-center .car2-content .car2-content-info {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.align-text-right .car2-slideout {
+    left: 0;
+    right: initial;
+}
+
+.align-text-right .car2-slideout.closed {
+    right: calc(100% - 75px);
+    left: initial;
+}
+
+.align-text-right .car2-slideout .car2-slideout-header .fa {
+    left: initial;
+    right: 25px;
+}
+
+.align-text-right .car2-slideout-content {
+    padding: 25px 75px 25px 25px;
+}
+
+.align-text-right .car2-slideout .car2-slideout-header p {
+    padding: 0 75px 0 25px;
+}
+
+/*===== LINKS =====*/
+
+.car2-links {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.car2-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.car2-links ul li {
+    background-color: rgba(39,61,94,0.75);
+    display: block;
+    width: calc(25% - 25px);
+    float: left;
+    text-align: center;
+    height: 62px;
+    line-height: 62px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.car2-links ul li.active {
+    background-color: rgba(66,110,138,1);
+    cursor: default;
+}
+
+.car2-links ul li a {
+    color: #ffffff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.car2-links ul li:nth-child(2) {
+    margin-right: 100px;
+}
+
+.car2-links .car2-explore-button {
+    width: 100px;
+    background-color: #fff;
+    height: 82px;
+    line-height: 20px;
+    padding-top: 12px;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 0;
+}
+
+.car2-links .car2-explore-button a {
+    color: #273d5e;
+}
+
+.car2-links .car2-explore-button a img {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,27 @@
+$(document).ready(function(){
+
+  $('.car2-grad-button').click(function(event) {
+    $(".carousel-2").hide();
+    $(".car2-grad").show();
+  });
+
+  $('.car2-academics-button').click(function(event) {
+    $(".carousel-2").hide();
+    $(".car2-academics").show();
+  });
+
+  $('.car2-careers-button').click(function(event) {
+    $(".carousel-2").hide();
+    $(".car2-careers").show();
+  });
+
+  $('.car2-abroad-button').click(function(event) {
+    $(".carousel-2").hide();
+    $(".car2-abroad").show();
+  });
+  
+  $('.car2-slideout').click(function(event) {
+    $(this).toggleClass("closed");
+  });
+  
+}); 

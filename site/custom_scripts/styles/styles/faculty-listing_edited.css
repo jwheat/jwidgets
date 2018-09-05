@@ -1,0 +1,286 @@
+#content .faculty-record {
+    padding: 15px 15px 60px 15px !important;
+    margin: 0 8px 16px 8px;
+    background: none repeat scroll 0% 0% #F0F0F0;
+    overflow: hidden;
+    position: relative;
+    width: 44%;
+    float: left;
+    height: 180px; 
+    border: 1px #dddddd solid;
+}
+
+#content .faculty-record .faculty-info {
+    overflow: hidden;
+
+}
+#content .faculty-record .profile-link a  {
+    color: #fff;
+    font: 18px/22px 'priori-sans-bold', sans-serif !important;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    left: 18px; 
+}
+
+#content .faculty-record .profile-link a:hover  {
+  text-decoration: none !important;
+}
+
+
+#content .faculty-record .profile-link {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 150px; 
+    height: 40px; 
+    background-color: #273D5E;
+    display: block;
+}
+
+#content .faculty-record span {
+    float: left;
+    clear: left;
+    font: 14px/18px "mendoza-book",serif;
+    color: rgb( 39, 61, 94 );
+}
+
+#content .faculty-record span img {
+    margin: 5px 10px 0px 0px; 
+}
+
+#content .faculty-record h5 {
+    font: 20px/22px 'priori-sans-bold', sans-serif;
+    color: #273D5E;
+    margin: 0px 0px 3px;
+}
+
+#content .faculty-record h5 span {
+    font: 16px/18px 'priori-sans-bold', sans-serif;
+    color: #273D5E;
+    margin: 0px 0px 3px;
+    width: 100%;
+}
+
+#content .faculty-record .img-wrap {
+    position: relative;
+    margin: 0px;
+    margin-right: 1.2em;
+    width: 120px;
+    height: 170px; 
+    border: none;
+    float: left;
+    overflow: hidden;
+}
+
+#content .faculty-record .img-wrap img {
+    position: relative;
+  /*  min-height: 100%;*/
+    min-width: 100%
+}
+
+#content .faculty-record .add-link {
+    margin: 0;
+    padding: 10px 0 0;
+}
+
+#content .faculty-record .intro {
+    font: 15px/17px 'aptifer-sans', sans-serif;
+    margin: 0px 0px 10px;
+    color: #273D5E;
+}
+
+#content .faculty-record address {
+    font-style: normal;
+    border-style: solid;
+    border-color: #CCC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 0px;
+    padding: 7px 0px 4px;
+    margin: 0px 0px 16px;
+}
+
+#content .faculty-record h3 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    color: #273D5E;
+}
+
+#content .faculty-record address span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 0px 6px 31px;
+}
+
+#content .faculty-record address span img {
+    float: left;
+    margin: 4px 0px 0px -29px;
+}
+
+#content .faculty-record address {
+    font-style: normal;
+}
+
+#content .adjunct-heading {
+    clear: left; 
+    padding-top: 20px; 
+    font: 30px/32px 'priori-sans-bold', sans-serif;
+    color: #273D5E;
+    width: 100%;
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 20px; 
+}
+
+
+
+
+.faculty-filter-holder{
+    margin:0 -2px 13px;
+}
+.faculty-filter-holder label{
+    display:inline-block;
+    vertical-align:top;
+    margin:-3px 6px 0 0;
+    font:24px/38px 'priori-sans-bold', Arial, Helvetica, sans-serif;
+}
+.faculty-filter-holder .sel-02{width:260px;}
+.faculty-filter-holder .select-sel-02{
+    font:14px/18px 'aptifer-sans-light', Arial, Helvetica, sans-serif;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    height:36px;
+    overflow:visible;
+    background:#fff;
+    color:#293e5d;
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;
+    -webkit-box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    -moz-box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    position:relative;
+}
+.faculty-filter-holder .select-sel-02:before{
+    position:absolute;
+    content:'';
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border:1px solid #cbcbcc;
+    -webkit-border-radius:9px;
+    -moz-border-radius:9px;
+    border-radius:9px;
+    z-index:10;
+}
+.faculty-filter-holder .select-sel-02.select-active:before{
+    -webkit-border-radius:9px 9px 0 0;
+    -moz-border-radius:9px 9px 0 0;
+    border-radius:9px 9px 0 0;
+}
+.faculty-filter-holder .select-sel-02 .center{
+    color:#293e5d;
+    padding:9px 37px 9px 12px;
+    background:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+}
+.faculty-filter-holder .select-sel-02.select-active{
+    -webkit-border-radius:9px 9px 0 0;
+    -moz-border-radius:9px 9px 0 0;
+    border-radius:9px 9px 0 0;
+}
+.faculty-filter-holder .select-sel-02 .select-opener{
+    width:34px;
+    border-left:1px solid #cbcbcc;
+    border-radius:0 9px 9px 0;
+    background:#fff url(/site/custom_scripts/styles/img/ico/down-arrow.png) no-repeat 10px 12px;
+}
+
+.faculty-filter-holder{
+    margin:0 0 25px;
+}
+
+
+    .faculty-filter-holder{
+        margin-bottom:33px;
+    }
+    /*.faculty-filter-holder .select-sel-02{
+        display:block;
+    }
+    */
+    .faculty-filter-holder label{
+        margin:0 0 6px;
+    }
+    
+.btn-mobile-show {display: none !important;}
+
+/*-------------------------- small desktop ------------------------------*/
+@media only screen and (max-width: 1204px) and (min-width: 1000px) {/*(max-width: 1204px) and (min-width: 1025px)*/
+    .faculty-record { width: 43% !important}
+    .btn-mobile-show {display: none !important;}
+
+}
+/*-------------------------- tablet breakpoint --------------------------*/
+@media only screen and (max-width: 999px) and (min-width: 480px) {
+    .faculty-record { width: 87% !important}
+    .btn-mobile-show {display: none !important;}
+
+}
+/*-------------------------- mobile Breakpoint --------------------------*/
+@media only screen and (max-width: 780px) {
+    .faculty-record { width: 87% !important}
+    .btn-mobile-hide {display: none !important;}
+    .btn-mobile-show {display: block !important;}
+
+}
+
+/*--------------Small mobile --------------*/
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+    .faculty-record { 
+    height: auto !important; 
+    }
+    
+    #content .faculty-record .img-wrap {
+    margin-bottom: 20px;
+    width: 55%;
+    height: 170px; 
+}
+
+    #content .faculty-record .img-wrap img {
+    margin-top: -30px; 
+}
+#content .faculty-record .faculty-info {
+    clear: left;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .faculty-record { 
+    height: auto !important; 
+    }
+    
+    #content .faculty-record .img-wrap {
+    margin-bottom: 20px;
+    width: 90%;
+    height: 170px; 
+}
+
+    #content .faculty-record .img-wrap img {
+    margin-top: -30px; 
+}
+#content .faculty-record .faculty-info {
+    clear: left;
+    }
+
+}
+
+}

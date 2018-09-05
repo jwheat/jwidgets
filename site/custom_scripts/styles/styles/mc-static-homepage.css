@@ -1,0 +1,376 @@
+.sl-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.sl-acc-tab-content .sl-button {
+    display: block; 
+    margin: 20px 0;
+    width: 150px; 
+    text-align: center; 
+}
+
+.sl-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+#continue-exploring .explore-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+#continue-exploring .explore-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+#continue-exploring .wrapper.content {
+    max-width: 1050px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#continue-exploring h3 {
+    color: #273d5e;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+
+#chapel-video {
+    padding-left: 20px; 
+}
+
+/*----- Accordion styles start -----*/
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab {
+    position: relative;
+    margin-bottom: 1px;
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab:first-child {
+    border-top: 1px solid #fff;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 .5em;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label img {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab .sl-acc-tab-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab .sl-acc-tab-content p {
+    margin: 1em;
+}
+/* :checked */
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input:checked ~ .sl-acc-tab-content {
+    max-height: 40em;
+}
+/* Icon */
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label::after {
+    position: absolute;
+    right: .5em;
+    top: 0;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=checkbox] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=radio] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=checkbox]:checked + label::after {
+    transform: rotate(180deg);
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+}
+
+/*----- Accordion styles end -----*/
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main-holder {
+    background: transparent;
+}
+
+.fs-bg {
+    height: 100vh;
+    max-height: 785px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #fff;
+}
+
+.fs-bg .fs-wrapper {
+    width: 820px;
+    max-width: 80%;
+    padding: 245px 10% 0;
+}
+
+.fs-bg .fs-wrapper h2 {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.fs-bg .fs-wrapper p {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: .5em 0 1em 0;
+}
+
+.fs-bg .fs-wrapper hr {
+    border: none;
+    height: 8px;
+    background: #9ec3de;
+    width: 50%;
+    margin: 1em 0;
+}
+
+.fs-bg .start-btn {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    margin: 100px auto;
+    padding: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.fs-bg .start-btn a {
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*===== TABS =====*/
+
+.faith-and-service-tabs {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.faith-and-service-tabs ul {
+    margin: 0;
+    padding: 0;
+}
+
+.faith-and-service-tabs ul li {
+    background: -moz-linear-gradient(top, rgba(36,36,36,0) 0%, rgba(36,36,36,0.75) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(36,36,36,0) 0%,rgba(36,36,36,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(36,36,36,0) 0%,rgba(36,36,36,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00242424', endColorstr='#bf242424',GradientType=0 ); /* IE6-9 */
+    display: block;
+    width: calc(25% - 25px);
+    margin: auto;
+    text-align: center;
+    height: 82px;
+    line-height: 82px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.faith-and-service-tabs ul li.active {
+    cursor: default;
+}
+
+.faith-and-service-tabs ul li.active a {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 5px;
+}
+
+.faith-and-service-tabs ul li a {
+    color: #ffffff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.faith-and-service-tabs.fs-sticky {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 999;
+    background-color: #273d5e;
+    transition: background-color 500ms;
+}
+
+.faith-and-service-tabs .fas-explore-button {
+    width: 100px;
+    background: #fff;
+    line-height: 18px;
+    padding-top: 12px;
+}
+
+.faith-and-service-tabs .fas-explore-button a {
+    color: #273d5e;
+}
+
+.faith-and-service-tabs .fas-explore-button a img {
+    margin-top: 10px;
+}
+
+/* Sticky */
+
+.faith-and-service-tabs.fs-sticky {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 999;
+    background-color: #273d5e;
+    transition: background-color 500ms;
+}
+
+.faith-and-service-tabs.fs-sticky ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.faith-and-service-tabs.fs-sticky ul {
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faith-and-service-tabs.fs-sticky ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: transparent;
+}
+
+.faith-and-service-tabs.fs-sticky ul li.active {
+    cursor: default;
+}
+
+.faith-and-service-tabs.fs-sticky ul li.active a {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 6px;
+}
+
+.faith-and-service-tabs.fs-sticky ul li a {
+    color: #ffffff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.faith-and-service-tabs .faith-and-service-item,
+.faith-and-service-tabs.fs-sticky .fas-explore-button {
+    display: none;
+}
+
+.faith-and-service-tabs.fs-sticky .faith-and-service-item {
+    display: block;
+}
+
+
+
+

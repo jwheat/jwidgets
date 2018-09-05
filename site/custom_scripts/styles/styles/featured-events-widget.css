@@ -1,0 +1,133 @@
+.event-content{
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.event-content .btn-info{
+	background:#273D5E;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	padding:6px 9px;
+}
+.event-content .btn-info:hover{
+}
+
+.event-content .picture-holder{
+	float:left;
+	width:25%;
+	border:1px solid #dfdfdf;
+	margin:4px 2.3% 0 0;
+}
+.event-content .picture-holder img{
+	width:100%;
+	height:auto;
+	vertical-align:top;
+}
+.event-content .text-box{
+	float:left;
+	width:60%;
+}
+.event-content .title-holder{
+	display:block;
+	font:33px/38px 'priori-sans-bold', Arial, Helvetica, sans-serif;
+	color: #273D5E;
+}
+.event-content p{margin-bottom:26px;}
+
+.event-content .date-section{
+	position:absolute;
+	right:0;
+	/*top:24px;
+*/	width:100px;
+	background:#273d5e;
+	color:#fff;
+	padding: 4px;
+	font:16px/20px 'priori-sans-bold', Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.event-content .date-section .day {
+	font-size: 24px;
+	}
+
+
+@media only screen and (max-width: 1024px){
+
+	.content-info{
+		padding-top:58px;
+		margin-bottom:20px;
+	}
+
+	.event-content .picture-holder{
+		width:30.9%;
+		margin-right:2%;
+	}
+	.event-content .text-box{
+		width:53%;
+	}
+	.event-content .btn-info{
+		max-width:140px;
+		width:100%;
+		margin:0 auto;
+	}
+	.event-content p{
+		margin-bottom:11px;
+	}
+
+}
+@media only screen and (max-width: 767px){
+
+	.event-content .picture-holder{
+		/*float:none;*/
+		width:40%;
+		margin:0 auto 19px;
+		max-width:188px;
+	}
+	.event-content .text-box{
+		float:left;
+		width:60%;
+	}
+	.event-content .title-holder{
+		font-size:36px;
+		line-height:40px;
+		margin-bottom:3px;
+	}
+	.event-content p{
+		margin-bottom:23px;
+	}
+
+	.event-content .btn-info{
+		max-width:100px;
+		width:100%;
+
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+/*	.event-content .picture-holder{
+		
+		width:40%;
+		margin:0 auto 19px;
+		max-width:188px;
+	}*/
+	.event-content .text-box{
+		float:left;
+		width:100%;
+	}
+	.event-content .title-holder{
+		font-size:30px;
+		line-height:28px;
+	}
+/*	.event-content p{
+		margin-bottom:23px;
+	}*/
+
+	.event-content .btn-info{
+		max-width:100px;
+		width:100%;
+
+	}
+}
