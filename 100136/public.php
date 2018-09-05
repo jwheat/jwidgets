@@ -1,9 +1,13 @@
 <?php
-  $dev = false;
-  //$dev = true;
+  //$dev = false;
+  $dev = true;
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
+    $version = '1';
+    $folder = '/site/custom_scripts/styles/';
+  }
+  if ($dev) {
     $version = '1';
     $folder = 'styles/';
   }
