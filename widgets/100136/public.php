@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '1';
-    $folder = '/site/custom_scripts/styles/';
+    $folder = 'site/custom_scripts/styles/';
   }
 ?>
     <link href="<?php echo $folder; ?>mc-snaap-music.css?v=<?php echo $version; ?>" rel="stylesheet">
