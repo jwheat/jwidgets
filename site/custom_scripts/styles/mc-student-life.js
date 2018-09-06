@@ -71,12 +71,12 @@ $(document).ready(function(){
   
   $('#life-on-campus-video').click(function() {
 		$('body').addClass('stop-scrolling');
-		var lightbox = lity('https://www.youtube.com/watch?v=J7VGXEWJXsg');
+		var lightbox = lity('https://www.youtube.com/watch?v=0EG-VDD9R-k');
   });
 
   $('.coll-large').click(function() {
 		$('body').addClass('stop-scrolling');
-		var lightbox = lity('//www.youtube.com/watch?v=yZ5C9jmlrlQ');
+		var lightbox = lity('https://www.youtube.com/watch?v=ID8DEz9S2I8');
   });
   
   $('#lightbox-photo-grid .close-button').click(function() {
