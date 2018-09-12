@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '1';
-    $folder = 'site/custom_scripts/styles/';
+    $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
   if (isset($_COOKIE['mc_student_type'])) {
@@ -115,7 +115,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-b-l.jpg"
                                 alt="" />
                             <div class="block-overlay"> 
                                 <h4>Business and leadership</h4>
@@ -127,7 +127,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-counseling.jpg"
                                 alt="" />
                             <div class="block-overlay"> 
                                 <h4>Counseling</h4>
@@ -139,7 +139,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-dietetics.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>dietic internship</h4>
@@ -153,7 +153,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-edu.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>education</h4>
@@ -165,7 +165,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-higher-ed.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>Higher education</h4>
@@ -177,7 +177,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-conducting.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>Music conducting</h4>
@@ -191,7 +191,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-nursing.jpg"
                                 alt="" />
                             <div class="block-overlay"> 
                                 <h4>Nursing</h4>
@@ -203,7 +203,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-ot.jpg"
                                 alt="" />
                             <div class="block-overlay"> 
                                 <h4>Occupational therapy</h4>
@@ -215,7 +215,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/graduate-program-panel-img.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/dept-grad-dpt.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>Physical therapy</h4>
@@ -476,9 +476,9 @@
                 </picture>
             </div>
             <div class="hero-title-wrapper">
-                <h2>Academics<br>headline<br>here</h2>
+                <h2>Academic<br>Excelence</h2>
                 <hr>
-                <p>Academics at Messiah</p>
+                <p>Undergraduate Academics Overview</p>
                 <button class="hero-btn primary-button">switch to graduate<i class="fa fa-exchange"></i></button>
             </div>
             <div class="undergraduate-tabs header-tabs hide-on-mobile">
@@ -576,7 +576,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-panel-2.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-panel-1.jpg"
                                 alt="" />
                             <div class="block-overlay"> 
                                 <h4>Summer Online</h4>
@@ -959,4 +959,4 @@
     <script type="text/javascript" src="<?php echo $folder; ?>blazy.min.js"></script>
     <script type="text/javascript" src="<?php echo $folder; ?>parallax.min.js"></script>
     <script type="text/javascript" src="<?php echo $folder; ?>slick.min.js"></script>
-    <script type="text/javascript" src="<?php echo $folder; ?>mc-academics.js?v=<?php echo $version; ?>"></script>
+    <script type="text/javascript" src="<?php echo $folder; ?>mc-academics.js?v=<?php echo $version; ?>"></script> f
