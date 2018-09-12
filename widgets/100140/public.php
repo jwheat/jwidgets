@@ -1,6 +1,6 @@
 <?php
-  //$dev = false;
-  $dev = true;
+  $dev = false;
+  //$dev = true;
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
