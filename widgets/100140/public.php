@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '1';
-    $folder = '/site/custom_scripts/styles/';
+    $folder = 'site/custom_scripts/styles/';
   }
   $pageVersion = "1";
   if (isset($_COOKIE['mc_student_type'])) {
