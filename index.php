@@ -263,7 +263,7 @@
                     <div class="widget-width widget-width__100">
 
 <div class="widget widget__2-0-study-abroad">
-                <?php include("widgets/100140/public.php"); ?>
+                <?php include("widgets/100140/public.php"); ?> 
 </div></div>
 
                     </div>

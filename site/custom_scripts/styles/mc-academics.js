@@ -215,6 +215,16 @@ $(document).ready(function(){
 		$('body').addClass('stop-scrolling');
 		var lightbox = lity('https://www.youtube.com/watch?v=J7VGXEWJXsg');
   });
+
+  $('#career-video-play').click(function() {
+		$('body').addClass('stop-scrolling');
+		var lightbox = lity('https://www.youtube.com/watch?v=noqir6a6BRg');
+  });
+
+  $('#sustainability-video-play').click(function() {
+		$('body').addClass('stop-scrolling');
+		var lightbox = lity('https://www.youtube.com/watch?v=UQXD0jrQjkw');
+  });
   
 	$(document).on('lity:close', function(event, instance) {
 		$('body').removeClass('stop-scrolling');

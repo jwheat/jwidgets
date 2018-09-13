@@ -681,7 +681,7 @@ body, html {
     height: 48px;
 }
 
-.square-panel-section .square-panel-section-row > div:hover .block-overlay {
+.square-panel-section-2 .square-panel-section-row > div:hover .block-overlay {
     width: calc(100% - 20px);
     height: 100%;
     padding: 0 30px;
@@ -709,7 +709,7 @@ body, html {
 }
 
 
-.square-panel-section .square-panel-section-row > div:hover .block-overlay h4 {
+.square-panel-section-2 .square-panel-section-row > div:hover .block-overlay h4 {
     border-bottom: 1px solid #fff;    
     padding-bottom: 12px;
     margin-top: 32px;
@@ -722,7 +722,34 @@ body, html {
     opacity: 0;
 }
 
-.square-panel-section .square-panel-section-row > div:hover .block-overlay p {
+.square-panel-section-2 .square-panel-section-row > div:hover .block-overlay p {
+    opacity: 1;
+}
+
+#our-programs .img-container{
+    position: relative;
+}
+
+#our-programs .img-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#our-programs .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease-out;
+    background-color: rgba(39, 61, 94, 0.6);
+}
+
+#our-programs .img-container:hover .img-overlay {
     opacity: 1;
 }
 
@@ -1276,6 +1303,23 @@ right: 0;
     box-sizing: border-box;
 }
 
+#academics-opportunities .career-video-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+#academics-opportunities .career-video-wrapper .video-play{
+    display: block;
+    background-color: rgba(117, 173, 207, 0.75); 
+    padding: 25px 45px 25px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 46px);
+    left: calc(50% - 67px);
+    z-index: 2;
+    cursor: pointer;
+}
+
 /*===== LITY =====*/
 
 .lity-iframe .lity-container,
@@ -1388,7 +1432,7 @@ right: 0;
         width: 47%;
     }
 
-    .square-panel-section .square-panel-section-row > div:hover .block-overlay {
+    .square-panel-section-2 .square-panel-section-row > div:hover .block-overlay {
         padding: 20px;
     }
     
@@ -1396,7 +1440,7 @@ right: 0;
         font-size: 19px;
     }
     
-    .square-panel-section .square-panel-section-row > div:hover .block-overlay h4 {
+    .square-panel-section-2 .square-panel-section-row > div:hover .block-overlay h4 {
         margin-top: 0;
     }
 
@@ -1482,7 +1526,7 @@ right: 0;
         margin-bottom: 20px;
     }
 
-    .square-panel-section .square-panel-section-row > div.hover .block-overlay {
+    .square-panel-section-2 .square-panel-section-row > div.hover .block-overlay {
         width: calc(100% - 20px);
         height: 100%;
         padding: 40px;
@@ -1505,7 +1549,7 @@ right: 0;
         padding: 10px 0;
     }
     
-    .square-panel-section .square-panel-section-row > div:hover .block-overlay {
+    .square-panel-section-2 .square-panel-section-row > div:hover .block-overlay {
         padding: 10px;
     }
     
@@ -1513,7 +1557,7 @@ right: 0;
         font-size: 18px;
     }
     
-    .square-panel-section .square-panel-section-row > div:hover .block-overlay h4 {
+    .square-panel-section-2 .square-panel-section-row > div:hover .block-overlay h4 {
         margin-top: 30px;
         padding-bottom: 8px;
         margin-bottom: 8px;

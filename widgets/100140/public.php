@@ -5,11 +5,11 @@
   $folder = '';
   if (!$dev) {
     $version = '1';
-    $folder = '/site/custom_scripts/styles/';
+    $folder = '././site/custom_scripts/styles/';
   }
   $pageVersion = "1";
   if (isset($_COOKIE['mc_student_type'])) {
-    if ($_COOKIE['mc_student_type'] == '1') {
+    if ($_COOKIE['mc_student_type'] == '0') {
       $pageVersion = "2";
     }
   }
@@ -112,116 +112,161 @@
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left first-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-b-l.jpg"
-                                alt="" />
-                            <div class="block-overlay"> 
-                                <h4>Business and leadership</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-b-l.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay"> 
+                                    <h4>Business and leadership</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 square-panel-section-col-center second-cell">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-counseling.jpg"
-                                alt="" />
-                            <div class="block-overlay"> 
-                                <h4>Counseling</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-counseling.jpg"
+                                        alt="" />
+                                        <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay"> 
+                                    <h4>Counseling</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right third-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-dietetics.jpg"
-                                alt="" />
-                            <div class="block-overlay">
-                                <h4>dietic internship</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-dietetics.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay">
+                                    <h4>dietic internship</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left fourth-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-edu.jpg"
-                                alt="" />
-                            <div class="block-overlay">
-                                <h4>education</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-edu.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay">
+                                    <h4>education</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-center fifth-cell">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-higher-ed.jpg"
-                                alt="" />
-                            <div class="block-overlay">
-                                <h4>Higher education</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-higher-ed.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay">
+                                    <h4>Higher education</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right sixth-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-conducting.jpg"
-                                alt="" />
-                            <div class="block-overlay">
-                                <h4>Music conducting</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-conducting.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay">
+                                    <h4>Music conducting</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left seventh-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-nursing.jpg"
-                                alt="" />
-                            <div class="block-overlay"> 
-                                <h4>Nursing</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-nursing.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay"> 
+                                    <h4>Nursing</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 square-panel-section-col-center eight-cell">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-ot.jpg"
-                                alt="" />
-                            <div class="block-overlay"> 
-                                <h4>Occupational therapy</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-ot.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay"> 
+                                    <h4>Occupational therapy</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right nineth-cell panel-slide-in">
-                            <img
-                                class="lazyload-img"
-                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/dept-grad-dpt.jpg"
-                                alt="" />
-                            <div class="block-overlay">
-                                <h4>Physical therapy</h4>
-                                <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                <button class="primary-button">Visit program site</button>
-                            </div>
+                            <a class="our-programs-link-panel" href="#">
+                                <div class="img-container">
+                                    <img
+                                        class="lazyload-img"
+                                        src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                        data-src="<?php echo $folder; ?>img/academics/dept-grad-dpt.jpg"
+                                        alt="" />
+                                    <div class="img-overlay"></div>
+                                </div>
+                                <div class="block-overlay">
+                                    <h4>Physical therapy</h4>
+                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                    <button class="primary-button">Visit program site</button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -508,7 +553,7 @@
                                 class="lazyload-img" 
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                                 data-src="<?php echo $folder; ?>img/academics/students-studing.jpg" />
-                            <a class="video-play" id="overview-video"><img src="img/academics/play-w.png" alt=""></a>
+                            <a class="video-play" id="overview-video"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -581,6 +626,7 @@
                             <div class="block-overlay"> 
                                 <h4>Summer Online</h4>
                                 <p>Earn the academic credits you need with Messiah College’s flexible, affordable online summer courses.</p>
+                                <a class="primary-button" href="#">read more</a>
                             </div>
                         </div>
                         <div class="col-50 center square-panel-section-col-right">
@@ -592,6 +638,7 @@
                             <div class="block-overlay">
                                 <h4>Dual Enrollment</h4>
                                 <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                <a class="primary-button" href="#">read more</a>
                             </div>
                         </div>
                     </div>
@@ -605,6 +652,7 @@
                             <div class="block-overlay">
                                 <h4>3-year degree</h4>
                                 <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                <a class="primary-button" href="#">read more</a>
                             </div>
                         </div>
                         <div class="col-50 center square-panel-section-col-right">
@@ -616,6 +664,7 @@
                             <div class="block-overlay">
                                 <h4>3+ Partner Programs</h4>
                                 <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
+                                <a class="primary-button" href="#">read more</a>
                             </div>
                         </div>
                     </div>
@@ -709,30 +758,33 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="active">1st tab title</a></li>
-                            <li><a class="ao-overlay-2">2nd tab title</a></li>
-                            <li><a class="ao-overlay-3">3rd tab title</a></li>
-                            <li><a class="ao-overlay-4">4th tab title</a></li>
-                            <li><a class="ao-overlay-5">5th tab title</a></li>
-                            <li><a class="ao-overlay-6">6th tab title</a></li>
+                            <li><a class="active">Career</a></li>
+                            <li><a class="ao-overlay-2">Research </a></li>
+                            <li><a class="ao-overlay-3">Global and service</a></li>
+                            <li><a class="ao-overlay-4">Merit</a></li>
+                            <li><a class="ao-overlay-5">Sustainability</a></li>
+                            <li><a class="ao-overlay-6">Diversity</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>1st tab title</span></h3>
+                    <h3 class="center"><span>Career</span></h3>
 
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>From your first year to senior year, our career professionals help you determine your strengths, select a major, weigh your options, network with professionals, find internships and research graduate school and employment opportunities.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/23064/internship_program" class="primary-button">Internship program</a>
+                                <a href="https://www.messiah.edu/info/23055/career_and_professional_development_center" class="primary-button">Center for Career and Professional Development</a>
+                                <a href="https://www.messiah.edu/eli" class="primary-button">Experiential Learning</a>
                             </div>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <div class="overlay-video-wrapper">
+                                <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                                <a class="video-play" id="career-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -745,26 +797,25 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="ao-overlay-1">1st tab title</a></li>
-                            <li><a class="active">2nd tab title</a></li>
-                            <li><a class="ao-overlay-3">3rd tab title</a></li>
-                            <li><a class="ao-overlay-4">4th tab title</a></li>
-                            <li><a class="ao-overlay-5">5th tab title</a></li>
-                            <li><a class="ao-overlay-6">6th tab title</a></li>
+                            <li><a class="ao-overlay-1">Career</a></li>
+                            <li><a class="active">Research </a></li>
+                            <li><a class="ao-overlay-3">Global and service</a></li>
+                            <li><a class="ao-overlay-4">Merit</a></li>
+                            <li><a class="ao-overlay-5">Sustainability</a></li>
+                            <li><a class="ao-overlay-6">Diversity</a></li>
                         </ul>
                     </div>
                     
-                    <h3 class="center"><span>2nd tab title</span></h3>
+                    <h3 class="center"><span>Research</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>Messiah College offers students a wide range of exciting and meaningful research opportunities across all academic programs. Our low faculty-to-student ratio makes Messiah an ideal place for you to collaborate with classmates, faculty, alumni and regional, national and global organizations.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/20030/academic_opportunities/279/research/2" class="primary-button">Faculty-student collaborations</a>
+                                <a href="https://www.messiah.edu/info/20030/academic_opportunities/279/research/3" class="primary-button">Faculty scholarship</a>
                             </div>
                         </div>
                         <div class="col-40 center">
@@ -781,26 +832,27 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="ao-overlay-1">1st tab title</a></li>
-                            <li><a class="ao-overlay-2">2nd tab title</a></li>
-                            <li><a class="active">3rd tab title</a></li>
-                            <li><a class="ao-overlay-4">4th tab title</a></li>
-                            <li><a class="ao-overlay-5">5th tab title</a></li>
-                            <li><a class="ao-overlay-6">6th tab title</a></li>
+                            <li><a class="ao-overlay-1">Career</a></li>
+                            <li><a class="ao-overlay-2">Research </a></li>
+                            <li><a class="active">Global and service</a></li>
+                            <li><a class="ao-overlay-4">Merit</a></li>
+                            <li><a class="ao-overlay-5">Sustainability</a></li>
+                            <li><a class="ao-overlay-6">Diversity</a></li>
                         </ul>
                     </div>
                     
-                    <h3 class="center"><span>3rd tab title</span></h3>
+                    <h3 class="center"><span>Global and service</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>Your college experience expands beyond our campus. Whether serving with a local partner nonprofit organization in nearby Harrisburg, doing construction in Appalachia on spring break, studying abroad in England for a semester or traveling on service and missions trips to Central America or Africa in early summer, you'll have ample opportunities to become a global citizen.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/20698/off_campus_programs" class="primary-button">Study abroad</a>
+                                <a href="https://www.messiah.edu/info/20692/global_and_intercultural_engagement_messiah" class="primary-button">Global engagement</a>
+                                <a href="https://www.messiah.edu/info/21021/service-learning" class="primary-button">Service-learning</a>
+                                <a href="https://www.messiah.edu/collaboratory" class="primary-button">Academics as Service</a>
                             </div>
                         </div>
                         <div class="col-40 center">
@@ -817,26 +869,25 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="ao-overlay-1">1st tab title</a></li>
-                            <li><a class="ao-overlay-2">2nd tab title</a></li>
-                            <li><a class="ao-overlay-3">3rd tab title</a></li>
-                            <li><a class="active">4th tab title</a></li>
-                            <li><a class="ao-overlay-5">5th tab title</a></li>
-                            <li><a class="ao-overlay-6">6th tab title</a></li>
+                            <li><a class="ao-overlay-1">Career</a></li>
+                            <li><a class="ao-overlay-2">Research </a></li>
+                            <li><a class="ao-overlay-3">Global and service</a></li>
+                            <li><a class="active">Merit</a></li>
+                            <li><a class="ao-overlay-5">Sustainability</a></li>
+                            <li><a class="ao-overlay-6">Diversity</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>4th tab title</span></h3>
+                    <h3 class="center"><span>Merit</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>In addition to a thriving College Honors Program, Messiah makes available a faculty advisor to assist exceptional undergraduate students with applying for prestigious competitive national scholarships and fellowships like the Rhodes, Boren and Fulbright.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/21079/national_scholarship_competitions" class="primary-button">National scholarship competition</a>
+                                <a href="https://www.messiah.edu/info/20098/college_honors_program" class="primary-button">College Honors Program</a>
                             </div>
                         </div>
                         <div class="col-40 center">
@@ -853,30 +904,33 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="ao-overlay-1">1st tab title</a></li>
-                            <li><a class="ao-overlay-2">2nd tab title</a></li>
-                            <li><a class="ao-overlay-3">3rd tab title</a></li>
-                            <li><a class="ao-overlay-4">4th tab title</a></li>
-                            <li><a class="active">5th tab title</a></li>
-                            <li><a class="ao-overlay-6">6th tab title</a></li>
+                            <li><a class="ao-overlay-1">Career</a></li>
+                            <li><a class="ao-overlay-2">Research </a></li>
+                            <li><a class="ao-overlay-3">Global and service</a></li>
+                            <li><a class="ao-overlay-4">Merit</a></li>
+                            <li><a class="active">Sustainability</a></li>
+                            <li><a class="ao-overlay-6">Diversity</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>5th tab title</span></h3>
+                    <h3 class="center"><span>Sustainability</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>Environmental stewardship isn’t just a trend at Messiah; it’s a way of life. Our extensive sustainability efforts include a bachelor’s degree in sustainability studies and initiatives such as a student-run organic garden, campus wide composting, one of the nation’s largest solar thermal systems and restoration and preservation of the on-campus Yellow Breeches Creek.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/21279/sustainability" class="primary-button">Overview</a>
+                                <a href="https://www.messiah.edu/info/20499/vision" class="primary-button">Vision</a>
+                                <a href="https://www.messiah.edu/info/20501/stewardship" class="primary-button">Stewardship</a>
                             </div>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <div class="overlay-video-wrapper">
+                                <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                                <a class="video-play" id="sustainability-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -889,26 +943,24 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Academic Opportunities</h2>
                         <ul class="academic-opportunities-overlay-tabs">
-                            <li><a class="ao-overlay-1">1st tab title</a></li>
-                            <li><a class="ao-overlay-2">2nd tab title</a></li>
-                            <li><a class="ao-overlay-3">3rd tab title</a></li>
-                            <li><a class="ao-overlay-4">4th tab title</a></li>
-                            <li><a class="ao-overlay-5">5th tab title</a></li>
-                            <li><a class="active">6th tab title</a></li>
+                            <li><a class="ao-overlay-1">Career</a></li>
+                            <li><a class="ao-overlay-2">Research </a></li>
+                            <li><a class="ao-overlay-3">Global and service</a></li>
+                            <li><a class="ao-overlay-4">Merit</a></li>
+                            <li><a class="ao-overlay-5">Sustainability</a></li>
+                            <li><a class="active">Diversity</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>6th tab title</span></h3>
+                    <h3 class="center"><span>Diversity</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
+                            <p>In addition to U.S. students from a variety of racially and ethnically diverse backgrounds, Messiah welcomes students from over 30 different countries. Our goal is to bring together students from different backgrounds who reflect the variety and richness within God’s kingdom. We continually learn from each other, which promotes a vital, intercultural educational experience.</p>
                             <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                                <a href="https://www.messiah.edu/info/21280/diversity" class="primary-button">Read more</a>
                             </div>
                         </div>
                         <div class="col-40 center">
