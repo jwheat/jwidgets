@@ -13,8 +13,8 @@
     <input type="hidden" id="mc-folder" value="<?php echo $folder; ?>"> 
 
 
-    <!-- HEADER SECTION -->
-    <div class="header-bg">
+     <!-- HEADER SECTION -->
+    <div class="header-bg loading-hero-img">
         <figure class="loading-gif"></figure>
         <div class="parallax-slider">
             <picture>
@@ -42,8 +42,15 @@
                     </div>
                 </div>
                 <div class="col-45">
-                    <div class="header-text-box">
-                        <p>“Since its founding in 1909, Messiah College has been dedicated to promoting the common good—rooted in a Christ-centered commitment to the dignity, welfare and human flourishing of all our neighbors—in Pennsylvania and beyond.” –President Kim S. Phipps</p>
+                    <div class="video-wrapper">
+                        <div class="cg-video" id="cg-video">
+                            <img 
+                                class="video-cover-img lazyload-img" 
+                                src="<?php echo $folder; ?>img/cg/handtinytrans.gif"
+                                alt="video cover image"
+                                data-src="<?php echo $folder; ?>img/cg/cg-video-cover.jpg" />
+                            <a class="video-play" id="video-play"><img src="<?php echo $folder; ?>img/cg/play-w.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,9 +63,6 @@
                 <li class="tab-item es-item"><a><span>Environmental<br>sustainability</span></a></li>
             </ul>
         </div>
-    </div>
-    <div class="header-text-box-mobile">
-        <p>“Since its founding in 1909, Messiah College has been dedicated to promoting the common good—rooted in a Christ-centered commitment to the dignity, welfare and human flourishing of all our neighbors—in Pennsylvania and beyond.” –President Kim S. Phipps</p>
     </div>
     <!-- END HEADER SECTION -->
 

@@ -9,7 +9,11 @@ $(document).ready(function(){
       selector: '.lazyload-img',
       successClass: 'loaded-img',
       success: function(element){
+        $('.header-bg').removeClass('loading-hero-img');
         $('.header-bg .loading-gif').remove();
+        setTimeout(function(){
+          $('.cg-video .video-play').addClass('active');
+        }, 400);
       }
     });
   
@@ -125,6 +129,16 @@ $(document).ready(function(){
       $('.tab-item').removeClass('active');
       $(this).addClass('active');
       $('html, body').animate({scrollTop: $("#section-5").offset().top}, 1000);
+    });
+
+    $('#cg-video').click(function() {
+      $('body').addClass('stop-scrolling');
+      var lightbox = lity('https://youtu.be/rxkampUuMMI');
+    });
+
+    $('#cg-video-mobile').click(function() {
+      $('body').addClass('stop-scrolling');
+      var lightbox = lity('https://youtu.be/rxkampUuMMI');
     });
 
 });

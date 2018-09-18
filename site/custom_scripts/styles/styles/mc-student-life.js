@@ -70,13 +70,13 @@ $(document).ready(function(){
   });
   
   $('#life-on-campus-video').click(function() {
-		$('body').addClass('stop-scrolling');
-		var lightbox = lity('https://www.youtube.com/watch?v=J7VGXEWJXsg');
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=0EG-VDD9R-k');
   });
 
   $('.coll-large').click(function() {
-		$('body').addClass('stop-scrolling');
-		var lightbox = lity('//www.youtube.com/watch?v=yZ5C9jmlrlQ');
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=ID8DEz9S2I8');
   });
   
   $('#lightbox-photo-grid .close-button').click(function() {
@@ -100,7 +100,7 @@ $(document).ready(function(){
     $('.sl-wtd-info').hide();
     $('#clubs-and-organizations-overlay').show();
   });
-	
+  
   $('.campus-traditions').click(function() {
     $('.sl-wtd-overlay').hide();
     $('.sl-wtd-info').hide();
@@ -125,24 +125,24 @@ $(document).ready(function(){
   });
 
   $('#bittner-video').click(function() {
-		$('body').addClass('stop-scrolling');
+    $('body').addClass('stop-scrolling');
     var lightbox = lity('//www.youtube.com/watch?v=wPgaK4IzVpw');
   });
 
   $('#naugle-video').click(function() {
-		$('body').addClass('stop-scrolling');
+    $('body').addClass('stop-scrolling');
     var lightbox = lity('//www.youtube.com/watch?v=anievPDbnoc');
   });
 
   $('#witmer-video').click(function() {
-		$('body').addClass('stop-scrolling');
+    $('body').addClass('stop-scrolling');
     var lightbox = lity('//www.youtube.com/watch?v=-xpi_sLbNDQ');
   });
   
-	$(document).on('lity:close', function(event, instance) {
-		$('body').removeClass('stop-scrolling');
-	});	
-	
+  $(document).on('lity:close', function(event, instance) {
+    $('body').removeClass('stop-scrolling');
+  }); 
+  
   // $('.sl-slider-nav-left').click(function() {
   //   $('#sl-faq-item-' + faqItem).hide();
   //   faqItem--;
