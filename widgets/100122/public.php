@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '3';
-    $folder = '/site/custom_scripts/styles/';
+    $folder = 'site/custom_scripts/styles/';
   }
 ?>
  <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
         <div class="about-wrapper">
             <h2>About Messiah</h2>
             <hr>
-            <p>A passion for Christian community</p>
+            <p>Sharpening intellect. Deepening Christian faith. Inspiring action.</p>
         </div>
         <div class="about-tabs hide-on-mobile">
             <ul>
