@@ -33,6 +33,6 @@
     <div class="faith-and-service" id="faith-in-the-classroom">
         <div class="wrapper content center">
             <h2>Faith in the Classroom</h2>
-            <p>Because your college years are a significant time of learning, exploration and experience, we challenge you to apply your Christian values not only during chapel or ministry programs--but also in the classroom--in a way that strengthens your own academic and personal endeavors.Whether it's a class discussion or a service-learning opportunity that incorporates your academic knowledge into practical use serving others, faith is a key component that is integrated into all aspects of your Messiah education.</p>
+            <p>Because your college years are a significant time of learning, exploration and experience, we challenge you to apply your Christian values not only during chapel or ministry programs--but also in the classroom--in a way that strengthens your own academic and personal endeavors. Whether it's a class discussion or a service-learning opportunity that incorporates your academic knowledge into practical use serving others, faith is a key component that is integrated into all aspects of your Messiah education.</p>
         </div>
     </div>

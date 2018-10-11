@@ -221,6 +221,16 @@ $(document).ready(function(){
 		var lightbox = lity('https://www.youtube.com/watch?v=noqir6a6BRg');
   });
 
+    $('#research-video-play').click(function() {
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=1bh5KGUyTXU');
+  });
+
+    $('#honors-video-play').click(function() {
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=YSuNrHC6Xtc');
+  });
+
   $('#sustainability-video-play').click(function() {
 		$('body').addClass('stop-scrolling');
 		var lightbox = lity('https://www.youtube.com/watch?v=UQXD0jrQjkw');

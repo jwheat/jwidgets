@@ -133,8 +133,9 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~-->
 
                         </div>
-                        <div class="col-40 center fs-gyf-slider-container">
+                        <div class="col-40 center fs-gyf-slider-container overlay-video-wrapper">
                             <img src="<?php echo $folder; ?>img/faith-and-service/student-led-worship.jpg" alt="">
+                            <a class="video-play" id="student-led-video-play"><img src="/site/custom_scripts/styles/img/academics/play-w.png" alt=""></a>
                         </div>
                     </div>
                 </div>

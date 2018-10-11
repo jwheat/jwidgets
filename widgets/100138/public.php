@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '2';
+    $version = '7';
     $folder = '/site/custom_scripts/styles/';
   }
 ?>
@@ -33,6 +33,7 @@
             <h2>Giving</h2>
             <hr>
             <p>Leaving a legacy at Messiah</p>
+<p><a href="http://www.messiah.edu/give" class="ath-button">Make a gift</a></p>
         </div>
         <div class="devo-tabs hide-on-mobile">
             <ul>
@@ -55,9 +56,9 @@
                     <p>When you support the Messiah Fund and other areas of need on campus, you support every student and everything they'll experience during their time at Messiah -- from study abroad programs to student-faculty research to service and missions trips impacting the community, your gift makes Messiah's Christ-centered, academically rigorous education possible for our students.
                     </p>
                     <div class="by-the-numbers-btns">
-                        <a class="primary-button" href="#">How to give</a>
-                        <a class="primary-button" href="#">Give online</a>
-                        <a class="primary-button" href="#">Impact Stories</a>
+                        <!--<a class="primary-button" href="#">How to give</a>-->
+                        <a class="primary-button" href="https://www.messiah.edu/give">Give online</a>
+                        <!--<a class="primary-button" href="#">Impact Stories</a>-->
                     </div>
                 </div>
                 <div class="col-45 center">
@@ -75,26 +76,27 @@
                     <img 
                         class="lazyload-img" 
                         src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/dev-office/binoculars.png" 
-                        alt ="binoculars icon" />
-                    <p><span>90%</span> of Messiah students studied or servered in off campus programs in 2016</p>
+                        data-src="<?php echo $folder; ?>img/dev-office/money.png" 
+                        alt ="money icon" />
+                    <p>The Messiah Fund supplements tuition for <span>100%</span> of the student body.</p>
+                </div>
+              <div class="col-33 section-achievements">
+                    <img 
+                        class="lazyload-img" 
+                        src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
+                        data-src="<?php echo $folder; ?>img/dev-office/house-sketch.png"
+                        alt="improvements icon" />
+                    <p>Campus improvements, student-faculty research, service & mission trips, and new facilities are all made possible by <span>donor support</span>.</p>
                 </div>
                 <div class="col-33 section-achievements">
                     <img 
                         class="lazyload-img" 
                         src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/dev-office/students-hug.png"
-                        alt="students hug icon" />
-                    <p><span>629</span> students served or studied abroad in <span>45</span> countries</p>
+                        data-src="<?php echo $folder; ?>img/dev-office/piggy-bank.png"
+                        alt="piggy bank icon" />
+                    <p><span>98%</span> of Messiah College students receive some form of scholarship aid. </p>
                 </div>
-                <div class="col-33 section-achievements">
-                    <img 
-                        class="lazyload-img" 
-                        src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/dev-office/on-campus.png"
-                        alt="on campus icon" />
-                    <p><span>60</span> denominations represented in our student body</p>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -167,21 +169,22 @@
                     <a><i class="fa fa-times" aria-hidden="true"></i></a>
                 </div>
                 <div class="center">
-                    <h2>What’s there to do?</h2>
+                    <h2>Fundraising Priorities</h2>
                     <ul class="fp-overlay-tabs">
-                        <li><a class="active">1st tab title</a></li>
-                        <li><a class="open-overlay-2">2nd tab title</a></li>
-                        <li><a class="open-overlay-3">3rd tab title</a></li>
-                        <li><a class="open-overlay-4">4th tab title</a></li>
+                        <li><a class="active">Student Scholarships</a></li>
+                        <li><a class="open-overlay-2">Academic and Student Life</a></li>
+                        <li><a class="open-overlay-3">Student and Faculty Development</a></li>
+                        <li><a class="open-overlay-4">Kim S. Phipps Admissions and Welcome Center</a></li>
                     </ul>
                 </div>
                 <div class="fp-overlay-content" id="">
-                    <h3 class="center"><span>1st tab title</span></h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi eu dapibus varius. Vivamus eu gravida libero, sed condimentum quam. Integer ultrices urna a sapien aliquet, eget congue urna bibendum. Nullam finibus feugiat erat eget pretium. Nam dapibus neque sit amet ultrices varius. Morbi pulvinar, nunc ut fringilla feugiat, eros magna posuere ipsum, at vehicula erat mauris ac mauris. Nullam aliquam nisi in tincidunt pulvinar. Integer et sem vel tellus cursus commodo dapibus id orci. Morbi in ultrices nisi.</p>
-
-                    <p class="text-justify">Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus.</p>
-
-                    <p class="text-justify">Donec vitae posuere neque. Aliquam pretium tempor tortor id vestibulum. Pellentesque tempor molestie turpis eu semper. Morbi non sem lobortis, gravida mauris at, interdum velit. Fusce vestibulum interdum tempor. Curabitur sagittis, ligula eget commodo interdum, arcu lacus finibus tellus, sed fringilla dui metus a mi. Sed consectetur libero sit amet nisi dignissim vestibulum. Donec placerat, arcu in imperdiet suscipit, nisi elit gravida magna, a malesuada lectus magna sit amet tortor. Curabitur purus tortor, finibus sit amet diam et, posuere pellentesque sem. Morbi id enim vel mi condimentum lobortis. Maecenas leo urna, gravida mollis posuere eu, dictum ac tellus. Mauris sollicitudin, turpis sed faucibus sagittis, orci velit ornare purus, vitae consectetur tellus lacus sit amet lorem. Nam vel pretium urna. Aliquam id suscipit neque, sit amet rutrum tortor.</p>
+                    <h3 class="center"><span>Student Scholarships</span></h3>
+                    <div class="flexbox">
+                    <div class="col-55"><p class="text-justify">Gifts enable students to achieve their dream of earning a Messiah College degree by providing them with much needed financial resources! Our vision is to reduce the burden of student debt while providing an excellent academic experience.</p></div>
+<div class="col-45 center sl-wtd-slider-container">
+                           <img src="<?php echo $folder; ?>img/dev-office/studentscholarships.jpg" alt="">
+                        </div>
+                        </div>
                 </div> 
             </div>
         </div>
@@ -193,21 +196,24 @@
                     <a><i class="fa fa-times" aria-hidden="true"></i></a>
                 </div>
                 <div class="center">
-                    <h2>What’s there to do?</h2>
+                    <h2>Fundraising Priorities</h2>
                     <ul class="fp-overlay-tabs">
-                        <li><a class="open-overlay-1">1st tab title</a></li>
-                        <li><a class="active">2nd tab title</a></li>
-                        <li><a class="open-overlay-3">3rd tab title</a></li>
-                        <li><a class="open-overlay-4">4th tab title</a></li>
+                        <li><a class="open-overlay-1">Student Scholarships</a></li>
+                        <li><a class="active">Academic and Student Life</a></li>
+                        <li><a class="open-overlay-3">Student and Faculty Development</a></li>
+                        <li><a class="open-overlay-4">Kim S. Phipps Admissions and Welcome Center</a></li>
                     </ul>
                 </div>
                 <div class="fp-overlay-content" id="">
-                    <h3 class="center"><span>2nd tab title</span></h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi eu dapibus varius. Vivamus eu gravida libero, sed condimentum quam. Integer ultrices urna a sapien aliquet, eget congue urna bibendum. Nullam finibus feugiat erat eget pretium. Nam dapibus neque sit amet ultrices varius. Morbi pulvinar, nunc ut fringilla feugiat, eros magna posuere ipsum, at vehicula erat mauris ac mauris. Nullam aliquam nisi in tincidunt pulvinar. Integer et sem vel tellus cursus commodo dapibus id orci. Morbi in ultrices nisi.</p>
+                    <h3 class="center"><span>Academic and Student Life</span></h3>
+                    <div class="flexbox">
+                    <div class="col-55">
+                    <p class="text-justify">Gifts provide industry-leading classrooms and technologies, living spaces, learning and study environments, community gathering spaces, and campus grounds to support the educational experience of our students and campus community.</p></div>
+<div class="col-45 center sl-wtd-slider-container">
+                            <img src="<?php echo $folder; ?>img/dev-office/student-life.jpg" alt="">
+                        </div>
+                    </div>
 
-                    <p class="text-justify">Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus.</p>
-
-                    <p class="text-justify">Donec vitae posuere neque. Aliquam pretium tempor tortor id vestibulum. Pellentesque tempor molestie turpis eu semper. Morbi non sem lobortis, gravida mauris at, interdum velit. Fusce vestibulum interdum tempor. Curabitur sagittis, ligula eget commodo interdum, arcu lacus finibus tellus, sed fringilla dui metus a mi. Sed consectetur libero sit amet nisi dignissim vestibulum. Donec placerat, arcu in imperdiet suscipit, nisi elit gravida magna, a malesuada lectus magna sit amet tortor. Curabitur purus tortor, finibus sit amet diam et, posuere pellentesque sem. Morbi id enim vel mi condimentum lobortis. Maecenas leo urna, gravida mollis posuere eu, dictum ac tellus. Mauris sollicitudin, turpis sed faucibus sagittis, orci velit ornare purus, vitae consectetur tellus lacus sit amet lorem. Nam vel pretium urna. Aliquam id suscipit neque, sit amet rutrum tortor.</p>
                 </div>
             </div>
         </div>
@@ -219,21 +225,23 @@
                     <a><i class="fa fa-times" aria-hidden="true"></i></a>
                 </div>
                 <div class="center">
-                    <h2>What’s there to do?</h2>
+                    <h2>Fundraising Priorities</h2>
                     <ul class="fp-overlay-tabs">
-                        <li><a class="open-overlay-1">1st tab title</a></li>
-                        <li><a class="open-overlay-2">2nd tab title</a></li>
-                        <li><a class="active">3rd tab title</a></li>
-                        <li><a class="open-overlay-4">4th tab title</a></li>
+                        <li><a class="open-overlay-1">Student Scholarships</a></li>
+                        <li><a class="open-overlay-2">Academic and Student Life</a></li>
+                        <li><a class="active">Student and Faculty Development</a></li>
+                        <li><a class="open-overlay-4">Kim S. Phipps Admissions and Welcome Center</a></li>
                     </ul>
                 </div>
                 <div class="fp-overlay-content" id="">
-                    <h3 class="center"><span>3rd tab title</span></h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi eu dapibus varius. Vivamus eu gravida libero, sed condimentum quam. Integer ultrices urna a sapien aliquet, eget congue urna bibendum. Nullam finibus feugiat erat eget pretium. Nam dapibus neque sit amet ultrices varius. Morbi pulvinar, nunc ut fringilla feugiat, eros magna posuere ipsum, at vehicula erat mauris ac mauris. Nullam aliquam nisi in tincidunt pulvinar. Integer et sem vel tellus cursus commodo dapibus id orci. Morbi in ultrices nisi.</p>
-
-                    <p class="text-justify">Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus.</p>
-
-                    <p class="text-justify">Donec vitae posuere neque. Aliquam pretium tempor tortor id vestibulum. Pellentesque tempor molestie turpis eu semper. Morbi non sem lobortis, gravida mauris at, interdum velit. Fusce vestibulum interdum tempor. Curabitur sagittis, ligula eget commodo interdum, arcu lacus finibus tellus, sed fringilla dui metus a mi. Sed consectetur libero sit amet nisi dignissim vestibulum. Donec placerat, arcu in imperdiet suscipit, nisi elit gravida magna, a malesuada lectus magna sit amet tortor. Curabitur purus tortor, finibus sit amet diam et, posuere pellentesque sem. Morbi id enim vel mi condimentum lobortis. Maecenas leo urna, gravida mollis posuere eu, dictum ac tellus. Mauris sollicitudin, turpis sed faucibus sagittis, orci velit ornare purus, vitae consectetur tellus lacus sit amet lorem. Nam vel pretium urna. Aliquam id suscipit neque, sit amet rutrum tortor.</p>
+                    <h3 class="center wide-1 "><span>Student and Faculty Development</span></h3>
+                    <div class="flexbox">
+                    <div class="col-55">                       
+                    <p class="text-justify">Gifts provide students with enrichment and service opportunities to help them grow and thrive as they pursue God’s calling on their lives. As well, gifts provide development and research opportunities for faculty/students to promote innovation in their respective academic programs. </p></div>
+<div class="col-45 center sl-wtd-slider-container">
+                            <img src="<?php echo $folder; ?>img/dev-office/faculty-dev.jpg" alt="">
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -245,21 +253,24 @@
                     <a><i class="fa fa-times" aria-hidden="true"></i></a>
                 </div>
                 <div class="center">
-                    <h2>What’s there to do?</h2>
+                    <h2>Fundraising Priorities</h2>
                     <ul class="fp-overlay-tabs">
-                        <li><a class="open-overlay-1">1st tab title</a></li>
-                        <li><a class="open-overlay-2">2nd tab title</a></li>
-                        <li><a class="open-overlay-3">3rd tab title</a></li>
-                        <li><a class="active">4th tab title</a></li>
+                        <li><a class="open-overlay-1">Student Scholarships</a></li>
+                        <li><a class="open-overlay-2">Academic and Student Life</a></li>
+                        <li><a class="open-overlay-3">Student and Faculty Development</a></li>
+                        <li><a class="active">Kim S. Phipps Admissions and Welcome Center</a></li>
                     </ul>
                 </div>
                 <div class="fp-overlay-content" id="">
-                    <h3 class="center"><span>4th tab title</span></h3>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi eu dapibus varius. Vivamus eu gravida libero, sed condimentum quam. Integer ultrices urna a sapien aliquet, eget congue urna bibendum. Nullam finibus feugiat erat eget pretium. Nam dapibus neque sit amet ultrices varius. Morbi pulvinar, nunc ut fringilla feugiat, eros magna posuere ipsum, at vehicula erat mauris ac mauris. Nullam aliquam nisi in tincidunt pulvinar. Integer et sem vel tellus cursus commodo dapibus id orci. Morbi in ultrices nisi.</p>
-
-                    <p class="text-justify">Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus.</p>
-
-                    <p class="text-justify">Donec vitae posuere neque. Aliquam pretium tempor tortor id vestibulum. Pellentesque tempor molestie turpis eu semper. Morbi non sem lobortis, gravida mauris at, interdum velit. Fusce vestibulum interdum tempor. Curabitur sagittis, ligula eget commodo interdum, arcu lacus finibus tellus, sed fringilla dui metus a mi. Sed consectetur libero sit amet nisi dignissim vestibulum. Donec placerat, arcu in imperdiet suscipit, nisi elit gravida magna, a malesuada lectus magna sit amet tortor. Curabitur purus tortor, finibus sit amet diam et, posuere pellentesque sem. Morbi id enim vel mi condimentum lobortis. Maecenas leo urna, gravida mollis posuere eu, dictum ac tellus. Mauris sollicitudin, turpis sed faucibus sagittis, orci velit ornare purus, vitae consectetur tellus lacus sit amet lorem. Nam vel pretium urna. Aliquam id suscipit neque, sit amet rutrum tortor.</p>
+                    <h3 class="center wide-2"><span>Kim S. Phipps Admissions and Welcome Center</span></h3>
+                    <div class="flexbox">
+                        <div class="col-55">
+                    <p class="text-justify">Gifts to one of Messiah’s newest projects, Kim S. Phipps Admissions and Welcome Center, will help provide a place that will act as a centralized space for prospective students, offering a positive first impression of Messiah College as well as more offices for faculty and staff. </p>
+<a class="fp-button primary-button" href="https://www.messiah.edu/info/23049/kim_s_phipps_admissions_and_welcome_center">Visit the site</a></div>
+<div class="col-45 center sl-wtd-slider-container">
+                            <img src="<?php echo $folder; ?>img/dev-office/welcome-center.jpg" alt="">
+                        </div>
+                    </div>    
                 </div>
             </div>
         </div>
@@ -273,15 +284,23 @@
             <div class="ways-to-give-wrapper">
                 <div class="flexbox ways-to-give-row">
                     <div class="col-50 ways-to-give-col-left first-cell">
+
                         <img
                             class="lazyload-img"
                             src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/dev-office/wtg-panel-1.jpg"
+                            data-src="<?php echo $folder; ?>img/dev-office/wtg-panel-3.jpg"
                             alt="" />
-                        <div class="block-overlay"> 
-                            <h4>employee payroll deductions</h4>
-                            <p>Fusce congue aliquam dolor, mollis malesuada arcu fringilla gravida. Quisque nisl augue, laoreet non nisl nec, iaculis venenatis odio. Aliquam erat volutpat. Suspendisse ac sagittis risus. Duis arcu est, consectetur et suscipit sit amet, ullamcorper sit amet lectus. Sed dolor ligula, vestibulum vel dignissim et, efficitur egestas nisi. Ut risus metus, imperdiet et dolor ut, rutrum imperdiet lacus.</p>
-                        </div>
+                        <div class="block-overlay">
+                            <h4>Planned and leadership gifts</h4>
+                            <p>By including Messiah College in your will or other deferred gift arrangement, you will play an important part, along with other members of the Heritage Society, in educating future generations of servant leaders through your stewardship plans. Some ways to help leave your legacy on campus through planned gifts are:</p>
+<ul>
+<li>Estate Planning Gifts</li>
+<li>Bequest Provisions</li>
+<li>Qualified Retirement Plan</li>
+<li>Living Trust</li>
+<li>Commercial Annuity</li>
+               </div>
+
                     </div>
                     <div class="col-50 center ways-to-give-col-right second-cell">
                         <img
@@ -291,21 +310,29 @@
                             alt="" />
                         <div class="block-overlay">
                             <h4>recurring gifts</h4>
-                            <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante. Praesent et suscipit nibh, ut sodales ligula. Quisque fringilla accumsan arcu, eu bibendum dolor. Nullam in erat tristique odio molestie pretium. Etiam eu feugiat nunc. Vivamus facilisis aliquet lectus non cursus.</p>
+                            <p>Create a plan whether monthly, yearly, or whatever is convenient of giving to Messiah:</p>
+<ul class="tall-margins">
+<li>Debit/Credit Card: <a href="https://commerce.cashnet.com/MC_Annual_Fund">Click to create a donor account and set up your automatic giving through your debit/credit card</a> </br></li>
+<li>EFT (Electronic Funds Transfer): <a href="https://commerce.cashnet.com/MC_Annual_Fund">Click to create a donor account and set up your automatic giving through your bank account</a></li>
+
                         </div>
                     </div>
                 </div>
                 <div class="flexbox ways-to-give-row">
                     <div class="col-50 ways-to-give-col-left third-cell">
-                        <img
+
+
+                          <img
                             class="lazyload-img"
                             src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/dev-office/wtg-panel-3.jpg"
+                            data-src="<?php echo $folder; ?>img/dev-office/wtg-panel-1.jpg"
                             alt="" />
-                        <div class="block-overlay">
-                            <h4>Planned and leadership gifts</h4>
-                            <p>Aenean et imperdiet tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus mi purus, lobortis ut neque vel, convallis condimentum dui. Maecenas ut bibendum nibh, id auctor tortor. Praesent magna nulla, bibendum rutrum posuere id, malesuada eu lorem. In id tellus in ipsum laoreet pellentesque sollicitudin id eros. Sed laoreet lorem eget ipsum volutpat iaculis.</p>
+                        <div class="block-overlay"> 
+                            <h4>employee payroll deductions</h4>
+                            <p>Employees can give by contributing to the college by withholding a percentage of their payroll as a gift to Messiah. <a href="https://www.messiah.edu/forms/form/531/en/1/enroll_in_employee_giving">Click to enroll in payroll deduction</a> for the first time or edit an existing payroll deduction.</p>
                         </div>
+
+
                     </div>
                     <div class="col-50 center ways-to-give-col-right fourth-cell">
                         <img
@@ -315,7 +342,15 @@
                             alt="" />
                         <div class="block-overlay">
                             <h4>gifts of assets</h4>
-                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut varius nisl quis eros condimentum auctor. Etiam et ex enim. Aenean pellentesque rutrum varius. Phasellus id imperdiet enim. Morbi rutrum accumsan lacinia. Quisque vitae ligula neque. Vestibulum fringilla nisi est, id bibendum tellus hendrerit lobortis. Sed iaculis in felis vitae elementum.</p>
+                            <p>Here is a short list of some gifts of assets accepted by Messiah: </p>
+                                <ul>
+                                    <li>Appreciated Stock/Securities</li>
+                                    <li>Real Estate</li>
+                                    <li>Personal Property</li>
+                                    <li>Life Insurance Policy</li>
+                                </ul>
+                            <p><span>For more information about any of these types of gifts, <a href="mailto:rbrown@messiah.edu">click to contact Robert Brown</a>, Director of Planned and Leadership Gifts</span>
+                            </p>    
                         </div>
                     </div>
                 </div>
@@ -428,9 +463,10 @@
         <div class="wrapper content">
             <h3>Continue Exploring</h3>
             <div>
-                <a href="#" class="primary-button">Link Two</a>
-                <a href="#" class="primary-button">Another Link here</a>
-                <a href="#" class="primary-button">Another Link here</a>
+                <a href="#" class="primary-button">Why Messiah?</a>
+                <a href="#" class="primary-button">The Grants Office</a>
+                <a href="#" class="primary-button">Planned Gifts – Create a Legacy</a>
+                <a href="#" class="primary-button">Contact the Office of Development</a>
             </div>
         </div>
     </div>

@@ -554,7 +554,7 @@ body, html {
 }
 
 .fs-button:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     background: #273D5E;
     transition: all 0.3s ease 0s;
 }
@@ -584,6 +584,9 @@ body, html {
     padding-bottom: 50px;
 }
 
+#faith-and-service p a {
+    text-decoration: underline; 
+}
 #faith-and-service .wrapper.content#fs-profile {
     position: relative;
 }
@@ -746,6 +749,26 @@ body, html {
 #grow-your-faith .fs-gyf-overlay,
 #grow-your-faith .fs-gyf-overlay .wrapper.content p {
     color: #fff;
+}
+
+/*--- video play button ---*/
+
+#grow-your-faith .overlay-video-wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+#grow-your-faith .overlay-video-wrapper .video-play{
+    display: block;
+    background-color: rgba(117, 173, 207, 0.75); 
+    padding: 25px 45px 25px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 46px);
+    left: calc(50% - 67px);
+    z-index: 2;
+    cursor: pointer;
 }
 
 #grow-your-faith .fs-gyf-overlay .wrapper.content img {
@@ -1691,7 +1714,7 @@ body, html {
 }
 
 .faith-and-service#faith-in-the-classroom {
-    background: url('img/faith-and-service/faith-in-the-classroom-bg.jpg') center top repeat scroll;
+    background: url('img/faith-and-service/faith-classroom.jpg') center top repeat scroll;
     background-size: cover;
     padding-bottom: 650px;
 }
@@ -2300,6 +2323,8 @@ margin: 0;
   height: 100%;
   overflow: hidden;
 }
+
+
 
 
 

@@ -35,11 +35,11 @@
                 </div>
                 <div class="col-33 sl-achievements">
                     <img src="<?php echo $folder; ?>img/student-life/students-hug.png" alt="">
-                    <p><span>2759</span> Undergraduate students</p>
+                    <p><span>2,734</span> Undergraduate students</p>
                 </div>
                 <div class="col-33 sl-achievements">
                     <img src="<?php echo $folder; ?>img/student-life/on-campus.png" alt="">
-                    <p><span>87%</span> of students live in on-campus housing</p>
+                    <p><span>85%</span> of students live in on-campus housing</p>
                 </div>
             </div>
         </div>

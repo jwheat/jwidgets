@@ -147,6 +147,12 @@ $("#chapel-video").click(function() {
     $("#academics-service").addClass("activated");
   });
 
+    $('#student-led-video-play').click(function() {
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=TP9ShhxNJOw');
+  });
+
+
   $(".national-service-cell .fs-read-more .btn").click(function() {
     $(".fs-so-overlay").hide();
     $("#national-service")

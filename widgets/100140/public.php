@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '1';
+    $version = '2';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
@@ -522,9 +522,9 @@
                 </picture>
             </div>
             <div class="hero-title-wrapper">
-                <h2>Academic<br>Excelence</h2>
+                <h2>Academic<br>Distinction</h2>
                 <hr>
-                <p>Undergraduate Academics Overview</p>
+                <p>Undergraduate programs at Messiah</p>
                 <button class="hero-btn primary-button">switch to graduate<i class="fa fa-exchange"></i></button>
             </div>
             <div class="undergraduate-tabs header-tabs hide-on-mobile">
@@ -541,11 +541,11 @@
         <!-- ====== SECTION N_1 ====== -->
         <div class="section overview overview-2" id="overview-2">
             <div class="wrapper content">
-                <h2 class="center">Academic overview</h2>
+                <h2 class="center">Integrating faith and learning</h2>
                 <div class="flexbox">
                     <div class="col-50">
                         <p>
-                        Messiah College is a nationally ranked private Christian college with a reputation for successfully integrating rigorous academics and Christian faith into all of our academic programs. Messiah's faculty are outstanding teachers, scholars and researchers who will mentor and advise you as you expand your possibilities. We offer bachelor's degrees in 85+ majors, eight master’s degrees, two doctoral degrees and numerous graduate certificates and post-master’s certificates.
+                        Messiah College is a nationally ranked private Christian college with a reputation for successfully integrating rigorous academics and Christian faith into all of our academic programs. Messiah's faculty are outstanding teachers, scholars and researchers who will mentor and advise you as you expand your possibilities. We offer bachelor's degrees in <a href="https://www.messiah.edu/majors-minors-programs">85+ majors</a>. Specialized programs include <a href="https://www.messiah.edu/info/20698/off_campus_programs">off-campus study</a>, individualized majors, independent study and research, <a href="https://www.messiah.edu/agape">service-learning</a>, <a href="https://www.messiah.edu/info/23064/internship_program">internships</a>, <a href="https://www.messiah.edu/3-allied-programs">partner programs with other institutions</a>, <a href="https://www.messiah.edu/info/20103/three-year_degree_options">three-year degree options</a> and a <a href="https://www.messiah.edu/info/20098/college_honors_program">flourishing College Honors Program</a>.
                         </p>
                     </div>
                     <div class="col-50 center">
@@ -553,9 +553,8 @@
                             <img 
                                 class="lazyload-img" 
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/students-studing.jpg" />
-                            <a class="video-play" id="overview-video"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
-                        </div>
+                                data-src="<?php echo $folder; ?>img/academics/faculty-students.jpg" />
+                            </div>
                     </div>
                 </div>
             </div>
@@ -564,27 +563,27 @@
                 <div class="flexbox">
                     <div class="col-33 section-achievements">
                         <img 
-                            class="lazyload-img" 
+                            class="lazyload-img grad-rate" 
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/academics/academic-cap.png" 
+                            data-src="<?php echo $folder; ?>img/academics/grad-cap.svg" 
                             alt ="binoculars icon" />
                         <p><span>74.1%</span> 4-year grad rate (vs. 52% national average)</p>
                     </div>
                     <div class="col-33 section-achievements">
                         <img 
-                            class="lazyload-img" 
+                            class="lazyload-img class-size" 
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/academics/ribbon.png"
+                            data-src="<?php echo $folder; ?>img/academics/classroom.svg"
                             alt="students hug icon" />
-                        <p>Rigorous College Honors Program</p>
+                        <p>Average class size <span>20</span></p>
                     </div>
                     <div class="col-33 section-achievements">
                         <img 
-                            class="lazyload-img" 
+                            class="lazyload-img ratio" 
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/academics/students-hug.png"
+                            data-src="<?php echo $folder; ?>img/academics/faculty-to-student-ratio.svg"
                             alt="on campus icon" />
-                        <p><span>3-year</span> degree options</p>
+                        <p><span>12: 1</span> student faculty ratio</p>
                     </div>
                 </div>
             </div>
@@ -593,7 +592,7 @@
         <!-- ====== SECTION N_2 ====== -->
         <div class="section" id="what-do-you-want-to-study">
             <div class="wrapper content center">
-                <h2>What do you want to study?</h2>
+                <h2>Messiah's 150+ academic programs</h2>
                 <p>Search by keywords or interests to explore which of Messiah's 85+ academic programs would be a good fit for you.</p>
 
                 <div class="search-box-container">
@@ -676,7 +675,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-panel-3.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-3-year.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>3-year degree</h4>
@@ -688,7 +687,7 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-panel-4.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-partner-program.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>3+ Partner Programs</h4>
@@ -713,7 +712,7 @@
                                 <img 
                                     class="academic-opportunities-image lazyload-img" 
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-1.png"
+                                    data-src="<?php echo $folder; ?>img/academics/circle-img-1b.png"
                                     alt="a discerning spirit image" />
                                 <div class="circle-overlay ao-overlay-1"></div>
                             </div>
@@ -770,7 +769,7 @@
                                 <img 
                                     class="academic-opportunities-image lazyload-img" 
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-6.png"
+                                    data-src="<?php echo $folder; ?>img/academics/circle-img-6b.png"
                                     alt="sense of calling image" />
                                 <div class="circle-overlay ao-overlay-6"></div>
                             </div>
@@ -840,15 +839,16 @@
                     <h3 class="center"><span>Research</span></h3>
                     
                     <div class="flexbox">
-                        <div class="col-60">
+                        <div class="col-50">
                             <p>Messiah College offers students a wide range of exciting and meaningful research opportunities across all academic programs. Our low faculty-to-student ratio makes Messiah an ideal place for you to collaborate with classmates, faculty, alumni and regional, national and global organizations.</p>
                             <div>
-                                <a href="https://www.messiah.edu/info/20030/academic_opportunities/279/research/2" class="primary-button">Faculty-student collaborations</a>
-                                <a href="https://www.messiah.edu/info/20030/academic_opportunities/279/research/3" class="primary-button">Faculty scholarship</a>
                             </div>
                         </div>
-                        <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/ao-research.jpg" alt="" />
+                        <div class="col-50 center">
+                            <div class="overlay-video-wrapper">
+                                <img src="<?php echo $folder; ?>img/academics/ao-research-video.jpg" alt="" />
+                                <a class="video-play" id="research-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -878,10 +878,8 @@
                         <div class="col-60">
                             <p>Your college experience expands beyond our campus. Whether serving with a local partner nonprofit organization in nearby Harrisburg, doing construction in Appalachia on spring break, studying abroad in England for a semester or traveling on service and missions trips to Central America or Africa in early summer, you'll have ample opportunities to become a global citizen.</p>
                             <div>
-                                <a href="https://www.messiah.edu/info/20698/off_campus_programs" class="primary-button">Study abroad</a>
-                                <a href="https://www.messiah.edu/info/20692/global_and_intercultural_engagement_messiah" class="primary-button">Global engagement</a>
-                                <a href="https://www.messiah.edu/info/21021/service-learning" class="primary-button">Service-learning</a>
-                                <a href="https://www.messiah.edu/collaboratory" class="primary-button">Academics as Service</a>
+                                <a href="https://www.messiah.edu/info/20679/intercultural_office" class="primary-button">Intercultural Office</a>
+                        
                             </div>
                         </div>
                         <div class="col-40 center">
@@ -912,15 +910,18 @@
                     <h3 class="center"><span>Merit</span></h3>
                     
                     <div class="flexbox">
-                        <div class="col-60">
+                        <div class="col-50">
                             <p>In addition to a thriving College Honors Program, Messiah makes available a faculty advisor to assist exceptional undergraduate students with applying for prestigious competitive national scholarships and fellowships like the Rhodes, Boren and Fulbright.</p>
                             <div>
                                 <a href="https://www.messiah.edu/info/21079/national_scholarship_competitions" class="primary-button">National scholarship competition</a>
                                 <a href="https://www.messiah.edu/info/20098/college_honors_program" class="primary-button">College Honors Program</a>
                             </div>
                         </div>
-                        <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/ao-honors.jpg" alt="" />
+                       <div class="col-50 center">
+                            <div class="overlay-video-wrapper">
+                                <img src="<?php echo $folder; ?>img/academics/honors-video.jpg" alt="" />
+                                <a class="video-play" id="honors-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -947,18 +948,16 @@
                     <h3 class="center"><span>Sustainability</span></h3>
                     
                     <div class="flexbox">
-                        <div class="col-50">
+                        <div class="col-60">
                             <p>Environmental stewardship isn’t just a trend at Messiah; it’s a way of life. Our extensive sustainability efforts include a bachelor’s degree in sustainability studies and initiatives such as a student-run organic garden, campus wide composting, one of the nation’s largest solar thermal systems and restoration and preservation of the on-campus Yellow Breeches Creek.</p>
                             <div>
-                                <a href="https://www.messiah.edu/info/21279/sustainability" class="primary-button">Overview</a>
-                                <a href="https://www.messiah.edu/info/20499/vision" class="primary-button">Vision</a>
-                                <a href="https://www.messiah.edu/info/20501/stewardship" class="primary-button">Stewardship</a>
+                                <a href="https://www.messiah.edu/sustainability/" class="primary-button">Sustainability at Messiah</a>
+                                
                             </div>
                         </div>
-                        <div class="col-50 center">
+                        <div class="col-40 center">
                             <div class="overlay-video-wrapper">
                                 <img src="<?php echo $folder; ?>img/academics/ao-50-sustainability.jpg" alt="" />
-                                <a class="video-play" id="sustainability-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -989,7 +988,8 @@
                         <div class="col-60">
                             <p>In addition to U.S. students from a variety of racially and ethnically diverse backgrounds, Messiah welcomes students from over 30 different countries. Our goal is to bring together students from different backgrounds who reflect the variety and richness within God’s kingdom. We continually learn from each other, which promotes a vital, intercultural educational experience.</p>
                             <div>
-                                <a href="https://www.messiah.edu/info/21280/diversity" class="primary-button">Read more</a>
+                                <a href="https://www.messiah.edu/info/20725/diversity_affairs" class="primary-button">Diversity Affairs</a>
+                                <a href="https://www.messiah.edu/info/20679/intercultural_office" class="primary-button">Intercultural Office</a>
                             </div>
                         </div>
                         <div class="col-40 center">
@@ -1006,11 +1006,11 @@
             <picture>
                 <source
                     media="(max-width: 766px)"
-                    data-srcset="<?php echo $folder; ?>img/academics/hero-img-mobile.jpg" />
+                    data-srcset="<?php echo $folder; ?>img/academics/academic-support-bg2.jpg" />
                 <img 
                     class="lazyload-img" 
                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                    data-src="<?php echo $folder; ?>img/academics/academic-support-bg.jpg" />
+                    data-src="<?php echo $folder; ?>img/academics/academic-support-bg2.jpg" />
             </picture>
             <div class="wrapper content center">
                 <h2>Academic support</h2>
@@ -1029,6 +1029,7 @@
                     <a href="https://www.messiah.edu/info/21164/library" class="primary-button">Library</a>
                     <a href="https://www.messiah.edu/info/20032/academic_resources" class="primary-button">Academic resources</a>
                     <a href="https://www.messiah.edu/info/20029/schools_and_departments" class="primary-button">Schools and departments</a>
+                    <a href="https://www.messiah.edu/recognitions" class="primary-button">Academic recognitions</a>
                 </div>
             </div>
         </div>

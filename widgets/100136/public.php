@@ -66,9 +66,9 @@
                             <img 
                                 class="lazyload-img" 
                                 src="<?php echo $folder; ?>img/snaap-music/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/snaap-music/alumni-icon-2.png"
+                                data-src="<?php echo $folder; ?>img/snaap-music/alumni-icon-4.png"
                                 alt="icon image" />
-                            <p><span class="percentage-section-1">84</span><span>%</span> found work within four months of graduation or pursued further education.</p>
+                            <p><span class="percentage-section-1">94</span><span>%</span> of those who intended to work as professional music artists have done so, and 66% currently do.</p>
                         </div>
                     </div>
                 </div>
@@ -86,9 +86,9 @@
                             <img 
                                 class="lazyload-img" 
                                 src="<?php echo $folder; ?>img/snaap-music/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/snaap-music/alumni-icon-4.png"
+                                data-src="<?php echo $folder; ?>img/snaap-music/alumni-icon-2.png"
                                 alt="icon image" />
-                            <p><span class="percentage-section-1">94</span><span>%</span> of those who intended to work as professional music artists have done so, and 66% currently do.</p>
+                            <p><span class="percentage-section-1">84</span><span>%</span> found work within four months of graduation or pursued further education.</p>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
             <p>Messiah College is an educational community profoundly committed to worshipping, loving and serving God. The College’s motto, “Christ Preeminent,” points to our community’s full, rich shared understanding of Jesus Christ and how the Christian faith is relevant to every dimension of life. At Messiah we’re committed to personal faith in Christ for the forgiveness of sin and to pursuing the exemplary nature of Christ's life as a model for our own lives. This common Christian conviction shapes every aspect of students’ experiences in the Messiah community.</p>
             <div id="fc-circle-flip">
                 <div class="flexbox circle-flip">
-                    <div class="col-33"><a href="https://www.messiah.edu/info/20003/faith_and_values/5/statements_of_faith">
+                    <div class="col-33"><a href="https://www.messiah.edu/info/20003/faith_and_values/3844/mission_and_identity">
                         <div class="circle-container">
                             <img 
                                 id="mission-image"

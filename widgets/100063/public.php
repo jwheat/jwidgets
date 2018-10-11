@@ -9,7 +9,7 @@
                 </div>
                 <hr class="mobile">
                 <div class="number desktop-bd tablet-bd">
-                    <img src="/site/custom_scripts/styles/img/numbers/employment-rate2.png" alt="98% of the Class of 2016 were employed or in a graduate program within 6-9 months after graduation." />
+                    <img src="/site/custom_scripts/styles/img/numbers/fy-19-employeed.png" alt="97% of the Class of 2017 were employed or in a graduate program within 6-9 months after graduation." />
                 </div>
                 <hr class="tablet">
                 <div class="number n-hide">
@@ -25,7 +25,7 @@
                     <img src="/site/custom_scripts/styles/img/numbers/faculty-to-student-ratio2b.png" alt="12:1 faculty to student ratio" />
                 </div>
                 <div class="number n-hide tablet-bd">
-                    <img src="/site/custom_scripts/styles/img/numbers/students-from-around-the-world2.png" alt="Our students are from 38 states, 29 countries." />
+                    <img src="/site/custom_scripts/styles/img/numbers/fy-19-from.png" alt="Our students are from 38 states, 30 countries." />
                 </div>            
             </div>
 

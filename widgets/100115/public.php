@@ -17,9 +17,10 @@
             <h2 class="center">Faith and service</h2>
             <div class="flexbox">
                 <div class="col-50">
-                    <p><strong>Spiritual growth is an essential part of a Messiah College education.</strong> We incorporate our shared Christian faith in the classroom, through residence life, at chapel, on sports teams, through the arts and in clubs and organizations. Our motto, "Christ Preeminent," shapes every experience you'll have as a student here.</p>
+                    <p><strong>Spiritual growth is an essential part of a Messiah College education.</strong> We incorporate <a href="https://www.messiah.edu/info/20003/faith_and_values/5/statements_of_faith">our shared Christian faith</a> in the classroom, through residence life, at chapel, on sports teams, through the arts and in clubs and organizations. Our motto, "Christ Preeminent," shapes every experience you'll have as a student here.</p>
 
                     <p>At Messiah, we see ourselves as partners in your spiritual journey and are committed to helping you prepare for whatever vocation or service God has called you to. We don't want you to feel like you have to have it all figured out when you come to Messiah though. Our hope is that through your time here, you'll explore, discover and commit to your own personal faith perspective and beliefs--guided through strong Christian convictions--and leave with a strengthened heart for service, a commitment to common good, a faithful intelligence, and a passion for community and justice.</p>
+                    <a class="fs-button" href="https://www.messiah.edu/info/20003/faith_and_values/5/statements_of_faith">Statements of Faith</a>
                 </div>
                 <div class="col-50 center">
 
@@ -39,7 +40,7 @@
                 </div>
                 <div class="col-33 fs-achievements">
                     <img src="<?php echo $folder; ?>img/faith-and-service/students-hug.png" alt="">
-                    <p><span>629</span> students served or studied abroad in <span>45</span> countries</p>
+                    <p><span>624</span> students served or studied abroad in <span>37</span> countries</p>
                 </div>
                 <div class="col-33 fs-achievements">
                     <img src="<?php echo $folder; ?>img/faith-and-service/on-campus.png" alt="">

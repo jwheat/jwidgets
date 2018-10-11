@@ -9,66 +9,66 @@
 }
 
 @font-face {
-	font-family: 'priori-sans-bold';
-	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
-	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'priori-sans-bold';
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-medium';
-	src: url('fonts/mendozaroman-medium-webfont.eot');
-	src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-medium';
+    src: url('fonts/mendozaroman-medium-webfont.eot');
+    src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-book';
-	src: url('fonts/mendozaroman-book-webfont.eot');
-	src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-book-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-book';
+    src: url('fonts/mendozaroman-book-webfont.eot');
+    src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-book-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-book-italic';
-	src: url('fonts/mendozaroman-bookitalic-webfont.eot');
-	src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-book-italic';
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot');
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family: 'priori-sans-bold';
-		src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-medium';
-		src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-book-italic';
-		src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-book';
-		src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
-	}
-	@font-face {
-		font-family: 'aptifer-sans-bold';
-		src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
-	}
+    @font-face {
+        font-family: 'priori-sans-bold';
+        src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-medium';
+        src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book-italic';
+        src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book';
+        src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    }
+    @font-face {
+        font-family: 'aptifer-sans-bold';
+        src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    }
 }
 
 body, html {
@@ -110,6 +110,29 @@ body, html {
     height: 1px;
     background: #639dc4;
     top: 50%;
+}
+
+.ath-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 16px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.ath-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
 }
 
 .middle-line-text{
@@ -700,8 +723,31 @@ body, html {
     height: 3px;
     background: rgba(255,255,255,0.4);
     top: 50%;
-    width: calc(50% - 4em);
+    width: calc(45% - 4em);
 }
+
+#fp .fp-overlay .wide-1::before,
+#fp .fp-overlay .wide-1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 3px;
+    background: rgba(255,255,255,0.4);
+    top: 50%;
+    width: calc(40% - 4em) !important;
+}
+
+#fp .fp-overlay .wide-2::before,
+#fp .fp-overlay .wide-2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 3px;
+    background: rgba(255,255,255,0.4);
+    top: 50%;
+    width: calc(35% - 4em) !important;
+}
+
 
 #fp .fp-overlay h3::before {
 left: 0;
@@ -835,17 +881,45 @@ right: 0;
     margin: 0;
 }
 
-#ways-to-give .ways-to-give-row > div:hover .block-overlay h4 {
-    border-bottom: 1px solid #fff;    
+#ways-to-give .ways-to-give-row .block-overlay h4 {
+    border-bottom: 1px solid #fff;
     padding-bottom: 12px;
-    margin-top: 32px;
+    margin-top: 2px;
     margin-bottom: 12px;
 }
+#ways-to-give .ways-to-give-row .block-overlay ul {
+    padding: 0px;
+    margin: 0 0 19px 0;
+}
+#ways-to-give .ways-to-give-row .block-overlay li {
+    color: #fff;
+    list-style: none;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+#ways-to-give .ways-to-give-row > div .block-overlay .tall-margins li {
+    margin: 0 0 15px 0!important; 
+}
+
+#ways-to-give .ways-to-give-row .block-overlay a { 
+    color: #fff; 
+    text-decoration: underline;
+
+}
+
+#ways-to-give .ways-to-give-row .block-overlay span {
+    font-size: 13px;
+    line-height: 2px!important;
+}
+
+
 
 #ways-to-give .ways-to-give-row > div .block-overlay p {
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.2em;
     opacity: 0;
+    margin: 10px;
 }
 
 #ways-to-give .ways-to-give-row > div:hover .block-overlay p {
@@ -941,8 +1015,9 @@ right: 0;
 
 #transforming-lives .section-slider .tl-slide .tl-slide-info {
     opacity: 0;
-    width: 100%;
+    width: 200%;
     transition: opacity 300ms ease;
+    margin-left: -50%;
 }
 
 #transforming-lives .section-slider .tl-slide .tl-slide-info p {
@@ -955,6 +1030,8 @@ right: 0;
 #transforming-lives .section-slider .tl-slide.slick-current .tl-slide-info {
     opacity: 1;
     transition: opacity 300ms ease;
+    width: 200%;
+    margin-left: -50%;
 }
 
 #transforming-lives .about-video{
@@ -1098,7 +1175,7 @@ right: 0;
 
     .wrapper.content .flexbox .col-55 {
         border-right: none;
-        border-bottom: 1px solid #75adcf;
+        /* border-bottom: 1px solid #75adcf; */
         margin-bottom: 20px;
         width: 100%;
     }
@@ -1262,7 +1339,16 @@ right: 0;
         width: 100%;
         height: auto;
     }
+    #transforming-lives .section-slider .tl-slide .tl-slide-info {
+    opacity: 0;
+    width: 100% !important;
+    transition: opacity 300ms ease;
+    margin-left: 0px !important;
+}
 
+    .ways-to-give-col-left, .ways-to-give-col-right {
+        min-height: 350px; 
+    }
 }
 
 

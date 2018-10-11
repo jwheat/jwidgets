@@ -66,7 +66,7 @@
                 </div>
                 <div class="sl-wtd-overlay-content" id="fan-experience">
                     <h3 class="center"><span>Fan experience</span></h3>
-                    <p class="sl-justify">As a Messiah student, you'll have many opportunities to be a spectator and become a loyal Falcon fan, cheering on our 23 NCAA Division III teams at countless athletic events. Whether you’re at the diamond cheering on the softball team or spending a Saturday watching soccer or lacrosse, it’s a great way to spend time with friends and get in the school spirit!</p>
+                    <p class="sl-justify">As a Messiah student, you'll have many opportunities to be a spectator and become a loyal Falcon fan, cheering on our 22 NCAA Division III teams at countless athletic events. Whether you’re at the diamond cheering on the softball team or spending a Saturday watching soccer or lacrosse, it’s a great way to spend time with friends and get in the school spirit!</p>
                     <div class="flexbox">
                         <div class="col-50 center">
                             <img src="<?php echo $folder; ?>img/student-life/champ-cup.png" alt="">

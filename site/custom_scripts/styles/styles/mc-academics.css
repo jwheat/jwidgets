@@ -9,66 +9,66 @@
 }
 
 @font-face {
-	font-family: 'priori-sans-bold';
-	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
-	src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
-		url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'priori-sans-bold';
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-medium';
-	src: url('fonts/mendozaroman-medium-webfont.eot');
-	src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-medium';
+    src: url('fonts/mendozaroman-medium-webfont.eot');
+    src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-book';
-	src: url('fonts/mendozaroman-book-webfont.eot');
-	src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-book-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-book';
+    src: url('fonts/mendozaroman-book-webfont.eot');
+    src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-book-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-	font-family: 'mendoza-book-italic';
-	src: url('fonts/mendozaroman-bookitalic-webfont.eot');
-	src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
-		url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
-		url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
-		url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'mendoza-book-italic';
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot');
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family: 'priori-sans-bold';
-		src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-medium';
-		src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-book-italic';
-		src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
-	}
-	@font-face {
-		font-family: 'mendoza-book';
-		src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
-	}
-	@font-face {
-		font-family: 'aptifer-sans-bold';
-		src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
-	}
+    @font-face {
+        font-family: 'priori-sans-bold';
+        src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-medium';
+        src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book-italic';
+        src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book';
+        src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    }
+    @font-face {
+        font-family: 'aptifer-sans-bold';
+        src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    }
 }
 
 body, html {
@@ -448,6 +448,10 @@ aside {
     line-height: 30px;
 }
 
+.section .wrapper.content p a {
+    text-decoration: underline; 
+}
+
 .section .wrapper.content .flexbox {
     display: -webkit-flex;
     display: flex;
@@ -508,6 +512,19 @@ aside {
 .overview .wrapper.content#section-profile {
     position: relative;
     padding-bottom: 60px;
+}
+
+.overview .wrapper.content#section-profile .grad-rate {
+    max-width: 120px;
+    margin-top: -20px;
+}
+
+.overview .wrapper.content#section-profile .class-size {
+    max-width: 100px; 
+}
+
+.overview .wrapper.content#section-profile .ratio {
+    max-width: 140px; 
 }
 
 .overview .wrapper.content#section-profile h3::before,
@@ -982,15 +999,32 @@ right: 0;
   cursor: pointer;
 }
 
-#graduate-school,
-#academic-support{
+#graduate-school{
     position:relative;
     height: 100vh;
     padding: 0;
 }
 
-#graduate-school .content,
+
+#academic-support{
+    position:relative;
+    height: 70vh;
+    padding: 0;
+}
+
+#academic-support h2, #academic-support p {
+    color: #fff; 
+}
+
 #academic-support .content{
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#graduate-school .content{
     position: absolute;
     top: 50px;
     left: 50%;
@@ -1590,5 +1624,9 @@ right: 0;
     }
 
 }
+
+
+
+
 
 

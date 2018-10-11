@@ -17,7 +17,7 @@
             <h2 class="center">Who we are</h2>
             <div class="flexbox">
                 <div class="col-50">
-                    <p>Messiah College is a nationally ranked, private Christian college with a student body of 3,331 undergraduate and graduate students. Our scenic 471-acre suburban
+                    <p>Messiah College is a nationally ranked, private Christian college with a student body of 3,375 undergraduate and graduate students. Our scenic 471-acre suburban
 campus is located in central Pennsylvania, just 12 miles from the state capital of Harrisburg. The College was founded in 1909 by the Brethren in Christ Church. Today, the College’s faith base is broadly evangelical and includes students and employees from a variety of denominations and Christian faith traditions.</p>
                 </div>
                 <div class="col-50 center">
@@ -40,7 +40,7 @@ campus is located in central Pennsylvania, just 12 miles from the state capital 
                         src="<?php echo $folder; ?>img/about/handtinytrans.gif"
                         data-src="<?php echo $folder; ?>img/about/globe.png" 
                         alt ="binoculars icon" />
-                    <p>Our student body is made up of students from <span>37</span> states and <span>32</span> countries</p>
+                    <p>Our student body is made up of students from <span>38</span> states and <span>30</span> countries</p>
                 </div>
                 <div class="col-33 about-achievements">
                     <img 

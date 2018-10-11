@@ -88,7 +88,7 @@
                                 alt="sense of calling image" />
                             <div class="circle-overlay sense-of-calling"></div>
                         </div>
-                        <h3>Home-journey</h3>
+                        <h3>Humility aspiration</h3>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ var feed = new Instafeed({
 	    limit: 10,
 	    accessToken: "267649716.ed96a3e.1ac493c5b5ed42a3ab41d68c8006bdff",
 	    resolution: "thumbnail",
-	    template: '<li><a class="fancybox-01" href="{{link}}" data-fancybox-group="gallery" target="_blank"><img src="{{image}}" alt="image" width="185" height="185"/></a></li>',
+	    
 	    minItems: 9,
 	    maxItems: 9
 	});
