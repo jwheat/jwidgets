@@ -6,8 +6,9 @@
   $programsPage = $pageId == 'programs'; 
   $categoryId = '';
   $folder = '';
-  $version = 8;
+  $version = date('YmdHis');
   if (!$dev) {
+    $version = 9;
     $folder = '/site/custom_scripts/styles/';
   }
   if (!$programsPage) {
@@ -150,6 +151,7 @@
                             <span class="filter <?php if ($programsPage) { ?>filter-programs cursor-pointer<?php } ?> dual-degree" data-filter="dual"><span class="badge"></span> 3+ PARTNER PROGRAMS</span>
                             <span class="filter <?php if ($programsPage) { ?>filter-programs cursor-pointer<?php } ?> teaching" data-filter="teaching"><span class="badge"></span> TEACHING CERTIFICATE</span>
                             <span class="filter <?php if ($programsPage) { ?>filter-programs cursor-pointer<?php } ?> accelerated" data-filter="accelerated"><span class="badge"></span> ACCELERATED</span>
+                            <span class="filter <?php if ($programsPage) { ?>filter-programs cursor-pointer<?php } ?> assurance" data-filter="assurance"><span class="badge"></span> EARLY ASSURANCE</span>
                             <?php if ($programsPage) { ?>
                             <span class="cursor-pointer reset-filter" style="display:none"></span>
                             <?php } ?>
@@ -411,6 +413,7 @@
         <td>{{if ((allied_program == 'Yes') || (allied_program == 'yes')) }}<span class="show-tooltip dual-degree"><span class="badge"></span></span>{{/if}}</td>
         <td>{{if ((teaching_certification == 'Yes') || (teaching_certification == 'yes')) }}<span class="show-tooltip teaching"><span class="badge"></span></span>{{/if}}</td>
         <td>{{if ((accelerated == 'Yes') || (accelerated == 'yes')) }}<span class="show-tooltip accelerated"><span class="badge"></span></span>{{/if}}</td>
+        <td>{{if ((early_assurance == 'Yes') || (early_assurance == 'yes')) }}<span class="show-tooltip assurance"><span class="badge"></span></span>{{/if}}</td>
         <td>{{if ((grad_concentration == 'Yes') || (grad_concentration == 'yes')) }}<span class="show-tooltip grad-c"><span class="badge"></span></span>{{/if}}</td>
         <td>{{if ((grad_track == 'Yes') || (grad_track == 'yes')) }}<span class="show-tooltip grad-t"><span class="badge"></span></span>{{/if}}</td>
         <td>{{if ((grad_pa_teaching_certification == 'Yes') || (grad_pa_teaching_certification == 'yes')) }}<span class="show-tooltip grad-p"><span class="badge"></span></span>{{/if}}</td>
