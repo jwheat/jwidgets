@@ -39,7 +39,7 @@
             <div class="hero-title-wrapper">
                 <h2>Graduate<br>Studies</h2>
                 <hr>
-                <p>Academics at Messiah</p>
+                <p>Graduate-level academics at Messiah</p>
                 <button class="hero-btn primary-button">switch to undergraduate<i class="fa fa-exchange"></i></button>
             </div>
             <div class="graduate-tabs header-tabs hide-on-mobile">
@@ -60,14 +60,14 @@
                 <div class="flexbox">
                     <div class="col-50">
                         <p>
-                        Are you ready to advance your education and career with a graduate degree or certificate? Messiah College is a nationally ranked, accredited college that successfully integrates top-tier academics and Christian faith. All of our graduate programs provide academic rigor and excellence through a convenient and flexible mix of learning options. Our nine programs include <span class="underline">eight master’s degrees, two doctoral degrees</span>, and numerous <span class="underline">graduate certificates and post-master’s certificates</span>. The coursework for most graduate programs is conducted primarily online, with some being fully online and others being fully residential.
+                        Are you ready to advance your education and career with a graduate degree or certificate? Messiah College is a <a href="https://www.messiah.edu/info/20020/recognitions">nationally ranked</a>, accredited college that successfully integrates top-tier academics and Christian faith. All of our graduate programs provide academic rigor and excellence through a convenient and flexible mix of learning options. Our <a href="https://www.messiah.edu/info/22860/degrees_and_certificates">nine programs</a> include eight master’s degrees, two doctoral degrees, and numerous graduate certificates and post-master’s certificates. The coursework for most graduate programs is conducted primarily online, with some being fully online and others being fully residential.
                         </p>
                     </div>
                     <div class="col-50 center">
                         <img 
                             class="lazyload-img" 
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                            data-src="<?php echo $folder; ?>img/academics/students-studing.jpg" />
+                            data-src="<?php echo $folder; ?>img/academics/student-studying.jpg" />
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/academics/academic-cap.png" 
                             alt ="binoculars icon" />
-                        <p>Named in the <span>Top 50 Best Christian Graduate Schools</span> for 2017 by Christian Universities Online</p>
+                        <p>Named in the <span>Top 50 Best Christian Graduate Schools</span> by Christian Universities Online</p>
                     </div>
                     <div class="col-33 section-achievements">
                         <img 
@@ -88,7 +88,7 @@
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/academics/certificate.png"
                             alt="students hug icon" />
-                        <p><span>8 master’s</span> and <span>2 doctoral degrees,  numerous graduate</span> and <span>post-master’s certificates</span></p>
+                        <p>Messiah College offers<span> 35+ graduate degrees and certificate programs.</span></p>
                     </div>
                     <div class="col-33 section-achievements">
                         <img 
@@ -96,11 +96,11 @@
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/academics/students-hug.png"
                             alt="on campus icon" />
-                        <p>Messiah College has <span>572 graduate students</span> representing <span>31 states.</span></p>
+                        <p>Messiah College has <span>641 graduate students</span> representing <span>38 states and four countries.</span></p>
                     </div>
                 </div>
                 <div class="overview-btn-wrapper center">
-                    <button class="primary-button">button to go here</button>
+                    <a class="primary-button" href="https://www.messiah.edu/info/20020/recognitions">VIEW MORE DISTINCTIVES</a>
                 </div>
             </div>
         </div>
@@ -109,11 +109,10 @@
         <div class="section square-panel-section" id="our-programs">
             <div class="wrapper content center"> 
                 <h2>Explore Messiah’s graduate programs</h2>
-                <p>Intro copy to go here if needed</p>
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left first-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/leadership">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -124,13 +123,11 @@
                                 </div>
                                 <div class="block-overlay"> 
                                     <h4>Business and leadership</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 square-panel-section-col-center second-cell">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/counseling">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -141,13 +138,11 @@
                                 </div>
                                 <div class="block-overlay"> 
                                     <h4>Counseling</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right third-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/rdn">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -158,15 +153,13 @@
                                 </div>
                                 <div class="block-overlay">
                                     <h4>dietic internship</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left fourth-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/education">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -177,13 +170,11 @@
                                 </div>
                                 <div class="block-overlay">
                                     <h4>education</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-center fifth-cell">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/highered">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -194,13 +185,11 @@
                                 </div>
                                 <div class="block-overlay">
                                     <h4>Higher education</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right sixth-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/conducting">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -211,15 +200,13 @@
                                 </div>
                                 <div class="block-overlay">
                                     <h4>Music conducting</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left seventh-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/gradnursing">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -230,13 +217,11 @@
                                 </div>
                                 <div class="block-overlay"> 
                                     <h4>Nursing</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 square-panel-section-col-center eight-cell">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/mot">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -247,13 +232,11 @@
                                 </div>
                                 <div class="block-overlay"> 
                                     <h4>Occupational therapy</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right nineth-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="#">
+                            <a class="our-programs-link-panel" href="http://www.messiah.edu/dpt">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -264,8 +247,6 @@
                                 </div>
                                 <div class="block-overlay">
                                     <h4>Physical therapy</h4>
-                                    <p>Phasellus commodo dolor tortor. Suspendisse vestibulum fringilla nisi, in mattis leo luctus a. Vivamus odio lacus, bibendum ac erat eget, euismod ornare lorem. Phasellus ac leo ante.</p>
-                                    <button class="primary-button">Visit program site</button>
                                 </div>
                             </a>
                         </div>
@@ -278,7 +259,7 @@
         <div class="section" id="why-messiah">
             <div class="wrapper content center why-messiah-info"> 
                 <h2>Why Messiah?</h2>
-                <p class="why-messiah-description">Intro copy to go here if needed</p>
+                <p class="why-messiah-description">Messiah’s graduate programs are designed to challenge your intellect, engage your faith and fit your busy lifestyle. </p>
                 <div id="section-circle-flip">
                     <div class="flexbox circle-flip">
                         <div class="col-50">
@@ -287,7 +268,7 @@
                                     id="circle-1-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-1.png"
+                                    data-src="<?php echo $folder; ?>img/academics/exceptional-faculty-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-1"></div>
                             </div>
@@ -299,7 +280,7 @@
                                     id="circle-2-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-2.png"
+                                    data-src="<?php echo $folder; ?>img/academics/academic-excellence-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-2"></div>
                             </div>
@@ -313,7 +294,7 @@
                                     id="circle-3-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-3.png"
+                                    data-src="<?php echo $folder; ?>img/academics/faith-commitment-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-3"></div>
                             </div>
@@ -325,7 +306,7 @@
                                     id="circle-4-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/circle-img-4.png"
+                                    data-src="<?php echo $folder; ?>img/academics/flexible-class-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-4"></div>
                             </div>
@@ -342,28 +323,23 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                            <li><a class="active">1st tab title</a></li>
-                            <li><a class="open-overlay-2">2nd tab title</a></li>
-                            <li><a class="open-overlay-3">3rd tab title</a></li>
-                            <li><a class="open-overlay-4">4th tab title</a></li>
+                             <li><a class="active">Academic excellence</a></li>
+                            <li><a class="open-overlay-2">Faith commitment</a></li>
+                            <li><a class="open-overlay-3">Exceptional faculty</a></li>
+                            <li><a class="open-overlay-4">Flexible class formats</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>1st tab title</span></h3>
+                    <h3 class="center"><span>Academic excellence</span></h3>
 
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
+                            <p>Messiah College successfully integrates top-tier academics and Christian faith. To meet the need of working professionals, our curriculum and coursework is designed to be instantly relevant to your career. </p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/academic-excellence.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -376,28 +352,23 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                            <li><a class="open-overlay-1">1st tab title</a></li>
-                            <li><a class="active">2nd tab title</a></li>
-                            <li><a class="open-overlay-3">3rd tab title</a></li>
-                            <li><a class="open-overlay-4">4th tab title</a></li>
+                            <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="active">Faith commitment</a></li>
+                            <li><a class="open-overlay-3">Exceptional faculty</a></li>
+                            <li><a class="open-overlay-4">Flexible class formats</a></li>
                         </ul>
                     </div>
                     
-                    <h3 class="center"><span>2nd tab title</span></h3>
+                    <h3 class="center"><span>Faith commitment</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
+                            <p>Messiah College is a Christian college of the liberal and applied arts and sciences with a mission of educating men and women for lives of service, leadership and reconciliation. As a graduate student, you will be called to view your career and education through the lens of faith as you experience our distinct Christian and values-based education.</p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/faith-commitment.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -410,28 +381,23 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                            <li><a class="open-overlay-1">1st tab title</a></li>
-                            <li><a class="open-overlay-2">2nd tab title</a></li>
-                            <li><a class="active">3rd tab title</a></li>
-                            <li><a class="open-overlay-4">4th tab title</a></li>
+                             <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="open-overlay-2">Faith commitment</a></li>
+                            <li><a class="active">Exceptional faculty</a></li>
+                            <li><a class="open-overlay-4">Flexible class formats</a></li>
                         </ul>
                     </div>
                     
-                    <h3 class="center"><span>3rd tab title</span></h3>
+                    <h3 class="center"><span>Exceptional faculty</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
+                            <p>Our faculty creates a stimulating learning environment that will challenge and advance you in your area of expertise. Courses are taught by Messiah College faculty, who are effective Christian educators, practicing professionals, outstanding scholars, researchers, authors and sought-after experts in their fields.</p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/exceptional-faculty.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -444,28 +410,79 @@
                         <a><i class="fa fa-times" aria-hidden="true"></i></a>
                     </div>
                     <div class="center">
-                        <h2>What’s there to do?</h2>
+                        <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                            <li><a class="open-overlay-1">1st tab title</a></li>
-                            <li><a class="open-overlay-2">2nd tab title</a></li>
-                            <li><a class="open-overlay-3">3rd tab title</a></li>
-                            <li><a class="active">4th tab title</a></li>
+                             <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="open-overlay-2">Faith commitment</a></li>
+                            <li><a class="open-overlay-3">Exceptional faculty</a></li>
+                            <li><a class="active">Flexible class formats</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>4th tab title</span></h3>
+                    <h3 class="center"><span>Flexible class formats</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Nulla facilisi. Vestibulum suscipit consequat convallis. Sed ut nibh quis neque viverra aliquam dictum id metus. Cras porttitor, erat vel pulvinar lacinia, magna elit gravida metus, eget auctor ligula purus vitae nisl. In et quam ultricies, vestibulum neque at, egestas diam. Nam efficitur pellentesque libero a ultricies. Donec accumsan dui in tincidunt mattis. Mauris cursus sodales lorem a finibus</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
+                            <p>The majority of Messiah College’s graduate courses are conducted primarily online; however, some programs are fully online, others offer a hybrid format that combines online courses with several weeklong on-campus sessions, and a couple are full-time traditional programs.</p>
+                            <div class="sl-accordion">
+                                <div class="sl-acc-tab">
+                                    <input id="sl-acc-tab-1" type="checkbox" name="sl-acc-tabs">
+                                    <label for="sl-acc-tab-1"> Traditional</label>
+                                    <div class="sl-acc-tab-content">
+                                        <p>Students meet at a physical location during scheduled meeting times for the duration of the course.</p>
+                                        <p>
+                                        The following graduate programs are offered in a traditional format:
+                                        <ul>
+                                            <li>Occupational therapy</li>
+                                            <li>Physical therapy</li>
+                                        </ul>    
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sl-acc-tab">
+                                    <input id="sl-acc-tab-2" type="checkbox" name="sl-acc-tabs">
+                                    <label for="sl-acc-tab-2">Hybrid</label>
+                                    <div class="sl-acc-tab-content">
+                                        <p>Most of Messiah’s graduate programs are conducted in a hybrid format which combines face-to-face meetings and online delivery. </p>
+                                        <p>The following graduate programs are offered in a hybrid format:
+                                        <ul>
+                                            <li>Counseling</li>
+                                            <li>Education *</li>
+                                            <li>Higher education</li>
+                                            <li>Music conducting</li>
+                                            <li>Nursing</li>
+                                            <li>Dietetic internship</li>
+                                        </ul>
+
+                                    </p>
+                                    <p>
+                                        * Students who pursue the PDE certification in special education (PreK-8 or 7-12) as a part of the M.Ed. degree or as a non-degree option must come to campus for some one-week intensive courses. All other education graduate programs can be completed entirely online.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sl-acc-tab">
+                                    <input id="sl-acc-tab-3" type="checkbox" name="sl-acc-tabs">
+                                    <label for="sl-acc-tab-3">Online</label>
+                                    <div class="sl-acc-tab-content">
+                                        <p>Students access all course materials online through a learning management system: there are no requirements for face-to-face sessions. </p>
+                                        
+                                        <p>The following graduate programs are offered in an online format:
+                                            <ul>
+                                                <li>Business and leadership</li>
+                                                <li>Education *</li>
+                                            </ul></p>
+
+
+                                            <p>* Students who pursue the PDE certification in special education (PreK-8 or 7-12) as a part of the M.Ed. degree or as a non-degree option must come to campus for some one-week intensive courses. All other education graduate programs can be completed entirely online.
+                                            </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/flexible-class.jpg" alt="" />
+<a class="primary-button" href="https://www.messiah.edu/info/22871/program_and_class_format">Learn more about Messiah’s<br />graduate class formats.</a>
                         </div>
                     </div>
                 </div>
@@ -485,9 +502,9 @@
             </picture>
             <div class="wrapper content center">
                 <h2>School of Graduate Studies</h2>
-                <p>Messiah offers an array of academic support services that make it possible for you to access any additional help you might need or want outside of the classroom. Whether you need accommodations for a particular learning challenge or simply want someone to proofread a paper before you turn it in, there are qualified Messiah students and staff prepared to assist you.</p>
+                <h4>Messiah College’s School of Graduate Studies educates students for a lifetime of intellectual exploration, ethical leadership and exceptional professional practice within a complex world.</h4>
 
-                <button class="primary-button">Learn More</button>
+                <a class="primary-button" href="https://www.messiah.edu/gradprograms">Learn more</a>
             </div>
         </div>
 
@@ -496,9 +513,10 @@
             <div class="wrapper content">
                 <h3>Continue Exploring</h3>
                 <div>
-                    <a href="#" class="primary-button">Link Two</a>
-                    <a href="#" class="primary-button">Another Link here</a>
-                    <a href="#" class="primary-button">Another Link here</a>
+                    <a href="https://www.messiah.edu/download/downloads/id/2318/GraduateStudiesCatalog.pdf" class="primary-button">Graduate catalog (PDF)</a>
+                    <a href="https://www.messiah.edu/info/22941/tuition_and_fees" class="primary-button">Graduate tuition and fees</a>
+                    <a href="https://www.messiah.edu/info/21084/graduate_admissions" class="primary-button">Graduate admissions</a>
+                    <a href="https://www.messiah.edu/info/22865/student_services_and_information" class="primary-button">Graduate student services</a>
                 </div>
             </div>
         </div>

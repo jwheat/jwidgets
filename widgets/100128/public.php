@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '3';
-    $folder = 'site/custom_scripts/styles/';
+    $folder = '/site/custom_scripts/styles/';
   }
 ?>
 

@@ -26,14 +26,14 @@
                 <img 
                     class="lazyload-img hero-img" 
                     src="<?php echo $folder; ?>img/dev-office/handtinytrans.gif"
-                    data-src="<?php echo $folder; ?>img/dev-office/hero-img.jpg" />
+                    data-src="<?php echo $folder; ?>img/dev-office/hero-gradient.jpg" />
             </picture>
         </div>
         <div class="hero-title-wrapper">
             <h2>Giving</h2>
             <hr>
             <p>Leaving a legacy at Messiah</p>
-<p><a href="http://www.messiah.edu/give" class="ath-button">Make a gift</a></p>
+<p><a href="http://www.messiah.edu/homepage/1297/make_a_gift" class="ath-button">Make a gift</a></p>
         </div>
         <div class="devo-tabs hide-on-mobile">
             <ul>
@@ -41,7 +41,7 @@
                 <li class="tab-item fundraising-priorities-item"><a>Fundraising Priorities</a></li>
                 <li class="explore-button"><a class="gtm-car-scroll">Explore Messiah<br><img src="<?php echo $folder; ?>img/dev-office/car2-arrow-down.png"></a></li>
                 <li class="tab-item ways-to-give-item"><a>Ways to Give</a></li>
-                <li class="tab-item transforming-lives-item"><a>transforming</a></li>
+                <li class="tab-item transforming-lives-item"><a>Transforming Lives</a></li>
             </ul>
         </div>
     </div>
@@ -57,8 +57,8 @@
                     </p>
                     <div class="by-the-numbers-btns">
                         <!--<a class="primary-button" href="#">How to give</a>-->
-                        <a class="primary-button" href="https://www.messiah.edu/give">Give online</a>
-                        <!--<a class="primary-button" href="#">Impact Stories</a>-->
+                        <a class="primary-button" href="https://www.messiah.edu/homepage/1297/make_a_gift">Give online</a>
+                        <a class="primary-button" href="https://messiah.giftlegacy.com/">Planned and Leadership Gifts</a>
                     </div>
                 </div>
                 <div class="col-45 center">
@@ -355,9 +355,9 @@
                     </div>
                 </div>
             </div>
-            <div class="center">
+            <!-- div class="center">
                 <a class="primary-button" href="#">View other ways to give</a>
-            </div>
+            </div -->
         </div>
     </div>
 
@@ -405,13 +405,6 @@
                         </div>
                     </div>
 
-                    <div class="tl-slide">
-                        <img src="<?php echo $folder; ?>img/dev-office/Daniel_Yeisley.png" alt="" />
-                        <span>Daniel Yeisley<br>Biomedical Engineering ‘18</span>
-                        <div class="tl-slide-info">
-                            <p>“Without the scholarships I received, I wouldn’t have been able to attend Messiah and have access to the same opportunities. While I was involved with various different clubs on campus, I also spent all four of my years in the Collaboratory and was a leader for two of those years. With the Collab, I was able to visit Kenya with a team partnered with Cure International Orthopedic Hospital in Kijabe which truly changed my life.”</p>
-                        </div>
-                    </div>
 
                     <div class="tl-slide">
                         <img src="<?php echo $folder; ?>img/dev-office/raad.png" alt="" />
@@ -463,10 +456,10 @@
         <div class="wrapper content">
             <h3>Continue Exploring</h3>
             <div>
-                <a href="#" class="primary-button">Why Messiah?</a>
-                <a href="#" class="primary-button">The Grants Office</a>
-                <a href="#" class="primary-button">Planned Gifts – Create a Legacy</a>
-                <a href="#" class="primary-button">Contact the Office of Development</a>
+                <a href="https://www.messiah.edu/info/20833/why_give" class="primary-button">Why Messiah?</a>
+                <a href="https://www.messiah.edu/info/22145/grants_office" class="primary-button">The Grants Office</a>
+                <a href="https://messiah.giftlegacy.com/" class="primary-button">Planned Gifts – Create a Legacy</a>
+                <a href="https://www.messiah.edu/info/22299/contact_the_office_of_development" class="primary-button">Contact the Office of Development</a>
             </div>
         </div>
     </div>

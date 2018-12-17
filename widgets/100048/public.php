@@ -18,7 +18,7 @@
     }
 ?>
 
-<link type="text/css" rel="stylesheet" href="/site/custom_scripts/styles/outcomes.css"/>
+<link type="text/css" rel="stylesheet" href="/site/custom_scripts/styles/outcomes.css?v=3"/>
 <script src='/site/javascript/chart.js'></script>
 
 <div class="statistics-hold">

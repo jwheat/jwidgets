@@ -5,7 +5,7 @@
   $folder = '';
   if (!$dev) {
     $version = '3';
-    $folder = 'site/custom_scripts/styles/';
+    $folder = '/site/custom_scripts/styles/';
   }
 ?>
  <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">

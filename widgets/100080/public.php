@@ -227,10 +227,10 @@
     $internships = '
       <h2>Internships</h2>
       <p><img alt="A student instructing a baby." class="float_right" src="http://www.messiah.edu/images/internship.JPG">An internship during your undergraduate years helps you further clarify your vocational decisions, build career contacts and experience, increase the likelihood of getting into graduate school and expand your confidence in your chosen field.</p>
-      <p>The Internship Program in Messiah\'s Career and Professional Development Center is nationally recognized for its excellence and cutting edge training for today\'s workforce. In fact, more than 485 colleges, universities and businesses use Messiah\'s materials or model their internship program.&nbsp; Last year, students completed 446 total credit-bearing experiences through the Career Center alone.</p>
+      <p>The Internship Program in Messiah\'s Career and Professional Development Center is nationally recognized for its excellence and cutting edge training for today\'s workforce. In fact, more than 485 colleges, universities and businesses use Messiah\'s materials or model their internship program.  Last year, students completed 446 total credit-bearing experiences through the Career Center alone.</p>
       <p>Through internships and other experiences, Messiah students are widely-known to be prepared for their careers upon graduation. This is is why more than 400 employers and some of the nation\'s best graduate schools eagerly welcome Messiah graduates into their organizations.</p>
-      <p><strong>To find out more about internship opportunities at Messiah College, visit our career and&nbsp;internship center.&nbsp;</strong></p>
-      <p><a class="button" href="https://www.messiah.edu/internship">Visit the Career and Internship Center</a></p>
+      <p><strong>To find out more about internship opportunities at Messiah College, visit our career and internship center. </strong></p>
+      <p><a class="button" href="https://www.messiah.edu/career">Visit the Career and Internship Center</a></p>
       <h3>Popular internships for Messiah College students</h3>
       <ul class="4-col">
         <li>Accounting firms</li>

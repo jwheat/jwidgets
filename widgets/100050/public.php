@@ -157,7 +157,7 @@
         
 ?>
         <li>
-            <a href="<?php print $wValue[1]; ?>?utm_source=<?php print $wValue[6]; ?>&utm_medium=web&utm_campaign=bridge-slider">
+            <a href="<?php print $wValue[1]; ?>">
               <img src='/images/<?php print $wValue[3]; ?>' data-mobile-src='/images/<?php print $wValue[7]; ?>'/>
               <div class='overlay slide-<?php print $wValue[5]; ?>'>
                 <div>

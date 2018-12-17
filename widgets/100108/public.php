@@ -85,7 +85,7 @@
             <div class="awards-container-left">
                 <?php if (!empty($r2_image)) { ?>
                     <?php if (!empty($r2_image_url)) { ?>
-                        <a href="<?php print $r2_image_url;?> target="_blank"><img id="awards-logo" src="/images/<?php print $r2_image;?>" alt="" class="awards-logo"></a>    
+                        <a href="<?php print $r2_image_url;?>" target="_blank"><img id="awards-logo" src="/images/<?php print $r2_image;?>" alt="" class="awards-logo"></a>    
                     <?php } else { ?>
                         <img id="awards-logo" src="/images/<?php print $r2_image;?>" alt="" class="awards-logo">
                     <?php } ?>
@@ -106,7 +106,7 @@
             <div class="awards-container-left">
                 <?php if (!empty($r3_image)) { ?>
                     <?php if (!empty($r3_image_url)) { ?>
-                        <a href="<?php print $r3_image_url;?> target="_blank"><img id="awards-logo" src="/images/<?php print $r3_image;?>" alt="" class="awards-logo"></a>    
+                        <a href="<?php print $r3_image_url;?>" target="_blank"><img id="awards-logo" src="/images/<?php print $r3_image;?>" alt="" class="awards-logo"></a>    
                     <?php } else { ?>
                         <img id="awards-logo" src="/images/<?php print $r3_image;?>" alt="" class="awards-logo">
                     <?php } ?>
@@ -127,7 +127,7 @@
             <div class="awards-container-left">
                 <?php if (!empty($r4_image)) { ?>
                     <?php if (!empty($r4_image_url)) { ?>
-                        <a href="<?php print $r4_image_url;?> target="_blank"><img id="awards-logo" src="/images/<?php print $r4_image;?>" alt="" class="awards-logo"></a>    
+                        <a href="<?php print $r4_image_url;?>" target="_blank"><img id="awards-logo" src="/images/<?php print $r4_image;?>" alt="" class="awards-logo"></a>    
                     <?php } else { ?>
                         <img id="awards-logo" src="/images/<?php print $r4_image;?>" alt="" class="awards-logo">
                     <?php } ?>
@@ -148,7 +148,7 @@
             <div class="awards-container-left">
                 <?php if (!empty($r5_image)) { ?>
                     <?php if (!empty($r5_image_url)) { ?>
-                        <a href="<?php print $r5_image_url;?> target="_blank"><img id="awards-logo" src="/images/<?php print $r5_image;?>" alt="" class="awards-logo"></a>    
+                        <a href="<?php print $r5_image_url;?>" target="_blank"><img id="awards-logo" src="/images/<?php print $r5_image;?>" alt="" class="awards-logo"></a>    
                     <?php } else { ?>
                         <img id="awards-logo" src="/images/<?php print $r5_image;?>" alt="" class="awards-logo">
                     <?php } ?>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">
     <link href="<?php echo $folder; ?>slick.css" rel="stylesheet">
     <link href="<?php echo $folder; ?>slick-theme.css" rel="stylesheet">
-    <link href="<?php echo $folder; ?>mc-athletics.css?v=15" rel="stylesheet">
+    <link href="<?php echo $folder; ?>mc-athletics.css?v=16" rel="stylesheet">
     <input type="hidden" id="mc-folder" value="<?php echo $folder; ?>">
 
     <div class="fs-bg">

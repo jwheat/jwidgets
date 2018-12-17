@@ -136,7 +136,7 @@ $(document).ready(function(){
 
   $('#witmer-video').click(function() {
     $('body').addClass('stop-scrolling');
-    var lightbox = lity('//www.youtube.com/watch?v=-xpi_sLbNDQ');
+    var lightbox = lity('https://youtu.be/UCv8plJzIXA');
   });
   
   $(document).on('lity:close', function(event, instance) {

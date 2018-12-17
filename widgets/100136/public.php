@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '1';
+    $version = '2';
     $folder = '/site/custom_scripts/styles/';
   }
 ?>
