@@ -1000,7 +1000,7 @@ form, fieldset {
     }
 
     .dual-degree .badge:before {
-        content: "Dual Degree";
+        content: "3+ Partner Programs";
     }
 
     .teaching .badge:before {
@@ -1224,18 +1224,18 @@ form, fieldset {
 }
 
 .peek-content .badge-field .dual-degree .badge:before {
-    content: "Dual Degree";
+    content: "3+ Partner Programs";
 }
 
 .peek-content .badge-field .teaching .badge:before {
     content: "Teaching Certificate";
 }
 
-.peek-content .badge-field .accelerated.badge:before {
+.peek-content .badge-field .accelerated .badge:before {
     content: "Accelerated";
 }
 
-.peek-content .badge-field .assurance.badge:before {
+.peek-content .badge-field .assurance .badge:before {
     content: "Early Assurance";
 }
 
