@@ -1,0 +1,338 @@
+/*===== PROGRAMS =====*/
+
+.major .badge {
+    background: #273d5e;
+}
+
+.minor .badge {
+    background: #4d87a9;
+}
+
+.concentration .badge {
+    background: #ab4e42;
+}
+
+.prepro .badge {
+    background: #7477b8;
+}
+
+.dual-degree .badge {
+    background: #84ab8b;
+}
+
+.teaching .badge {
+    background: #e37b65;
+}
+
+.accelerated .badge {
+    background: #DCAC42;
+}
+
+.grad-c .badge {
+    background: #273d5e;
+}
+
+.grad-t .badge {
+    background: #4d87a9;
+}
+
+.grad-p .badge {
+    background: #ab4e42;
+}
+
+.grad-g .badge {
+    background: #7477b8;
+}
+
+.grad-n .badge {
+    background: #84ab8b;
+}
+
+.grad-a .badge {
+    background: #e37b65;
+}
+
+.major .badge:before {
+    content: "Major Courses";
+}
+
+.minor .badge:before {
+    content: "Minor Courses";
+}
+
+.concentration .badge:before {
+    content: "Concentration Courses";
+}
+
+.prepro .badge:before {
+    content: "Pre-professional Courses";
+}
+
+.dual-degree .badge:before {
+    content: "3+";
+}
+
+.teaching .badge:before {
+    content: "Teaching Certification Courses";
+}
+
+.accelerated .badge:before {
+    content: "A";
+}
+
+.grad-c .badge:before {
+    content: "C";
+}
+
+.grad-t .badge:before {
+    content: "T";
+}
+
+.grad-p .badge:before {
+    content: "P";
+}
+
+.grad-g .badge:before {
+    content: "G";
+}
+
+.grad-n .badge:before {
+    content: "N";
+}
+
+.grad-a .badge:before {
+    content: "A";
+}
+
+.badge {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.major.active {
+    border-bottom-color: #273d5e;
+}
+
+.minor.active {
+    border-bottom-color: #4d87a9;
+}
+
+.concentration.active {
+    border-bottom-color: #ab4e42;
+}
+
+.prepro.active {
+    border-bottom-color: #7477b8;
+}
+
+.dual-degree.active {
+    border-bottom-color: #84ab8b;
+}
+
+.teaching.active {
+    border-bottom-color: #e37b65;
+}
+
+.accelerated.active {
+    border-bottom-color: #959698;
+}
+
+.grad-c.active {
+    border-bottom-color: #273d5e;
+}
+
+.grad-t.active {
+    border-bottom-color: #4d87a9;
+}
+
+.grad-p.active {
+    border-bottom-color: #ab4e42;
+}
+
+.grad-g.active {
+    border-bottom-color: #7477b8;
+}
+
+.grad-n.active {
+    border-bottom-color: #84ab8b;
+}
+
+.grad-a.active {
+    border-bottom-color: #e37b65;
+}
+
+.major.active,
+.minor.active,
+.concentration.active,
+.prepro.active,
+.dual-degree.active,
+.teaching.active,
+.accelerated.active,
+.grad-c.active,
+.grad-t.active,
+.grad-p.active,
+.grad-g.active,
+.grad-n.active,
+.grad-a.active {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 6px;
+}
+
+/*===== PROGRAM TABLE =====*/
+
+p.intro {
+    font: 18px/27px 'AptiferSansLTW01-Medium 721143', sans-serif;
+    margin-bottom: 1.5em;
+}
+
+p.info {
+    font: 20px/30px 'Aptifer Sans LT W01', sans-serif;
+    color: #6697b8;
+}
+
+.editor .program-table {
+    box-sizing:border-box;
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    width: 100%;
+}
+
+.editor .program-table * {
+    box-sizing:border-box;
+}
+
+.editor .program-table .tr:hover {
+    background: #f0f0f0 !important;
+}
+
+.editor .program-table .tr {
+    line-height: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 0 7px 14px;
+}
+
+.editor .program-table .name {
+    margin-right: 36px;
+}
+
+.editor .program-table .expanded {
+    padding-left: 28px;
+}
+
+.editor .program-table .expanded .name a {
+    color: #777;
+}
+
+.degree-type {
+    background: #ddd;
+    border: 1px solid #666;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: .85em;
+    margin-left: 6px;
+    padding: 0 4px;
+    text-transform: uppercase;
+}
+
+#content .editor .program-table a {
+    text-decoration: none;
+}
+
+/*===== MOBILE =====*/
+
+@media only screen and (max-width: 767px) {
+
+    .editor .program-table .tr {
+        border-bottom: none;
+        border-top: 1px solid #ccc;
+    }
+
+    .editor .program-table .tr,
+    .editor .program-table .name {
+        display: block;
+    }
+
+    .editor .program-table .tr {
+        cursor: pointer;
+    }
+
+    .editor .program-table .name {
+        margin-bottom: 14px;
+    }
+
+    .major .badge:before {
+        content: "Major";
+    }
+
+    .minor .badge:before {
+        content: "Minor";
+    }
+
+    .concentration .badge:before {
+        content: "Concentration";
+    }
+
+    .prepro .badge:before {
+        content: "Pre-Health Advising";
+    }
+
+    .dual-degree .badge:before {
+        content: "Dual Degree";
+    }
+
+    .teaching .badge:before {
+        content: "Teaching Certificate";
+    }
+
+    .accelerated .badge:before {
+        content: "Accelerated";
+    }
+
+    .grad-c .badge:before {
+        content: "Concentration";
+    }
+
+    .grad-t .badge:before {
+        content: "Track";
+    }
+
+    .grad-p .badge:before {
+        content: "PA Teaching Certification";
+    }
+
+    .grad-g .badge:before {
+        content: "Graduate Certificate";
+    }
+
+    .grad-n .badge:before {
+        content: "Non-Degree";
+    }
+
+    .grad-a .badge:before {
+        content: "Certificate in Advanced Graduate Studies";
+    }
+
+}
+
+.mm-page {
+    position: relative;
+    left: 0;
+    -webkit-transition-duration: 750ms;
+    -moz-transition-duration: 750ms;
+    -o-transition-duration: 750ms;
+    transition-duration: 750ms;
+    -webkit-transition-timing-function: cubic-bezier(.175,.885,.32,1.14);
+    -moz-transition-timing-function: cubic-bezier(.175,.885,.32,1.14);
+    -o-transition-timing-function: cubic-bezier(.175,.885,.32,1.14);
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.14);
+}
