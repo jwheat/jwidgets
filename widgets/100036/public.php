@@ -26,8 +26,6 @@
 <div class="editor">
     <div id="full-view">
         <input type="hidden" id="mc-category-id" value="<?php echo $categoryId; ?>">
-        <h2>DEGREES AND CERTIFICATES</h2>
-        <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aspernatur mollitia sapiente tempora, nemo atque, facere earum laudantium maxime, facilis voluptates accusantium minus harum. Aut nihil dolores provident dolore omnis?</p>
         <p class="info">Click a course link below to view courses for that degree type.</p>
         <div>
             <div id="expanded" class="program-table">
