@@ -1,0 +1,269 @@
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.admissions-container{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.undergraduate-container, .graduate-container{
+  position:relative;
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.undergraduate-container, .graduate-container{
+  float: left;
+  transition: all .4s ease-out;
+}
+
+.undergraduate-container{
+  background-image: url("/site/custom_scripts/styles/img/gn-admissions/undergraduate-admissions-bg.jpg");
+  width: 50%;
+}
+
+.graduate-container{
+  background-image: url("/site/custom_scripts/styles/img/gn-admissions/graduate-admissions-bg.jpg");
+  width: 50%;
+}
+
+.undergraduate-container.active{
+  width: 100%;
+}
+
+.undergraduate-container.hidden{
+  width: 0%;
+}
+
+.graduate-container.active{
+  width: 100%;
+}
+
+.graduate-container.hidden{
+  width: 0%;
+}
+
+.admissions-btn{
+  box-sizing: border-box;
+  padding: 16px 45px;
+  width: 489px;
+  border: 0;
+  font-family: "priori-sans", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: rgba(117,173,207,.85);
+  position: absolute;
+  bottom: 209px;
+  -webkit-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.admissions-btn:hover{
+  background-color: rgba(44,66,99,0.84);
+}
+
+#ug-admissions-btn{
+  right:5px;
+  text-align: right;
+  transition-property: right, background-color;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease-in, ease;
+}
+
+#g-admissions-btn{
+  left:5px;
+  text-align: left;
+  transition-property: left, background-color;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease-in, ease;
+}
+
+.admissions-sidenav {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color:rgba(255,255,255,.85);
+  overflow-x: hidden;
+}
+
+.admissions-sidenav .links-panel{
+  margin-top: 270px;
+  position: relative;
+  width: 270px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.admissions-sidenav a {
+  font-family:'Aptifer Sans LT W01', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 46px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #273d5e;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.admissions-sidenav a:hover {
+  text-decoration: none;
+}
+
+.admissions-sidenav a:hover:not(.g-sidenav-btn) {
+  color: #4d78b8;
+}
+
+.admissions-sidenav .g-sidenav-btn{
+  box-sizing: border-box;
+  background-color: #435672;
+  color: #ffffff;
+  font-size: 16px;
+  width: 191px;
+  text-align: center;
+  margin-top: 80px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.switch-program-btn{
+  font-size: 18px;
+  background-color: #435672;
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  padding: 15px 50px;
+  border: 0;
+  transition: all 0.3s ease;
+}
+
+.switch-program-btn:hover, .admissions-sidenav .g-sidenav-btn:hover{
+  background-color: #273d5e;
+}
+
+.switch-program-btn i.fa-exchange-alt{
+  color: #ffffff;
+  float: right;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 1000px){
+
+  #ug-admissions-btn.active{
+    transition-delay: .5s, 0s;
+    right: 460px;
+  }
+  
+  #g-admissions-btn.active{
+    transition-delay: .5s, 0s;
+    left: 460px;
+  }
+
+  #g-sidenav{
+    left: -455px;
+    width: 455px;
+    transition: all .4s ease-in;
+  }
+  
+  #ug-sidenav{
+    right: -455px;
+    width: 455px;
+    transition: all .4s ease-in;
+  }
+  
+  #g-sidenav.active{
+    transition-delay: .5s;
+    left: 0;
+  }
+  
+  #ug-sidenav.active{
+    transition-delay: .5s;
+    right: 0;
+  }
+
+}
+
+@media screen and (max-width: 999px) {
+  
+  .undergraduate-container, .graduate-container{
+    height: calc(50vh - 67.5px);
+    width: 100%;
+  }
+
+  .admissions-btn{
+    bottom: 66px;
+    width: 220px;
+    font-size: 25px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  #ug-admissions-btn, #g-admissions-btn{
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .undergraduate-container.hidden{
+    width: 100%;
+  }
+  
+  .graduate-container.hidden{
+    width: 100%;
+  }
+
+  #g-sidenav, #ug-sidenav{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity .6s .3s ease-out;
+  }
+
+  #g-sidenav.active, #ug-sidenav.active{
+    transition-delay: unset;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .admissions-sidenav .links-panel {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    width: 270px;
+  }
+
+  .admissions-sidenav .g-sidenav-btn {
+    margin-top: 25px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  
+  .undergraduate-container, .graduate-container{
+    height: calc(50vh - 42.5px);
+  }
+
+  .admissions-btn{
+    width: 171px;
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+
+}

@@ -495,6 +495,10 @@ $(document).ready(function(){
                 $('.tooltip-title').text('Accelerated');
                 $('.tooltip-text').text('Enables you to earn a degree, or more than one degree, in an abbreviated amount of time.');
             }
+            if ($(this).hasClass('assurance')) {
+                $('.tooltip-title').text('Early Assurance');
+                $('.tooltip-text').text('A way for a student to guarantee a spot in graduate school early on in his or her undergraduate career.');
+            }
             
             if ($(this).hasClass('grad-c')) {
                 $('.tooltip-title').text('Track/concentration');
@@ -663,6 +667,9 @@ $(document).ready(function(){
                         break;
                     case 'accelerated':
                         res1 = data.accelerated != '';
+                        break;
+                    case 'assurance':
+                        res1 = data.early_assurance != '';
                         break;
                     case 'grad-c':
                         res1 = data.grad_concentration != '';

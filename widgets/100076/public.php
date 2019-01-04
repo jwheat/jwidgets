@@ -8,7 +8,7 @@
   $folder = '';
   $version = date('YmdHis');
   if (!$dev) {
-    $version = 10;
+    $version = 13;
     $folder = '/site/custom_scripts/styles/';
   }
   if (!$programsPage) {
@@ -455,8 +455,6 @@
                 {{if ((preprofessional_programs == 'Yes') || (preprofessional_programs == 'yes')) }}<span class="prepro"><span class="badge"></span></span>{{/if}}
                 {{if ((allied_program == 'Yes') || (allied_program == 'yes')) }}<span class="dual-degree"><span class="badge"></span></span>{{/if}}
                 {{if ((teaching_certification == 'Yes') || (teaching_certification == 'yes')) }}<span class="teaching"><span class="badge"></span></span>{{/if}}
-                {{if ((accelerated == 'Yes') || (accelerated == 'yes')) }}<span class="accelerated"><span class="badge"></span></span>{{/if}}
-                {{if ((early_assurance == 'Yes') || (early_assurance == 'yes')) }}<span class="assurance"><span class="badge"></span></span>{{/if}}
                 {{if ((grad_concentration == 'Yes') || (grad_concentration == 'yes')) }}<span class="grad-c"><span class="badge"></span></span>{{/if}}
                 {{if ((grad_track == 'Yes') || (grad_track == 'yes')) }}<span class="grad-t"><span class="badge"></span></span>{{/if}}
                 {{if ((grad_pa_teaching_certification == 'Yes') || (grad_pa_teaching_certification == 'yes')) }}<span class="grad-p"><span class="badge"></span></span>{{/if}}
@@ -512,8 +510,6 @@
             {{if ((preprofessional_programs == 'Yes') || (preprofessional_programs == 'yes')) }}<span class="prepro"><span class="badge"></span></span>{{/if}}
             {{if ((allied_program == 'Yes') || (allied_program == 'yes')) }}<span class="dual-degree"><span class="badge"></span></span>{{/if}}
             {{if ((teaching_certification == 'Yes') || (teaching_certification == 'yes')) }}<span class="teaching"><span class="badge"></span></span>{{/if}}
-            {{if ((accelerated == 'Yes') || (accelerated == 'yes')) }}<span class="accelerated"><span class="badge"></span></span>{{/if}}
-            {{if ((early_assurance == 'Yes') || (early_assurance == 'yes')) }}<span class="assurance"><span class="badge"></span></span>{{/if}}
             {{if ((grad_concentration == 'Yes') || (grad_concentration == 'yes')) }}<span class="grad-c"><span class="badge"></span></span>{{/if}}
             {{if ((grad_track == 'Yes') || (grad_track == 'yes')) }}<span class="grad-t"><span class="badge"></span></span>{{/if}}
             {{if ((grad_pa_teaching_certification == 'Yes') || (grad_pa_teaching_certification == 'yes')) }}<span class="grad-p"><span class="badge"></span></span>{{/if}}

@@ -136,8 +136,8 @@
 											</header>
 											<form name="apply">
 											<div class="apply-block">
-														<select name="menu2" class="sel-03">
-																<label>Apply for:</label>
+												<label for="apply-for">Apply for:</label> 
+												<select name="selecttype" id="apply-for" class="sel-03">
 																	
 																	<option value="http://www.messiah.edu/applynow">Undergrad</option>
 																	<option value="http://www.messiah.edu/info/21329/apply">Graduate</option>

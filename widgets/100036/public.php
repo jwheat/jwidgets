@@ -1,55 +1,60 @@
 <?php
-  //$dev = true;
-  $dev = false;
-  $categoryId = '';
-  $folder = '';
-  $version = date('YmdHis');
-  if (!$dev) {
-    $version = 1;
-    $folder = '/site/custom_scripts/styles/';
-  }
-  if ($dev) {
-    $categoryId = 17;
-  } else {
+    define('WEBROOT', '/a/academics/listing');
+    require "custom/academics/class.MessiahAcademicOfferings.php";
+    $listing = new MessiahAcademicListing;
+
+    # -- Get selected department
     $param_department = "";
+
     if ($param_department == '%' . 'PARAM_DEPARTMENT%' || $param_department == '') {
-      $param_department = '%PARAM_DEPARTMENT%';
+        $param_department = '%PARAM_DEPARTMENT%';
     }
-    $department_array = explode("|", $param_department);
-    $department_name = $department_array[0];
-    $categoryId = $department_array[1];
-  }
+
+    if ($param_department != "") {
+
+	    $prefix = "Department of";
+
+	    $ds_name = $param_department;
+
+	    $orderby_sql = "e.title";
+	    $s_default = "default";
+	    $w_clause = "and ct.title = '".$ds_name."'";
+
+	    $data_table = $listing->getSmallDirectoryListViewLinks($orderby_sql,$w_clause);
+
+	    $html = "
+
+
+	                                <table class='accordion-info-table courses-table'>
+	                                    <thead>
+	                                        <tr>
+	                                            <th class='cell-01'>Program</th>
+	                                            <th class='cell-02'>Degree</th>
+	                                            <th class='cell-03'>Major</th>
+	                                            <th class='cell-04'>Minor</th>
+	                                            <th class='cell-05'>Concentration</th>
+	                                            <th class='cell-06'>Pre Professional</th>
+	                                            <th class='cell-07'>Teaching Certification</th>
+	                                        </tr>
+	                                    </thead>
+	                            ".$data_table."
+	                                </table>
+
+	    ";	    
+
+	    print "<link rel='stylesheet' type='text/css' href='/site/custom_scripts/styles/program-listing.css' media='screen' />";
+		print $html;
+
+    }
 ?>
 
-<link type="text/css" rel="stylesheet" href="<?php echo $folder; ?>mc-course-listing.css?version=<?php echo $version; ?>"/>
-
-<div class="editor">
-    <div id="full-view">
-        <input type="hidden" id="mc-category-id" value="<?php echo $categoryId; ?>">
-        <p class="info">Click a course link below to view courses for that degree type.</p>
-        <div>
-            <div id="expanded" class="program-table">
-            </div>
-        </div>
-    </div>
-</div>
-
-<script id="programs-template" type="text/x-jQuery-tmpl">
-    <div class="{{if (expanded) }}expanded{{/if}} tr">
-        <span class="name">
-            <a>${program_name}</a>
-            {{each degree_types}}
-            <span class="degree-type">${$value.name}</span>
-            {{/each}}
-        </span>
-        {{if (major_courses_url != '') }}<span class="major"><a href="${major_courses_url}"><span class="badge"></span></span></a>{{/if}}
-        {{if (minor_courses_url != '') }}<span class="minor"><a href="${minor_courses_url}"><span class="badge"></span></span></a>{{/if}}
-        {{if (concentration_courses_url != '') }}<span class="concentration"><a href="${concentration_courses_url}"><span class="badge"></span></span></a>{{/if}}
-        {{if (pre_professional_courses_url != '') }}<span class="prepro"><a href="${pre_professional_courses_url}"><span class="badge"></span></span></a>{{/if}}
-        {{if (teaching_certification_course_url != '') }}<span class="teaching"><a href="${teaching_certification_course_url}"><span class="badge"></span></span></a>{{/if}}
-    </div>
+<script>
+	$(document).ready(function() {
+		$('.view_courses_icon').mouseover(function() {
+	    	$(this).attr('src','/site/custom_scripts/styles/img/courses-on.png');
+	  	})
+	  	.mouseout(function() {
+	    	$(this).attr('src','/site/custom_scripts/styles/img/courses-off.png');
+	  	});
+	});
 </script>
-
-<!-- jQuery Templates -->
-<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
-<script type="text/javascript" src="<?php echo $folder; ?>mc-course-listing.js?v=<?php echo $version; ?>"></script>

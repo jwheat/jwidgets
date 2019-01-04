@@ -33,6 +33,10 @@ width: 70% !important;
     background: #DCAC42;
 }
 
+.assurance .badge {
+    background: #afafaf;
+}
+
 .grad-c .badge {
     background: #273d5e;
 }
@@ -85,6 +89,10 @@ width: 70% !important;
     content: "A";
 }
 
+.assurance .badge:before {
+    content: "E";
+}
+
 .grad-c .badge:before {
     content: "C";
 }
@@ -116,6 +124,7 @@ width: 70% !important;
 .dual-degree .badge,
 .teaching .badge,
 .accelerated .badge,
+.assurance .badge,
 .grad-c .badge,
 .grad-t .badge,
 .grad-p .badge,
@@ -157,7 +166,11 @@ width: 70% !important;
 }
 
 .accelerated.active {
-    border-bottom-color: #959698;
+    border-bottom-color: #DCAC42;
+}
+
+.assurance.active {
+    border-bottom-color: #afafaf;
 }
 
 .grad-c.active {
@@ -191,6 +204,7 @@ width: 70% !important;
 .dual-degree.active,
 .teaching.active,
 .accelerated.active,
+.assurance.active,
 .grad-c.active,
 .grad-t.active,
 .grad-p.active,
@@ -986,7 +1000,7 @@ form, fieldset {
     }
 
     .dual-degree .badge:before {
-        content: "Dual Degree";
+        content: "3+ Partner Programs";
     }
 
     .teaching .badge:before {
@@ -995,6 +1009,10 @@ form, fieldset {
 
     .accelerated .badge:before {
         content: "Accelerated";
+    }
+
+    .assurance .badge:before {
+        content: "Early Assurance";
     }
 
     .grad-c .badge:before {
@@ -1028,6 +1046,7 @@ form, fieldset {
     .dual-degree .badge,
     .teaching .badge,
     .accelerated .badge,
+    .assurance .badge,
     .grad-c .badge,
     .grad-t .badge,
     .grad-p .badge,
@@ -1205,15 +1224,19 @@ form, fieldset {
 }
 
 .peek-content .badge-field .dual-degree .badge:before {
-    content: "Dual Degree";
+    content: "3+ Partner Programs";
 }
 
 .peek-content .badge-field .teaching .badge:before {
     content: "Teaching Certificate";
 }
 
-.peek-content .badge-field .accelerated.badge:before {
+.peek-content .badge-field .accelerated .badge:before {
     content: "Accelerated";
+}
+
+.peek-content .badge-field .assurance .badge:before {
+    content: "Early Assurance";
 }
 
 .peek-content .badge-field .grad-c .badge:before {
@@ -1513,6 +1536,10 @@ form, fieldset {
         content: "A";
     }
 
+    .related-single .assurance .badge:before {
+        content: "E";
+    }
+    
     .related-single .grad-c .badge:before {
         content: "C";
     }

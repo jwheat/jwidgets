@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">
     <link href="<?php echo $folder; ?>mc-faith-and-service.css?v=<?php echo $version; ?>" rel="stylesheet">
     <input type="hidden" id="mc-folder" value="<?php echo $folder; ?>">
-    <div class="fs-bg" data-parallax="scroll" data-image-src="<?php echo $folder; ?>img/faith-and-service/faith-and-service-hero.jpg">
+    <div class="fs-bg" data-parallax="scroll" data-image-src="<?php echo $folder; ?>img/faith-and-service/faith-and-service-hero-3.jpg">
         <div class="fs-wrapper">
             <h2>Faith and </br>Service</h2>
             <hr>
