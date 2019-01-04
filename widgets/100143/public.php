@@ -27,7 +27,7 @@
 <div class="editor">
     <div id="full-view">
         <input type="hidden" id="mc-category-id" value="<?php echo $categoryId; ?>">
-        <p class="info">Click a course link below to view courses for that degree type.</p>
+        <p class="info">Click a course link below to view courses for that academic program.</p>
         <div>
             <div id="expanded" class="program-table">
             </div>
