@@ -22,34 +22,31 @@
 
             <div id="g-sidenav" class="admissions-sidenav">
                 <div class="links-panel">
-                    <a href="#">Apply</a>
-                    <a href="#">Request information</a>
-                    <a href="#">Majors and minors</a>
-                    <a href="#">Visit campus</a>
-                    <a href="#">Cost and scholarships</a>
-                    <a href="#">Admissions process</a>
-                    <a href="#">Pay your deposit</a>
-                    <a href="#">Accepted students</a>
+                    <a href="http://www.messiah.edu/info/21329/apply">Apply</a>
+                    <a href="http://www.messiah.edu/forms/form/223/en/1/graduate_studies_request_information">Request information</a>
+                    <a href="http://www.messiah.edu/info/20436/degrees">Graduate degrees and certificates</a>
+                    <a href="http://www.messiah.edu/info/21207/tuition_and_fees">Cost and aid</a>
+                    <a href="http://www.messiah.edu/info/21324/admissions_process">Admissions process</a>
 
                     <a class="g-sidenav-btn" href="#">VISIT FULL SITE</a>
-                    
+
                 </div>
                 <button class="switch-program-btn"><span>Show me links to Undergraduate</span><i class="fas fa-exchange-alt"></i></button>
             </div>
 
             <div id="ug-sidenav" class="admissions-sidenav">
                 <div class="links-panel">
-                    <a href="#">Apply</a>
-                    <a href="#">Request information</a>
-                    <a href="#">Majors and minors</a>
-                    <a href="#">Visit campus</a>
-                    <a href="#">Cost and scholarships</a>
-                    <a href="#">Admissions process</a>
-                    <a href="#">Pay your deposit</a>
-                    <a href="#">Accepted students</a>
+                    <a href="http://www.messiah.edu/applynow">Apply</a>
+                    <a href="http://www.messiah.edu/request-info">Request information</a>
+                    <a href="http://www.messiah.edu/majors-minors-programs">Majors and minors</a>
+                    <a href="http://www.messiah.edu/info/21343/visit_campus">Visit campus</a>
+                    <a href="http://www.messiah.edu/info/21344/tuition_and_aid">Cost and scholarships</a>
+                    <a href="http://www.messiah.edu/info/21083/undergraduate_admissions">Admissions process</a>
+                    <a href="https://www.messiah.edu/deposit">Pay your deposit</a>
+                    <a href="https://www.messiah.edu/info/21342/accepted_students">Accepted students</a>
 
                     <a class="g-sidenav-btn" href="#">VISIT FULL SITE</a>
-                    
+
                 </div>
                 <button class="switch-program-btn"><span>Show me links to Graduate</span><i class="fas fa-exchange-alt"></i></button>
             </div>
