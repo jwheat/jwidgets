@@ -55,7 +55,7 @@
   padding: 16px 45px;
   width: 489px;
   border: 0;
-  font-family: "priori-sans", sans-serif;
+  font-family: "priori-sans-bold", sans-serif;
   font-size: 55px;
   font-weight: 700;
   color: #ffffff;
@@ -166,7 +166,7 @@
     transition-delay: .5s, 0s;
     right: 460px;
   }
-  
+
   #g-admissions-btn.active{
     transition-delay: .5s, 0s;
     left: 460px;
@@ -177,18 +177,18 @@
     width: 455px;
     transition: all .4s ease-in;
   }
-  
+
   #ug-sidenav{
     right: -455px;
     width: 455px;
     transition: all .4s ease-in;
   }
-  
+
   #g-sidenav.active{
     transition-delay: .5s;
     left: 0;
   }
-  
+
   #ug-sidenav.active{
     transition-delay: .5s;
     right: 0;
@@ -197,7 +197,7 @@
 }
 
 @media screen and (max-width: 999px) {
-  
+
   .undergraduate-container, .graduate-container{
     height: calc(50vh - 67.5px);
     width: 100%;
@@ -216,11 +216,11 @@
     transform: translateX(-50%);
     text-align: center;
   }
-  
+
   .undergraduate-container.hidden{
     width: 100%;
   }
-  
+
   .graduate-container.hidden{
     width: 100%;
   }
@@ -255,7 +255,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  
+
   .undergraduate-container, .graduate-container{
     height: calc(50vh - 42.5px);
   }
