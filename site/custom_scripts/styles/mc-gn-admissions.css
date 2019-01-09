@@ -46,6 +46,11 @@
   width: 100%;
 }
 
+.graduate-container.active button:hover, .undergraduate-container.active button:hover{
+  background-color: rgba(117,173,207,.85);
+  cursor: default;
+}
+
 .graduate-container.hidden{
   width: 0%;
 }
