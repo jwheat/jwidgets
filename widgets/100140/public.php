@@ -112,7 +112,7 @@
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left first-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/leadership">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/22387/degrees_and_certificates">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -127,7 +127,7 @@
                             </a>
                         </div>
                         <div class="col-33 square-panel-section-col-center second-cell">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/counseling">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/23251/degrees_and_certificates">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -142,7 +142,7 @@
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right third-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/rdn">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/graduate/dietetic-internship">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -159,7 +159,7 @@
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left fourth-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/education">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/23217/degrees_and_certificates">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -174,7 +174,7 @@
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-center fifth-cell">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/highered">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/23126/degree_programs">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -189,7 +189,7 @@
                             </a>
                         </div>
                         <div class="col-33 center square-panel-section-col-right sixth-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/conducting">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/23276/degrees_and_tracks">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -206,7 +206,7 @@
                     </div>
                     <div class="flexbox square-panel-section-row">
                         <div class="col-33 square-panel-section-col-left seventh-cell panel-slide-in">
-                            <a class="our-programs-link-panel" href="http://www.messiah.edu/gradnursing">
+                            <a class="our-programs-link-panel" href="https://www.messiah.edu/info/23125/degree_programs">
                                 <div class="img-container">
                                     <img
                                         class="lazyload-img"
@@ -502,7 +502,7 @@
             </picture>
             <div class="wrapper content center">
                 <h2>School of Graduate Studies</h2>
-                <h4>Messiah College’s School of Graduate Studies educates students for a lifetime of intellectual exploration, ethical leadership and exceptional professional practice within a complex world.</h4>
+                <p>Messiah College’s School of Graduate Studies educates students for a lifetime of intellectual exploration, ethical leadership and exceptional professional practice within a complex world.</p>
 
                 <a class="primary-button" href="https://www.messiah.edu/gradprograms">Learn more</a>
             </div>
