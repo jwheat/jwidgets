@@ -57,3 +57,4 @@
 
 
  <script type="text/javascript" src="<?php echo $folder; ?>mc-gn-admissions.js?v=<?php echo $version; ?>"></script>
+ <script type="text/javascript" src="<?php echo $folder; ?>js.cookie.js?v=<?php echo $version; ?>"></script>
