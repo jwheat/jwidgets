@@ -2,11 +2,10 @@ $(document).ready(function(){
   var faqItem = 1;
 
   // simulates receiving a cookie value to display the different versions of the page
-  /* Cookies.set('mc_student_type', '2'); */ // => graduate version active and undergraduate hidden
+  /* Cookies.set('mc_student_type', '1'); */
   var pageVersion = Cookies.get('mc_student_type'); // => 'cookie value'
 
-  console.log('page version: ' + pageVersion);
-  if (pageVersion == 2){
+  if (pageVersion == 1){
     var stickyTop = $('.graduate-tabs').position().top;
   }
   else{
@@ -43,7 +42,7 @@ $(document).ready(function(){
   });
 
   $(window).resize(function(){
-    if (pageVersion == 2){
+    if (pageVersion == 1){
       $('.graduate-tabs').removeClass('tabs-sticky');
       stickyTop = $('.graduate-tabs').position().top;  
     }
@@ -55,7 +54,8 @@ $(document).ready(function(){
   });
 
   $('.hero-btn').click(function(){
-    if (pageVersion == 2){
+    if (pageVersion == 1){
+      Cookies.set('mc_student_type', '0');
       $('#graduate-students').fadeOut(function(){
         $('#undergraduate-students').fadeIn(function(){
           jQuery(window).trigger('resize').trigger('scroll');
@@ -64,9 +64,11 @@ $(document).ready(function(){
       });
 
       stickyTop = $('.undergraduate-tabs').position().top;
-      pageVersion = 1;
+      pageVersion = 0;
+      console.log(pageVersion);
     }
     else{
+      Cookies.set('mc_student_type', '1');
       $('#undergraduate-students').fadeOut(function(){
         $('#graduate-students').fadeIn(function(){
           jQuery(window).trigger('resize').trigger('scroll');
@@ -75,7 +77,8 @@ $(document).ready(function(){
       });
 
       stickyTop = $('.graduate-tabs').position().top;
-      pageVersion = 2;
+      pageVersion = 1;
+      console.log(pageVersion);
     }
   });
 
@@ -156,75 +159,85 @@ $(document).ready(function(){
   $('.overview-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#overview").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#overview").offset().top}, 1000);
   });
 
   $('.our-programs-item').click(function() {
     $('our-programs-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#our-programs").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#our-programs").offset().top}, 1000);
   });
 
   $('.why-messiah-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#why-messiah").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#why-messiah").offset().top}, 1000);
   });
 
   $('.graduate-school-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#graduate-school").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#graduate-school").offset().top}, 1000);
   });
 
   // undergraduate
   $('.what-do-you-want-to-study-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#what-do-you-want-to-study").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#what-do-you-want-to-study").offset().top}, 1000);
   });
 
   $('.accelerated-options-item').click(function() {
-    $('our-programs-item').removeClass('active');
+    $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#accelerated-options").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#accelerated-options").offset().top}, 1000);
   });
 
   $('.academics-opportunities-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#academics-opportunities").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#academics-opportunities").offset().top}, 1000);
   });
 
   $('.academic-support-item').click(function() {
     $('.tab-item').removeClass('active');
     $(this).addClass('active');
-    $('html, body').animate({scrollTop: $("#academic-support").offset().top + 80}, 1000);
+    $('html, body').animate({scrollTop: $("#academic-support").offset().top}, 1000);
   });
 
   $('.explore-button').click(function() {
     $('.tab-item').removeClass('active');
-    if (pageVersion == 2)
-      $('html, body').animate({scrollTop: $("#overview").offset().top + 80}, 1000);
+    if (pageVersion == 1)
+      $('html, body').animate({scrollTop: $("#overview").offset().top}, 1000);
     else
-      $('html, body').animate({scrollTop: $("#overview-2").offset().top + 80}, 1000);
+      $('html, body').animate({scrollTop: $("#overview-2").offset().top}, 1000);
   });
   /*  ====== END scroll to sections ====== */
 
   $('#overview-of-academics-video').click(function() {
-		$('body').addClass('stop-scrolling');
-		var lightbox = lity('https://www.youtube.com/watch?v=J7VGXEWJXsg');
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=J7VGXEWJXsg');
+  });
+
+  $('#career-video-play').click(function() {
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=noqir6a6BRg');
+  });
+
+  $('#sustainability-video-play').click(function() {
+    $('body').addClass('stop-scrolling');
+    var lightbox = lity('https://www.youtube.com/watch?v=UQXD0jrQjkw');
   });
   
-	$(document).on('lity:close', function(event, instance) {
-		$('body').removeClass('stop-scrolling');
-  });	
+  $(document).on('lity:close', function(event, instance) {
+    $('body').removeClass('stop-scrolling');
+  }); 
   
   // show or hide sticky navigation bar at the top of the page
   function checkSticky() {
 
     var pos = $(window).scrollTop();
-    if (pageVersion == 2){
+    if (pageVersion == 1){
       if (pos > stickyTop) {
         $('.graduate-tabs').addClass('tabs-sticky');
         $(window).trigger('resize.px.parallax');
@@ -243,7 +256,7 @@ $(document).ready(function(){
   }//checkSticky
 
   function checkTabs() {
-    if(pageVersion == 2){
+    if(pageVersion == 1){
 
       if (isElementInView('#section-circle-flip')) {
         $('#section-circle-flip .circle-flip').addClass('inView');  
