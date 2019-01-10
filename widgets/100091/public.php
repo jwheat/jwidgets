@@ -39,93 +39,93 @@
 
     if ('%PARAM_BODYCOPY%' != '' && '%PARAM_BODYCOPY%' != '%PARAM_BODYCOPY'.'%') {
             $param_bodycopy = '%PARAM_BODYCOPY%';
-    }    
+    }
 
     if ('%PARAM_BUTTONTEXT_1%' != '' && '%PARAM_BUTTONTEXT_1%' != '%PARAM_BUTTONTEXT_1'.'%') {
             $param_buttontext_1 = '%PARAM_BUTTONTEXT_1%';
-    }    
+    }
 
     if ('%PARAM_BUTTONLINK_1%' != '' && '%PARAM_BUTTONLINK_1%' != '%PARAM_BUTTONLINK_1'.'%') {
             $param_buttonlink_1 = '%PARAM_BUTTONLINK_1%';
-    }    
+    }
 
     if ('%PARAM_BUTTONTEXT_2%' != '' && '%PARAM_BUTTONTEXT_2%' != '%PARAM_BUTTONTEXT_2'.'%') {
             $param_buttontext_2 = '%PARAM_BUTTONTEXT_2%';
-    }    
+    }
 
     if ('%PARAM_BUTTONLINK_2%' != '' && '%PARAM_BUTTONLINK_2%' != '%PARAM_BUTTONLINK_2'.'%') {
             $param_buttonlink_2 = '%PARAM_BUTTONLINK_2%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_1_IMAGE%' != '' && '%PARAM_QUOTE_1_IMAGE%' != '%PARAM_QUOTE_1_IMAGE'.'%') {
             $param_quote_1_image = '%PARAM_QUOTE_1_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_1_TITLE%' != '' && '%PARAM_QUOTE_1_TITLE%' != '%PARAM_QUOTE_1_TITLE'.'%') {
             $param_quote_1_title = '%PARAM_QUOTE_1_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_1_QUOTE%' != '' && '%PARAM_QUOTE_1_QUOTE%' != '%PARAM_QUOTE_1_QUOTE'.'%') {
             $param_quote_1_quote = '%PARAM_QUOTE_1_QUOTE%';
-    }    
+    }
 
 
     if ('%PARAM_QUOTE_2_IMAGE%' != '' && '%PARAM_QUOTE_2_IMAGE%' != '%PARAM_QUOTE_2_IMAGE'.'%') {
             $param_quote_2_image = '%PARAM_QUOTE_2_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_2_TITLE%' != '' && '%PARAM_QUOTE_2_TITLE%' != '%PARAM_QUOTE_2_TITLE'.'%') {
             $param_quote_2_title = '%PARAM_QUOTE_2_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_2_QUOTE%' != '' && '%PARAM_QUOTE_2_QUOTE%' != '%PARAM_QUOTE_2_QUOTE'.'%') {
             $param_quote_2_quote = '%PARAM_QUOTE_2_QUOTE%';
-    }   
+    }
 
     if ('%PARAM_QUOTE_3_IMAGE%' != '' && '%PARAM_QUOTE_3_IMAGE%' != '%PARAM_QUOTE_3_IMAGE'.'%') {
             $param_quote_3_image = '%PARAM_QUOTE_3_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_3_TITLE%' != '' && '%PARAM_QUOTE_3_TITLE%' != '%PARAM_QUOTE_3_TITLE'.'%') {
             $param_quote_3_title = '%PARAM_QUOTE_3_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_3_QUOTE%' != '' && '%PARAM_QUOTE_3_QUOTE%' != '%PARAM_QUOTE_3_QUOTE'.'%') {
             $param_quote_3_quote = '%PARAM_QUOTE_3_QUOTE%';
-    }       
+    }
 
 
     if ('%PARAM_QUOTE_4_IMAGE%' != '' && '%PARAM_QUOTE_4_IMAGE%' != '%PARAM_QUOTE_4_IMAGE'.'%') {
             $param_quote_4_image = '%PARAM_QUOTE_4_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_4_TITLE%' != '' && '%PARAM_QUOTE_4_TITLE%' != '%PARAM_QUOTE_4_TITLE'.'%') {
             $param_quote_4_title = '%PARAM_QUOTE_4_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_4_QUOTE%' != '' && '%PARAM_QUOTE_4_QUOTE%' != '%PARAM_QUOTE_4_QUOTE'.'%') {
             $param_quote_4_quote = '%PARAM_QUOTE_4_QUOTE%';
-    }   
+    }
 
     if ('%PARAM_QUOTE_5_IMAGE%' != '' && '%PARAM_QUOTE_5_IMAGE%' != '%PARAM_QUOTE_5_IMAGE'.'%') {
             $param_quote_5_image = '%PARAM_QUOTE_5_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_5_TITLE%' != '' && '%PARAM_QUOTE_5_TITLE%' != '%PARAM_QUOTE_5_TITLE'.'%') {
             $param_quote_5_title = '%PARAM_QUOTE_5_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_5_QUOTE%' != '' && '%PARAM_QUOTE_5_QUOTE%' != '%PARAM_QUOTE_5_QUOTE'.'%') {
             $param_quote_5_quote = '%PARAM_QUOTE_5_QUOTE%';
-    } 
+    }
 
     if ('%PARAM_QUOTE_6_IMAGE%' != '' && '%PARAM_QUOTE_6_IMAGE%' != '%PARAM_QUOTE_6_IMAGE'.'%') {
             $param_quote_6_image = '%PARAM_QUOTE_6_IMAGE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_6_TITLE%' != '' && '%PARAM_QUOTE_6_TITLE%' != '%PARAM_QUOTE_6_TITLE'.'%') {
             $param_quote_6_title = '%PARAM_QUOTE_6_TITLE%';
-    }    
+    }
 
     if ('%PARAM_QUOTE_6_QUOTE%' != '' && '%PARAM_QUOTE_6_QUOTE%' != '%PARAM_QUOTE_6_QUOTE'.'%') {
             $param_quote_6_quote = '%PARAM_QUOTE_6_QUOTE%';
@@ -146,7 +146,7 @@
                     </p>
                 </div>
                 <div class="col-50 center">
-                    <img src="<?php echo $folder; ?>img/athletics/game-day.png" alt="">
+                    <img src="<?php echo $folder; ?>img/athletics/game-day2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
                 <!-- <div class="ath-slider-nav-left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
                 <div class="ath-slider-nav-right"><i class="fa fa-angle-right" aria-hidden="true"></i></div> -->
                 <div class="ath-slide-wrapper wild-crowd">
-                
+
                 <?php if ( !empty($param_quote_1_title) ) { ?>
 
                     <div class="ath-slide">
@@ -220,7 +220,7 @@
                         <div class="ath-slide-info">
                             <p>“<?php echo $param_quote_6_quote; ?>”</p>
                         </div>
-                    </div>                    
+                    </div>
 
                 <?php } ?>
 
