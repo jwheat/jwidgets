@@ -148,6 +148,14 @@ $(document).ready(function(){
     $('.ao-info').hide();
     $('#ao-overlay-6').show();
   });
+  
+  $('#academics-opportunities .circle-overlay').click(function(){
+    $('html, body').animate({scrollTop: $("#academics-opportunities").offset().top}, 600);
+  });
+
+  $('#why-messiah .circle-overlay').click(function(){
+    $('html, body').animate({scrollTop: $("#why-messiah").offset().top}, 600);
+  });
 
   $('.academic-opportunities-overlay .close-button').click(function() {
     $('.ao-info').show();
