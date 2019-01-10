@@ -536,7 +536,7 @@
                     <img
                         class="lazyload-img hero-img"
                         src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/academics/academics-hero-2.jpg" />
+                        data-src="<?php echo $folder; ?>img/academics/academics-hero6.jpg" />
                 </picture>
             </div>
             <div class="hero-title-wrapper">
