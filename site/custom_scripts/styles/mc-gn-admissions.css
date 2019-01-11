@@ -103,7 +103,7 @@
 }
 
 .admissions-sidenav .links-panel{
-  margin-top: 270px;
+  margin-top: 200px;
   position: relative;
   width: 270px;
   margin-right: auto;
@@ -114,12 +114,24 @@
   font-family:'Aptifer Sans LT W01', sans-serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 46px;
+  margin-bottom: 15px;
   text-decoration: none;
   font-size: 25px;
   color: #273d5e;
   display: block;
   transition: all 0.3s ease;
+}
+
+@media screen and ( max-height: 700px ){
+    .admissions-sidenav a {
+      margin-bottom: 8px;
+    }
+    .admissions-sidenav .links-panel{
+      margin-top: 160px;
+    }
+    .switch-program-btn {
+        display: none;
+    }
 }
 
 .admissions-sidenav a:hover {
@@ -132,12 +144,13 @@
 
 .admissions-sidenav .g-sidenav-btn{
   box-sizing: border-box;
+  line-height: 46px;
   background-color: #435672;
   color: #ffffff;
   font-size: 16px;
   width: 191px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 36px;
   border-radius: 5px;
   transition: all 0.3s ease;
 }

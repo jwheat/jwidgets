@@ -5,6 +5,7 @@ $('#ug-admissions-btn').click(function(){
     $('#ug-admissions-btn').addClass('active');
 
     admission = 1;
+    Cookies.set('mc_student_type', '0');
 });
 
 $('#g-admissions-btn').click(function(){
@@ -14,6 +15,7 @@ $('#g-admissions-btn').click(function(){
     $('#g-admissions-btn').addClass('active');
 
     admission = 2;
+    Cookies.set('mc_student_type', '1');
 });
 
 $('.switch-program-btn').click(function(){
@@ -29,6 +31,7 @@ $('.switch-program-btn').click(function(){
         $('#g-admissions-btn').addClass('active');
 
         admission = 2;
+        Cookies.set('mc_student_type', '1');
     }
     else{
         $('.undergraduate-container').removeClass('hidden');
@@ -42,6 +45,7 @@ $('.switch-program-btn').click(function(){
         $('#ug-admissions-btn').addClass('active');
 
         admission = 1;
+        Cookies.set('mc_student_type', '0');
     }
 });
 

@@ -30,7 +30,7 @@
                     <a href="http://www.messiah.edu/info/21207/tuition_and_fees">Cost and aid</a>
                     <a href="http://www.messiah.edu/info/21324/admissions_process">Admissions process</a>
 
-                    <a class="g-sidenav-btn" href="#">VISIT FULL SITE</a>
+                    <a class="g-sidenav-btn" href="http://www.messiah.edu/info/21084/graduate_admissions?mm3">VISIT FULL SITE</a>
 
                 </div>
                 <button class="switch-program-btn"><span>Show me links to Undergraduate</span><i class="fas fa-exchange-alt"></i></button>
@@ -47,7 +47,7 @@
                     <a href="https://www.messiah.edu/deposit">Pay your deposit</a>
                     <a href="https://www.messiah.edu/info/21342/accepted_students">Accepted students</a>
 
-                    <a class="g-sidenav-btn" href="#">VISIT FULL SITE</a>
+                    <a class="g-sidenav-btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions?mm3">VISIT FULL SITE</a>
 
                 </div>
                 <button class="switch-program-btn"><span>Show me links to Graduate</span><i class="fas fa-exchange-alt"></i></button>
