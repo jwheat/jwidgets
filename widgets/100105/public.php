@@ -25,7 +25,7 @@
                 <img 
                     class="lazyload-img hero-img" 
                     src="<?php echo $folder; ?>img/student-life/handtinytrans.gif"
-                    data-src="<?php echo $folder; ?>img/student-life/student-life-hero-3.jpg" />
+                    data-src="<?php echo $folder; ?>img/student-life/student-life-hero-4.jpg" />
             </picture>
         </div>
 
