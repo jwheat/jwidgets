@@ -13,6 +13,7 @@
 .undergraduate-container, .graduate-container{
   position:relative;
   background-color: #cccccc;
+  min-height: 700px;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,11 +104,7 @@
 }
 
 .admissions-sidenav .links-panel{
-  margin-top: 200px;
-  position: relative;
   width: 270px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .admissions-sidenav a {
@@ -127,11 +124,9 @@
       margin-bottom: 8px;
     }
     .admissions-sidenav .links-panel{
-      margin-top: 160px;
+      margin-top: 80px;
     }
-    .switch-program-btn {
-        display: none;
-    }
+
 }
 
 .admissions-sidenav a:hover {
@@ -193,12 +188,18 @@
   #g-sidenav{
     left: -455px;
     width: 455px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .4s ease-in;
   }
 
   #ug-sidenav{
     right: -455px;
     width: 455px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .4s ease-in;
   }
 
