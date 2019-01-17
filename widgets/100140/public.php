@@ -1050,7 +1050,7 @@
                     <a href="https://www.messiah.edu/info/20029/schools_and_departments" class="primary-button">Schools and departments</a>
                     <a href="https://www.messiah.edu/recognitions" class="primary-button">Academic recognitions</a>
                     <a href="https://www.messiah.edu/info/21764/college_wide_educational_objectives/2949/undergraduate" class="primary-button">Learning outcomes</a>
-                    <a href="http://www.messiah.edu/camps" class="primary-button">academic summer camp</a>
+                    <a href="http://www.messiah.edu/camps" class="primary-button">academic summer camps</a>
                 </div>
             </div>
         </div>
