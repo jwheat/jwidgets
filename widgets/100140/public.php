@@ -939,7 +939,8 @@ Messiah College provides an educational experience purposefully designed to help
                        <div class="col-50 center">
                             <div class="overlay-video-wrapper">
                                 <img src="<?php echo $folder; ?>img/academics/honors-video.jpg" alt="" />
-                                <a class="video-play" id="honors-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                                <!-- Remove Button 
+                                <a class="video-play" id="honors-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a> -->
                             </div>
                         </div>
                     </div>
