@@ -33,6 +33,7 @@
 .graduate-container{
   background-image: url("/site/custom_scripts/styles/img/gn-admissions/graduate-admissions-bg.jpg");
   width: 50%;
+  background-position: right center;
 }
 
 .undergraduate-container.active{
@@ -219,6 +220,7 @@
 
   .undergraduate-container, .graduate-container{
     height: calc(50vh - 67.5px);
+    min-height: unset;
     width: 100%;
   }
 
