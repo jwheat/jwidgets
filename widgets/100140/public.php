@@ -4,13 +4,13 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '2';
+    $version = '3';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
   if (isset($_COOKIE['mc_student_type'])) {
     if ($_COOKIE['mc_student_type'] == '0') {
-      $pageVersion = "2";
+      $pageVersion = "3";
     }
   }
 ?>
@@ -866,7 +866,8 @@ Messiah College provides an educational experience purposefully designed to help
                         <div class="col-50 center">
                             <div class="overlay-video-wrapper">
                                 <img src="<?php echo $folder; ?>img/academics/ao-research-video.jpg" alt="" />
-                                <a class="video-play" id="research-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>
+                                <!-- Remove Button 
+                                <a class="video-play" id="research-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>-->
                             </div>
                         </div>
                     </div>
@@ -939,8 +940,7 @@ Messiah College provides an educational experience purposefully designed to help
                        <div class="col-50 center">
                             <div class="overlay-video-wrapper">
                                 <img src="<?php echo $folder; ?>img/academics/honors-video.jpg" alt="" />
-                                <!-- Remove Button 
-                                <a class="video-play" id="honors-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a> -->
+                                <!-- Remove Button <a class="video-play" id="honors-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a> -->
                             </div>
                         </div>
                     </div>
