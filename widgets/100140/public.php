@@ -4,13 +4,13 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '3';
+    $version = '2';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
   if (isset($_COOKIE['mc_student_type'])) {
     if ($_COOKIE['mc_student_type'] == '0') {
-      $pageVersion = "3";
+      $pageVersion = "2";
     }
   }
 ?>
@@ -1051,6 +1051,7 @@ Messiah College provides an educational experience purposefully designed to help
                     <a href="https://www.messiah.edu/info/20029/schools_and_departments" class="primary-button">Schools and departments</a>
                     <a href="https://www.messiah.edu/recognitions" class="primary-button">Academic recognitions</a>
                     <a href="https://www.messiah.edu/info/21764/college_wide_educational_objectives/2949/undergraduate" class="primary-button">Learning outcomes</a>
+                    <a href="http://www.messiah.edu/camps" class="primary-button">academic summer camp</a>
                 </div>
             </div>
         </div>
