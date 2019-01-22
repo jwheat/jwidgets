@@ -663,52 +663,64 @@
                 <p>There are many ways to streamline your education at Messiah—and save time and money. Taking college classes while still in high school, earning multiple degrees at once or partnering with other institutions to earn an advanced degree are just a few of the ways Messiah partners with you to graduate college on your time. </p>
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
-                        <div class="col-50 square-panel-section-col-left">
+                        <div class="col-33 sps square-panel-section-col-left">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                                 data-src="<?php echo $folder; ?>img/academics/ao-panel-1.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>Summer Online</h4>
+                                <h4>EARLY ASSURANCE</h4>
                                 <p>Earn the academic credits you need with Messiah College’s flexible, affordable online summer courses.</p>
                                 <a class="primary-button" href="http://www.messiah.edu/info/20104/undergrad_online">read more</a>
                             </div>
                         </div>
-                        <div class="col-50 center square-panel-section-col-right">
+                        <div class="col-33 center sps square-panel-section-col-center">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                                 data-src="<?php echo $folder; ?>img/academics/ao-panel-2.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>Dual Enrollment</h4>
+                                <h4>3-year degree</h4>
+                                <p>Dual enrollment provides motivated high school juniors and seniors the opportunity to take college courses that satisfy both high school graduation and college credit requirements.</p>
+                                <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-33 center sps square-panel-section-col-right">
+                            <img
+                                class="lazyload-img"
+                                src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                data-src="<?php echo $folder; ?>img/academics/ao-panel-2.jpg"
+                                alt="" />
+                            <div class="block-overlay">
+                                <h4>3+ Partner Programs</h4>
                                 <p>Dual enrollment provides motivated high school juniors and seniors the opportunity to take college courses that satisfy both high school graduation and college credit requirements.</p>
                                 <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
-                        <div class="col-50 square-panel-section-col-left">
+                        <div class="col-50 sps square-panel-section-col-left">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                                 data-src="<?php echo $folder; ?>img/academics/ao-3-year.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>3-year degree</h4>
+                                <h4>Dual Enrollment</h4>
                                 <p>At Messiah, you have the opportunity to leverage your investment and achieve your goals ahead of schedule in certain majors by earning your bachelor's degree in three or 3½ years.</p>
                                 <a class="primary-button" href="http://www.messiah.edu/info/20103/three-year_degree_options">read more</a>
                             </div>
                         </div>
-                        <div class="col-50 center square-panel-section-col-right">
+                        <div class="col-50 sps center square-panel-section-col-right">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                                 data-src="<?php echo $folder; ?>img/academics/ao-partner-program.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>3+ Partner Programs</h4>
+                                <h4>Summer Online</h4>
                                 <p>3+ Partner Programs, provide you with the opportunity to streamline your undergraduate and advanced degrees.</p>
                                 <a class="primary-button" href="http://www.messiah.edu/3-allied-programs">read more</a>
                             </div>
