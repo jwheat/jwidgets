@@ -3,7 +3,7 @@
   src: url('fonts/priori-sans-regular-1361508596-webfont.eot');
   src: url('fonts/priori-sans-regular-1361508596-webfont.eot?#iefix') format('embedded-opentype'),
        url('fonts/priori-sans-regular-1361508596-webfont.woff2') format('woff2'),
-       url('fonts/priori-sans-regular-1361508596-webfont.woff') format('woff');
+       url('fonts/priori-sans-regular-1361508596-webfont.woff') format('woff'); 
   font-weight: normal;
   font-style: normal;
 }
@@ -741,6 +741,14 @@ aside {
 
 .square-panel-section{
     background: url(img/dev-office/pattern-bg.png) center top repeat scroll;
+}
+
+.square-panel-section .hw-narrow {
+    height: 300px; 
+}
+
+.square-panel-section .hw-short {
+    height 250px; 
 }
 
 .square-panel-section .wrapper.content {
