@@ -743,12 +743,12 @@ aside {
     background: url(img/dev-office/pattern-bg.png) center top repeat scroll;
 }
 
-.square-panel-section .hw-narrow {
+.square-panel-section-wrapper .hw-narrow {
     height: 300px; 
 }
 
-.square-panel-section .hw-short {
-    height 250px; 
+.square-panel-section-wrapper .hw-short {
+    height: 220px; 
 }
 
 .square-panel-section .wrapper.content {
