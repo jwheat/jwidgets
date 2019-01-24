@@ -663,7 +663,7 @@
                 <p>There are many ways to streamline your education at Messiah—and save time and money. Taking college classes while still in high school, earning multiple degrees at once or partnering with other institutions to earn an advanced degree are just a few of the ways Messiah partners with you to graduate college on your time. </p>
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
-                        <div class="col-33 sps square-panel-section-col-left">
+                        <div class="col-33 sps square-panel-section-col-left hw-narrow">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
@@ -675,7 +675,7 @@
                                 <a class="primary-button" href="http://www.messiah.edu/info/20104/undergrad_online">read more</a>
                             </div>
                         </div>
-                        <div class="col-33 center sps square-panel-section-col-center">
+                        <div class="col-33 center sps square-panel-section-col-center hw-narrow">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
@@ -687,7 +687,7 @@
                                 <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
                             </div>
                         </div>
-                        <div class="col-33 center sps square-panel-section-col-right">
+                        <div class="col-33 center sps square-panel-section-col-right hw-narrow">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
@@ -701,7 +701,7 @@
                         </div>
                     </div>
                     <div class="flexbox square-panel-section-row">
-                        <div class="col-50 sps square-panel-section-col-left">
+                        <div class="col-50 sps square-panel-section-col-left hw-short">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
@@ -713,7 +713,7 @@
                                 <a class="primary-button" href="http://www.messiah.edu/info/20103/three-year_degree_options">read more</a>
                             </div>
                         </div>
-                        <div class="col-50 sps center square-panel-section-col-right">
+                        <div class="col-50 sps center square-panel-section-col-right hw-short">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
