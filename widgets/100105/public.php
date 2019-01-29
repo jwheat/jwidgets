@@ -3,10 +3,19 @@
   //$dev = true;
   $version = date('YmdHis');
   $folder = '';
+  $param_headline = 'Home Away<br>from Home';
+  $param_subhead = "Student Life at Messiah";
   if (!$dev) {
-    $version = '1';
+    $version = '2';
     $folder = '/site/custom_scripts/styles/';
-  }
+
+    if ('%PARAM_HEADLINE%' != '' && '%PARAM_HEADLINE%' != '%PARAM_HEADLINE' . '%') {
+      $param_headline = '%PARAM_HEADLINE%';
+    }
+    if ('%PARAM_SUBHEAD%' != '' && '%PARAM_SUBHEAD%' != '%PARAM_SUBHEAD' . '%') {
+      $param_subhead = '%PARAM_SUBHEAD%';
+    }
+  }  
 ?>
     <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $folder; ?>slick.css">
@@ -30,9 +39,9 @@
         </div>
 
         <div class="fs-wrapper">
-            <h2>Home Away<br>from Home</h2>
+            <h2><?php echo $param_headline;?></h2>
             <hr>
-            <p>Student Life at Messiah</p>
+            <p><?php echo $param_subhead;?></p>
         </div>
         
         <div class="student-life-tabs hide-on-mobile">
