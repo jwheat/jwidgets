@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '2';
+    $version = '3';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
@@ -670,9 +670,9 @@
                                 data-src="<?php echo $folder; ?>img/academics/ao-panel-1.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>EARLY ASSURANCE</h4>
-                                <p>Earn the academic credits you need with Messiah College’s flexible, affordable online summer courses.</p>
-                                <a class="primary-button" href="http://www.messiah.edu/info/20104/undergrad_online">read more</a>
+                                <h4>Accelerated master's in athletic training </h4>
+                                <p>Obtain a B.S. and a master's in athletic training in just five years.</p>
+                                <a class="primary-button" href="https://www.messiah.edu/athletic-training">read more</a>
                             </div>
                         </div>
                         <div class="col-33 center sps square-panel-section-col-center hw-narrow">
@@ -683,20 +683,20 @@
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>3-year degree</h4>
-                                <p>Dual enrollment provides motivated high school juniors and seniors the opportunity to take college courses that satisfy both high school graduation and college credit requirements.</p>
-                                <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
+                                <p>Earn your bachelor's degree early—in three or 3½ years.</p>
+                                <a class="primary-button" href="http://www.messiah.edu/info/20103/three-year_degree_options">read more</a>
                             </div>
                         </div>
                         <div class="col-33 center sps square-panel-section-col-right hw-narrow">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-panel-2.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-3-year.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>3+ Partner Programs</h4>
-                                <p>Dual enrollment provides motivated high school juniors and seniors the opportunity to take college courses that satisfy both high school graduation and college credit requirements.</p>
-                                <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
+                                <p>Streamline your undergraduate and advanced degrees.</p>
+                                <a class="primary-button" href="http://www.messiah.edu/3-allied-programs">read more</a>
                             </div>
                         </div>
                     </div>
@@ -705,24 +705,24 @@
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-3-year.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-dual-enrollment-2.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>Dual Enrollment</h4>
-                                <p>At Messiah, you have the opportunity to leverage your investment and achieve your goals ahead of schedule in certain majors by earning your bachelor's degree in three or 3½ years.</p>
-                                <a class="primary-button" href="http://www.messiah.edu/info/20103/three-year_degree_options">read more</a>
+                                <p>Take college courses that meet high school graduation and college credit requirements.</p>
+                                <a class="primary-button" href="http://www.messiah.edu/info/20102/dual_enrollment">read more</a>
                             </div>
                         </div>
                         <div class="col-50 sps center square-panel-section-col-right hw-short">
                             <img
                                 class="lazyload-img"
                                 src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                data-src="<?php echo $folder; ?>img/academics/ao-partner-program.jpg"
+                                data-src="<?php echo $folder; ?>img/academics/ao-summer-online-2.jpg"
                                 alt="" />
                             <div class="block-overlay">
                                 <h4>Summer Online</h4>
-                                <p>3+ Partner Programs, provide you with the opportunity to streamline your undergraduate and advanced degrees.</p>
-                                <a class="primary-button" href="http://www.messiah.edu/3-allied-programs">read more</a>
+                                <p>Earn academic credits with flexible, affordable online summer courses.</p>
+                                <a class="primary-button" href="http://www.messiah.edu/info/20104/undergrad_online">read more</a>
                             </div>
                         </div>
                     </div>
@@ -877,7 +877,7 @@
                         <div class="col-50 center">
                             <div class="overlay-video-wrapper">
                                 <img src="<?php echo $folder; ?>img/academics/ao-research-video.jpg" alt="" />
-                                <!-- Remove Button 
+                                <!-- Remove Button
                                 <a class="video-play" id="research-video-play"><img src="<?php echo $folder; ?>img/academics/play-w.png" alt=""></a>-->
                             </div>
                         </div>
