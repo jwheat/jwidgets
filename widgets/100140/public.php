@@ -262,7 +262,19 @@
                 <p class="why-messiah-description">Messiah’s graduate programs are designed to challenge your intellect, engage your faith and fit your busy lifestyle. </p>
                 <div id="section-circle-flip">
                     <div class="flexbox circle-flip">
-                        <div class="col-50">
+                      <div class="col-33">
+                          <div class="circle-container">
+                              <img
+                                  id="circle-0-img"
+                                  class="why-messiah-image lazyload-img"
+                                  src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
+                                  data-src="<?php echo $folder; ?>img/academics/competitively-priced-circle-2.png"
+                                  alt="" />
+                              <div class="circle-overlay open-overlay-0"></div>
+                          </div>
+                          <h3>Competitively priced</h3>
+                      </div>
+                        <div class="col-33">
                             <div class="circle-container">
                                 <img
                                     id="circle-1-img"
@@ -274,7 +286,7 @@
                             </div>
                             <h3>Academic excellence</h3>
                         </div>
-                        <div class="col-50">
+                        <div class="col-33">
                             <div class="circle-container">
                                 <img
                                     id="circle-2-img"
@@ -315,6 +327,37 @@
                     </div>
                 </div>
             </div>
+            <!-- Overlay 0 -->
+            <div class="why-messiah-overlay" id="overlay-0" style="display:none;">
+                <div class="wrapper content">
+                    <div class="close-button">
+                        <a><i class="fa fa-times" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="center">
+                        <h2>Why Messiah?</h2>
+                        <ul class="why-messiah-overlay-tabs">
+                            <li><a class="active">Competitively priced</a></li>
+                            <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="open-overlay-2">Faith commitment</a></li>
+                            <li><a class="open-overlay-3">Exceptional faculty</a></li>
+                            <li><a class="open-overlay-4">Flexible class formats</a></li>
+                        </ul>
+                    </div>
+
+                    <h3 class="center"><span>Competitively priced</span></h3>
+
+                    <div class="flexbox">
+                        <div class="col-60">
+                            <p>Messiah College offers a variety of financial aid and discount opportunities to graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
+                            <a class="primary-button" href="https://www.messiah.edu/info/21313/financial_aid_for_graduate_programs">Financial Aid </a>
+                            <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition and Fees </a>
+                        </div>
+                        <div class="col-40 center">
+                            <img src="<?php echo $folder; ?>img/academics/competitively-priced-modal.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Overlay 1 -->
             <div class="why-messiah-overlay" id="overlay-1" style="display:none;">
@@ -325,6 +368,7 @@
                     <div class="center">
                         <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
+                            <li><a class="open-overlay-0">Competitively priced</a></li>
                              <li><a class="active">Academic excellence</a></li>
                             <li><a class="open-overlay-2">Faith commitment</a></li>
                             <li><a class="open-overlay-3">Exceptional faculty</a></li>
@@ -354,6 +398,7 @@
                     <div class="center">
                         <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
+                            <li><a class="open-overlay-0">Competitively priced</a></li>
                             <li><a class="open-overlay-1">Academic excellence</a></li>
                             <li><a class="active">Faith commitment</a></li>
                             <li><a class="open-overlay-3">Exceptional faculty</a></li>
@@ -383,7 +428,8 @@
                     <div class="center">
                         <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                             <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="open-overlay-0">Competitively priced</a></li>
+                            <li><a class="open-overlay-1">Academic excellence</a></li>
                             <li><a class="open-overlay-2">Faith commitment</a></li>
                             <li><a class="active">Exceptional faculty</a></li>
                             <li><a class="open-overlay-4">Flexible class formats</a></li>
@@ -412,7 +458,8 @@
                     <div class="center">
                         <h2>Why Messiah?</h2>
                         <ul class="why-messiah-overlay-tabs">
-                             <li><a class="open-overlay-1">Academic excellence</a></li>
+                            <li><a class="open-overlay-0">Competitively priced</a></li>
+                            <li><a class="open-overlay-1">Academic excellence</a></li>
                             <li><a class="open-overlay-2">Faith commitment</a></li>
                             <li><a class="open-overlay-3">Exceptional faculty</a></li>
                             <li><a class="active">Flexible class formats</a></li>
@@ -670,7 +717,7 @@
                                 data-src="<?php echo $folder; ?>img/academics/ao-panel-1.jpg"
                                 alt="" />
                             <div class="block-overlay">
-                                <h4>Accelerated master's in athletic training </h4>
+                                <h4>Athletic training </h4>
                                 <p>Obtain a B.S. and a master's in athletic training in just five years.</p>
                                 <a class="primary-button" href="https://www.messiah.edu/athletic-training">read more</a>
                             </div>
