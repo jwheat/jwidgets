@@ -268,7 +268,7 @@
                                   id="circle-0-img"
                                   class="why-messiah-image lazyload-img"
                                   src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                  data-src="<?php echo $folder; ?>img/academics/competitively-priced-circle-2.png"
+                                  data-src="<?php echo $folder; ?>img/academics/academic-excellence-circle.png"
                                   alt="" />
                               <div class="circle-overlay open-overlay-0"></div>
                           </div>
@@ -280,7 +280,7 @@
                                     id="circle-1-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/exceptional-faculty-circle.png"
+                                    data-src="<?php echo $folder; ?>img/academics/faith-commitment-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-1"></div>
                             </div>
@@ -292,7 +292,7 @@
                                     id="circle-2-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/academic-excellence-circle.png"
+                                    data-src="<?php echo $folder; ?>img/academics/competitively-priced-circle-2.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-2"></div>
                             </div>
@@ -306,7 +306,7 @@
                                     id="circle-3-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/faith-commitment-circle.png"
+                                    data-src="<?php echo $folder; ?>img/academics/exceptional-faculty-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-3"></div>
                             </div>
@@ -348,12 +348,12 @@
 
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Messiah College offers a variety of financial aid and discount opportunities to graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
+                            <p>Messiah College strives to keep our graduate programs competitively priced and accessible, and we offer a variety of financial aid and discount opportunities to our graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
                             <a class="primary-button" href="https://www.messiah.edu/info/21313/financial_aid_for_graduate_programs">Financial Aid </a>
                             <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition and Fees </a>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/competitively-priced-modal.jpg" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/academic-excellence.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                             <p>Messiah College successfully integrates top-tier academics and Christian faith. To meet the need of working professionals, our curriculum and coursework is designed to be instantly relevant to your career. </p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/academic-excellence.jpg" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/faith-commitment.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
                             <p>Messiah College is a Christian college of the liberal and applied arts and sciences with a mission of educating men and women for lives of service, leadership and reconciliation. As a graduate student, you will be called to view your career and education through the lens of faith as you experience our distinct Christian and values-based education.</p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/faith-commitment.jpg" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/competitively-priced-modal.jpg" alt="" />
                         </div>
                     </div>
                 </div>
