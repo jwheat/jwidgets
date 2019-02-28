@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <!-- ====== SECTION N_1 ====== -->
+        <!-- ====== SECTION N_1 ====== -->and
         <div class="section overview" id="overview">
             <div class="wrapper content">
                 <h2 class="center">Graduate studies academic overview</h2>
@@ -280,7 +280,7 @@
                                     id="circle-1-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/faith-commitment-circle.png"
+                                    data-src="<?php echo $folder; ?>img/academics/competitively-priced-circle-2.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-1"></div>
                             </div>
@@ -292,7 +292,7 @@
                                     id="circle-2-img"
                                     class="why-messiah-image lazyload-img"
                                     src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                                    data-src="<?php echo $folder; ?>img/academics/competitively-priced-circle-2.png"
+                                    data-src="<?php echo $folder; ?>img/academics/faith-commitment-circle.png"
                                     alt="" />
                                 <div class="circle-overlay open-overlay-2"></div>
                             </div>
@@ -349,8 +349,10 @@
                     <div class="flexbox">
                         <div class="col-60">
                             <p>Messiah College strives to keep our graduate programs competitively priced and accessible, and we offer a variety of financial aid and discount opportunities to our graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
+                            <h3>No-fee tuition</h3>
+                            <p>At Messiah College, non-residential graduate programs feature no-fee tuition. The cost per credit is what you pay–there are no hidden fees for labs, courses, services or technology. We put the true cost of your program upfront so that you can accurately compare and plan for your graduate education.</p>
                             <a class="primary-button" href="https://www.messiah.edu/info/21313/financial_aid_for_graduate_programs">Financial Aid </a>
-                            <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition and Fees </a>
+                            <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition</a>
                         </div>
                         <div class="col-40 center">
                             <img src="<?php echo $folder; ?>img/academics/academic-excellence.jpg" alt="" />
@@ -383,7 +385,7 @@
                             <p>Messiah College successfully integrates top-tier academics and Christian faith. To meet the need of working professionals, our curriculum and coursework is designed to be instantly relevant to your career. </p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/faith-commitment.jpg" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/competitively-priced-modal.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -413,7 +415,7 @@
                             <p>Messiah College is a Christian college of the liberal and applied arts and sciences with a mission of educating men and women for lives of service, leadership and reconciliation. As a graduate student, you will be called to view your career and education through the lens of faith as you experience our distinct Christian and values-based education.</p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/academics/competitively-priced-modal.jpg" alt="" />
+                            <img src="<?php echo $folder; ?>img/academics/faith-commitment.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -561,7 +563,7 @@
                 <h3>Continue Exploring</h3>
                 <div>
                     <a href="https://www.messiah.edu/download/downloads/id/2318/GraduateStudiesCatalog.pdf" class="primary-button">Graduate catalog (PDF)</a>
-                    <a href="https://www.messiah.edu/info/22941/tuition_and_fees" class="primary-button">Graduate tuition and fees</a>
+                    <a href="https://www.messiah.edu/info/22941/tuition_and_fees" class="primary-button">Graduate tuition</a>
                     <a href="https://www.messiah.edu/info/21084/graduate_admissions" class="primary-button">Graduate admissions</a>
                     <a href="https://www.messiah.edu/info/22865/student_services_and_information" class="primary-button">Graduate student services</a>
                 </div>
