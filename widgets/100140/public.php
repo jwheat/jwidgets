@@ -33,7 +33,7 @@
                     <img
                         class="lazyload-img hero-img"
                         src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/academics/academics-hero.jpg" />
+                        data-src="<?php echo $folder; ?>img/academics/academics-hero-grad.jpg" />
                 </picture>
             </div>
             <div class="hero-title-wrapper">
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <!-- ====== SECTION N_1 ====== -->and
+        <!-- ====== SECTION N_1 ====== -->
         <div class="section overview" id="overview">
             <div class="wrapper content">
                 <h2 class="center">Graduate studies academic overview</h2>
