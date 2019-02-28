@@ -349,8 +349,7 @@
                     <div class="flexbox">
                         <div class="col-60">
                             <p>Messiah College strives to keep our graduate programs competitively priced and accessible, and we offer a variety of financial aid and discount opportunities to our graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
-                            <h3>No-fee tuition</h3>
-                            <p>At Messiah College, non-residential graduate programs feature no-fee tuition. The cost per credit is what you pay–there are no hidden fees for labs, courses, services or technology. We put the true cost of your program upfront so that you can accurately compare and plan for your graduate education.</p>
+                            <p><strong>No-fee tuition</strong></br>At Messiah College, non-residential graduate programs feature no-fee tuition. The cost per credit is what you pay–there are no hidden fees for labs, courses, services or technology. We put the true cost of your program upfront so that you can accurately compare and plan for your graduate education.</p>
                             <a class="primary-button" href="https://www.messiah.edu/info/21313/financial_aid_for_graduate_programs">Financial Aid </a>
                             <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition</a>
                         </div>
