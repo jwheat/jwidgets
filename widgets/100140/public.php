@@ -96,7 +96,7 @@
                             src="<?php echo $folder; ?>img/academics/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/academics/students-hug.png"
                             alt="on campus icon" />
-                        <p>Messiah College has <span>641 graduate students</span> representing <span>38 states and four countries.</span></p>
+                        <p>Messiah College has <span>787 graduate students</span> representing <span>38 states and four countries.</span></p>
                     </div>
                 </div>
                 <div class="overview-btn-wrapper center">
@@ -152,7 +152,7 @@
                                     <div class="img-overlay"></div>
                                 </div>
                                 <div class="block-overlay">
-                                    <h4>dietic internship</h4>
+                                    <h4>Dietetic internship</h4>
                                 </div>
                             </a>
                         </div>
