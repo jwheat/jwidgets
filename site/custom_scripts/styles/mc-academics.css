@@ -920,7 +920,7 @@ aside {
 }
 
 #why-messiah {
-    background: url('img/academics/why-messiah-bg.png') center center no-repeat fixed;
+    background: url('img/academics/why-messiah-bg-grad.jpg') center center no-repeat fixed;
     background-color: rgb(39,61,94);
     background-size:cover;
 }
@@ -1249,7 +1249,7 @@ right: 0;
 }
 
 #academics-opportunities {
-    background: url('img/academics/why-messiah-bg.png') center center no-repeat fixed;
+    background: url('img/academics/why-messiah-bg-ug.jpg') center center no-repeat fixed;
     background-color: rgb(39,61,94);
     background-size:cover;
 }
@@ -1634,7 +1634,7 @@ right: 0;
     }
 
     #why-messiah {
-        background: url('img/academics/why-messiah-bg.png') right center no-repeat fixed;
+        background: url('img/academics/why-messiah-bg-grad.jpg') right center no-repeat fixed;
         background-color: rgb(39,61,94);
         background-size:cover;
     }
