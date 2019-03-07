@@ -270,7 +270,6 @@
 #    array_multisort($emeritus_array['last_name']);
 
 ?>
-<link href="/site/custom_scripts/styles/outcomes.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="/site/custom_scripts/styles/faculty-listing.css"/>
 <script src='/site/javascript/addclass.js'></script>
 
