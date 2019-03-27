@@ -1383,6 +1383,9 @@ right: 0;
   
     .about-bg{
         background-image: url("img/about/about-hero.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
     }
 }
 
