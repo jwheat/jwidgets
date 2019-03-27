@@ -1375,6 +1375,23 @@ right: 0;
     }
 
 }
+
+@media (max-width: 1024px) and (hover:none) {
+    .parallax-slider{
+        display: none;
+    }
+  
+    .about-bg{
+        background-image: url("img/about/about-hero.jpg");
+    }
+}
+
+@media (max-width: 766px) and (hover:none) {
+    .about-bg{
+        background-image: url("img/about/about-hero-mobile.jpg");
+    }
+}
+
 @media (max-width: 975px) {
     .about #slider-wrapper {
         padding-left: 0;
