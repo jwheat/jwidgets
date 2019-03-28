@@ -1332,6 +1332,19 @@ margin: 0;
 
 }
 
+@media (max-width: 1024px) and (hover:none) {
+    .parallax-slider{
+        display: none;
+    }
+  
+    .fs-bg{
+        background-image: url("img/athletics/hero-bg-athletics.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .athletics .wrapper.content .col-33,
