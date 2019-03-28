@@ -1549,6 +1549,43 @@ right: 0;
 
 }
 
+@media (max-width: 1024px) and (hover:none) {
+    .parallax-slider{
+        display: none;
+    }
+  
+    #graduate-students .hero-section,
+    #undergraduate-students .hero-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+  
+    #graduate-students .hero-section{
+        background-image: url("img/academics/academics-hero-grad.jpg");
+    }
+  
+    #undergraduate-students .hero-section{
+        background-image: url("img/academics/academics-hero6.jpg");
+    }
+  
+    #undergraduate-students .hero-section .hero-title-wrapper,
+    #graduate-students .hero-section .hero-title-wrapper{
+        transform: none;
+    }
+  
+    .hero-section .hero-title-wrapper {
+        width: 820px;
+        max-width: 80%;
+        position: relative;
+        top: unset;
+        left: unset;
+    }
+}
+
 @media (max-width: 999px) {
 
     .hero-section .hero-title-wrapper {
