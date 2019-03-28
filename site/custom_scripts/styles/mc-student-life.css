@@ -1794,6 +1794,19 @@ margin: 0;
 
 }
 
+@media (max-width: 1024px) and (hover:none) {
+    .parallax-slider{
+        display: none;
+    }
+  
+    .fs-bg{
+        background-image: url("img/student-life/student-life-hero-5.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .student-life .wrapper.content .col-33,
