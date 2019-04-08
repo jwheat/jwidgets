@@ -29,7 +29,7 @@
                             <p>Can first-year students have cars on campus?</p>
                         </div>
                         <div class="sl-answer">
-                            <p>On a limited basis, first-year students can have a car on campus if they are at least 21 years of age, live more than 250 miles from campus or hold an off-campus job. After the first year, any student may have a car on campus.The College also has Zipcar, a car-sharing service that allows students to rent the cars for off-campus fun. Students often share rides home and off campus—a great way to make new friends as a new student!</p>
+                            <p>On a limited basis, first-year students can have a car on campus if they are at least 21 years of age, live more than 250 miles from campus or hold an off-campus job. After the first year, any student may have a car on campus. </p>
                         </div>
                     </div>
                     <div id="sl-faq-item">

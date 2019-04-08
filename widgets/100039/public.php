@@ -64,6 +64,7 @@
 
     $directory_api_url = "https://www.messiah.edu/a/api/directoriesByCategory.php?directoryID=".$directory_id."&live_only=Y&apiKey=a38737a6a302f5f0390169114b6640a6&categoryID=" . $param_department;
 
+
     $options = array(
       'http'=>array(
         'method'=>"GET",
@@ -270,6 +271,7 @@
 #    array_multisort($emeritus_array['last_name']);
 
 ?>
+<link href="/site/custom_scripts/styles/outcomes.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="/site/custom_scripts/styles/faculty-listing.css"/>
 <script src='/site/javascript/addclass.js'></script>
 

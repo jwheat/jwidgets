@@ -6,7 +6,7 @@
   $param_headline = 'Home Away<br>from Home';
   $param_subhead = "Student Life at Messiah";
   if (!$dev) {
-    $version = '2';
+    $version = '1';
     $folder = '/site/custom_scripts/styles/';
 
     if ('%PARAM_HEADLINE%' != '' && '%PARAM_HEADLINE%' != '%PARAM_HEADLINE' . '%') {
@@ -39,9 +39,9 @@
         </div>
 
         <div class="fs-wrapper">
-            <h2><?php echo $param_headline;?></h2>
+            <h2><?php print $param_headline;?></h2>
             <hr>
-            <p><?php echo $param_subhead;?></p>
+            <p><?php print $param_subhead;?></p>
         </div>
         
         <div class="student-life-tabs hide-on-mobile">

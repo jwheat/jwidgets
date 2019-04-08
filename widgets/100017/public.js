@@ -1,4 +1,5 @@
 $(document).ready(function() {
+        $.fn.exists = function(){return this.length>0;}
 	if ($('.xcounter').exists()) {
 		$('.fact-slider').appear(function(){
 			$('.counter').addClass('counter-analog').counter({

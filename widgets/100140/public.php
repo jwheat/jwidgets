@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '3';
+    $version = '4';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
@@ -60,7 +60,7 @@
                 <div class="flexbox">
                     <div class="col-50">
                         <p>
-                        Are you ready to advance your education and career with a graduate degree or certificate? Messiah College is a <a href="https://www.messiah.edu/info/20020/recognitions">nationally ranked</a>, accredited college that successfully integrates top-tier academics and Christian faith. All of our graduate programs provide academic rigor and excellence through a convenient and flexible mix of learning options. Our <a href="https://www.messiah.edu/info/22860/degrees_and_certificates">nine programs</a> include eight master’s degrees, two doctoral degrees, and numerous graduate certificates and post-master’s certificates. The coursework for most graduate programs is conducted primarily online, with some being fully online and others being fully residential.
+                        Are you ready to advance your education and career with a graduate degree or certificate? Messiah College is a <a href="https://www.messiah.edu/info/20020/recognitions">nationally ranked</a>, accredited college that successfully integrates top-tier academics and Christian faith. All of our graduate programs provide academic rigor and excellence through a convenient and flexible mix of learning options. Our <a href="https://www.messiah.edu/info/22860/degrees_and_certificates">nine programs</a> include nine master’s degrees, two doctoral degrees, and numerous graduate certificates and post-master’s certificates. The coursework for most graduate programs is conducted primarily online, with some being fully online and others being fully residential.
                         </p>
                     </div>
                     <div class="col-50 center">
@@ -349,7 +349,7 @@
                     <div class="flexbox">
                         <div class="col-60">
                             <p>Messiah College strives to keep our graduate programs competitively priced and accessible, and we offer a variety of financial aid and discount opportunities to our graduate students. Types of aid available include student loans, student employment, grants, private scholarships, veterans’ benefits, graduate programs discounts and employer assistance.</p>
-                            <p><strong>No-fee tuition</strong></br>At Messiah College, non-residential graduate programs feature no-fee tuition. The cost per credit is what you pay–there are no hidden fees for labs, courses, services or technology. We put the true cost of your program upfront so that you can accurately compare and plan for your graduate education.</p>
+                            <p><strong>No-fee tuition</strong></br>At Messiah College, most of our graduate programs feature no-fee tuition. The cost per credit is what you pay–there are no hidden fees for labs, courses, services or technology. We put the true cost of your program upfront so that you can accurately compare and plan for your graduate education.</p>
                             <a class="primary-button" href="https://www.messiah.edu/info/21313/financial_aid_for_graduate_programs">Financial Aid </a>
                             <a class="primary-button" href="https://www.messiah.edu/info/22941/tuition_and_fees">Tuition</a>
                         </div>

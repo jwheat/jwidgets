@@ -44,7 +44,7 @@ $(document).ready(function(){
   $(window).resize(function(){
     if (pageVersion == 1){
       $('.graduate-tabs').removeClass('tabs-sticky');
-      stickyTop = $('.graduate-tabs').position().top;  
+      stickyTop = $('.graduate-tabs').position().top;
     }
     else{
       $('.undergraduate-tabs').removeClass('tabs-sticky');
@@ -83,10 +83,16 @@ $(document).ready(function(){
   });
 
   /*  ====== why messiah section events ====== */
+  $('.open-overlay-0').click(function() {
+    $('.why-messiah-overlay').hide();
+    $('.why-messiah-info').hide();
+    $('#overlay-0').show();
+  });
+  
   $('.open-overlay-1').click(function() {
     $('.why-messiah-overlay').hide();
     $('.why-messiah-info').hide();
-    $('#overlay-1').show(); 
+    $('#overlay-1').show();
   });
 
   $('.open-overlay-2').click(function() {
@@ -116,7 +122,7 @@ $(document).ready(function(){
    $('.ao-overlay-1').click(function() {
     $('.academic-opportunities-overlay').hide();
     $('.ao-info').hide();
-    $('#ao-overlay-1').show(); 
+    $('#ao-overlay-1').show();
   });
 
   $('.ao-overlay-2').click(function() {
@@ -148,7 +154,7 @@ $(document).ready(function(){
     $('.ao-info').hide();
     $('#ao-overlay-6').show();
   });
-  
+
   $('#academics-opportunities .circle-overlay').click(function(){
     $('html, body').animate({scrollTop: $("#academics-opportunities").offset().top}, 600);
   });
@@ -236,11 +242,11 @@ $(document).ready(function(){
     $('body').addClass('stop-scrolling');
     var lightbox = lity('https://www.youtube.com/watch?v=UQXD0jrQjkw');
   });
-  
+
   $(document).on('lity:close', function(event, instance) {
     $('body').removeClass('stop-scrolling');
-  }); 
-  
+  });
+
   // show or hide sticky navigation bar at the top of the page
   function checkSticky() {
 
@@ -267,48 +273,47 @@ $(document).ready(function(){
     if(pageVersion == 1){
 
       if (isElementInView('#section-circle-flip')) {
-        $('#section-circle-flip .circle-flip').addClass('inView');  
+        $('#section-circle-flip .circle-flip').addClass('inView');
       }
-  
+
       if (isElementInView('#our-programs h2')) {
         $('.our-programs-col-left').addClass('panel-slide-in');
-        $('.our-programs-col-right').addClass('panel-slide-in'); 
+        $('.our-programs-col-right').addClass('panel-slide-in');
       }
-  
+
       if (showInView('#overview', '.overview-item')) {
-        if (showInView('#our-programs', '.our-programs-item')) {         
-          if (showInView('#why-messiah', '.why-messiah-item')) {          
-            if (showInView('#graduate-school', '.graduate-school-item')) {                                                
-            }                                            
-          }                                       
+        if (showInView('#our-programs', '.our-programs-item')) {
+          if (showInView('#why-messiah', '.why-messiah-item')) {
+            if (showInView('#graduate-school', '.graduate-school-item')) {
+            }
+          }
         }
       }
 
     }
     else{
       if (isElementInView('#circle-flip')) {
-        $('#circle-flip .circle-flip').addClass('inView');  
+        $('#circle-flip .circle-flip').addClass('inView');
       }
 
       if (isElementInView('#accelerated-options h2')) {
         $('.square-panel-section-col-left').addClass('panel-slide-in');
-        $('.square-panel-section-col-center').addClass('panel-slide-in');
         $('.square-panel-section-col-right').addClass('panel-slide-in');
       }
 
       if (showInView('#overview-2', '')){
         if (showInView('#what-do-you-want-to-study', '.what-do-you-want-to-study-item')) {
-          if (showInView('#accelerated-options', '.accelerated-options-item')) {         
-            if (showInView('#academics-opportunities', '.academics-opportunities-item')) {          
-              if (showInView('#academic-support', '.academic-support-item')) {                                                
-              }                                            
-            }                                       
+          if (showInView('#accelerated-options', '.accelerated-options-item')) {
+            if (showInView('#academics-opportunities', '.academics-opportunities-item')) {
+              if (showInView('#academic-support', '.academic-support-item')) {
+              }
+            }
           }
         }
       }
-      
+
     }
-    
+
   }//checkTabs
 
   function showInView(element, item) {
@@ -338,5 +343,5 @@ $(document).ready(function(){
         return ((elementTop <= pageBottom) && (elementBottom >= pageTop));
     }
   }//isElementInView
-  
+
 });

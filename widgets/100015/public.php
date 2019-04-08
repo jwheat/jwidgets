@@ -172,7 +172,7 @@
 										<div class="btn-holder">
 											<a class="btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions/2265/congratulations_now_what">Pay your $200 deposit to secure your spot</a>
 											<a class="btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions/2265/congratulations_now_what/2">Continue exploring financial aid options</a>
-											<a class="btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions/2265/congratulations_now_what/3">Explore the accepted student portal MCSquare</a>
+											<a class="btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions/2265/congratulations_now_what/3">Explore the accepted student portal</a>
 											<a class="btn" href="http://www.messiah.edu/info/21083/undergraduate_admissions/2265/congratulations_now_what/4">Contact your counselor with any remaining questions</a>
 										</div><!-- / btn-holder -->
 										<h3 class="subtitle">Don&apos;t forget!</h3>

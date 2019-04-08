@@ -1,7 +1,10 @@
 $(document).ready(function(){
   var stickyTop = $('.student-life-tabs').position().top;
   var faqItem = 1;
-
+  //CHANGE--
+  var slideId = 1;
+  //--CHANGE
+  
   checkTabs();
 
   // initialize Blazy plugin
@@ -142,7 +145,33 @@ $(document).ready(function(){
   $(document).on('lity:close', function(event, instance) {
     $('body').removeClass('stop-scrolling');
   }); 
+  //CHANGE--
+  $('.sl-wtd-slide-nav-button').click(function() {
+    slideId = $(this).attr('data-id');
+    setCampusTraditionImage();
+  });
+
+  $('.slide-list li a').click(function() {
+    slideId = $(this).attr('data-id');
+    setCampusTraditionImage();
+  });
   
+  $('.sl-wtd-nav-left').click(function() {
+     slideId--;
+     if (slideId == 0) {
+       slideId = 7;
+     }
+    setCampusTraditionImage();
+  });
+   
+  $('.sl-wtd-nav-right').click(function() {
+     slideId++;
+     if (slideId == 8) {
+       slideId = 1;
+     }
+    setCampusTraditionImage();
+  });
+  //--CHANGE
   // $('.sl-slider-nav-left').click(function() {
   //   $('#sl-faq-item-' + faqItem).hide();
   //   faqItem--;
@@ -244,5 +273,16 @@ $(document).ready(function(){
   $('#sl-faq-items').slick({
     infinite: true,
   });
-  
+  //CHANGE--
+  function setCampusTraditionImage() {
+    $('.slide-list li a').removeClass('active');
+    $('.sl-wtd-slide img').hide();
+    $('.slide-nav-text').hide();
+    $('#campus-tradition-slide-' + slideId).show()
+    $('.sl-wtd-slide-nav-button').removeClass('active');
+    $('#slide-nav-button-' + slideId).addClass('active');
+    $('#slide-item-' + slideId).addClass('active');
+    $('#slide-nav-text-' + slideId).show();
+  }//showCampusTraditionImage
+  //--CHANGE
 });
