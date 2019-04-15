@@ -1,0 +1,77 @@
+
+/* expose the bullet dots in the content area only */
+#content ul {
+list-style:disc;
+list-style-position:inside;
+}
+
+#content ul li {
+    margin-bottom: 1em;
+}
+
+#content h2  {
+border-bottom:none !important;
+display: inline;
+}
+
+.float_right { width:30%; }
+.twoCol #content { width: 950px; margin-left: 0; }
+
+/*----- Hide right column with related links -------*/
+#columnSecondary {display: none;}
+
+/*----- Expand content div to 750px -------*/
+.threeCol #content { width: 750px;}
+
+/* ---- change up the table styles -----*/
+table th { background-color: #92AFC4 !important; color: #fff; background:#92AFC4;}
+th:first-child { border-top-left-radius:0px; }
+th:last-child { border-top-right-radius:0px; }
+
+
+/* ---- Muli Purpose widget classes -----*/
+.multi-purpose-container {
+    background: #efefef;
+    padding: 1em;
+}
+
+.button {
+    margin-top: 2em;
+    text-align: center;
+    vertical-align: center;
+}
+
+.button a, .button a:active, .button a:visited {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* ---- Accordian widget classes -----*/
+.accordion {
+    background: #efefef;
+    padding: .5em 2em .5em 2em;
+}
+
+/*--- hide header --------*/
+    #header ul {display: none; }
+    FORM#search {display: none; }
+
+/* ----- mobile Breakpoint ----- */
+@media only screen and (max-width: 480px) {
+#wrapper
+{ width: 100%; }
+    .threeCol #content { width: 100%;}
+    .float_right {width: 90%; }
+    .twoCol #content { width: 100%; }
+    .new_widget { float: left; overflow: hidden; width: 100%; margin-bottom: 3em; }
+}
+
+/* ----- tablet breakpoint ----- */
+@media only screen and (min-width: 480px) and (max-width: 850px) {
+    #wrapper { width: 100%; }
+    .threeCol #content { width: 100%;}
+    .float_right {width: 90%; }
+    .twoCol #content { width: 100%; }
+    .new_widget { float: left; overflow: hidden; width: 45%; margin-bottom: 3em; }
+}

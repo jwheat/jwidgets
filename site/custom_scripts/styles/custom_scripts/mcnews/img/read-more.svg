@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="46px" viewBox="0 0 113 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>read-more</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 28.94 97.833 28.94 97.833 0.976 0.06 0.976"></polygon>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="read-more">
+            <g id="readmore" transform="translate(6.000000, 13.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M96.747,0.978 C66.335,2.925 48.917,24.25 48.917,24.25 C48.917,24.25 31.498,2.925 1.086,0.978 C0.5,0.94 0,1.413 0,2.001 L0,2.912 C0,3.318 0.33,3.643 0.736,3.632 C5.13,3.513 34.583,8.583 48.917,29 C63.25,8.583 92.704,3.513 97.098,3.632 C97.504,3.643 97.833,3.318 97.833,2.912 L97.833,2.001 C97.833,1.413 97.333,0.94 96.747,0.978" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

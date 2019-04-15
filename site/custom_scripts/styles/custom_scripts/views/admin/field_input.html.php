@@ -1,0 +1,1 @@
+<!-- No field_input view for <?php print encodeHtml($field::TYPE); ?> field -->

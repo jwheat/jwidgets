@@ -1,0 +1,2330 @@
+@font-face {
+  font-family: 'priori-sans-reg';
+  src: url('fonts/priori-sans-regular-1361508596-webfont.eot');
+  src: url('fonts/priori-sans-regular-1361508596-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/priori-sans-regular-1361508596-webfont.woff2') format('woff2'),
+       url('fonts/priori-sans-regular-1361508596-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'priori-sans-bold';
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot');
+    src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
+        url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mendoza-medium';
+    src: url('fonts/mendozaroman-medium-webfont.eot');
+    src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mendoza-book';
+    src: url('fonts/mendozaroman-book-webfont.eot');
+    src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-book-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mendoza-book-italic';
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot');
+    src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
+        url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
+        url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'priori-sans-bold';
+        src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-medium';
+        src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book-italic';
+        src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+    }
+    @font-face {
+        font-family: 'mendoza-book';
+        src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+    }
+    @font-face {
+        font-family: 'aptifer-sans-bold';
+        src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    }
+}
+
+
+
+.sl-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.sl-acc-tab-content .sl-button {
+    display: block; 
+    margin: 20px 0;
+    width: 150px; 
+    text-align: center; 
+}
+
+.sl-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+#continue-exploring .explore-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+#continue-exploring .explore-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+#continue-exploring .wrapper.content {
+    max-width: 1050px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#continue-exploring h3 {
+    color: #273d5e;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+
+#chapel-video {
+    padding-left: 20px; 
+}
+
+/*----- Accordion styles start -----*/
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab {
+    position: relative;
+    margin-bottom: 1px;
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab:first-child {
+    border-top: 1px solid #fff;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 .5em;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label img {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab .sl-acc-tab-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab .sl-acc-tab-content p {
+    margin: 1em;
+}
+/* :checked */
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input:checked ~ .sl-acc-tab-content {
+    max-height: 40em;
+}
+/* Icon */
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab label::after {
+    position: absolute;
+    right: .5em;
+    top: 0;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=checkbox] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=radio] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=checkbox]:checked + label::after {
+    transform: rotate(180deg);
+}
+
+#grow-your-faith #student-led-worship-overlay .sl-acc-tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+}
+
+/*----- Accordion styles end -----*/
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main-holder {
+    background: transparent;
+}
+
+.fs-bg {
+    height: 100vh;
+    max-height: 785px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #fff;
+}
+
+.fs-bg .fs-wrapper {
+    width: 820px;
+    max-width: 80%;
+    padding: 245px 10% 0;
+}
+
+.fs-bg .fs-wrapper h2 {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.fs-bg .fs-wrapper p {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: .5em 0 1em 0;
+}
+
+.fs-bg .fs-wrapper hr {
+    border: none;
+    height: 8px;
+    background: #9ec3de;
+    width: 50%;
+    margin: 1em 0;
+}
+
+.fs-bg .start-btn {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    margin: 100px auto;
+    padding: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.fs-bg .start-btn a {
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*===== TABS =====*/
+
+.faith-and-service-tabs {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.faith-and-service-tabs ul {
+    margin: 0;
+    padding: 0;
+}
+
+.faith-and-service-tabs ul li {
+    background: -moz-linear-gradient(top, rgba(36,36,36,0) 0%, rgba(36,36,36,0.75) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(36,36,36,0) 0%,rgba(36,36,36,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(36,36,36,0) 0%,rgba(36,36,36,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00242424', endColorstr='#bf242424',GradientType=0 ); /* IE6-9 */
+    display: block;
+    width: calc(25% - 25px);
+    float: left;
+    text-align: center;
+    height: 82px;
+    line-height: 82px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.faith-and-service-tabs ul li.active {
+    cursor: default;
+}
+
+.faith-and-service-tabs ul li.active a {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 5px;
+}
+
+.faith-and-service-tabs ul li a {
+    color: #ffffff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.faith-and-service-tabs.fs-sticky {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 999;
+    background-color: #273d5e;
+    transition: background-color 500ms;
+}
+
+.faith-and-service-tabs .fas-explore-button {
+    width: 100px;
+    background: #fff;
+    line-height: 18px;
+    padding-top: 12px;
+}
+
+.faith-and-service-tabs .fas-explore-button a {
+    color: #273d5e;
+}
+
+.faith-and-service-tabs .fas-explore-button a img {
+    margin-top: 10px;
+}
+
+/* Sticky */
+
+.faith-and-service-tabs.fs-sticky {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 999;
+    background-color: #273d5e;
+    transition: background-color 500ms;
+}
+
+.faith-and-service-tabs.fs-sticky ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.faith-and-service-tabs.fs-sticky ul {
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faith-and-service-tabs.fs-sticky ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: transparent;
+}
+
+.faith-and-service-tabs.fs-sticky ul li.active {
+    cursor: default;
+}
+
+.faith-and-service-tabs.fs-sticky ul li.active a {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 6px;
+}
+
+.faith-and-service-tabs.fs-sticky ul li a {
+    color: #ffffff;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.faith-and-service-tabs .faith-and-service-item,
+.faith-and-service-tabs.fs-sticky .fas-explore-button {
+    display: none;
+}
+
+.faith-and-service-tabs.fs-sticky .faith-and-service-item {
+    display: block;
+}
+
+/*===== CONTENT =====*/
+
+.center {
+    text-align: center;
+}
+
+.faith-and-service {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.faith-and-service .wrapper.content,
+.faith-and-service-tabs .wrapper.content {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.faith-and-service .wrapper.content h1,
+.faith-and-service .wrapper.content h2 {
+    color: #273d5e;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    margin: 0 0 .25em;
+}
+
+.faith-and-service .wrapper.content h3 {
+    color: #75adcf;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+.faith-and-service .wrapper.content p {
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.faith-and-service .wrapper.content .flexbox {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.faith-and-service .wrapper.content .col-40 {
+    width: 40%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+.faith-and-service .wrapper.content .col-50 {
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.faith-and-service .wrapper.content .col-60 {
+    width: 60%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+.faith-and-service .wrapper.content .col-33 {
+    width: 30.333%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+.faith-and-service .wrapper.content .col-66 {
+    width: 69.667%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+.wrapper.content .highlight-txt {
+    color: #639dc4;
+    font-weight: 700;
+}
+
+.wrapper.content .emphasize-txt {
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.fs-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.fs-button:hover {
+    text-decoration: none !important;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+
+.fs-right {
+    text-align: right;
+}
+
+.faith-and-service p {
+    margin: 0 0 1.5em 0;
+}
+
+.fs-video {
+    position: relative;
+}
+
+.fs-mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.fs-justify {
+    text-align: left;
+}
+
+#faith-and-service, #continue-exploring {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#faith-and-service p a {
+    text-decoration: underline; 
+}
+#faith-and-service .wrapper.content#fs-profile {
+    position: relative;
+}
+
+#faith-and-service .wrapper.content#fs-profile h3::before,
+#faith-and-service .wrapper.content#fs-profile h3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    background: #639dc4;
+    top: 50%;
+}
+
+#faith-and-service .wrapper.content#fs-profile h3::before {
+    width: calc(50% - 4em);
+    background: #639dc4;
+    left: 0;
+}
+
+#faith-and-service .wrapper.content#fs-profile h3::after {
+    width: calc(50% - 4em);
+    left: calc(50% + 4em);
+}
+
+#faith-and-service .wrapper.content#fs-profile .flexbox .col-33 {
+    border-right: 1px solid #75adcf;
+}
+
+#faith-and-service .wrapper.content#fs-profile .flexbox .col-33:last-child {
+    border-right: none;
+}
+
+.faith-and-service .wrapper.content .col-33.fs-achievements {
+    width: 33%;
+    padding: 15px 5%;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-achievements p {
+    font-size: 24px;
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-achievements p:last-child {
+    margin-bottom: 1em;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-achievements p span {
+    color: #75adcf;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-mascot .our-mascot {
+    background-color: #fff;
+    border: 2px solid #75adcf;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 30px;
+    padding: 6px 12px;
+    position: absolute;
+    top: 140px;
+    right: 220px;
+    z-index: 2;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-mascot .our-mascot::after {
+    content: "";
+    background-color: #fff;
+    border-top: 2px solid #75adcf;
+    border-right: 2px solid #75adcf;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: calc(50% - 9px);
+    right: -10px;
+    transform: rotate(45deg);
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-mascot .our-mascot span {
+    display: block;
+    font-family: 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+    color: #75adcf;
+    font-size: 50px;
+}
+
+#faith-and-service .wrapper.content#fs-profile .fs-mascot img {
+    position: absolute;
+    top: -40px;
+    right: -80px;
+}
+
+#grow-your-faith {
+    background: url('img/faith-and-service/grow-your-faith-bg.jpg') center top no-repeat fixed;
+    background-size:cover;
+}
+
+#grow-your-faith #fs-circle-flip .col-33 {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+    transform: rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    transition-delay: 0s;
+}
+
+#grow-your-faith #fs-circle-flip .flexbox.inView .col-33 {
+    -webkit-transform: rotate3d(0, 1, 0, 0);
+    transform: rotate3d(0, 1, 0, 0);
+    opacity: 1;
+}
+
+#grow-your-faith #fs-circle-flip .flexbox:first-child .col-33:first-child {
+    -webkit-transition-delay: .45s;
+    transition-delay: .45s;
+}
+
+#grow-your-faith #fs-circle-flip .flexbox:first-child .col-33:nth-child(2) {
+    -webkit-transition-delay: .55s;
+    transition-delay: .55s;
+}
+
+#grow-your-faith #fs-circle-flip .flexbox:first-child .col-33:nth-child(3) {
+    -webkit-transition-delay: .65s;
+    transition-delay: .65s;
+}
+
+#grow-your-faith .wrapper.content h2,
+#grow-your-faith .wrapper.content h3,
+#grow-your-faith .wrapper.content p {
+    color: #fff;
+}
+
+#grow-your-faith .fs-gyf-info a {
+    color: #fff; 
+    text-decoration: underline; 
+    font-weight: bold; 
+}
+
+#grow-your-faith .wrapper.content h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 1em 0;
+}
+
+#grow-your-faith .wrapper.content #fs-circle-flip img {
+    max-width: 100%;
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+
+#grow-your-faith .fs-gyf-overlay {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 100px;
+    padding-bottom: 75px;
+    margin-top: -100px;
+    margin-bottom: -75px;
+}
+
+#grow-your-faith .fs-gyf-overlay,
+#grow-your-faith .fs-gyf-overlay .wrapper.content p {
+    color: #fff;
+}
+
+/*--- video play button ---*/
+
+#grow-your-faith .overlay-video-wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+#grow-your-faith .overlay-video-wrapper .video-play{
+    display: block;
+    background-color: rgba(117, 173, 207, 0.75); 
+    padding: 25px 45px 25px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 46px);
+    left: calc(50% - 67px);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#grow-your-faith .fs-gyf-overlay .wrapper.content img {
+    border-radius: 0;
+    border: none;
+}
+
+#grow-your-faith .fs-gyf-overlay .wrapper.content {
+    position: relative;
+}
+
+#grow-your-faith .fs-gyf-overlay .close-button {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+#grow-your-faith .fs-gyf-overlay .close-button a {
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#grow-your-faith .fs-gyf-overlay .close-button a:hover {
+    color: #75adcf;
+}
+
+#grow-your-faith .fs-gyf-overlay .wrapper.content h3 {
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    text-transform: none;
+    margin: 0 0 .5em 0;
+    position: relative;
+    display: flex;
+}
+
+#grow-your-faith .fs-gyf-overlay h3 .hline {
+    position: relative;
+    height: 3px;
+    background: rgba(255,255,255,0.4);
+    top: .5em;
+    width: auto;
+    flex-grow: 1;
+}
+
+#grow-your-faith .fs-gyf-overlay h3 .hline:first-child {
+    margin-right: 20px;
+}
+
+#grow-your-faith .fs-gyf-overlay h3 .hline:last-child {
+    margin-left: 20px;
+}
+
+#grow-your-faith #on-campus-overlay.fs-gyf-overlay .flexbox a {
+    color: #75adcf;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs {
+    list-style: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs li {
+    display: inline-block;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 24px;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs li a {
+    cursor: pointer;
+}
+
+#grow-your-faith .fs-gyf-overlay .slide-list {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#grow-your-faith .fs-gyf-overlay .slide-list li {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs li a,
+#grow-your-faith .fs-gyf-overlay .slide-list li a {
+    color: #fff;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs li a:hover,
+#grow-your-faith .fs-gyf-overlay .slide-list li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-tabs li a.active,
+#grow-your-faith .fs-gyf-overlay .slide-list li a.active {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 6px;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider {
+    width: 100%;
+    height: 396px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide img {
+    width: 100%;
+    height: 396px;
+    object-fit: cover;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav {
+    display: block;
+    width: 48px;
+    height: 48px;
+    font-size: 36px;
+    line-height: 48px;
+    position: absolute;
+    top: calc(50% - 18px);
+    cursor: pointer;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav.fs-gyf-nav-left {
+    left: 0;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav.fs-gyf-nav-right {
+    right: 0;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav-buttons {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: 10px;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav-buttons .fs-gyf-slide-nav-button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider .fs-gyf-slide-nav-buttons .fs-gyf-slide-nav-button.active {
+    background-color: #75adcf;
+}
+
+#grow-your-faith .fs-gyf-overlay .fs-gyf-slider-container p {
+    text-align: left;
+}
+
+#grow-your-faith #chapel .col-50 {
+    padding: 0;
+}
+
+#grow-your-faith #chapel .fs-video .fs-play {
+    padding: 15px 25px 15px 30px;
+    top: calc(50% - 39px);
+}
+
+/*----- Accordion styles start -----*/
+
+#grow-your-faith #student-led .fs-acc-tab {
+    position: relative;
+    margin-bottom: 1px;
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+#grow-your-faith #student-led .fs-acc-tab:first-child {
+    border-top: 1px solid #fff;
+}
+
+#grow-your-faith #student-led .fs-acc-tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+#grow-your-faith #student-led .fs-acc-tab label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 .5em;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#grow-your-faith #student-led .fs-acc-tab label img {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#grow-your-faith #student-led .fs-acc-tab .fs-acc-tab-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+#grow-your-faith #student-led .fs-acc-tab .fs-acc-tab-content p {
+    margin: 1em;
+}
+/* :checked */
+#grow-your-faith #student-led .fs-acc-tab input:checked ~ .fs-acc-tab-content {
+    max-height: 20em;
+}
+/* Icon */
+#grow-your-faith #student-led .fs-acc-tab label::after {
+    position: absolute;
+    right: .5em;
+    top: 0;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+#grow-your-faith #student-led .fs-acc-tab input[type=checkbox] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led .fs-acc-tab input[type=radio] + label::after {
+    content: "\f107";
+    font-family: fontawesome;
+}
+
+#grow-your-faith #student-led .fs-acc-tab input[type=checkbox]:checked + label::after {
+    transform: rotate(180deg);
+}
+
+#grow-your-faith #student-led .fs-acc-tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+}
+
+/*----- Accordion styles end -----*/
+
+#global-engagement {
+    background: #2B3D5E;
+}
+
+#global-engagement .wrapper.content h2,
+#global-engagement .wrapper.content h3,
+#global-engagement .wrapper.content p {
+    color: #fff;
+}
+
+#global-engagement .wrapper.content h2 {
+    font-size: 68px;
+    margin: 0 0 .5em 0;
+}
+
+/*===== MAP =====*/
+
+.faith-and-service #world-map-wrapper {
+    position: relative;
+}
+
+.faith-and-service #world-map {
+    width: 100%;
+    height: 100%;
+}
+
+.faith-and-service #world-map use {
+    cursor: pointer;
+}
+
+.faith-and-service #world-map .map-continent {
+    fill: #75adcf;
+    transition: 300ms fill;
+}
+
+.faith-and-service #world-map .map-continent.hover {
+    fill: #426e8a;
+}
+
+.faith-and-service #world-map .map-pin {
+    fill: #fff;
+    pointer-events: none;
+    transition: 300ms fill;
+}
+
+.faith-and-service #world-map .map-north-america:hover ~ .pin-north-america,
+.faith-and-service #world-map .map-south-america:hover ~ .pin-south-america,
+.faith-and-service #world-map .map-europe:hover ~ .pin-europe,
+.faith-and-service #world-map .map-asia:hover ~ .pin-asia,
+.faith-and-service #world-map .map-africa:hover ~ .pin-africa,
+.faith-and-service #world-map .map-australia:hover ~ .pin-australia {
+    fill: #2B3D5E;
+}
+
+.faith-and-service #world-map-wrapper .map-pin {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.faith-and-service #world-map-wrapper .map-pin img {
+    width: 2.75%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transform-origin: center bottom;
+    transition: 300ms transform;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.hover img {
+    transform: scale(1.5);
+    transform-origin: center bottom;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-north-america {    
+    top: 35%;
+    left: 20%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-south-america {    
+    top: 69%;
+    left: 30%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-europe {
+    top: 28%;
+    left: 54%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-asia {
+    top: 35%;
+    left: 71%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-africa {
+    top: 54%;
+    left: 53%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-australia {
+    top: 75%;
+    left: 87%;
+}
+
+.faith-and-service #world-map-wrapper .map-pin::after {
+    content: "";
+    opacity: 0;
+    transition: 500ms opacity;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.hover::after {
+    position: absolute;
+    top: 8%;
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 22px;
+    transition: 500ms opacity;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-north-america.hover::after {
+    content: "North America";
+    left: -64px;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-south-america.hover::after {
+    content: "South America";
+    left: -55px;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-europe.hover::after {
+    content: "Europe";
+    left: -20px;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-asia.hover::after {
+    content: "Asia";
+    left: -7px;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-africa.hover::after {
+    content: "Africa";
+    left: -17px;
+}
+
+.faith-and-service #world-map-wrapper .map-pin.pin-australia.hover::after {
+    content: "Australia";
+    left: -32px;
+}
+
+/*----- Global Engagement Overlay -----*/
+
+#global-engagement .fs-ge-overlay {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    margin-top: -100px;
+    margin-bottom: -75px;
+}
+
+#global-engagement .fs-ge-overlay .col-40 {
+    width: 40%;
+}
+
+#global-engagement .fs-ge-overlay .col-60 {
+    width: 60%;
+}
+
+#global-engagement .fs-ge-overlay,
+#global-engagement .fs-ge-overlay .wrapper.content p {
+    color: #fff;
+}
+
+#global-engagement .fs-ge-overlay .wrapper.content {
+    position: relative;
+}
+
+#global-engagement .fs-ge-overlay .close-button {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+#global-engagement .fs-ge-overlay .close-button a {
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#global-engagement .fs-ge-overlay .close-button a:hover {
+    color: #75adcf;
+}
+
+#global-engagement .fs-ge-overlay .wrapper.content h3 {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs {
+    list-style: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs li {
+    display: inline-block;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 24px;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs li a {
+    cursor: pointer;
+}
+
+#global-engagement .fs-ge-overlay .slide-list {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#global-engagement .fs-ge-overlay .slide-list li {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs li a,
+#global-engagement .fs-ge-overlay .slide-list li a {
+    color: #fff;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs li a:hover,
+#global-engagement .fs-ge-overlay .slide-list li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-tabs li a.active,
+#global-engagement .fs-ge-overlay .slide-list li a.active {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 6px;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-nr {
+    width: 146px;
+    height: 146px;
+    color: #75ADCF;
+    border: 2px solid #75ADCF;
+    border-radius: 100%;
+    margin: 45px auto 0 auto;
+
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-nr-dgt {
+    display: block;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-nr-txt {
+    display: block;
+    font-size: 22px;
+}
+
+#global-engagement .fs-ge-overlay ul.project-loc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#global-engagement .fs-ge-overlay ul.project-loc.col-c2 {
+    column-count: 2;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-list img {
+    border-radius: 100%;
+    border: 12px solid #fff;
+    float: right;
+}
+
+#global-engagement .fs-ge-overlay .fs-ge-list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#global-engagement .fs-ge-overlay ul.project-loc li {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+#global-engagement .fs-ge-overlay ul.project-loc li span {
+    color: #A7A9AC;
+    display: block;
+}
+
+/*-----*/
+
+.faith-and-service .wrapper.content hr {
+    border: none;
+    height: 8px;
+    background: #426E8A;
+    width: 85px;
+    margin: 1em auto;
+}
+
+.faith-and-service .fs-slider {
+    padding: 0 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.faith-and-service .fs-slider::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.faith-and-service .fs-slider .fs-slider-nav-left,
+.faith-and-service .fs-slider .fs-slider-nav-right,
+.lightbox .fs-slider .fs-slider-nav-left,
+.lightbox .fs-slider .fs-slider-nav-right {
+    position: absolute;
+    top: calc(50% - 35px);
+    color: #fff;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.faith-and-service .fs-slider .fs-slider-nav-left {
+    left: 10px;
+}
+
+.faith-and-service .fs-slider .fs-slider-nav-right {
+    right: 10px;
+}
+
+.lightbox.lb-fitness .fs-slider {
+    position: relative;
+}
+
+.lightbox .fs-slider .fs-slider-nav-left,
+.lightbox .fs-slider .fs-slider-nav-right {
+    top: calc(265px - 35px);
+}
+
+.lightbox .fs-slider .fs-slider-nav-left {
+    left: -40px;
+}
+
+.lightbox .fs-slider .fs-slider-nav-right {
+    right: -40px;
+}
+
+.lightbox.lb-fitness .fs-slide img {
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+.lightbox.lb-fitness .wrapper.content .fs-slide h2 {
+    font-size: 24px;
+    margin-top: 1em;
+}
+
+.fs-video .fs-play {
+    display: block;
+    background-color: rgba(117, 173, 207, 0.75);
+    padding: 25px 45px 25px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 46px);
+    left: calc(50% - 67px);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#service-opportunities .wrapper.content {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#service-opportunities .content a {
+    color: #6697B8;
+}
+
+#service-opportunities .fs-service-opportunities-wrapper {
+    position: relative;
+}
+
+#service-opportunities .fs-service-opportunities > div {
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+#service-opportunities .wrapper.content > hr {
+    margin-bottom: 50px;
+}
+
+#service-opportunities .fs-service-opportunities > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: block;
+    width: 60%;
+    height: 48px;
+    background-color: rgba(39, 61, 94, 0.9);
+    padding: 12px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+#service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay {
+    width: calc(100% - 20px);
+    height: 100%;
+    padding: 40px;
+    transition: 300ms;
+}
+
+/* #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay .fs-read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 69px);
+    opacity: 0;
+    transition: .3s ease opacity;
+} */
+
+#service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay .fs-read-more {
+    opacity: 1;
+}
+
+#service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay h4,
+#service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay p {
+    color: #fff;
+}
+
+#service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay h4 {
+    font-family: 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+}
+
+#service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay h4 {
+    border-bottom: 1px solid #fff;    
+    padding-bottom: 12px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+#service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay p {
+    font-size: 16px;
+    line-height: 1.5em;
+    opacity: 0;
+}
+
+#service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay p {
+    opacity: 1;
+}
+
+/*----- Service Opportunities Overlay -----*/
+
+#service-opportunities .fs-so-overlay {
+    padding: 50px 30px 30px;
+    display: block;
+    transform: scale(0);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    transition: .3s ease all;
+}
+
+#service-opportunities .fs-so-overlay#local-service {
+    background: url('img/faith-and-service/service-local.jpg') 0 0 scroll no-repeat;
+    background-size: cover;
+    transform-origin: 0 0;
+}
+
+#service-opportunities .fs-so-overlay#national-service {
+    background: url('img/faith-and-service/service-national.jpg') 0 0 scroll no-repeat;
+    background-size: cover;
+    transform-origin: 100% 0;
+}
+
+#service-opportunities .fs-so-overlay#global-service {
+    background: url('img/faith-and-service/service-global.jpg') 0 0 scroll no-repeat;
+    background-size: cover;
+    transform-origin: 0 100%;
+}
+
+#service-opportunities .fs-so-overlay#academics-service {
+    background: url('img/faith-and-service/service-academics.jpg') 0 0 scroll no-repeat;
+    background-size: cover;
+    transform-origin: 100% 100%;
+}
+
+#service-opportunities .fs-so-overlay.activated {
+    transform: scale(1);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#service-opportunities .fs-so-overlay::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39,61,94,0.9);
+    z-index: 1;
+}
+
+#service-opportunities .fs-so-overlay * {
+    z-index: 2;
+    position: relative;
+}
+
+#service-opportunities .fs-so-overlay a {
+    color: #75adcf;
+}
+
+#service-opportunities .fs-so-overlay,
+#service-opportunities .fs-so-overlay p {
+    color: #fff;
+}
+
+#service-opportunities .fs-so-overlay img {
+    border-radius: 0;
+    border: none;
+}
+
+#service-opportunities .fs-so-overlay .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#service-opportunities .fs-so-overlay .close-button a {
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#service-opportunities .fs-so-overlay .close-button a:hover {
+    color: #75adcf;
+}
+
+#service-opportunities .fs-so-overlay h3 {
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    color: #fff;
+    text-transform: none;
+    margin: 0 0 .5em 0;
+    position: relative;
+    display: flex;
+}
+
+#service-opportunities .fs-so-overlay h3 .hline {
+    position: relative;
+    height: 3px;
+    background: rgba(255,255,255,0.4);
+    top: .5em;
+    width: auto;
+    flex-grow: 1;
+}
+
+#service-opportunities .fs-so-overlay h3 .hline:first-child {
+    margin-right: 20px;
+}
+
+#service-opportunities .fs-so-overlay h3 .hline:last-child {
+    margin-left: 20px;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs {
+    list-style: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs li {
+    display: inline-block;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 24px;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs li a {
+    cursor: pointer;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs li a {
+    color: #fff;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#service-opportunities .fs-so-overlay .fs-so-tabs li a.active {
+    color: #75adcf;
+    border-bottom: 8px solid #75adcf;
+    padding-bottom: 6px;
+}
+
+/*-----*/
+
+#find-your-church {
+    background: url('img/faith-and-service/sports-ministry-bg.png') center top repeat scroll;
+    border-top: 2px solid rgba(0,0,0,0.04);
+    border-bottom: 2px solid rgba(0,0,0,0.04);
+}
+
+#find-your-church .wrapper.content .fs-achievements .col-50 {
+    border-right: 1px solid #75adcf;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#find-your-church .wrapper.content .fs-achievements .col-50:last-child {
+    border-right: none;
+}
+
+#find-your-church .wrapper.content .fs-achievements .col-50 p {
+    font-size: 24px;
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+
+#find-your-church .wrapper.content .fs-achievements .col-50 p:last-child {
+    margin-bottom: 1em;
+}
+
+#find-your-church .wrapper.content .fs-achievements .col-50 p span {
+    color: #75adcf;
+}
+
+#find-your-church .fs-buttons-wrapper,
+#find-your-church .fs-buttons-wrapper p {
+    margin: 0;
+}
+
+.faith-and-service#faith-in-the-classroom {
+    background: url('img/faith-and-service/faith-classroom.jpg') center top repeat scroll;
+    background-size: cover;
+    padding-bottom: 650px;
+}
+
+.faith-and-service#faith-in-the-classroom .fs-button {
+    background-color: rgba(39, 61, 94, 0.85);
+}
+
+.faith-and-service#faith-in-the-classroom .fs-button:hover {
+    background-color: #273d5e;
+}
+
+/*===== LIGHTBOX =====*/
+
+.lightbox {
+    background: rgba(37, 37, 37,.94);
+    display: -webkit-flex;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.lightbox .wrapper.content {
+    width: 80%;
+    max-width: 940px;
+}
+
+.lightbox,
+.lightbox .wrapper.content p,
+.lightbox .wrapper.content h2,
+.lightbox .wrapper.content a {
+    color: #fff;
+}
+
+.lightbox .wrapper.content p {
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.lightbox .lb-fs-list,
+.lightbox .wrapper.content h2 {
+    font-family: 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.lightbox .wrapper.content h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+#content .lightbox .lb-fs-list,
+.lightbox .lb-fs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 50px;
+    width: 75%;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightbox .lb-fs-list li {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.lightbox .lb-fs-list li a:hover,
+.lightbox .lb-fs-list li a.active {
+    color: #75adcf;
+    text-decoration: none;
+}
+
+.lightbox .lb-fs-list li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    margin-top: 5px;
+    background-color: transparent
+
+}
+
+.lightbox .lb-fs-list li a:hover::after,
+.lightbox .lb-fs-list li a.active::after {
+    background-color: #75adcf;
+}
+
+.lightbox .lb-info-img {
+    float: left;
+    width: 30%;
+}
+
+.lightbox .lb-info-img .fs-image {
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.lightbox .lb-info-text {
+    float: right;
+    width: 67%;
+}
+
+.lightbox .lb-info-text ul {
+    list-style: none;
+    column-count: 2;
+    padding-left: 0;
+    font-family: 'priori-sans-bold';
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.lightbox .lb-info-text .fs-item-content-2{
+    column-count: 1;
+}
+
+.lightbox .lb-info-text ul li:hover {
+    color: #75adcf;
+}
+
+.lightbox .lb-info-text ul li .lb-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-image: url('img/faith-and-service/lightbox-links-icons.png');
+    background-position-x: 0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-baseball {
+    background-position-y: 0;
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-basketball {
+    background-position-y: calc(-1 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-cross-country {
+    background-position-y: calc(-2 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-field-hockey {
+    background-position-y: calc(-3 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-golf {
+    background-position-y: calc(-4 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-lacrosse {
+    background-position-y: calc(-5 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-soccer {
+    background-position-y: calc(-6 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-softball {
+    background-position-y: calc(-7 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-swimming {
+    background-position-y: calc(-8 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-tennis {
+    background-position-y: calc(-9 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-track-and-field {
+    background-position-y: calc(-10 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-volleyball {
+    background-position-y: calc(-11 * 36px);
+}
+
+.lightbox .lb-info-text ul li .lb-icon.icon-wrestling {
+    background-position-y: calc(-12 * 36px);
+}
+
+.lightbox .lb-info-text ul li:hover .lb-icon {
+    background-position-x: -36px;
+}
+
+.lightbox .lb-info-text hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(255,255,255,0.92);
+    margin: 30px 0;
+}
+
+.lightbox .lb-info-text a.fs-button {
+margin: 0;
+}
+
+.lightbox .lb-info-img img {
+    max-width: 100%;
+}
+
+.lightbox .lb-info-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lightbox .close-button {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.lightbox .close-button a {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.lightbox .close-button a:hover {
+    color: #75adcf;
+}
+
+/*===== LITY =====*/
+
+.lity-iframe .lity-container,
+.lity-youtube .lity-container,
+.lity-vimeo .lity-container,
+.lity-googlemaps .lity-container {
+    max-width: 960px !important;
+}
+
+/*===== MOBILE =====*/
+
+@media (min-width:1025px) {  
+
+        #service-opportunities .fs-service-opportunities > .fs-left-col-service-opportunities {
+        position: relative;
+        left: -200px;
+        opacity: 0;
+        transition: all 500ms ease;
+    }
+
+    #service-opportunities .fs-service-opportunities > .fs-right-col-service-opportunities {
+        position: relative;
+        right: -200px;
+        opacity: 0;
+        transition: all 500ms ease;
+    }
+
+    #service-opportunities .fs-service-opportunities > .fs-left-col-service-opportunities.fs-slide-in {
+        left: 0;
+        opacity: 1;
+        transition: all 1000ms ease;
+    }
+
+    #service-opportunities .fs-service-opportunities > .fs-right-col-service-opportunities.fs-slide-in {
+        right: 0;
+        opacity: 1;
+        transition: all 1000ms ease;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .faith-and-service .wrapper.content,
+    .faith-and-service-tabs .wrapper.content {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    /*----- START YouTube and Vimeo Videos -----*/
+
+    #content .youtube {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 2em; height: 0; overflow: hidden;
+        margin-top: 1em;
+    }
+
+    #content .youtube iframe,
+    #content.youtube object,
+    #content .youtube embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #content .vimeo {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 2em; height: 0; overflow: hidden;
+        margin-top: 1em;
+    }
+
+    #content .vimeo iframe,
+    #content.vimeo object,
+    #content .vimeo embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*----- END YouTube and Vimeo Videos -----*/
+
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .faith-and-service .wrapper.content .col-33,
+    .faith-and-service .wrapper.content .col-33.fs-achievements {
+        width: 47%;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay {
+        padding: 20px;
+    }
+
+    #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay {
+        width: 70%;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay h4 {
+        font-size: 22px;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay h4 {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .faith-and-service .wrapper.content .col-33,
+    .faith-and-service .wrapper.content .col-33.fs-achievements,
+    .faith-and-service .wrapper.content .col-50,
+    .faith-and-service .wrapper.content .col-66 {
+        width: 100%;
+    }
+
+    #chapel-overlay .wrapper.content .flexbox .col-50:first-child {
+        border-right: none;
+        border-bottom: none; 
+        margin-bottom: 0px;
+    }
+    
+        .wrapper.content .flexbox .col-50:first-child {
+        border-right: none;
+        border-bottom: 1px solid #75adcf;; margin-bottom: 20px;
+    }
+
+    #grow-your-faith #chapel .col-50:first-child {
+        border-right: none;
+    }
+
+    #grow-your-faith .fs-gyf-overlay .fs-gyf-overlay-content .flexbox .col-60,
+    #grow-your-faith .fs-gyf-overlay .fs-gyf-overlay-content .flexbox .col-40 {
+        width: 100%;
+    }
+
+    #grow-your-faith .fs-gyf-overlay .fs-gyf-overlay-content .flexbox .col-60 {
+        order: 2;
+    }
+
+    #grow-your-faith .fs-gyf-overlay .fs-gyf-overlay-content .flexbox .col-40 {
+        order: 1;
+    }
+
+    #global-engagement .wrapper.content .messiah-worldmap-container {
+        width: 100%;
+        max-width: 100%;
+        transform: translateX(0) translateY(0);
+        padding-bottom: 20px;
+    }
+
+    #global-engagement .fs-ge-overlay ul.project-loc.col-c2 {
+        column-count: auto;
+    }
+
+    .fs-bg {
+        height: auto;
+    }
+
+    .fs-bg .fs-wrapper {
+        padding: 10%;
+    }
+
+    .fs-bg .fs-wrapper h2 {
+        font-size: 3em;
+        line-height: 1em;
+    }
+
+    .fs-bg .fs-wrapper p {
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    .fs-bg .fs-wrapper hr {
+        width: 100%;
+    }
+
+    .fs-bg .start-btn {
+        display: none;
+    }
+
+    .wrapper.content h1,
+    .wrapper.content h2,
+    .wrapper.content h3 {
+        font-size: 38px;
+    }
+
+    .lightbox {
+        display: block;
+        overflow-y: auto;
+    }
+
+    .lightbox .wrapper.content {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lb-info-container {
+        order: 1;
+    }
+
+    .lb-fs-list {
+        order: 2;
+    }
+
+    .lightbox .close-button {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .lightbox .wrapper.content {
+        padding: 30px;
+    }
+
+    .lightbox .lb-info-img {
+        display: none;
+    }
+
+    .lightbox .lb-info-text {
+        float: none;
+        width: 100%;
+    }
+
+    #content .lightbox .lb-fs-list,
+    .lightbox .lb-fs-list {
+        display: block;
+    }
+
+    .lightbox .lb-fs-list li a:hover::after,
+    .lightbox .lb-fs-list li a.active::after {
+        background-color: transparent;
+    }
+
+    #find-your-church .col-50,
+    #find-your-church .col-50 .fs-right {
+        border: none;
+        text-align: center;
+    }
+
+    #find-your-church .fs-buttons-wrapper .col-50 {
+        width: 100%;
+    }
+
+    #faith-and-service .wrapper.content#fs-profile .flexbox .col-33 {
+        border: none;
+    }
+
+    #resident-life .fs-videos .fs-video-wrapper {
+        padding: 0;
+    }
+    
+    #resident-life .fs-videos .fs-video {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #faq .fs-slider .fs-question {
+        height: auto;
+    }
+
+    #service-opportunities .fs-service-opportunities:first-child {
+        margin-top: 0;
+    }
+
+    #service-opportunities .fs-service-opportunities:last-child {
+        margin-bottom: 0;
+    }
+
+    #service-opportunities .fs-service-opportunities-wrapper {
+        overflow-y: auto;
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    #service-opportunities .fs-so-overlay {
+        height: auto;
+    }
+
+    #service-opportunities .fs-so-overlay.activated {
+        position: fixed;
+    }
+
+    #service-opportunities .fs-so-overlay.activated .mbscrll {
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    #service-opportunities .fs-so-overlay .fs-so-tabs {
+        margin: 20px 0 40px 0;
+    }
+
+    #global-engagement .fs-ge-overlay {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #global-engagement .fs-ge-overlay .col-40 {
+        display: none;
+    }
+
+    #global-engagement .fs-ge-overlay .col-60 {
+        width: 100%;
+    }
+
+    #global-engagement .fs-ge-overlay .fs-ge-list {
+        text-align: center;
+    }
+
+    #global-engagement .fs-ge-overlay .fs-ge-list img {
+        box-sizing: border-box;
+        float: none;
+        margin-bottom: 30px;
+    }    
+
+    #service-opportunities .fs-service-opportunities > div.hover .fs-service-opportunities-overlay {
+        width: calc(100% - 20px);
+        height: 100%;
+        padding: 40px;
+        transition: 300ms;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay {
+        padding: 10px 0;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay {
+        padding: 10px;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay h4 {
+        font-size: 18px;
+    }
+    
+    #service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay h4 {
+        margin-top: 30px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+
+    #service-opportunities .fs-service-opportunities > div .fs-service-opportunities-overlay p {
+        font-size: 14px;
+    }
+
+    #service-opportunities .fs-service-opportunities > div:hover .fs-service-opportunities-overlay .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+}
+
+.fs-left-col-service-opportunities,
+.fs-right-col-service-opportunities,
+.grow-your-faith-image {
+  cursor: pointer;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+
+

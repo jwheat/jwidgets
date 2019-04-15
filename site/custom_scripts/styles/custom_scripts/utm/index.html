@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campaign URL Builder</title>
+    <link href="index.css?v=1" rel="stylesheet">
+  </head>
+  <body class="Site ">
+    <main class="Site-main">
+      <header class="Header" id="header">
+        <div class="Header-block">
+          <span class="Header-menu" id="header-menu">
+            <span class="Header-menuIcon">
+              <svg class="Icon" viewBox="0 0 24 24">
+                <use xlink:href="logo.svg"></use>
+              </svg>
+            </span>
+          </span>
+          <div class="Logo" title="Google Analytics Demos and Tools">
+            <div class="Logo-full">
+              <img src="logo.svg">
+            </div>
+          </div>
+          <div class="u-hidden u-lg-block">
+            <div class="Titles Titles--hero">
+              <h1 class="Titles-main">Messiah College Campaign URL Builder</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+    
+      <div class="Content">
+        <section>
+          <p> Please remember to document any campaign URLs you create <a href="https://docs.google.com/a/messiah.edu/spreadsheets/d/1Ja4rxVtOTYONPUKgTDXkFzBKln0RXHZKaAWbNei0Uio/edit?usp=sharing" target="_blank">here</a>. Contact <a target="_blank" href="mailto:khardy@messiah.edu">khardy@messiah.edu</a> if you need access to the Google doc.</p>
+          <div id="campaign-url-builder">
+              <div data-reactroot="">
+                <form class="CampaignUrlForm">
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Website URL</label>
+                      <div class="FormControl-body">
+                        <textarea rows="3" class="FormField input-field" placeholder=" " id="website_url"></textarea>
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign Source</label>
+                      <div class="FormControl-body">
+                        <input class="FormField input-field" id="utm_source" placeholder=" " value="">
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign Medium</label>
+                      <div class="FormControl-body">
+                        <input class="FormField input-field" id="utm_medium" placeholder=" " value="">
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign Name</label>
+                      <div class="FormControl-body">
+                        <input class="FormField input-field" id="utm_campaign" placeholder=" " value="">
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign Term</label>
+                      <div class="FormControl-body">
+                        <input class="FormField input-field" id="utm_term" placeholder=" " value="">
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign Content</label>
+                      <div class="FormControl-body">
+                        <input class="FormField input-field" id="utm_content" placeholder=" " value="">
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Add UTM</label>
+                      <div class="FormControl-body">
+                        <input class="check-field" id="utm_check" placeholder=" " value="" type="checkbox" checked>
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline" style="max-width: 100%"><label class="FormControl-label">CRM Tracking</label>
+                      <div class="FormControl-body">
+                        <input class="check-field" id="utms_check" placeholder=" " value="" type="checkbox">
+                        *note - only check this box if your campaign is a lead generation campaign. 
+                      </div>
+                  </div>
+								
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Campaign CTA</label>
+                      <div class="FormControl-body">
+												<select class="FormField select-field" id="campaign-cta">
+													<option value=""></option>
+													<option value="1">UG - Lead generation</option>
+													<option value="2">UG - Visit Campus</option>
+												</select>												
+                      </div>
+                  </div>
+                  <div class="FormControl FormControl--inline"><label class="FormControl-label">Student type</label>
+                      <div class="FormControl-body">
+												<select class="FormField select-field" id="student-type">
+													<option value=""></option>
+													<option value="0">UG Student</option>
+													<option value="1">Grad Student</option>
+												</select>												
+                      </div>
+                  </div>
+									
+                </form>
+                <div class="CampaignUrlResult">
+                    <div>
+                        <div class="CampaignUrlResult-item">
+                            <div class="FormControl FormControl--full">
+                                <div class="FormControl-body">
+                                  <textarea id="result-url" rows="5" class="FormField" readonly="readonly"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>          
+        </section>
+      </div>
+    </main>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>    
+    <script src="campaign-url-builder.js?v=1"></script>
+  </body>
+</html>

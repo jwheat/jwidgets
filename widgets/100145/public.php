@@ -30,7 +30,7 @@
             <div class="hero-title-wrapper">
                 <h2>Undergraduate<br>research<br>opportunities</h2>
                 <hr>
-                <p>Clever sub-heading here</p>
+                <p>Contribute practical solutions to<br />real-world problems</p>
             </div>
         </div>
 
@@ -59,13 +59,13 @@
                                             <li>Decide what academic and career areas interest you most</li>
                                             <li>Demonstrate capabilities in all of these areas to graduate schools and employers</li>
                                         </ul>
-                                        <p>† Contributing Reference: Christopher R. Madan, Braden D. Teitge, “The Benefits of Undergraduate Research: The Student’s Perspective,” May 1, 2013, The Mentor: An Academic Advising Journal, Division of Undergraduate Studies, Penn State University</p>
+                                        <p><span="citation" style="font-size: 15px;line-height: 0px;">† Contributing Reference: Christopher R. Madan, Braden D. Teitge, “The Benefits of Undergraduate Research: The Student’s Perspective,” May 1, 2013, The Mentor: An Academic Advising Journal, Division of Undergraduate Studies, Penn State University</span></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <a href="#" class="primary-button">Students stories</a>
+                            <a href="https://www.messiah.edu/homepage/3748/student_stories" class="primary-button">Student stories</a>
                             <a href="#" class="primary-button">Quotes</a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
         <div class="section" id="section-2">
             <div class="wrapper content center section-2-info"> 
                 <h2>Faculty-student collaboration</h2>
-                <p class="section-description">Short overview needed here? - At Messiah College, you don’t have to wait until graduate school to get involved with hands-on research projects. Our undergraduate students have opportunity to participate in meaningful research across all of our 85+ majors. </p>
+                <p class="section-description">Meaningful faculty-student relationships are an important part of the Messiah educational experience. Your professors strive to get to know you, your strengths and your aspirations.</p>
                 <div id="circle-flip">
                     <div class="flexbox circle-flip">
                         <div class="col-33">
@@ -105,7 +105,7 @@
                                     alt="real world creativity image" />
                                 <div class="circle-overlay open-overlay-2"></div>
                             </div>
-                            <h3>faculty-to-student<br>ratio </h3>
+                            <h3>low faculty-to-student<br>ratio </h3>
                         </div>
                         <div class="col-33">
                             <div class="circle-container">
@@ -165,12 +165,12 @@
                         <h2>Faculty-student collaboration</h2>
                         <ul class="section-2-overlay-tabs">
                             <li><a class="open-overlay-1">Faculty mentorship</a></li>
-                            <li><a class="active">Faculty-to-student ratio</a></li>
+                            <li><a class="active">Faculty-student ratio</a></li>
                             <li><a class="open-overlay-3">Important answers to important questions</a></li>
                         </ul>
                     </div>
                     
-                    <h3 class="center"><span>Faculty-to-student ratio</span></h3>
+                    <h3 class="center"><span>Faculty-student ratio</span></h3>
                     
                     <div class="flexbox">
                         <div class="col-60">
@@ -247,6 +247,7 @@
         <!-- ====== SECTION N_4 ====== -->
         <div class="section section-4" id="section-4">
             <div class="wrapper content">
+                <h2>In their own words</h2>
                 <div class="wrapper content center page-slider" id="slider-wrapper">
                     <div class="page-slider-nav-left hide-on-mobile"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
                     <div class="page-slider-nav-right hide-on-mobile"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
@@ -304,18 +305,18 @@
                  <div class="accordion-container">
                     <div class="accordion">
                         <div class="acc-container">
-                            <input type="checkbox" name="panel" id="panel-1">
+                             <input type="checkbox" name="panel" id="panel-1">
                             <label for="panel-1">Share the excitement, inspiration and relevance of your work and ideas</label>
                             <div class="accordion__content">
-                                <p>Vestibulum vel euismod leo. Sed nec velit non purus sollicitudin tincidunt. Curabitur mauris diam, faucibus eleifend venenatis id, luctus in lectus. Curabitur a ipsum feugiat, interdum turpis sed, bibendum nibh. Proin ullamcorper ac nisi ut pharetra. Pellentesque at purus dictum, sagittis ligula a, euismod quam. Suspendisse nec dui ut nisi consectetur pharetra sed et quam. Donec elementum et mi a semper. Maecenas urna magna, tincidunt nec tempus sed, ornare vitae ante.</p>
+                                <p>Ultimately, we want you to be able to share the excitement, inspiration and relevance of your work and ideas. All of Messiah’s academic departments provide annual symposiums where you can publicly present your research. Or if you’re a student in the arts, we provide a variety of venues where you can showcase your original works and performances. You may even be one of the many Messiah students who co-publish research with faculty or present your research at a national conference or symposium.</p>
                             </div>
                         </div>
 
                         <div class="acc-container">
                             <input type="checkbox" name="panel" id="panel-2">
-                            <label for="panel-2">Prepared for graduate school and in demand by employers</label>
+                            <label for="panel-2">Be prepared for graduate school and in demand by employers</label>
                             <div class="accordion__content">
-                                <p>Maecenas non ante feugiat, mollis augue ut, finibus mauris. Praesent scelerisque quam eros. Nullam auctor felis ex, sed ultricies velit sollicitudin maximus. Ut sodales risus ut auctor finibus. Vivamus at porttitor nunc, quis egestas ex. Sed tristique ligula non feugiat lobortis. In lacinia tincidunt ullamcorper.</p>
+                                <p>Messiah’s strong emphasis on professional research skills, methodology, publication and presentation makes you particularly well prepared for graduate school and in demand by employers. </p>
                             </div>
                         </div>
                     </div>
@@ -327,7 +328,7 @@
         <div class="section square-panel-section" id="section-6">
             <div class="wrapper content center"> 
                 <h2>Changing the world one research<br>project at a time:</h2>
-                <p>Stories and outcomes of Messiah student research. View, listen and read the stories below as Messiah students and faculty members share the incredible learning, experiences and outcomes of their own research projects.   </p>
+                <p>View, listen and read the stories below as Messiah students and faculty members share the incredible learning, experiences and outcomes of their own research projects.   </p>
                 <div class="square-panel-section-wrapper">
                     <div class="flexbox square-panel-section-row">
                         <div class="col-50 square-panel-section-col-left video-container" id="video-1">
@@ -337,7 +338,7 @@
                                 data-src="<?php echo $folder; ?>img/ug-research/project-1-img-min.jpg"
                                 alt="" />
                             <div class="video-title-container">
-                                <h4>3D printing </h4>
+                                <h4>3D biomedical printing</h4>
                             </div>
                             <div class="play-btn-container">
                                 <img
@@ -354,7 +355,7 @@
                                 data-src="<?php echo $folder; ?>img/ug-research/project-2-img-min.jpg"
                                 alt="" />
                             <div class="video-title-container">
-                                <h4>prevent post-traumatic stress disordert</h4>
+                                <h4>Preventing PTSD</h4>
                             </div>
                             <div class="play-btn-container">
                                 <img
@@ -390,7 +391,7 @@
                                 data-src="<?php echo $folder; ?>img/ug-research/project-4-img-min.jpg"
                                 alt="" />
                             <div class="video-title-container">
-                                <h4>Big data</h4>
+                                <h4>Digital mapping</h4>
                             </div>
                             <div class="play-btn-container">
                                 <img
@@ -404,7 +405,17 @@
                 </div>
             </div>
         </div>
-        
+  
+       <!-- ====== SECTION N_7  ====== -->      
+ <div class="ug-research" id="continue-exploring">
+        <div class="wrapper content">
+            <h3>Continue Exploring</h3>
+            <p>
+                <a href="https://www.messiah.edu/ELI " class="fs-button">Experiential Learning Initiative</a>
+                <a href="https://www.messiah.edu/info/21317/collaboratory" class="fs-button">Collaboratory for Strategic Partnerships and Applied Research </a>
+            </p>
+        </div>
+    </div>
 
     <link href="<?php echo $folder; ?>lity.min.css" rel="stylesheet">
     <script type="text/javascript" src="<?php echo $folder; ?>js.cookie.js"></script>

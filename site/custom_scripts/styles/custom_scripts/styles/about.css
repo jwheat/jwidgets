@@ -1,0 +1,1029 @@
+/* about tabs */
+#content .widget__z-about-tabs ul {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+/* about */
+.about { margin:0 0 31px; }
+.about:after{
+    clear:both;
+    content:'';
+    display:block;
+}
+.about .text {
+    float:left;
+    width:60.27%;
+}
+.about-box .block {
+    border:1px solid #ccc;
+    padding:21px 20px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.widget__at-a-glance .bd-small {
+    font-size: 26px !important;
+}
+
+.about-box .block .sub-head {
+    display:block;
+    margin:0 0 15px;
+    color:#6697b8;
+    font:18px/20px 'priori-sans-bold', sans-serif;
+    text-transform:uppercase;
+}
+.about-box .block .btn-group a {
+    display:block;
+    position:relative;
+    font:20px/22px 'aptifer-sans-light', sans-serif;
+    color:#273d5e;
+    padding:11px 5px 13px 50px;
+    margin:0 0 12px;
+    background:#f0f0f0 url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico01.png) no-repeat;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    -webkit-box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    -moz-box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    box-shadow:2px 2px 3px rgba(2,2,2,0.2);
+    transition:background-color .2s;
+    -webkit-transition:background-color .2s;
+    -o-transition:background-color .2s;
+    -ms-transition:background-color .2s;
+        text-decoration: none !important; 
+
+}
+.about-box .block .btn-group a:hover {
+    text-decoration:none;
+    background-color:#999;
+    background-position:0 -153px;
+    color:#fff;
+}
+.about-box .block .btn-group a:before {
+    position:absolute;
+    left:42px;
+    top:0;
+    bottom:0;
+    width:1px;
+    background:#ccc;
+    content:"";
+}
+.about-box .block .btn-group .map-btn { 
+    background-image:url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico02.png); 
+}
+.about-box .block .btn-group .statement { background-image:url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico03.png); }
+/* about-tabs */
+.about-tabs {
+    position:relative;
+    font-size:24px;
+    line-height:28px;
+    color:#364862;
+    border:4px solid #fff;
+    -webkit-box-shadow:0 0 4px rgba(5,5,5,0.18);
+    -moz-box-shadow:0 0 4px rgba(5,5,5,0.18);
+    box-shadow:0 0 4px rgba(5,5,5,0.18);
+}
+.about-tabs .nav-tabs {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:table;
+    width:100%;
+    background:#6697b8;
+    font:21px/23px 'priori-sans-bold', sans-serif;
+    text-align:center;
+    text-transform:uppercase;
+}
+.about-tabs .nav-tabs li {
+    display:table-cell;
+    width:20%;
+    padding:10px 2px;
+    vertical-align:middle;
+    height:85px;
+    background: none !important;
+}
+noindex:-o-prefocus, .about-tabs .nav-tabs li {
+    height:105px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.about-tabs .nav-tabs li + li { border-left:1px solid #fff; }
+.about-tabs .nav-tabs a {
+    display:block;
+    position:relative;
+    color:#364862;
+    transition:all .3s;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    -ms-transition:all .3s;
+}
+.about-tabs .nav-tabs a:hover:before,
+.about-tabs .nav-tabs .ui-tabs-active a:before {
+    position:absolute;
+    left:50%;
+    top:30%;
+    margin:52px 0 0 -11px;
+    border-left:11px solid transparent;
+    border-right:11px solid transparent;
+    border-top:9px solid #6697B8;
+    content:"";
+    -webkit-transform: rotate(360deg);
+}
+.about-tabs .nav-tabs a:hover,
+.about-tabs .nav-tabs .ui-tabs-active a {
+    text-decoration:none;
+    color:#fff;
+}
+.about-tabs .nav-tabs a span {
+    display:block;
+    font-size:30px;
+    line-height:29px;
+    text-transform:none;
+}
+.about-tabs .nav-tabs a em {
+    display:block;
+    font-size:44px;
+    line-height:35px;
+    font-style:normal;
+}
+.about-tabs .tab:after{
+    clear:both;
+    content:'';
+    display:block;
+}
+.about-tabs .tab { padding:20px 16px 19px 25px; }
+.about-tabs #tab01 {
+    background:url(//www.messiah.edu/site/custom_scripts/styles/img/about/img02.png) no-repeat;
+    background-size:cover;
+}
+.about-tabs #tab02 {
+    background:url(//www.messiah.edu/site/custom_scripts/styles/img/about/img09.png) no-repeat;
+    background-size:cover;
+}
+.about-tabs #tab03 {
+    background:url(//www.messiah.edu/site/custom_scripts/styles/img/about/img04.png) no-repeat;
+    background-size:cover;
+}
+.about-tabs #tab04 {
+    background:url(//www.messiah.edu/site/custom_scripts/styles/img/about/img06.png) no-repeat;
+    background-size:cover;
+}
+.about-tabs #tab05 {
+    background:url(//www.messiah.edu/site/custom_scripts/styles/img/about/img08.png) no-repeat;
+    background-size:cover;
+}
+.about-tabs .tab .image {
+    float:right;
+    width:40.05%;
+}
+.about-tabs .tab .image img {
+    vertical-align:top;
+    width:100%;
+}
+.about-tabs .tab .text {
+    float:left;
+    width:56.41%;
+}
+#content .about-tabs .tab h3 {
+    font:28px/30px 'priori-sans-bold', sans-serif;
+    color:#6697b8;
+    margin:0 0 8px;
+    text-transform:uppercase;
+}
+#content .about-tabs .tab .large {
+    font-size:60px;
+    line-height:60px;
+}
+#content .about-tabs .tab .large span { display:inline; }
+.about-tabs .tab h3 span {
+    display:block;
+    margin:-3px 0 0;
+    font-size:44px;
+    line-height:35px;
+}
+.about-tabs .tab h3 em {
+    font-size:40px;
+    line-height:40px;
+    font-style:normal;
+}
+/* tablet media */
+@media only screen and (max-width: 1024px) {
+    /* about */
+    .about { margin:0 0 40px; }
+    .about .text {
+        float:none;
+        width:auto;
+    }
+    .about .block {
+        float:none;
+        display:table;
+        width:100%;
+        padding:12px 17px 6px 0;
+        margin:34px 0 0;
+    }
+    .about .block .btn-group { display:table-cell; }
+    .about .block .btn-group a {
+        font-size:18px;
+        line-height:20px;
+        padding:11px 5px 10px 47px;
+        margin:0 0 11px;
+        background-size:39px auto;
+    }
+    .about .block .btn-group a:hover { background-position:0 -139px; }
+    .about .block .btn-group a:before { left:39px; }
+    .about .block .sub-head {
+        display:table-cell;
+        width:165px;
+        text-align:center;
+        vertical-align:middle;
+        padding:0 10px 11px;
+    }
+    /* about-tabs */
+    .about-tabs {
+        font-size:19px;
+        line-height:24px;
+    }
+    .about-tabs .nav-tabs {
+        font-size:13px;
+        line-height:14px;
+    }
+    .about-tabs .nav-tabs li { height:53px; }
+    .about-tabs .nav-tabs a em {
+        font-size:26px;
+        line-height:21px;
+    }
+    .about-tabs .nav-tabs a span {
+        font-size:24px;
+        line-height:17px;
+    }
+    .about-tabs .nav-tabs a:hover:before,
+    .about-tabs .nav-tabs .ui-tabs-active a:before { margin-top:36px; }
+    noindex:-o-prefocus, .about-tabs .nav-tabs li { height:73px; }
+    .about-tabs .tab { padding:21px 14px 10px 29px; }
+    .about-tabs #tab02 { background-position:70% 50%; }
+    #content .about-tabs .tab h3 {
+        font-size:24px;
+        line-height:26px;
+        margin:0 0 5px;
+    }
+    .about-tabs .tab h3 span {
+        font-size:40px;
+        line-height:35px;
+        margin:0;
+    }
+    #content .about-tabs .tab .large {
+        font-size:40px;
+        line-height:42px;
+    }
+    #content .about-tabs .tab .large span {
+        font-size:28px;
+        line-height:30px;
+    }
+    #content .about-tabs .tab .ttl {
+        font-size:40px;
+        line-height:40px;
+    }
+    #content .about-tabs .tab .ttl-2 span {
+        font-size:27px;
+        line-height:29px;
+    }
+    .about-tabs .tab .ttl span {
+        font-size:29px;
+        line-height:34px;
+    }
+    .about-tabs .tab .image { width:45.19%; }
+    .about-tabs .tab .text { width:52%; }
+}
+/* mobile media */
+@media only screen and (max-width: 767px) {
+    /* about */
+    #content .about h2 { margin:0 0 16px; }
+    .about .block {
+        display:block;
+        margin:38px 0 0;
+        padding:21px 15px 8px;
+    }
+    .about .block .sub-head {
+        display:block;
+        width:auto;
+        padding:0;
+        margin:0 0 19px;
+    }
+    .about .block .btn-group { display:block; }
+    .about .block .btn-group a {
+        padding:15px 5px 12px 50px;
+        margin:0 0 12px;
+        background-position:2px 4px;
+    }
+    .about .block .btn-group a:before { left:42px; }
+    .about .block .btn-group a:hover { background-position:2px -136px; }
+    /* about-tabs */
+    .about-tabs { margin:0 -24px; }
+    .about-tabs .nav-tabs {
+        font-size:10px;
+        line-height:12px;
+    }
+    .about-tabs .nav-tabs li { height:37px; }
+    .about-tabs .nav-tabs a em {
+        display:inline;
+        font-size:19px;
+        line-height:15px;
+    }
+    .about-tabs .nav-tabs a span {
+        font-size:18px;
+        line-height:12px;
+    }
+    .about-tabs .nav-tabs a:hover:before,
+    .about-tabs .nav-tabs .ui-tabs-active a:before { margin-top:29px; }
+    noindex:-o-prefocus, .about-tabs .nav-tabs li { height:57px; }
+    .about-tabs .tab { padding:41px 26px 36px; }
+    .about-tabs #tab02 { background-position:0 0; }
+    .about-tabs .tab .image { display:none; }
+    .about-tabs .tab .text {
+        float:none;
+        width:auto;
+    }
+}
+
+/* At a glance */
+
+#messiah-glance {    
+    font-family: priori-sans-bold, sans-serif;
+}
+
+#messiah-glance .center {
+    text-align: center;
+}
+
+#messiah-glance .right {
+    text-align: right;
+}
+
+#messiah-glance .half {
+    width: 50%;
+}
+
+#messiah-glance .third {
+    width: 33%;
+}
+
+#messiah-glance hr {
+    border: none;
+    display: block;
+    height: 1px;
+    background: #74accf;
+    margin: 20px 0;
+}
+
+#messiah-glance hr.black {
+    border: none;
+    display: block;
+    height: 1px;
+    background: #000;
+    margin: 20px 0;
+}
+
+#messiah-glance .banner-heading.title {
+    background: transparent;
+    text-shadow: none;
+    float: none;
+    margin-bottom: .5em;
+}
+
+#messiah-glance .banner-heading.title:before,
+#messiah-glance .banner-heading.title:after {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    position: relative;
+    bottom: 3px;
+}
+
+#messiah-glance .banner-heading.title:before {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/blue-banner-left.png) no-repeat 0 0;
+    margin-right: 10px;
+}
+
+#messiah-glance .banner-heading.title:after {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/blue-banner-right.png) no-repeat 0 0;
+    margin-left: 10px;
+}
+
+#messiah-glance h2.strike {
+    color: #74accf!important;
+    font-size: 35px;
+    text-align: center;
+    margin: .5em 0;
+}
+
+#messiah-glance h2.strike span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#messiah-glance h2.strike:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #000;
+    position: relative;
+    bottom: .5em;
+}
+
+#messiah-glance table {
+    width: 100%;
+}
+
+#messiah-glance table td {
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#messiah-glance table span {
+    display: block;
+    font-size: 32px;
+    line-height: 32px;
+    color: #293e5d;
+}
+
+#messiah-glance .border-r {
+    border-right: 1px solid #74accf;
+}
+
+#messiah-glance .border-l {
+    border-left: 1px solid #74accf;
+}
+
+#messiah-glance .border-t {
+    border-top: 1px solid #74accf;
+}
+
+#messiah-glance .border-b {
+    border-bottom: 1px solid #74accf;
+}
+
+#messiah-glance .glance-title,
+#messiah-glance .glance-small-title {
+    text-transform: uppercase;
+    line-height: 36px;
+    display: block;
+}
+
+#messiah-glance .glance-title {
+    font-size: 32px;
+}
+
+#messiah-glance .glance-small-title {
+    font-size: 24px;
+}
+
+#messiah-glance .falcon-mascot .glance-title {
+    line-height: 24px;
+}
+
+#messiah-glance .big-txt {
+    font-size: 90px;
+    line-height: 70px;
+}
+
+#messiah-glance .txt {
+    display: block;
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+    min-height: 8em;
+}
+
+#messiah-glance .txt-s2 {
+    font-size: 27px;
+    line-height: 27px;
+}
+
+#messiah-glance .txt-s3 {
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#messiah-glance .txt-s4 {
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#messiah-glance .light-blue {
+    color: #74accf;
+}
+
+#messiah-glance .subspan {
+    display: inline;
+}
+
+#messiah-glance a.button {
+    display: inline-block;
+    background: #293e5d;
+    padding: 0 20px;
+    border-radius: 3px;
+    font-family: "Aptifer Sans LT W01", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+#messiah-glance a.light-btn {
+    background: #dddddd;
+    color: #293e5d;
+}
+
+#messiah-glance .banner,
+#messiah-glance .banner-left,
+#messiah-glance .banner-right {
+    display: inline-block !important;
+    padding: 10px 2px;
+}
+
+#messiah-glance .banner-left,
+#messiah-glance .banner-right {
+    width: 32px;
+    height: 18px;
+}
+
+#messiah-glance .banner-left {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/blue-banner-left.png) no-repeat 0 10px;
+}
+
+#messiah-glance .banner-right {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/blue-banner-right.png) no-repeat 0 10px;
+}
+
+#messiah-glance .tuition {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/tuition-and-aid.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#messiah-glance .rankings {
+    background: url(http://www.messiah.edu/site/custom_scripts/styles/img/glance/rankings-and-recognition.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 10px;
+}
+
+#messiah-glance .img-box h2.strike {
+    text-shadow: none;
+    margin: 0;
+}
+
+#messiah-glance .img-box h2.strike span {
+    background: transparent;
+}
+
+#messiah-glance .img-box h2.strike:before ,
+#messiah-glance .img-box h2.strike:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    bottom: .25em;
+}
+
+#messiah-glance .tuition h2.strike:before ,
+#messiah-glance .tuition h2.strike:after {
+    width: 35%;
+}
+
+#messiah-glance .rankings h2.strike:before ,
+#messiah-glance .rankings h2.strike:after {
+    width: 25%;
+}
+
+#messiah-glance .float-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#messiah-glance .float {
+    float: left;
+}
+
+#messiah-glance .float ul {
+    list-style: none;
+}
+
+#messiah-glance .float ul li {
+    background: none;
+    padding-bottom: 2px;
+}
+
+#messiah-glance .white-txt,
+#messiah-glance .white-txt * {
+    color: #fff;
+}
+
+#messiah-glance .nav-btn {
+    padding: 70px 20px 20px 20px;
+    width: 11%;
+    min-width: 86px;
+    box-sizing: border-box;
+}
+
+#messiah-glance .nav-btn a {
+    display: block;
+    width: 46px;
+    height: 46px;
+}
+
+#messiah-glance .slide-content {
+    padding: 20px;
+    width: 78%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#messiah-glance .slide-content .third.pad-box {
+    position: relative;
+    width: 31%;
+    margin: 1%;
+}
+
+#messiah-glance .slide-content .third.pad-box:before {
+    content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+#messiah-glance .slide-content .third.pad-box .single-slider-content {
+    border: 2px solid #74ACCF;
+    border-radius: 100%;
+    position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;    
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#messiah-glance .slide-content .third.pad-box .single-slider-content.active {
+    border: 2px solid #fff;
+}
+
+#messiah-glance .pad-box {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#messiah-glance .rankings .undergrad:before,
+#messiah-glance .rankings .grad:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    background: #fff;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#messiah-glance .rankings .undergrad:before {
+    background: #74ACCF;
+}
+
+#messiah-glance .rankings .grad:before {
+    background: #fff;
+}
+
+#messiah-glance .division-3-sports {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#messiah-glance .block-desktop {
+    display: block;
+}
+
+@media (max-width:999px) {
+
+    #messiah-glance table,
+    #messiah-glance table tbody,
+    #messiah-glance table tr,
+    #messiah-glance table td,
+    #messiah-glance .half,
+    #messiah-glance .third {
+        display: block;
+        width: 100% !important;
+    }
+
+    #messiah-glance .border-r,
+    #messiah-glance .border-l,
+    #messiah-glance .border-t,
+    #messiah-glance .border-b {
+        border: none;
+    }
+
+    #messiah-glance table td {
+        /*border-bottom: 1px solid #74accf !important;*/
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #messiah-glance hr {
+        display: none;
+    }
+
+    #messiah-glance .center-mobile {
+        text-align: center;
+    }
+
+    #messiah-glance .hide-on-mobile {
+        display: none !important;
+    }
+
+    #messiah-glance .img-box h2.strike {
+        font-size: 24px;
+    }
+
+    #messiah-glance .img-box h2.strike:before, #messiah-glance .img-box h2.strike:after {
+        width: 5%;
+    }
+
+    #messiah-glance .banner-heading.title {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    #messiah-glance .banner-heading.title:before,
+    #messiah-glance .banner-heading.title:after {
+        bottom: -2px;
+    }
+
+    #messiah-glance .banner-heading.title:before {
+        margin-right: 5px;
+    }
+
+    #messiah-glance .banner-heading.title:after {
+        margin-left: 5px;
+    }
+
+    #messiah-glance .block-desktop {
+        display: inline;
+    }
+
+    #messiah-glance .slide-content {
+        width: 50%;
+    }
+
+    #messiah-glance .slide-content .third.pad-box:before {
+        padding-top: 0;
+    }
+
+    #messiah-glance .slide-content .third.pad-box .single-slider-content,
+    #messiah-glance .slide-content .third.pad-box .single-slider-content.active {
+        border: none;
+        position: initial;
+    }
+
+    #messiah-glance .nav-btn {
+        padding: 70px 10px 10px 10px;
+        width: 25%;
+        min-width: 56px;
+    }
+
+    #messiah-glance .nav-btn a {
+        width: auto;
+        text-align: center;
+    }
+
+    #messiah-glance .rankings .undergrad,
+    #messiah-glance .rankings .grad {
+        margin: 20px 0;
+    }
+
+    #messiah-glance h2.strike:after,
+    #messiah-glance h2.strike:before {
+        bottom: 0.35em;
+    }
+
+    #messiah-glance .falcon-mascot {
+        padding-left: 0 !important;
+        padding-top: 120px;
+        text-align: center;
+        background-position-x: 50% !important;
+    }
+
+    #messiah-glance h2.strike span {
+        padding: 5px;
+        line-height: 1em;
+    }
+
+    #messiah-glance .float-wrap {
+        padding: 20px 0 !important;
+    }
+
+    #messiah-glance .float.no-float-mobile {
+        float: none;
+    }
+
+    /* specific blocks */
+
+    #messiah-glance .undergrad-country,
+    #messiah-glance .live-on-campus {
+        padding-left: 0 !important;
+        padding-top: 120px;
+        background-position-x: 50% !important;
+        text-align: center;
+    }
+
+    #messiah-glance .grad-states {
+    padding-left: 0 !important;
+    padding-top: 100px;
+    background-position: 50% 0 !important;
+    text-align: center;
+    }
+
+    #messiah-glance .undergrad-employed {
+        padding-left: 0 !important;
+        padding-top: 200px;
+        background-position-x: 50% !important;
+        text-align: center;
+    }
+
+    #messiah-glance .undergrad-population {
+        max-width: 70%;
+        vertical-align: middle;
+    }
+
+    #messiah-glance .plain-txt {        
+        background-position-x: 50% !important;
+    }
+
+    #messiah-glance .plain-txt span {
+        padding-top: 2em !important;
+        text-align: center !important;
+    }
+
+    #messiah-glance .messiah-location {
+        padding-left: 0 !important;
+        padding-top: 140px;
+        background-position-x: 50% !important;
+    }
+
+    #messiah-glance .internship-sites,
+    #messiah-glance .available-internship {
+        padding-left: 160px !important;
+        background-position-x: 0 !important;
+    }
+
+    #messiah-glance .ncaa-3-list * {
+        float: none !important;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    #messiah-glance .division-3-sports {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        margin-top: 20px;
+    }
+
+    #messiah-glance .degree-option .txt-s2 {
+        padding-left: 0 !important;
+        margin-top: 20px;
+    }
+
+    #messiah-glance .college-honors {
+        background-position-x: 50% !important;
+    }
+
+    #messiah-glance .summer-courses,
+    #messiah-glance .summer-courses .big-txt,
+    #messiah-glance .summer-courses .right {
+        text-align: center;
+        padding-left: 0 !important;
+        line-height: initial !important;
+
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1204px) {
+
+    #messiah-glance table td {
+        padding: 15px;
+    }
+
+    #messiah-glance table span {
+        font-size: 26px;
+    }
+
+    #messiah-glance .glance-title {
+        font-size: 28px;
+    }
+
+    #messiah-glance .big-txt {
+        font-size: 70px;
+    }
+
+    #messiah-glance .grad-students-cultural .banner-left,
+    #messiah-glance .grad-students-cultural .banner-right {
+        display: none !important;
+    }
+
+    #messiah-glance .block-desktop {
+        display: inline;
+    }
+
+    #messiah-glance .division-3-sports li {
+        padding-left: 5px;
+        font-size: .9em;
+    }
+
+    #messiah-glance .tuition h2.strike:before ,
+    #messiah-glance .tuition h2.strike:after {
+        width: 25%;
+    }
+
+}
+
+#messiah-glance .slide-content .third.pad-box {
+    background-size: contain;
+}
+
+#messiah-glance .gallery .flex-direction-nav a {
+    top: calc(50% - 32px);
+    left: 10px;
+}
+
+#messiah-glance .gallery .flex-direction-nav .flex-next {
+    left: auto;
+    right: 10px;
+}
+
+@media (min-width: 1205px) {
+
+    #messiah-glance .rankings.img-box div .gallery:nth-child(2),
+    #messiah-glance .rankings.img-box div .gallery:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1204px) {
+
+    #messiah-glance .rankings.img-box div .gallery:first-child,
+    #messiah-glance .rankings.img-box div .gallery:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media (max-width: 999px) {
+
+    #messiah-glance .rankings.img-box div .gallery:first-child,
+    #messiah-glance .rankings.img-box div .gallery:nth-child(2) {
+        display: none;
+    }
+
+    #messiah-glance .slide-content .third.pad-box {
+        margin: 1% !important;
+    }
+    
+    #messiah-glance .slide-content .third.pad-box:before {
+        padding-top: 100%;
+    }
+
+    #messiah-glance .gallery .flex-direction-nav {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 766px) {
+
+    #messiah-glance .rankings .gallery {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1209px) {
+
+    #messiah-glance .rankings h2.strike:before,
+    #messiah-glance .rankings h2.strike:after {
+        width: 10%;
+    }
+
+}

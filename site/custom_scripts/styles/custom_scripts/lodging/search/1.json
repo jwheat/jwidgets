@@ -1,0 +1,753 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CoQC_wAAACri_5IRAvJZBUAu4v_fk3P45hCOO1ZfPcZBqS9DJs7IozN3bcgXp9vzKEUFzZco1UKfCvB_nQpek3f1KlYHNQrf8eHqIY2SyCsIb-KEmkjLgt3bcKoUFF_2xVhIqa7xBJTw0JckruMa5w4EdFhE_S8XEr4Y0p5kTjsEGXrV1hHlTyOusIkUTxe8OB57mekn2SJGn_L4pg4E9nOVrgfNx2Y3Zhu6kR7hDzca6DS6IGP9QWOJIXHLuJjGlrkBBYhAh7gLmuQgr833JpcBnpk1MlJwWRt_0f_-Kw7aSqquPvqUNo3CcJaBBkc4zJNe3-jB2ikL7REXajfRlYR9Xqf5h4YSEKViJG65J77D179XUpd5ResaFEfKE4hCIBVUPxf_4o6OyRM44CxS",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2068006,
+               "lng" : -76.9624632
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20688380000001,
+                  "lng" : -76.96207559999999
+               },
+               "southwest" : {
+                  "lat" : 40.206551,
+                  "lng" : -76.96259240000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "87ba3144ba5c9ca581f7a13ca4af8c0cf6cf0332",
+         "name" : "Courtyard Harrisburg West/Mechanicsburg",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1318,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103825301977590609523/photos\"\u003eCourtyard Harrisburg West/Mechanicsburg\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKC0vyUrApgt0RRKYRUlPT9SgV_BbhZx4jsgARhcn9YZtzwO_bmZVDlofBnvkHh3Zm60WH8CjnQgyWEi0-CIeZ8kn31tj294yh9sfaH87D3gAW438a-T140LPXIEIbIFbQAZ8yPvvRQfq_S6X4Fp9ReltHl_45jy8CuL8OH-hmNaEhD_OYeaTJ8-sGQknxKafZ91GhRPpe6UCvavoK9nljW-x-6v-CGPdg",
+               "width" : 1319
+            }
+         ],
+         "place_id" : "ChIJZ-bzHc3pyIkRFor63UDZ55Y",
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAAQK8zDLrip0e0K70kh3RQ_qm2NfU7OCO4_tHpsW_EA_TYgq32qg1Pez3BMUn_iyCjfw3xcrGU8g8Yg38sHrCK2a91AjRtF6GQqwb0sUjQOj_JrF5qfkSxY6o6Oc1_kWUEhCinotLYc8w-2GSGamgTMohGhS94y34t3hYq7QyY20Z3FGsj5YBMA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4921 Gettysburg Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.206779,
+               "lng" : -76.95752899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20687545,
+                  "lng" : -76.95746294999999
+               },
+               "southwest" : {
+                  "lat" : 40.20648964999999,
+                  "lng" : -76.95772714999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "99dac1bf97c34fcf2515ea5b48ae1d0ddd1e8e20",
+         "name" : "Hampton Inn by Hilton Harrisburg West",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3744,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118344004459320397556/photos\"\u003eHampton Inn by Hilton Harrisburg West\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFNb8nefzYycxoFCzdERX8KvWaZaiXIcI45LQ3RTzrhAY534pBe01iMcND6ywZA7uo_qAySDSKcPL5j3YAb-m7JaF3E9tpUnD9s9Q8937CL-YwgEbuTXZLR9YddutUfnee5bF7g-bauojT628SLFZ5Je7iB5nQHqPlyhWTqEYaC9EhBdYhjwnAQJLx0K_KlHwzYtGhTWyhjpIQSkHNrJ-TsPGvB0AFV3Ag",
+               "width" : 5616
+            }
+         ],
+         "place_id" : "ChIJTSKAZM7pyIkReg8ditHxQqA",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAALIBCM1AYJLnAwDKqUx3zApF-5ey_nvmDIZBsNQ5vE3JG1S5UEdRWsbp4cqqp8DP1n_Tx4kQ5J2tmo2ftkD9ee4YOKH1Odg6HUwAvLJXDBs3cgu1KRdPzyarJ3dSNNzhTEhAP7_bG4wBFGhY8oyiVcTPAGhTYP1B0vTRpQ8sKdPtbcVyLHMveHg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4950 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.241357,
+               "lng" : -76.98172269999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.24211665,
+                  "lng" : -76.98129179999999
+               },
+               "southwest" : {
+                  "lat" : 40.23907805,
+                  "lng" : -76.9830154
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "a86ab8e1fd8b18dc061af6cc2422ad1086e87c4a",
+         "name" : "Park Inn by Radisson Harrisburg West PA",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108609244658247348104/photos\"\u003eNorma Cintron\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFOK3_THFaM58d2iQU0SFxp_qUf4ECYVEcd5ycrKocYVY6WnXsyd1cdWdUjgBYmQ7R656WyosZ1QII5FIe4kwrTPrsfIEPHFo8BFQwjibHrCC_E_i2EoS_obei9dAz7YCzzEGAlc5bWxpkSzj_wJ1SK82GDV0SahejXmlOGuYgMhEhCdhyB6sw6EqLQQY8DN3r-xGhQnveinytS6FzKSU_OebyN1NPQ95Q",
+               "width" : 2340
+            }
+         ],
+         "place_id" : "ChIJ7S4vkpTCyIkRyDIK686tyb0",
+         "rating" : 3.5,
+         "reference" : "CmRSAAAAjaAdpXO4xZuJRgiS4edLiTweZkLOM4WeIiwW6_Euucuar7Z51oD1sJM7F-T3seGiUvzvPh3z1jHtS4_GP0Vxq6nSPDMmGv_6axJxkyEInntobFNIPi1s201zncLuG0yBEhDN1uFNDO0LZ7xGz069cbn6GhRGxEwzRx2LImV3QzucZgJ4jc4d5g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5401 Carlisle Pike, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2049501,
+               "lng" : -76.9596057
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20510465000001,
+                  "lng" : -76.95925434999999
+               },
+               "southwest" : {
+                  "lat" : 40.20462605,
+                  "lng" : -76.95974855
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "13651f314a3a73dcce52223e0062410788522c4c",
+         "name" : "Homewood Suites by Hilton Harrisburg-West Hershey Area",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111516063837871317496/photos\"\u003eHomewood Suites by Hilton Harrisburg-West Hershey Area\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAC448BZgrP776ilEZRmIXB4SCJ9QkosVDBDIe9RNQOydwYoKkA3T20ojsL22W4u1hKwEvPo5DgyeyYOahZFgkM-leOwcPDUjk0dtWk1if1UsQiFHN62pkg7TxFWm3u1h7iTV25NjiR4QDNjwnzzubQ8gEWdR9CTFAyNqWEvhaVWdEhCjYv2xACDC3aUDm0v-UDZnGhSAlJlpqhn92rteuwi9ri5v1y-JnA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJmRP4IszpyIkR08uyfVTyf-k",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAqqsBZED6BGb1u2TfQ7fq8tKWW9EUnuDf0mWZay8A4tAZ4S4gFbO9aOcrNEOIqrNlkBbU1AV-_1hXBeFzPEXVhNXEH5-SEcmp2vn7XrHWbdeyiAk7c10eNmhq9vIoE6g7EhAl7-Sywl34Q918DkJ06hyrGhQXpRC2xsEyWvwgVl1q2nM6JLsVrw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5001 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.10945059999999,
+               "lng" : -76.9275492
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2ef741f621b3f7109600a57bc32151676a05e920",
+         "name" : "Roundtop Mountain Resort",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114548880235413167224/photos\"\u003eLisa Peters\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIOiHdEwez5dGi8gVNhzTCL-0q71W5bJHjPgBTomvlcQItWLMHadyszaKYkp7ZeTQGayjYoK9dPg1ojmY3OEg7ktHIV4ffwCWpsI8yviJX2zGz6if3pFqw2-v0BPCSFo5osD8PxCgFFyWg39tokVwl4xcW4JJt7-ZxOTVfraRMNlEhAs04LTWgJ_cd4L_uQQhmZ2GhRNXLfJ3JMMQaVkVFFcOWmX2TJJsQ",
+               "width" : 2561
+            }
+         ],
+         "place_id" : "ChIJebcZSJnuyIkRZ3ZQOeG7E_c",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAvEoWAdAfCr9HEUKjCzq293ytCRARcswtjnBueegJg_PHYrrhXoMi4UJ8On1MRdbqAWV3m8iyBIGo2x3K2pI8Qfuqc7aQQQUakPXjIr9UqP2umAaga7Iya9ECg8h3NUigEhArPNN2x9p-BO9l9aIXQAi9GhS25ODKFbalEPfBP9WB6cwM6ah7Jg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "925 Roundtop Road, Lewisberry"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.195201,
+               "lng" : -76.978354
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "a0da62d6c1dc56b640030cdc3a3b368fcbdc5205",
+         "name" : "Wingate by Wyndham Mechanicsburg/Harrisburg West",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103639762559486992892/photos\"\u003eJon Oppel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKppWvtCySy_v6IXMjut3UJQUDllR6iDOF7h4iJXyzAz15idpzUS3FCVLSBb3w_hFsTBY65rBT-GT0RLHNl4cWLXuxsf2K6DxaXUwlcCsuxkWMI8fEA10zzz1kmtk_Wuj4Fsge6FyiDFAFCX41d5Fi_pmPNBx0TYNhjsQpMjAA82EhC6s3gp2PDwKaWwKEwUJVKWGhTIKUL07rYI9wO7Z_4q94YidoCFQQ",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ-74fzEXoyIkRHm0XlEvBbC8",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAiPNLG7DK8ktm4PIrQGxCCVvxpccFhoHU-k6DH4k0G_Ey9C7TRZ8Z6T0T-JJsJhijYnaNYFG48wVbmvKvMS4aEO7aKFxaTbAzmFcTuso0a4KFA7Wlal37pB9_z6OSorlpEhDmy_IwNSllPuWqoApCa_WfGhT8-tWqx7nMtK5Z_4zLovLFiXFXgQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "385 Cumberland Parkway, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.212433,
+               "lng" : -76.96111999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21333335,
+                  "lng" : -76.96090719999999
+               },
+               "southwest" : {
+                  "lat" : 40.20973195,
+                  "lng" : -76.96175839999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "cbfd2fc314d3255e4bd9136f1ef3acc9a062c3a2",
+         "name" : "Comfort Inn Mechanicsburg - Harrisburg South",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 300,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104795031892492314373/photos\"\u003eComfort Inn Mechanicsburg - Harrisburg South\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOVk6mudh0hNguRIvP72DiPXBOpXyXobRDu3m8S0kkbV-HYnU16AoRT5KDtFM1ALxKFeOj7P00sl7jcMDqQqanmdMUrYkYtjNWWBcLaDF88lMfSf2-YEQWVMikpNI1mib6onjwEcUEjMt1vXWeSrbD5A46c3JewNVM-1uQZeiKA_EhD-Fl0ChphPUNIw6rf3H3PFGhQik0nBbpg-WwEKJ9qOaM6QaBadfQ",
+               "width" : 300
+            }
+         ],
+         "place_id" : "ChIJx-c5ptPpyIkRcpBchUyN4bA",
+         "rating" : 3.9,
+         "reference" : "CmRSAAAAaXVab4kVWNnFQr_2NpkaCX-k3LTwlucQuhm6XxGmbt9Mixk7FBdY678xD1Nlb5U6Rrp-2tkuqYKwt00pxTLc-m_M1D9Mf11iSqGJ6ZmOjCs97waYAiRiQHh8pPAk4DA5EhAB96VJe4CrzYTTwNxKGwj0GhRUjdiyuHQPDkhsBmXGdJNs4YeKjg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1012 Wesley Drive, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.213648,
+               "lng" : -76.88256299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21408659999999,
+                  "lng" : -76.88173470000001
+               },
+               "southwest" : {
+                  "lat" : 40.21233219999999,
+                  "lng" : -76.88283909999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f90caf79953a7a371083842ff4a5c04127e0fba9",
+         "name" : "Motel 6",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109823846832620808501/photos\"\u003eMark Stein\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHU8E4VOBR990t5bA5FeL2dc_ujfTnapcUqGz7oQdKHefE2DhkSf4f730mCO07lZU4SdtYT2PuvTPXVhXjIWoMUho6K9fXSI9FzB7Pe2QciWtbc0yzKCWmAL_8WxwrFafi9CuaZdlvIAT67sZ1aEgn85hFy50deR5wkcnVzShilBEhAxcd4YoSZ-FDw2uSy_gDG1GhRcnIG43S5l8wNVyJRFN8honHaBHg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ9a2UCtfByIkRus7wuBIInWA",
+         "rating" : 3.2,
+         "reference" : "CmRRAAAA2EEztysRuyybUvESXal0X0FHBr06-SYr8d0-X6pvOGqtzKb3ZxckfUahH9VbeAs3t2zsmYT0oCEKizr1sipgqKIH8Fch3ttENla6SAZAt1Ydt_J9NXkzdi9QBS5TlkyvEhAsXdlwyGId9Fk__O-vToodGhTVwPv5G1ah8UYJ9D5CDmqqaZLtag",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "200 Commerce Drive, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.21620000000001,
+               "lng" : -76.880786
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2166062,
+                  "lng" : -76.8780008
+               },
+               "southwest" : {
+                  "lat" : 40.2160646,
+                  "lng" : -76.88171440000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "624f19fed5b1812ec80261d4c17359b131d46b8b",
+         "name" : "Fairfield Inn & Suites Harrisburg West",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3551,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109032686486595394591/photos\"\u003eJohn Beatty\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIZpOgsw2qRFJMfn7BfctQcRZXfwPB1bXhogzb5t17A5lyIvCxZZp_QtsoBW9E2bW4SeBMGM1_ruZsOfLgW7F4BAPHdDnZZmgnIx-UwFm4mheLpuKwhk9M2Bpuk2jvGBEqZTqxpMjPzkjBVnxrsV-wI2AhfWMqh7IvocBcDokSvcEhDtwui2MiQwzEglNhqQl7_fGhTLojCpuWxSg4NdkX0bdQyl5pGoww",
+               "width" : 5328
+            }
+         ],
+         "place_id" : "ChIJeYfWO7jByIkRjQ_x4oXVQGs",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAT6hZL5-JtR3kLmdxoN8W_tV-Q0Vclut0N6KuYr_7MZ6HxQ0e1fAZWJ5m2iBfOSNUzIhwJ-BCGjciub_v9OehizEKpStOuaayTCtx-qEojTwnCkPMOpirUX7gBa6dzqEJEhAuDvriuDE8aMraZUNhfKDWGhQsWR9SvkpHAmWYcyG-E79S4FTmEA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "185 Beacon Hill Boulevard, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2099005,
+               "lng" : -76.87571869999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f69ef2de6a103d2ae34ef9772ed25c82f905de4f",
+         "name" : "Days Inn New Cumberland/Harrisburg South",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 257,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110201748287454683396/photos\"\u003eDays Inn New Cumberland/Harrisburg South\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMhjMyCxSwpTXfZw631nposEy-78oshYOMbNmdMrhwaO9xvRjY6-LctIa1GI3AnPqAC_2ZFxUbafOl7Q7mSMjTMLSSxPJJhazAy3PRUr0XFGGPow9xei-BaEEiMqHaAiNvCghZEpihSN8ssRqVfUBgpXTAMl9ehdPKwvsh65WluWEhCC9z_4QzC09_yG2mNDQ8q4GhSeEzoLZI38p3h5Z2ZkQ31_-O8H8Q",
+               "width" : 338
+            }
+         ],
+         "place_id" : "ChIJDf_Fc4SOyIkRb6P-Jeg2YcQ",
+         "rating" : 2.9,
+         "reference" : "CmRSAAAAjLw17PA9fnoLm2b0PcIl5nvj7YSRlUOUpjhIYuDa5OvgTqjC48M9mNJGsIaejJNPknMfoX9l6CUl7bQrX9kCuizeA9dpf_eE_YPwJsqEYHlRpoRAILZB56B7FvnB35O3EhDIqJbCkDF9RBY6wG2MnOTKGhSzw_1CUwpH2PbmWWSLqZKE4sCtjw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "353 Lewisberry Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.201223,
+               "lng" : -76.97151599999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2012768,
+                  "lng" : -76.971429
+               },
+               "southwest" : {
+                  "lat" : 40.2011772,
+                  "lng" : -76.971777
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "70fe8c367307c6afbf84b02a06e98bf5c7a08341",
+         "name" : "Econo Lodge",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1610,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106173368458444502852/photos\"\u003eVlastimil Zajíc\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALrO492AqongNtDXnH6dq8jV9ErvZtjIoPgsFZR2sepjOXEMJXdEtAXEfVW43vAkDcaNJO-1t6yuwTamjM-rHkRwWfrWS6_i7br-BPagaFWm25oqmwCWxC9Zrm1KsAtumGObCB7mPrMOgyWT8N8In0tPSvmjT9WOTloIC_geLgXEEhB-Nt79L_Z9ADu7NWi3q0auGhR9AOvq4qoRZu1MMQbjHKPTP9GwXA",
+               "width" : 2147
+            }
+         ],
+         "place_id" : "ChIJyc__EDboyIkRbTmEE7LBsio",
+         "rating" : 3.2,
+         "reference" : "CmRRAAAAFSUktJSWyDczqR0La5Ra-5xZST_S8puziS-f9dUwLZIzDYqKcMrxWm3LewPxsEVEjW-hA_-KdgVkBnneKxhWjv7c16AHUg-rUYIKtlyNAGN21801ltcujap7daohLC2mEhC_j9-UMLd94bDn_5-zJgLcGhTrIncJvZzTYHud6699w9lOIKcnEA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "650 Gettysburg Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2118706,
+               "lng" : -76.88066619999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21213474999999,
+                  "lng" : -76.88061175
+               },
+               "southwest" : {
+                  "lat" : 40.21178255,
+                  "lng" : -76.88082955
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "20ec9a633429f4c7a6d0f14cd2abd131b94367a0",
+         "name" : "Best Western Plus New Cumberland Inn & Suites",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 946,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116677772621757962977/photos\"\u003eMohamed subhi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGVQ7bWSf2Ua2wp3OjE1h7yLepHu2x005EFfZIAgLkAUIzAzZlH9iPYKBBMgEY3rIi1DoYW3TEsds7Fif7ns2ejX3L0Z76fjAYxt6xURTnSgFxuaJsHPTwE2pMnleBjJRM_1xmCW9RWz4JGpihYh97Nj8O07my1Re01jcQrzpVNMEhCxj33PsEkSQPtldUwwIEE4GhSY4x6vSl95JoNV61PkckuR_eRkew",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJ9y8LhNjByIkR11abpNUtajI",
+         "rating" : 3.5,
+         "reference" : "CmRRAAAAjBONCSZkkj7l0Sdf2vbU8BSWf9NaneIPGmYuVzw0xLCdyNSxSGuEQZ103akHgFJcFxDXxZ1sfDFwxj0xVkVZR4z5vv486GqsSB1mNU2sIFw78vWiLOIFELTBTpR_evUAEhCCaziDTYoqg4TjnozzWYmeGhSZJ9-L3O_3kwLgwXgF36uaHK7iAQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "702 Limekiln Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1514564,
+               "lng" : -77.1145284
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.15347929999999,
+                  "lng" : -77.11430824999999
+               },
+               "southwest" : {
+                  "lat" : 40.15078210000001,
+                  "lng" : -77.11518885
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "20c70ec9593934b4b521e947fd6c2c02af417d16",
+         "name" : "Allenberry Resort",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2432,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107275247047539809582/photos\"\u003eChris Persil\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACyhyo0WUq_0KdzCIWf9fd3_MuXvl1rMrlRhIZ7QqP3old9oUFHyjUnXpUtxXj3sDVD_ZWL1FQnGOJ9zn_qhN5MZa8lAscB7VMTnHGjhZVH56AuZybnpOfgwprV4rebW1zovVPznj2BbjCZlt-oaIYfrynFDaMR_VB1cs8yoH4p3EhCyEn0S53KLAgxsYhhvnngXGhSXE0KhXJJYhQBDu1rpqT7AzGX7ww",
+               "width" : 4320
+            }
+         ],
+         "place_id" : "ChIJZ-84UPvjyIkR0UN6PT7IqoE",
+         "rating" : 3.8,
+         "reference" : "CmRSAAAAt2kBEUjIoPX9mQYuHeA4kMSe5EmL5m3oiup_tvGia_us5YiaHAqYtT28xq3PCBXixn0UZHh4xsz6gvcPJdGh3IkXwN2NYeq-fHdPbkYCJJNpc-VWhOszrhJyJT0NnJt-EhCFVyiz5-8VFbv4bgAwdy7lGhQaww3tJxWFxcvrSH7Vk0PpmV5e1Q",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1559 Boiling Springs Road, Boiling Springs"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1943752,
+               "lng" : -76.9788489
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.1949761,
+                  "lng" : -76.9783745
+               },
+               "southwest" : {
+                  "lat" : 40.1925725,
+                  "lng" : -76.98027209999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5f2eb6de82546fb0eee3d63307c34e21573a7e83",
+         "name" : "Motel 6",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 429,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113387558290287753295/photos\"\u003eMotel 6\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMp1w9IvCslkyM2UfyaXCJe6wB1OS3aNS8XbERQrwWPxis1x4Wza7iS1pTN7NGV9DloVAJPcjxE1v17j07yn6F7-2MUceWWf5TLhTcd49TN5i3ylmNj5TgssuX6izd5SGmI69v0M_dAr0EYnicUOKB77HkQjwopxYzqgjOnWbOemEhBwK_dznoHskSlHbIS_uvvVGhSBKPp9zTylP9MKzWW3xsEzG4znwQ",
+               "width" : 760
+            }
+         ],
+         "place_id" : "ChIJU7o_TUToyIkR4Aca67atXek",
+         "rating" : 3.2,
+         "reference" : "CmRSAAAACWZ7sk-UqX3w9b8q0O33KeoafV1qMZ_wbX3sCqqAj4kNwflULdWV4uN23jdEwAEKC0ykisz9SQlbkl4FzEqb1yCPjqewYRGQgRBrOuQ5ZnHVji1UlWTmfsAW0R-wDnBMEhCxiqPzVdaefR6EbqCPcC8sGhSHktgxXC9aSXAg-utAUBKE-FKOUQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "381 Cumberland Parkway, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2143658,
+               "lng" : -76.8817796
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21465205,
+                  "lng" : -76.88165875
+               },
+               "southwest" : {
+                  "lat" : 40.21350705,
+                  "lng" : -76.88214214999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5eddd629e3ef7e03fae49b8401600302b080cf63",
+         "name" : "Scottish Inns New Cumberland",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2534,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107693737715143292771/photos\"\u003eScottish Inns New Cumberland\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADmM8Au_lrbfafdzfc71Qb5dUDn_vxwKwrlSpYY5Kvfr7Mg3loc17VP7r5VuTHtCj5z6sBS-QPpMLfJNI2k2xuYUFLyJ4asZNa7o4bBpZlbNL5XBjYLK1fMb5JK5NRQgTKv2oBdGaq8SBQ0QnbvWtfq7TudclPTIzmInY10K-w-4EhBKGIqfFaDV-5EvmSfxhyUZGhQ3xS55UrHDgAqHAg3CWhW3pjhs9Q",
+               "width" : 3800
+            }
+         ],
+         "place_id" : "ChIJQ2D6DdfByIkRE_zsSzYsJxE",
+         "rating" : 3.3,
+         "reference" : "CmRRAAAA9gAAbhySJexbblCw0E71x2OsnsKPxfmGf2cpercMeBr4LHUjhLYvAfAPPEXWEHSBLVgnJrbk5gPGOtgmyaHq2sOvZStHvdSAaaGDSGCyjy7QGcYMV0WbJ-w8kqQkm0r3EhBW4Ba7En7mQ0bIaMf4B8t7GhR-dxFjemjY6i0zmVwKQ2sPKdZnqA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "300 Commerce Drive, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1661391,
+               "lng" : -76.9781552
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.1663068,
+                  "lng" : -76.9779686
+               },
+               "southwest" : {
+                  "lat" : 40.16608319999999,
+                  "lng" : -76.97821739999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "22fa9c51a73c68e06482d115b32fbf6a97864afb",
+         "name" : "Colonial Crossroads Bed & Breakfast",
+         "photos" : [
+            {
+               "height" : 348,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116013475644017447184/photos\"\u003eColonial Crossroads Bed &amp; Breakfast\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAE_ar_Li5dZRI-QLGGdizfJ7BQIPja1wJAMQnxbTmpdh6cD4s7EAUQufRjo8EH2M7pOMstQ33rEEtYscjPLJSzlii1kC3OePjM6sprlVb7CHvnZ0RNlMrLToIRgsnKUCfF5ryqdcqLZu6vHKSAarUdwaVCdqRemQxbFTxhFD-jcOEhACu9fkJs8I7ahVIOG3Q5ntGhR7bEL9rMVHqDCyAqpqXg_jTY4mpA",
+               "width" : 298
+            }
+         ],
+         "place_id" : "ChIJAfKSLO_oyIkRXak6w4oMMRo",
+         "reference" : "CmRRAAAA1hWC1HhoqBQeZrQkY_N3I1OlQi7w5aAyQlfVV6GYWmeMtCTGRAutKCIckV4WWGtIiD3EtNt9pLlq_g14ToWl-bkVOYh_hrK2-cZhnP7-TBZ_gQtPEcsXRx_kNSH6GmDaEhB4lXXMzYluTzAWwuKEHiafGhSSTAbvDX-I478A7qKOxjKWvXPonw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "2600 South Market Street, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.11208999999999,
+               "lng" : -77.04067599999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "59158e5708be5a4abc2e2d766831445fc0278987",
+         "name" : "Rodeway Inn",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114132187779599545826/photos\"\u003eRodeway Inn\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHWSqlSaa6LswXKscZzyoTssxhr4vkxBILF61FNo6ZqnHMXmz-AxhlVu1la-TJDS3lHw5eiIctnEonvWXjzIR2sap1duRx4jKv76XvbR13R4IA7LGM7xyYvdNN9fuP46kc7oObsf-GGxfCZA1OmmOcY4MXphjOwJB4aQCsbSwjL6EhCq6qHJn9znZS4uAi_iGWB8GhSP1mJ8kvsqlEwqGhmw9-Qp6IKZSw",
+               "width" : 1350
+            }
+         ],
+         "place_id" : "ChIJmf4rvablyIkRTJLIGHH_THY",
+         "rating" : 3.3,
+         "reference" : "CmRRAAAAVZAYXj6i3tI6ruhvv0M8iG3-r6gqGdLDFZZX4KWdBSSRRCv6TQquQ2xcFhU-t7AB5a6z5uLS9uw_IxrEsvfrpWCJqZingxAxTpJ9xu4zGOjjOCSIrZo8MAXtFCf-yiYhEhBVZ1aXBIKYTCjNjfHxQJwkGhTLkryeFkx4M5ishTI42DoFRudyKg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "7 N. US Highway 15, Dillsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.20353669999999,
+               "lng" : -76.95902479999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "6c36e3360ac7dc6cc03b9d570875737756739ec2",
+         "name" : "TownePlace Suites Harrisburg West/Mechanicsburg",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104532313387134253616/photos\"\u003eTownePlace Suites Harrisburg West/Mechanicsburg\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGgzty-wIihIhn_lPtlqfk6NVTBmzhyjFnp8MzTqduqd8V8H6b78_EsFqPicd0qvpDjnp30rUKw54cuY0fQcOLGPybFCXfVxiHxCivwepf-k2CgIXTMsCSJQObtS2wmuMe5rrPJJlWSYY2Z_z6pNVCPcuJ-Z9CF23Cb4awMZxXsuEhCETaWWwD8c5mz2VYUQxpR6GhTemmpgguFYgQcPMOIFXV_Vu-wjzg",
+               "width" : 1281
+            }
+         ],
+         "place_id" : "ChIJsd8Jx87pyIkRO_rRSGSDVc0",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAA76QpJ9zcEhr9H6T36iwHKrgss167Ado5ZyK-tjzHDF6V_LvIOgum6CwCq3K3BswsmJyYG-rFgIvVVhBtDT7vb-3E8PwnPZceJ2Z3FR2qqAJZUJHc258XhB6CJqMJvAu4EhCIU5ypOc04oM7yfXLrZnK5GhS2n4aPEGISn0ikqjjekJS3zkZHAQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4915 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1675866,
+               "lng" : -76.90492470000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.16761314999999,
+                  "lng" : -76.90468059999999
+               },
+               "southwest" : {
+                  "lat" : 40.16750695,
+                  "lng" : -76.90565700000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "fb28fe614a0fee6a8bf304c5209f0a9ea59d8af0",
+         "name" : "Moore's Mountain Inn",
+         "place_id" : "ChIJw0KqucPryIkRGIQOtskZWEg",
+         "reference" : "CmRRAAAA6QSo7RIqaXis9tarX0_Hdn1IqVMntwvjXMtczghScLET6hKfLGMJ5zS6v93_WWmhfyJsw_mKU8ft0kBWbxylIrbtxK1GNz8xbpP_FZzzTBr0wZnnITzysOW_QRwXKXDKEhDNXrlcc9uvGyZvUKcZ7EhzGhSO3J02SNbGKVYk48ZqXwXQYl7oyA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "450 Moores Mountain Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.17376060000001,
+               "lng" : -76.97026459999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.17380030000002,
+                  "lng" : -76.97016915
+               },
+               "southwest" : {
+                  "lat" : 40.1736415,
+                  "lng" : -76.97055095000002
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "bd621b5db119e3ed05c2f22bd3a6d7110732745a",
+         "name" : "Stock's Manor",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113495607190618154445/photos\"\u003eSimon TuffGuy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHv_pxHvEGtOuTuFsLcoP6giNB0MU-bgVUDObYlwVOpXrZyHn9etl4LhEV4lc20_o3XoUyJb9F4OzQLzR_Mpb5OTq9dlyWFq5-451WQRVdupXa0FRxI13jMCxGM3TDKrh1nyqFAQpficafu4zu4RAltw2LT4e7VisnWWoNUxibU4EhCbsZVFDr1bO3pOf2Zy93gaGhQOrYBCtV_6Ulmdr_wJV3ciM8PjLw",
+               "width" : 3022
+            }
+         ],
+         "place_id" : "ChIJx_zMmf7oyIkRMDrfTu18q8k",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAlModhe5GNphMTrdysVqD-WQRWvahXLF-DFavq1lURq1qe4J_rb5TLW0rh-jPQqtaPCEUFW04wC8evRscHzFxRtujuT7MBKfoPtV1DpYqSxAAPbV_rgAT_upgC_-3gi_qEhD_Xwo2XOnd43Q3_zyAp2faGhR9Sq9qzhS5zw_GBE-zFOvxuUKmdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "2421 Mount Allen Drive, Mechanicsburg"
+      }
+   ],
+   "status" : "OK"
+}

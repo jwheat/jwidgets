@@ -1,0 +1,139 @@
+.center {
+    text-align: center;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.lazyload-img {
+    opacity:0;
+    transition: all 500ms;
+    max-width: 100%; 
+} 
+
+.primary-button {
+    background-color: #7CADCF;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    text-decoration: none;
+    background: #273D5E;
+    transition: all 0.3s ease 0s;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.section p {
+    margin: 0 0 1.5em 0;
+}
+
+.section .wrapper.content {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.section .wrapper.content h1,
+.section .wrapper.content h2 {
+    color: #273d5e;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    margin: 0 0 .25em;
+}
+
+.section .wrapper.content h3 {
+    color: #638aa7;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+.section .wrapper.content p {
+    color: #273d5e;
+    font-family: 'AptiferSansLTW01-Light', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.section .wrapper.content .flexbox {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.section .wrapper.content .col-50 {
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.section .wrapper.content .col-33 {
+    width: 33.333%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+
+/* ====== MEDIA QUERIES ====== */
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:1024px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    .section .wrapper.content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 975px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section .wrapper.content .col-33{
+        width: 47%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .section .wrapper.content .col-33,
+    .section .wrapper.content .col-50,
+    .section .wrapper.content .col-66 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+}

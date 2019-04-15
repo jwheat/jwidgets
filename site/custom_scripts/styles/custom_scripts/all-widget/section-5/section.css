@@ -1,0 +1,196 @@
+@import url('../general.css');
+@import url('../fonts.css');
+
+#section-5 .wrapper.content {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#section-5 .section-5-wrapper { 
+    position: relative;
+}
+
+#section-5 .section-5-row > div {
+    position: relative;
+    overflow: hidden;
+    border: none; 
+}
+
+#section-5 .wrapper.content > hr {
+    margin-bottom: 50px;
+}
+
+#section-5 .section-5-row > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section-5 .section-5-row > div .block-overlay {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: block;
+    width: 60%;
+    height: 48px;
+    background-color: rgba(39, 61, 94, 0.9);
+    padding: 12px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 300ms;
+}
+
+#section-5 .section-5-row > div:hover .block-overlay {
+    width: calc(100% - 20px);
+    height: 100%;
+    padding: 40px;
+    transition: 300ms;
+}
+
+#section-5 .section-5-row > div .block-overlay h4,
+#section-5 .section-5-row > div .block-overlay p {
+    color: #fff;
+}
+
+#section-5 .section-5-row > div .block-overlay h4 {
+    font-family: 'priori-sans-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+}
+
+#section-5 .section-5-row > div:hover .block-overlay h4 {
+    border-bottom: 1px solid #fff;    
+    padding-bottom: 12px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+#section-5 .section-5-row > div .block-overlay p {
+    font-size: 16px;
+    line-height: 1.5em;
+    opacity: 0;
+}
+
+#section-5 .section-5-row > div:hover .block-overlay p {
+    opacity: 1;
+}
+
+
+/* ====== MEDIA QUERIES ====== */
+@media (max-width:1200px) { 
+
+}
+
+@media (max-width:1025px) {
+    #section-5 .section-5-row > .section-5-col-left {
+        position: relative;
+        left: -200px;
+        opacity: 0;
+        transition: all 500ms ease;
+    }
+
+    #section-5 .section-5-row > .section-5-col-right {
+        position: relative;
+        right: -200px;
+        opacity: 0;
+        transition: all 500ms ease;
+    }
+
+    #section-5 .section-5-row > .section-5-col-left.fs-slide-in {
+        left: 0;
+        opacity: 1;
+        transition: all 1000ms ease;
+    }
+
+    #section-5 .section-5-row > .section-5-col-right.fs-slide-in {
+        right: 0;
+        opacity: 1;
+        transition: all 1000ms ease;
+    }
+}
+
+@media (max-width: 1024) {
+
+} 
+
+@media (max-width: 975px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    
+    #section-5 .section-5-row > div:hover .block-overlay {
+        padding: 20px;
+    }
+
+    #section-5 .section-5-row > div .block-overlay {
+        width: 70%;
+    }
+    
+    #section-5 .section-5-row > div .block-overlay h4 {
+        font-size: 22px;
+    }
+    
+    #section-5 .section-5-row > div:hover .block-overlay h4 {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #section-5 .section-5-row:first-child {
+        margin-top: 0;
+    }
+
+    #section-5 .section-5-row:last-child {
+        margin-bottom: 0;
+    }
+
+    #section-5 .section-5-wrapper {
+        overflow-y: auto;
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    #section-5 .section-5-row > div.hover .block-overlay {
+        width: calc(100% - 20px);
+        height: 100%;
+        padding: 40px;
+        transition: 300ms;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #section-5 .section-5-row > div .block-overlay {
+        padding: 10px 0;
+    }
+    
+    #section-5 .section-5-row > div:hover .block-overlay {
+        padding: 10px;
+    }
+    
+    #section-5 .section-5-row > div .block-overlay h4 {
+        font-size: 18px;
+    }
+    
+    #section-5 .section-5-row > div:hover .block-overlay h4 {
+        margin-top: 30px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+
+    #section-5 .section-5-row > div .block-overlay p {
+        font-size: 14px;
+    }
+
+    .section-5-col-left,
+    .section-5-col-right {
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,215 @@
+@media (max-width: 1024px) {
+    
+    #main .filterbox .search-form {
+        margin: 0 0 20px 0;
+        position: initial;
+        float: none;
+    }
+
+    .filterbox .search-form .input {
+        width: calc(100% - 34px) !important;
+        box-sizing: border-box;
+        margin: 0;
+        background: #fff;
+        border: 1px solid #cbcbcb;
+        border-right: none;
+    }
+
+    .filterbox .search-form .input .txt {
+        color: #6697B8;
+    }
+
+    .filterbox .search-form .btn-submit {
+        background-color: #fff;
+        background-image: url(/site/images/ico-search.png);
+        border: 1px solid #cbcbcb;
+        border-left: none;
+        height: 36px !important;
+    }
+
+    #content .filterbox .filters {
+        background: #eee;
+        border: 1px solid #cbcbcb;
+        padding: 0;
+        position: relative;
+    }
+
+    #main #content .filterbox .filters h2,
+    #main #content .filterbox .filters p,
+    #main #content .filterbox .filters label {
+        margin: 0;
+        padding: 5px 10px;
+        height: 48px;
+        line-height: 48px;
+        box-sizing: border-box;
+    }
+
+     #main #content .filterbox .filters h2 {
+         line-height: 38px;
+     }
+
+    #content .filterbox .filters .story-filter br {
+        display:none;
+    }
+
+    .marker[class^="icon-"].toggleIcon, .marker[class*=" icon-"].toggleIcon,
+    .filters .switchbox:checked ~ .marker[class^="icon-"].toggleIcon, .filters .switchbox:checked ~ .marker[class*=" icon-"].toggleIcon {        
+        background-color: transparent;
+        color: #273d5e;
+        margin: 5px 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .marker[class^="icon-"].toggleIcon, .marker[class*=" icon-"].toggleIcon {
+        width: 100%;
+        height: 48px;
+        padding: 0;
+    }
+
+    .icon-chevron:before {
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    #content .filters ul {
+        background: #fff;
+        border: 1px solid #cbcbcb;
+        border-width: 1px 1px 0 1px;
+        padding: 0;
+    }
+
+    #content .filters ul li {
+        border-right: none;
+        border: none;
+        border-bottom: 1px solid #cbcbcb;
+        display: table;
+        float: none;
+        padding: 10px 15%;
+        text-align: center;
+        width: calc(70% + 1px);
+    }
+
+    #content .filters ul li:before {
+        display: none;
+    }
+
+    #content .filters ul li:last-child {
+        border-bottom: none;
+    }
+
+    #content .filters ul li.active {
+        padding-right: 15%;
+    }
+
+    #content .filters ul li span {
+        display: inline-block;
+        line-height: 40px;
+        position: relative;
+    }
+
+    #content .filters ul li span:before {
+        width: 70px;
+        height: 35px;
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: -70px;
+    }
+
+    #content .filters ul li.faculty span:before {
+        background: url('/site/custom_scripts/mcnews/img/faculty-staff.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.students span:before {
+        background: url('/site/custom_scripts/mcnews/img/student-alumni.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.event span:before {
+        background: url('/site/custom_scripts/mcnews/img/event-news.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.profiles span:before {
+        background: url('/site/custom_scripts/mcnews/img/profiles.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.campus span:before {
+    background: url('/site/custom_scripts/mcnews/img/campus.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.academics span:before {
+        background: url('/site/custom_scripts/mcnews/img/academics.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.topical span:before {
+        background: url('/site/custom_scripts/mcnews/img/topical.svg') 20px 0 no-repeat scroll;
+    }
+
+    #content .filters ul li.athletics span:before {
+        background: url('/site/custom_scripts/mcnews/img/athletics.svg') 20px 0 no-repeat scroll;
+    }
+
+}
+
+@media only screen and (max-width: 1204px) and (min-width: 1000px) {
+
+    #storycard-container .storycard {
+        width: 31%;
+        margin: 0 1.167% 16px 1.167%;
+    }
+
+    #content .filterbox {
+        margin: 0 1.167%;
+    }
+
+}
+
+@media (max-width: 766px) {
+
+    #storycard-container {
+        max-width: 370px;
+        margin: auto;
+    }
+
+    #storycard-container .storycard,
+    #storycard-container .storycard .storycard-img-container,
+    #storycard-container .storycard img {
+        width: 100%;
+    }
+
+    #storycard-container .storycard {
+        margin: 16px auto;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    #main .tabs ul li {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    #content .filter-list {
+        width: 100%;
+    }
+
+    #content .filters ul li:before {
+        left: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 999px) and (min-width: 767px) {
+
+    #content .filterbox {
+        margin: 0 16px;
+    }
+
+}

@@ -1,0 +1,441 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2186768,
+               "lng" : -76.9704385
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21935389999999,
+                  "lng" : -76.9703633
+               },
+               "southwest" : {
+                  "lat" : 40.2184511,
+                  "lng" : -76.97066409999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d1ba090ff45b1defb12d7e1996e7b84f38c81485",
+         "name" : "Motel Sleepers Inc",
+         "place_id" : "ChIJEctvkynoyIkRJRquWCrVGWc",
+         "reference" : "CmRRAAAA6R_VpDQ-p5khBVQoP-CPYyPEod4puGoCJv7TMisJvG8ZVaQytD7KP6SIIbVDUpna9soTK7Z_F5FyE86SHHVorxtR13-ntWjjt3FqpsOP6TfDE3krGQx3bOdpLyTnJkd8EhBRYBBYMOAo8txEtd9c4MafGhRn3-1hxqoHIlSgGOLhCAXOel5ugg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5022 Arthur Avenue, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1222918,
+               "lng" : -77.03173099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.12244485,
+                  "lng" : -77.03138180000002
+               },
+               "southwest" : {
+                  "lat" : 40.12183264999999,
+                  "lng" : -77.03184739999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "32f7b78bfa5dd93e2df6eed2f1a41f7a09e14a79",
+         "name" : "Nesbit Motel",
+         "place_id" : "ChIJg2kf0JXlyIkRzIbf35KMFa8",
+         "reference" : "CmRSAAAA0aByndcStopHTEIgX8up2QSHwlq5AEAyybY2lL_Vl_e5xqVjvD3E_OYJhXrax2s0_Guk751M7CNSNYvbyQJfkz5HvF8jDdu-YN9QQe066LqGqs802cyYYWSbPGOwAG2BEhC2YcWZbU_405akzeTd9zULGhTnGt9ZTTkI-wHGU3bicSotD4dhRA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "629 North U.S. 15, Dillsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.17010200000001,
+               "lng" : -77.0012517
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "78086dedac6f491682a40e0388e7a31277b2f408",
+         "name" : "Kurtz Estate B and B",
+         "place_id" : "ChIJV1XFTproyIkRdjj2J2X_IzQ",
+         "reference" : "CmRRAAAAaP4l-hnqdUDPhM8AI_P8TdqNLoI5R4Z5aHy83qK_Y4k2dI7RFkCpfsrLLZEIGGNnNb2v8r0Sf9_flQDSSW5ioSbDGeTDHBRSQFEj1_Trd_Amdtyyx-GIzNJBdmisf3-wEhDhF2y6ftSBQEB8gKQykjNdGhQEPDVTU0E268l0aJF8GSvJfYU8ww",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "17055, Upper Allen Township"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1952329,
+               "lng" : -76.9783688
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5066112f9cc23b2cd775abd7ae7b58c7cd0100b4",
+         "name" : "Wynngate",
+         "place_id" : "ChIJV58mzEXoyIkRWv1QmwvxI3k",
+         "reference" : "CmRRAAAAf0d-MYvKLZrdyMFazoeD32vP40xFrJ7J7LNsXM79nqJxLHX_IvwbyxG-TgU8l5P2dk4kEDfufKOF9BYU2NMd6is9FM3TVfzkjx7eqE0PNkqeXFXgD6lRS9gPIl72l3z4EhDRtQ_SfEzU_I5DXaQeQvMhGhTFVqMvfw7sZeAhqW_eZuAI1SaKRg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "385 Cumberland Parkway, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1756917,
+               "lng" : -76.92961559999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "199e79a5e40d43eaad46d154277e6a7e76341d9c",
+         "name" : "The Lodge at Liberty Forge",
+         "photos" : [
+            {
+               "height" : 5344,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102599322311816381135/photos\"\u003eEric Peiffer\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAPVDY12T8T3HZyx1sazSRKKEppp_pCAKTVCUbYGaSSrh7sXHuGdd38CRLI1BcpCtKXpTifI5TyGIGOZQKsEbq0HR5nV_ObxVIRmvQaosR_rS5Aupkyn_CjmnvDGd8xABfwGFlh0bbF7WAXUIjOIqbYHAq6_jBzWpj3-O5oH9yHk9EhCUiROzF_iVZ3KSwPkwaFf9GhRG3JOduBaXn5Lg_Cq6se8RSssgIg",
+               "width" : 3006
+            }
+         ],
+         "place_id" : "ChIJg4uKgHjpyIkR1-CNXyxJbUw",
+         "reference" : "CmRRAAAAv8g4F_vZm8HFT8S24u0XTu35Dpc0yAG0x-EfRYcra-xmr0gcz5Y-te4ZKcZzKb0VRips81W8vf7IcIgCKqhhwmxPc-vWiKFZ4X_nJ4yd7MJbm9QVpy-fmK3N9c_Thc-UEhAFpcREqT6ih0LxPK0_QuziGhQF-17C4rHsPvssi1d6PekFiu-7jg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "3804 Lisburn Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1291546,
+               "lng" : -77.04279919999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/camping-71.png",
+         "id" : "c20c0dedf32398b186ce3c1f4c4e36f49a50de2d",
+         "name" : "Mount Oliver Campgrounds",
+         "place_id" : "ChIJKc8yvsflyIkRLxO41BLMkRg",
+         "reference" : "CmRRAAAAEHmOhAD6vWcIl6YiuM0KqNf9tiHDgUlnB5Fu6wncc-GNAH8f6jX4rdbZSYAHg6e4EkwwtSraAdRmCj3jU40PW9gp20M1Je3C5dOs1whXnZFjAXH3LQ1QT4xQObrIQiRHEhA2H4Eja8bK2Rgqr_P2kJEaGhToITmCK9KfyDB0U39yEu28DNgMWA",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Dillsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2049281,
+               "lng" : -76.95957820000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2051709,
+                  "lng" : -76.95890470000001
+               },
+               "southwest" : {
+                  "lat" : 40.2048037,
+                  "lng" : -76.95980270000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "0bd168cd25da247045947f0d8b500a44273a02ef",
+         "name" : "Homewood",
+         "place_id" : "ChIJPX2bF8zpyIkRNEso2Xx8uCQ",
+         "reference" : "CmRRAAAAM-X68YlHmlCORAq9gx8KcdatYUnR3d4iCYjFQm0_R2VTYwyPFEXUajPEnOvV68h1r-RXwa0ibPzd_Eva67nltvgJXzvQAq2kN693TEwVJYcwQm_k-vBym4ABZKnXhtfHEhBgR2eU0TmrFpHYYmZqU-ytGhS_Oqn0yHM2SQN-PcnWzJNRmKnl1g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5001 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2068257,
+               "lng" : -76.957515
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20693855,
+                  "lng" : -76.95742675000001
+               },
+               "southwest" : {
+                  "lat" : 40.20648715,
+                  "lng" : -76.95777975
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e955d04f2712dfff20dfebc7efc9076952c3b0c2",
+         "name" : "Hampton Inn",
+         "place_id" : "ChIJDWfoZc7pyIkRK3g1Ji5zvGQ",
+         "reference" : "CmRRAAAA88EBXO1Su6oZjlzGavNcEY_w5oTVgxxCzWOp0nGY0oL6PFjaXAxI2qtj_PhnHx6o4gBN_WF7dxfTU2HfSyq0z3L23uKaF4IKdO-E5A83AJik8guVUGZ5wUTWZogGHBknEhDqWIBfc1QPbLTi6J0szawQGhTbO7Z4TuI1rutdEQ9CiSqKDun9jA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4950 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2142565,
+               "lng" : -77.0085876
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "9dfe649ca4c034a691ef4e2f29d5896be958c54f",
+         "name" : "Progress Ridge Mobile Home Prk",
+         "place_id" : "ChIJBWX9cwjoyIkRmc0CKARox6o",
+         "reference" : "CmRSAAAAURcTveCAN5_K4hk3gXX4nDAUFzwI_wrQ_yrCxjUNgbITQpHtM-k6ZisOlucxRECp6hfwK2KiwsNhc4hRy8fY8PrfmwoXxuTr2HWM5wgdSKnziZIETa9b_YaHQrbo_zE0EhDTkSW0JxYRS3Hmof8lREaDGhTR7_8zIKu7UHy8xzJShDmb2bdmKQ",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.205183,
+               "lng" : -76.87176000000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20522219999999,
+                  "lng" : -76.87147899999999
+               },
+               "southwest" : {
+                  "lat" : 40.2050654,
+                  "lng" : -76.87260299999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b2361b1e3c6113b8037315e49a6c3cd1479d54e8",
+         "name" : "Highland Motel",
+         "place_id" : "ChIJR9q2IX7qyIkRcwA0DflgrXA",
+         "rating" : 4.3,
+         "reference" : "CmRRAAAA1i8Q0Kdl4Ygc8xQuBlTKOd3pl80PvZUbXXsCdrshcNLETIfysuIwlqzJ_9v9NpMEG0kBa8q29pkbl2BhWUPUJZ0n5njaPJ9O8HCnw4mchveh_Va3dAskzDn_PT2v-jeyEhBJhgQR-KezIovKpp_NGTjXGhQCgGR30oM4zKR3FyksVHIONS-wlw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "240 Lincoln Drive, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.200244,
+               "lng" : -77.08053500000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20031515,
+                  "lng" : -77.0800576
+               },
+               "southwest" : {
+                  "lat" : 40.20003055,
+                  "lng" : -77.08196720000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "325810f89156265c86d19bcfab1764bf13e673df",
+         "name" : "30 Timber Road Bed & Breakfast",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3744,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117293879705566620028/photos\"\u003e30 Timber Road Bed &amp; Breakfast\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANHQOcBgjk3tVxud1eik9C_u-Z3WYUiOTJ9BuAZyRA85JICJXQf8T4DQuTPdqAlaxwd4KlUxI-HUwcSOqXIpFIWZp_8CU-whZWk6qgoYerug_LpfQf4uWSpvZGFGZssJrvekjELXxrf6d52ZRaF77-HiSdskw53pZCTXM4TfPMW3EhDC3Mg-vklPXCy_zh0tN-vJGhRdmBOq5Xh13OPM6mhqk1ZRkFz_WQ",
+               "width" : 5616
+            }
+         ],
+         "place_id" : "ChIJD5uIiSLnyIkRLiWNKoYObLw",
+         "reference" : "CmRSAAAA4d_KnPu5CEqjXnqjdvAZp8sOOxzjKwRdkUXjnE4NDeIdQOtyw4t95T76Annwn0YNrbyhh6Ef94Fsz0IgHkZwDinX58jxphQy80ff8DebhqJ8m9nKBoonNXKyaRb70hqsEhBCqfTKZ794aUBTsFyD2jt_GhT6zpk0y1sHzyjJxDvSxj1EGGAkvg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "30 Timber Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2465761,
+               "lng" : -76.9958968
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2469394,
+                  "lng" : -76.99560595
+               },
+               "southwest" : {
+                  "lat" : 40.24645499999999,
+                  "lng" : -76.99599374999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "fb14e770b15fbab37810c631ed20a5165ce6941a",
+         "name" : "Hotel Cosmopolitan",
+         "place_id" : "ChIJN3-498bCyIkRmykThyrL53w",
+         "reference" : "CmRRAAAA-YK9wJFbd0voTrx6XHw2FMDJ2zydQ9nJbdoSWcltXexTQLP5epcM4-OY6bE-boqUlXr6UFt7Jfy7jiBsEsbkn5O-ZATwMKQd4CMA6y6UHwT4Jy_lknBsxiVnlZgunJ4mEhCHg9FUcnHIx_BzHombpGX-GhQiqDp7ALNNddkSD_B-6xzVj6vTPA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6167 Haymarket Way, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.24691199999999,
+               "lng" : -77.001091
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.24722164999999,
+                  "lng" : -77.00094230000001
+               },
+               "southwest" : {
+                  "lat" : 40.24598305000001,
+                  "lng" : -77.00153710000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "16fbdef0a36fd5f5ec137caed443322ec96ad42f",
+         "name" : "Carlise PA.",
+         "place_id" : "ChIJbXeJ-sjCyIkRd5qEQ56w20U",
+         "reference" : "CmRRAAAAPe1Znmm0kIqFcwyQaiSsM_wvA3aG3YQPaup0abAYilZtzI1LrLlXogjkKYgMSUk4FtmTdW2hKVCzAcvLu5gvc5a9XB6zCJvDqWaZ7X7aOW8R8tNinCTmYM8iHpGJ1umwEhAqUKrWrf3VBTk2AKmafT6xGhScDj0lie3bYoDthy7xDbosJqULlw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6325 Carlisle Pike, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2515385,
+               "lng" : -77.0027211
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.25156805,
+                  "lng" : -77.0026785
+               },
+               "southwest" : {
+                  "lat" : 40.25144985,
+                  "lng" : -77.0027353
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b4b24ac62046241f7c3ac9a5e211e75888d4bf25",
+         "name" : "Petromar Hospitality Country",
+         "place_id" : "ChIJubhD9s7CyIkRdR7Uag9ur78",
+         "reference" : "CmRSAAAAf40GxHm6vivyEbpGH0oSxGsrD60fe0QudF9v3gz8Jwq2duWPO2fGs-VJSOEOYJOLzlfh2nO7YG1DSnNsGj0FQjQUb6KAUYyiUhOFI6pwoINdsxDNyNLut22RrLSPoA5bEhC3IDL0Q0g84Pr0Y0quTOX6GhRHZrZ6kmh8P59gNxmnBAyzy9iFFg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "407 Mercury Drive, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2097703,
+               "lng" : -76.8756741
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "11e8e2b31ae7758f317c2eec9a7df2a7f9a42549",
+         "name" : "Relax Inn",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100017331418949812089/photos\"\u003eGeorge Garman\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAD_3RZ8Uc70d0wJX9PIpVBagGJv9CchhBeEecJGhCKoLk1R-CwDQ5AG4a_4C5vv5-qNWAziY-sUN1XTbwl8twUZ36BffjhQCAI4zSiPaLaw2qnY7QoJb026sTrNA6tWb-6D-l_MUd3wYupy5exPYbWHa0kV6a7sfb4SIoJKwFkh_EhCDU0pe5zHJMRzh3CRpj4aGGhQhka-MC2CngwDIEEX0aO4-ztlUug",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJDYTGhtXByIkRy9z7jnUeIKI",
+         "reference" : "CmRSAAAAlUz3QDFoiTS_F_D4Rdzvise0e3RCmZMxy-Z4T8oW02nRhbGL46Lp3hc_LhzPJDGwSb9u-xMdck5KoW4DO_hxZeRfpxlsvCsWuR1qPZIEZBWdv0NU-ZCJLFumg9oaiBQREhBxieFNrRgJ6YRN1A0rkA9GGhRXETY1nUYO4wgKcd6oh30pmVX7Bw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "353 Lewisberry Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.0653242,
+               "lng" : -76.94384099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.0653249,
+                  "lng" : -76.94343285000001
+               },
+               "southwest" : {
+                  "lat" : 40.0653221,
+                  "lng" : -76.94397705
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "c2447aa03d44abe52c45f7f0c8d0ca2421a51123",
+         "name" : "Central Penn Sporting Clays",
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105529690954014959823/photos\"\u003eJeffrey Kime\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANjVUfA9eKMoooSKleb1Fw9rorUn3UzJtnb-rqdkWL5pENvh67nXDmlK4fSQqPi5utW4bBAn6tQrfSly4hmoZsa2C9bw1rJBdxelW2szPPqN1zkPMmb4-Z29bJ2zeODzyn5I8XZOAKjb9LEZ8AWGuqxfiOIBKnWbkSEoaVnoBmjfEhAYxtRku3dvIXSQPXCDDxUmGhRKY1SFVoniD8tuKtuHJT6aHaVi_w",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJj-xe_CTuyIkRMqBK_LcygoQ",
+         "rating" : 5,
+         "reference" : "CmRSAAAANtkvEAM5uJZ61ku8MYweQ3WwoUAYIW-VT9_KBO5di6F7olr9AlY2GRdDfFEpOjkSz3tey-RdPd0dpz0D7BAhhOvljhWKxZVXjmN2TPGvJTriBJ4bpY-EKo2iRCm2DscoEhBXiiVhl1lE-sYB4sJ_ejOwGhTEpLQN5aN3aU2Moc0bzOzKD7IVzA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "75 Quarry Road, Wellsville"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.0893045,
+               "lng" : -77.0496102
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.0900164,
+                  "lng" : -77.0486138
+               },
+               "southwest" : {
+                  "lat" : 40.0887016,
+                  "lng" : -77.05018749999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "83bd7762a14707d153a65669754b256de05e2823",
+         "name" : "Hancock's Trailer Park",
+         "place_id" : "ChIJWRFnvhjlyIkRcIvLh52Q5PM",
+         "reference" : "CmRbAAAAuzTk6fgcnEXZrki2s9DoGYBrJRox0NuIPWar-DsSJHmKwF8L0Nst67kn0CxyXFFIC-ZsWkaGf-yhbyajfxdiNPwUiJiNMT3TWCQcGRPgJdx80vT8g1aNfznjYloiLydgEhCwCut-OmWmn-VBnNxOFG62GhQHCkGdrEhxhjgzaD7aUBl0cpRf7A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "campground",
+            "premise",
+            "park",
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Dillsburg"
+      }
+   ],
+   "status" : "OK"
+}

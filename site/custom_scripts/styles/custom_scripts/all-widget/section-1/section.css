@@ -1,0 +1,108 @@
+@import url('../general.css');
+@import url('../fonts.css');
+
+.section .section-video{
+    position: relative;
+}
+
+.section .section-video .video-play{
+    display: block;
+    background-color: rgba(117, 173, 207, 0.75); 
+    padding: 25px 45px 25px 50px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - 46px);
+    left: calc(50% - 67px); 
+    z-index: 2;
+    cursor: pointer;
+}
+
+#section-1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section-1 .wrapper.content#by-the-numbers {
+    position: relative;
+}
+
+#section-1 .wrapper.content#by-the-numbers h3::before,
+#section-1 .wrapper.content#by-the-numbers h3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    background: #639dc4;
+    top: 50%;
+}
+
+#section-1 .wrapper.content#by-the-numbers h3::before {
+    width: calc(50% - 4em);
+    background: #639dc4;
+    left: 0;
+}
+
+#section-1 .wrapper.content#by-the-numbers h3::after {
+    width: calc(50% - 4em);
+    left: calc(50% + 4em);
+}
+
+#section-1 .wrapper.content#by-the-numbers .flexbox .col-33 {
+    border-right: 1px solid #75adcf;
+}
+
+#section-1 .wrapper.content#by-the-numbers .flexbox .col-33:last-child {
+    border-right: none;
+}
+
+#section-1 .wrapper.content#by-the-numbers .achievements p {
+    font-size: 24px;
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+
+#section-1 .wrapper.content#by-the-numbers .achievements p:last-child {
+    margin-bottom: 1em;
+}
+
+#section-1 .wrapper.content#by-the-numbers .achievements p span {
+    color: #75adcf;
+}
+
+
+/* ====== MEDIA QUERIES ====== */
+@media (max-width:1200px) { 
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width: 975px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .section .wrapper.content .col-33.achievements {
+        width: 47%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .section .wrapper.content .col-33.achievements{
+        width: 100%;
+    }
+
+    #section-1 .wrapper.content#by-the-numbers .flexbox .col-33 {
+        border: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+    
+}

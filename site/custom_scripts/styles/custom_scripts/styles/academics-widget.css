@@ -1,0 +1,690 @@
+/* KRIS - clear jadu styling */
+#content .widget__academics-academics-in-action ul {
+	margin-bottom: 0px !important;
+}
+
+#content .fact-slider .slides li {
+    background: none!important;
+    padding: 0px !important;
+}
+
+/*#content .widget__academics-academics-in-action .stories-area {
+	max-height:230px;
+}*/
+
+#content .widget__academics-search .btn-group li {
+    background: none!important;
+    padding: 0px !important;
+}
+
+#content .widget__academics-academics-in-action .stories-area .slides li {
+	background: none!important;
+    padding: 0px !important;
+}
+/* academic-area */
+.academic-area:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.academic-area { padding:0 0 60px; }
+.academic-area .block {
+	float:left;
+	width:59.77%;
+}
+.academic-area .block .search-txt {
+	font-family:'mendoza-medium', serif;
+	margin:0 0 14px;
+}
+
+.widget__academics-search {
+}
+
+.widget__academics-search .search-section {
+	overflow:hidden;
+	position:relative;
+	padding:7px 6px 6px 36px;
+	margin:0 0 16px;
+	border:1px solid #ccc;
+	background:url(//peppi.messiah.edu/site/images/ico-001.png) no-repeat 9px 10px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+.widget__academics-search .search-section .btn-submit {
+	float:right;
+	position:relative;
+	width:29px;
+	height:25px;
+	padding:0 0 1px;
+	margin:0 0 0 -29px;
+	border:0;
+	background:#2c4263;
+	font:15px/18px 'aptifer-sans', sans-serif;
+	text-transform:uppercase;
+	cursor:pointer;
+	color:#fff;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	transition:all .2s;
+	-webkit-transition:all .2s;
+	-o-transition:all .2s;
+	-ms-transition:all .2s;
+}
+.widget__academics-search .search-section .btn-submit:hover { background:#75adcf; }
+.widget__academics-search .search-section .txt {
+	float:left;
+	width:100%;
+	border:0;
+	background:none;
+	font:15px/19px 'aptifer-sans', sans-serif;
+	color:#848486;
+	height:25px;
+	padding:2px 35px 4px 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.widget__academics-search .btn-group {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.widget__academics-search .btn-group:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.widget__academics-search .btn-group li {
+	float:left;
+	width:47.32%;
+}
+.widget__academics-search .btn-group li + li { margin-left:5.36%; }
+.widget__academics-search .btn-group .btn {
+	display:block;
+	position:relative;
+	background:#75adcf;
+	font:17px/20px 'aptifer-sans-light', sans-serif;
+	color:#fff;
+	padding:11px 11px 9px;
+	-webkit-box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+	-moz-box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+	box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+}
+.widget__academics-search .btn-group .btn:hover { background:#999; }
+/* fact-slider */
+.fact-slider {
+	float:right;
+	width:100%;
+	position:relative;
+	padding:6px 0 0;
+	font:14px/19px 'aptifer-sans-medium', sans-serif;
+	color:#fff;
+	text-align:center;
+}
+.fact-slider .slides {
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.fact-slider .slides li { position:relative; }
+.fact-slider .slides .bg {
+	vertical-align:top;
+	width:100%;
+}
+.fact-slider .slides .wrap {
+	position:absolute;
+	left:40px;
+	right:40px;
+	top:37px;
+	bottom:24px;
+	padding:0 0 35px;
+}
+.fact-slider .slides .ico {
+	position:relative;
+	width:112px;
+	height:96px;
+	margin:0 auto 9px;
+	padding:16px 0 0;
+	background:#fff;
+	text-align:center;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+.fact-slider .slides .ico:before {
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:59px;
+	height:1px;
+	background:#c2c8d2;
+	content:"";
+}
+.fact-slider .slides .ico img { vertical-align:top; }
+.fact-slider .slides .ico .num {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:13px;
+	font:32px/34px 'aptifer-sans-medium', sans-serif;
+	text-transform:uppercase;
+	color:#273d5e;
+}
+.fact-slider .slides .ico .num sup {
+	display:inline-block;
+	vertical-align:top;
+	font-size:19px;
+	line-height:21px;
+	margin:-3px -8px 0 0;
+}
+.btn-more {
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	font:14px/16px 'aptifer-sans-light', sans-serif;
+	text-align:center;
+	color:#273d5e;
+	background:#fff;
+	padding:7px 10px;
+	-webkit-box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+	-moz-box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+	box-shadow:2px 2px 3px rgba(2, 2, 2, 0.2);
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	transition:all .2s;
+	-webkit-transition:all .2s;
+	-o-transition:all .2s;
+	-ms-transition:all .2s;
+}
+.btn-more:hover {
+	background:#75adcf;
+	color:#fff;
+	text-decoration:none;
+}
+.fact-slider .btn-more {
+	position:absolute;
+	left:50%;
+	bottom:0;
+	margin-left:-50px;
+	width:79px;
+}
+.fact-slider .flex-direction-nav {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:0;
+	line-height:0;
+}
+.fact-slider .flex-direction-nav a {
+	position:absolute;
+	left:10px;
+	top:50%;
+	margin-top:-7px;
+	width:14px;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(//www.messiah.edu/site/images/arrow-0001.png) no-repeat;
+	opacity:0;
+	transition:opacity .2s;
+	-webkit-transition:opacity .2s;
+	-o-transition:opacity .2s;
+	-ms-transition:opacity .2s;
+}
+.fact-slider:hover .flex-direction-nav a { opacity:1; }
+.fact-slider .flex-direction-nav .flex-next {
+	left:auto;
+	right:10px;
+	background-position:-14px 0;
+}
+.fact-slider .flex-direction-nav a:hover { background-position:0 -18px; }
+.fact-slider .flex-direction-nav .flex-next:hover { background-position:-14px -18px; }
+/* stories-area */
+.stories-area {
+	background:#f0f0f0;
+	overflow:hidden;
+	padding:16px 14px 14px 21px;
+	margin:0 0 40px;
+}
+.stories-area .block {
+	float:left;
+	width:155px;
+	padding:46px 0 0;
+}
+#content .stories-area h2 {
+	font:32px/33px 'aptifer-sans', sans-serif;
+	margin:0 0 4px;
+	color:#2c4263;
+}
+.stories-area .more-link {
+	font:14px/16px 'aptifer-sans', sans-serif;
+	color:#424242;
+	background:url(//www.messiah.edu/site/images/arrow-05.png) no-repeat 2px 5px;
+	padding:0 0 0 14px;
+}
+/* story-slider */
+.story-slider {
+	position:relative;
+	font:14px/20px 'aptifer-sans', sans-serif;
+	overflow:hidden;
+	padding:0 48px 0 37px;
+}
+.story-slider .slides {
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.story-slider .slides li {
+	overflow:hidden;
+	position:relative;
+	padding:0 0 3px;
+}
+.story-slider .image {
+	float:left;
+	width:166px;
+	margin:0 18px 0 0;
+}
+.story-slider .image img {
+	vertical-align:top;
+	width:100%;
+}
+.story-slider .text {
+	overflow:hidden;
+	padding:0 0 35px;
+}
+#content .story-slider h3 {
+	font:18px/20px 'priori-sans-bold', sans-serif;
+	margin:0 0 2px;
+	text-transform:uppercase;
+	color:#273d5e;
+}
+.story-slider .sub-head {
+	display:block;
+	font:16px/20px 'priori-sans-bold', sans-serif;
+	color:#273d5e;
+	border-bottom:1px solid #cecece;
+	padding:0 0 9px;
+	margin:0 0 11px;
+}
+.story-slider .btn-more {
+	position:absolute;
+	bottom:3px;
+	padding:7px 26px;
+}
+.story-slider .btn-more:hover { background:#999; }
+.story-slider .flex-direction-nav {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:0;
+	line-height:0;
+}
+.story-slider .flex-direction-nav a {
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-11px;
+	width:15px;
+	height:22px;
+	background:url(//www.messiah.edu/site/images/arrow-0002.png) no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	opacity:0;
+	transition:opacity .2s;
+	-webkit-transition:opacity .2s;
+	-o-transition:opacity .2s;
+	-ms-transition:opacity .2s;
+}
+.stories-area:hover .story-slider .flex-direction-nav a { opacity:1; }
+.story-slider .flex-direction-nav .flex-next {
+	left:auto;
+	right:0;
+	background-position:-15px 0;
+}
+.story-slider .flex-direction-nav a:hover { background-position:0 -22px; }
+.story-slider .flex-direction-nav .flex-next:hover { background-position:-15px -22px; }
+/* txt-area */
+.txt-area { padding:0 0 4px; }
+/* info-tabs */
+.info-tabs {
+	background:#f0f0f0;
+	padding:0 24px 25px;
+	font:14px/20px 'aptifer-sans', sans-serif;
+	color:#424242;
+}
+.info-tabs .top {
+	padding:29px 0 33px;
+	margin:0 -24px;
+}
+.info-tabs .nav-tabs {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font:26px/20px 'priori-sans-bold', sans-serif;
+}
+.info-tabs .nav-tabs:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.info-tabs .nav-tabs li {
+	float:left;
+	width:25%;
+	text-align:center;
+}
+.info-tabs .nav-tabs a {
+	display:inline-block;
+	vertical-align:top;
+	padding:60px 0 0;
+	margin:0 28px;
+	color:#999;
+	background:url(//www.messiah.edu/site/images/ico-0004.png) no-repeat 50% 0;
+}
+.info-tabs .nav-tabs .degree { background-image:url(//www.messiah.edu/site/images/ico-0005.png); }
+.info-tabs .nav-tabs .resources { background-image:url(//www.messiah.edu/site/images/ico-0006.png); }
+.info-tabs .nav-tabs .support { background-image:url(//www.messiah.edu/site/images/ico-0007.png); }
+.info-tabs .nav-tabs a:hover,
+.info-tabs .nav-tabs .ui-state-active a {
+	text-decoration:none;
+	color:#273d5e;
+	background-position:50% -249px;
+}
+.info-tabs .tabarea {
+	position:relative;
+	background:#fff;
+	padding:20px 17px 7px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.info-tabs .col-holder { overflow:hidden; }
+.info-tabs .col-holder .col {
+	float:left;
+	width:49.24%;
+}
+.info-tabs .col-holder .col + .col { margin-left:1.52%; }
+.info-tabs .info-img {
+	overflow:hidden;
+	display:block;
+	margin:0 0 13px;
+}
+.info-tabs .info-img img { width:100%; }
+.info-tabs .info-img a {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:30px;
+	height:21px;
+	padding:4px 2px 0;
+	background:#fff;
+	font:15px/17px 'aptifer-sans-bold', sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+	color:#777676;
+}
+.info-tabs .info-img .img-title {
+	padding:21px 27px 15px 25px;
+	line-height:20px;
+}
+.info-tabs .info-img .mask .cell { padding:41px 0 26px; }
+@media only screen and (max-width: 1204px) and (min-width: 1025px) {
+	.fact-slider { width:100%; }
+	.academic-area .block { width:57%; }
+	.stories-area { padding:16px 10px 14px; }
+	.story-slider { padding:0 35px; }
+	.info-tabs .info-img .mask .cell { padding:26px 0; }
+}
+/* tablet media */
+@media only screen and (max-width: 999px) {
+	/* academic-area */
+	.academic-area { padding:0 0 35px; }
+	.academic-area .block {
+		float:none;
+		width:auto;
+		padding:0 0 34px;
+	}
+	/* fact-slider */
+	.fact-slider {
+		float:none;
+		width:auto;
+		background-color:#273d5e;
+		padding:33px 45px 32px;
+	}
+	.fact-slider .slides .bg { display:none; }
+	.fact-slider .slides .ico img { width:58px; }
+	.fact-slider .slides .wrap {
+		position:static;
+		overflow:hidden;
+		padding:0;
+		background:#273d5e;
+	}
+	.fact-slider .slides .ico {
+		float:left;
+		width:139px;
+		height:121px;
+		padding:18px 0 0;
+		margin:0 22px 0 0;
+	}
+	.fact-slider .slides .ico:before {
+		left:25px;
+		right:20px;
+		top:71px;
+	}
+	.fact-slider .slides .ico .num {
+		font-size:40px;
+		line-height:42px;
+		bottom:21px;
+	}
+	.fact-slider .slides .text {
+		overflow:hidden;
+		text-align:left;
+		padding:9px 0 0;
+	}
+	.fact-slider .slides .text p { margin:0 0 16px; }
+	.fact-slider .btn-more {
+		position:relative;
+		left:0;
+		margin:0;
+	}
+	.fact-slider .flex-direction-nav a { margin-top:-9px; }
+	/* stories-area */
+	.stories-area {
+		padding:20px 37px 23px;
+		margin:0 0 31px;
+		position:relative;
+	}
+	.stories-area .block {
+		float:none;
+		width:auto;
+		overflow:hidden;
+		padding:0 0 24px;
+	}
+	#content .stories-area h2 {
+		float:left;
+		margin:0 19px 0 0;
+	}
+	.stories-area .more-link {
+		float:left;
+		margin:12px 0 0;
+	}
+	.story-slider {
+		padding:0;
+		position:static;
+	}
+	.story-slider .text { padding:0 0 3px; }
+	.story-slider .text p { margin:0 0 18px; }
+	.story-slider .btn-more {
+		position:relative;
+		bottom:0;
+	}
+	.story-slider .flex-direction-nav a {
+		width:14px;
+		height:18px;
+		left:9px;
+		margin-top:-19px;
+		background:url(//www.messiah.edu/site/images/arrow-0001.png) no-repeat;
+	}
+	.story-slider .flex-direction-nav .flex-next {
+		right:9px;
+		background-position:-14px 0;
+	}
+	.story-slider .flex-direction-nav a:hover { background-position:0 -36px; }
+	.story-slider .flex-direction-nav .flex-next:hover { background-position:-14px -36px; }
+	/* info-tabs */
+	.info-tabs { padding:0 12px 15px; }
+	.info-tabs .top {
+		padding:15px 0 32px;
+		margin:0 -12px;
+	}
+	.info-tabs .nav-tabs {
+		font-size:21px;
+		line-height:18px;
+	}
+	.info-tabs .nav-tabs a {
+		margin:0 5px;
+		padding:46px 0 0;
+		background-size:52px auto;
+	}
+	.info-tabs .nav-tabs a:hover,
+	.info-tabs .nav-tabs .ui-state-active a { background-position:50% -216px; }
+	.info-tabs .tabarea { padding:14px 13px 1px; }
+	.info-tabs .info-img .img-title {
+		font-size:17px;
+		line-height:19px;
+		padding:7px 13px 7px 8px;
+	}
+	.info-tabs .info-img .mask .cell p { display:none; }
+}
+/* mobile media */
+@media only screen and (max-width: 767px) {
+	/* academic-area */
+	.academic-area .block { padding:0 0 28px; }
+	#content .academic-area h2 { margin:0 0 16px; }
+	.academic-area .block .search-txt { margin:0 0 25px; }
+	.academic-area .search-section {
+		background-position:6px 10px;
+		padding:7px 6px 6px 32px;
+	}
+	.academic-area .btn-group li {
+		float:none;
+		width:auto;
+		margin:0 0 11px;
+	}
+	.academic-area .btn-group li + li { margin-left:0; }
+	/* fact-slider */
+	.fact-slider { padding:0; }
+	.fact-slider .slides li {
+		background-size:cover;
+		background-position:50% 50%;
+		min-height:319px;
+	}
+	.fact-slider .slides .wrap {
+		background:none;
+		padding:37px 30px 0;
+	}
+	.fact-slider .slides .ico {
+		float:none;
+		margin:0 auto;
+		padding:16px 0 0;
+		width:112px;
+		height:96px;
+	}
+	.fact-slider .slides .ico:before {
+		left:20px;
+		right:17px;
+		top:59px;
+	}
+	.fact-slider .slides .ico img { width:auto; }
+	.fact-slider .slides .ico .num {
+		font-size:32px;
+		line-height:34px;
+		bottom:15px;
+	}
+	.fact-slider .slides .text {
+		text-align:center;
+		padding:9px 0 60px;
+	}
+	.fact-slider .slides .text p { margin:0; }
+	.fact-slider .btn-more {
+		position:absolute;
+		left:50%;
+		bottom:24px;
+		margin-left:-50px;
+	}
+	/* stories-area */
+	.stories-area {
+		padding:24px 25px 13px;
+		margin:0 0 37px;
+	}
+	.stories-area .block { text-align:center; }
+	.stories-area .more-link { display:none; }
+	#content .stories-area h2 {
+		font-size:26px;
+		line-height:28px;
+		margin:0;
+	}
+	/* story-slider */
+	.story-slider {
+		position:relative;
+		overflow:visible;
+	}
+	.story-slider .image {
+		float:none;
+		width:auto;
+		margin:0 24px 17px;
+	}
+	.story-slider .text p { margin:0 0 12px; }
+	.story-slider .flex-direction-nav a {
+		left:-15px;
+		top:22%;
+	}
+	.story-slider .flex-direction-nav .flex-next { right:-15px; }
+	.story-slider .btn-more {
+		display:block;
+		width:100px;
+		padding:7px 10px;
+		margin:0 auto;
+	}
+	/* txt-area */
+	.txt-area { padding:0; }
+	#content .txt-area h2 { margin:0 0 14px; }
+	.txt-area p { margin:0 0 8px; }
+	/* info-tabs */
+	.info-tabs {
+		margin:0 -20px;
+		padding:0 12px 11px;
+	}
+	.info-tabs .top { padding:15px 0 23px; }
+	.info-tabs .nav-tabs {
+		font-size:15px;
+		line-height:10px;
+	}
+	.info-tabs .nav-tabs a {
+		background-size:29px auto;
+		padding:30px 0 0;
+	}
+	.info-tabs .nav-tabs a:hover,
+	.info-tabs .nav-tabs .ui-state-active a { background-position:50% -120px; }
+	.info-tabs .nav-tabs .resources { background-size:33px auto; }
+	.info-tabs .nav-tabs .resources:hover,
+	.info-tabs .nav-tabs .ui-state-active .resources { background-position:50% -137px; }
+	.info-tabs .tabarea { padding:16px 14px 3px; }
+	.info-tabs .col-holder .col {
+		float:none;
+		width:auto;
+	}
+	.info-tabs .col-holder .col + .col { margin-left:0; }
+	.info-tabs .info-img .img-title { padding:8px 13px 7px 12px; }
+	.info-tabs .info-img a {
+		width:40px;
+		height:27px;
+		font-size:20px;
+		line-height:22px;
+		padding:6px 2px 0;
+	}
+}

@@ -1,0 +1,53 @@
+@import url('../general.css');
+@import url('../fonts.css');
+
+
+#section-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section-3 h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#section-3 img{
+    width: 100%;
+}
+
+#section-3 h2::before {
+    content: url('../img/title-deco-left.png'); 
+    margin-right: 8px;
+}
+
+#section-3 h2::after {
+    content: url('../img/title-deco-right.png');
+    margin-left: 8px;
+}
+
+
+/* ====== MEDIA QUERIES ====== */
+@media (max-width:1200px) { 
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width: 975px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 400px) {
+    
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lodging Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <!-- importing font-packs -->
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/72d06cb8-0c8f-4fd7-b671-80f4e1989ebc.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=9">
+  </head>
+  <body>
+    <div class="loading-panel">
+      <span>Loading...</span>
+    </div>
+
+    <div class="search-panel" style="display: none">
+      <div class="ui-widget">
+        <div class="searchfield">
+          <input id="search" class="" type="text" placeholder="SEARCH">
+          <span class="searchIcon icon-x-btn"></span>
+        </div>
+        <span class="searchtitle">Lodging near campus</span>
+      </div>
+    </div>
+
+    <div class="map-panel full-height">
+      <div id="map"></div>
+    </div>
+    
+    <div class="results-panel" style="display: none">
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+          </tr>
+         </thead>      
+         <tbody id="results"></tbody>
+      </table>
+      <div class="center">
+        <button class="load-more-button previous-button" style="display: none"><span>Previous</span></button>
+        <button class="load-more-button next-button" style="display: none"><span>Next</span></button>
+      </div>
+    </div>  
+
+    <div style="display: none">
+      <div id="info-content">
+        <table>
+          <tr id="iw-url-row" class="iw_table_row">
+            <td id="iw-icon" class="iw_table_icon"></td>
+            <td id="iw-url"></td>
+          </tr>
+          <tr id="iw-address-row" class="iw_table_row">
+            <td class="iw_attribute_name">Address:</td>
+            <td id="iw-address"></td>
+          </tr>
+          <tr id="iw-phone-row" class="iw_table_row">
+            <td class="iw_attribute_name">Telephone:</td>
+            <td id="iw-phone"></td>
+          </tr>
+          <tr id="iw-rating-row" class="iw_table_row">
+            <td class="iw_attribute_name">Rating:</td>
+            <td id="iw-rating"></td>
+          </tr>
+          <tr id="iw-website-row" class="iw_table_row">
+            <td class="iw_attribute_name">Website:</td>
+            <td id="iw-website"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/main.js?v=7"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCz0POV761IxnzgftkzVVu8Fm-KUMEixrA&libraries=places&callback=initMap" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+.prg-online {
+    background: url('img/programs/ico-online.png') 0 0 no-repeat scroll;
+}
+
+.prg-hybrid {
+    background: url('img/programs/ico-hybrid.png') 0 0 no-repeat scroll;
+}
+
+.prg-campus {
+    background: url('img/programs/ico-campus.png') 0 0 no-repeat scroll;
+}
+
+.prg-online,
+.prg-hybrid,
+.prg-campus {
+    margin: 0 0 0 14px;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+    
+}
+
+.prg-icons span {
+    padding: 0 0 0 24px;
+    width: auto;
+    box-sizing:border-box;
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    text-transform: uppercase; 
+    font-size: 12px; 
+}
+
+.prg-icons {
+    display: inline-block;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.acc-container{
+    margin-bottom: .3em;
+}
+
+#content .acc-container a.acc-container__link{
+    text-decoration: none;
+}
+
+.accordion{
+    margin-top: 30px;
+}
+
+.accordion input[name='panel'] {
+    display: none;
+}
+
+.accordion label, .accordion a.acc-container__link {
+    font-family: 'AptiferSansLTW01-Medium 721143', sans-serif;
+    font-size: 18px;
+    color: #273d5e;
+    position: relative;
+    display: block;
+    padding: .96em 3em .96em .96em;
+    background-color: #efefef;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+.accordion label:after {
+    content:'';
+    background-image: url(/site/custom_scripts/styles/img/grad-program-listing/chevron-down.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 23px;
+    height: 15px;
+}
+.accordion label:hover, .accordion .acc-container__link:hover {
+    color: #6697B8;
+}
+.accordion input:checked + label {
+    color: #6697B8;
+}
+.accordion input:checked + label:after {
+    content:'';
+    background-image: url(/site/custom_scripts/styles/img/grad-program-listing/chevron-up.png);
+
+}
+.accordion .accordion__content{
+    overflow: hidden;
+    max-height: 0em;
+    position: relative;
+    padding: 0 1.5em;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+.accordion .accordion__content .program-table{
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    font-family: 'AptiferSansLTW01-Medium 721143', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accordion .accordion__content .program-table thead tr:hover{
+    background: none !important;
+}
+
+.accordion .accordion__content .program-table td.table-title{
+    font-family: 'AptiferSansLTW01-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #273d5e;
+    margin: 0;
+    padding-top: 30px !important;
+    padding-bottom: 18px !important;
+}
+
+.accordion .accordion__content .program-table td.table-title.sub-table-title{
+    padding-top: 0 !important;
+}
+
+.accordion .accordion__content .program-table td.table-title p{
+    margin: 0;
+}
+
+#content .accordion .accordion__content .program-table a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.accordion .accordion__content .program-table tr{
+    line-height: 22px;
+}
+
+.accordion .accordion__content .program-table td{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 9px 0 9px 14px !important;
+}
+
+.accordion .accordion__content .program-table td.name{
+    text-align: left;
+    width: 50%;
+}
+
+.accordion .accordion__content .program-table .expanded td.name{
+    padding-left: 40px !important;
+}
+
+.accordion .accordion__content .program-table *{
+    box-sizing: border-box;
+}
+
+.accordion .accordion__content .program-table .degree-type{
+    background: #ddd;
+    border: 1px solid #666;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: .85em;
+    margin-left: 6px;
+    padding: 0 4px;
+    text-transform: uppercase;
+}
+
+.accordion .accordion__content .program-table .prg-online{
+    background: url(/site/custom_scripts/styles/img/grad-program-listing/ico-online.png) 0 0 no-repeat scroll;
+    margin-left: 14px;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.accordion .accordion__content .program-table .prg-hybrid{
+    background: url(/site/custom_scripts/styles/img/programs/ico-hybrid.png) 0 0 no-repeat scroll;
+    margin-left: 14px;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+input[name='panel']:checked ~ .accordion__content {
+    max-height: 180em;
+}
+
+
+
+

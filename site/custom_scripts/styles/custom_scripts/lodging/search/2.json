@@ -1,0 +1,596 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQDnwEAAGIMLdp6G9V6I2Md4bMPmkqivZN8CHXaaDPYWwa9De58T4lJrfNoHIVMWybQ_bkXQqOrkayN3_E4lnjrI3zUFwaLTW4hgaIMaqEmKOh2Xp9ViUZIDz-KzNJvGGzFxiJMXuZPH1_XjN2CKim6sFAHPkUXGDfA23R3HdO7JLUcQ6FgQ9PtQuCi18fRUJZcjY9sdurs8-L8lhCLKcn4Sj5JzGj1ERTZJiXlNlezhvLTD1yRm2pZRNjsQHHUhFhQHK-k8-6qJxnUCIfFjYMwyk2z-uCqx1jcCEKOsLhQFS7n56z4-dDl0qcPBjcq35c6NZ7UcydprdAnXV1MgYDXF-8dIjoG7ilTpu2Wk28AkSe38cvIZhyaUU1_C6D2z16hU69x9h62Ocs8YjMmRAs_pBS75D6gW2LwWiINmw4m8EMG04a6Fl1z7CrPc8QKJFct78g6wdoRlRpeoroNphnxnRM_c9MvU9rxym0IFzpDVHugsoPVFAu2du0gDDucBWy5m45tImCUN4f-pujy-NdZ3SoB5F_LPZ9PFA79rsJyNH-bYJelEhCa_ClMtbP5l1ci_Aif023vGhTYhN7HxMpQa2h9_NEyj6GnC366wA",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2091105,
+               "lng" : -76.87621399999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "32ca1bc26ad2f0feeb2d80d64dc4c3f41212ba28",
+         "name" : "Red Carpet Inn & Suites",
+         "place_id" : "ChIJOYnrlyrAyIkRQRj9vqsE0Fk",
+         "rating" : 2,
+         "reference" : "CmRRAAAAaQuIrHL31RdhvOcljBUF_c6qCa_5zcwFk95CL5Szr4TexkzvC8g5HeXRgi3j-Ayak5rTLYbL2-xFgBEsvTOIzhWjMx2ftU3Q0GQUGVvuBWCSkahvX8fdVYHJeS6GUOg_EhCp915LgIwHmwwHECa_Tb0cGhRz2HUrIpto0UoN3k_6JKBHu4EkWw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "351 Lewisberry Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1017582,
+               "lng" : -77.0289291
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.10179795,
+                  "lng" : -77.027826
+               },
+               "southwest" : {
+                  "lat" : 40.10163895000001,
+                  "lng" : -77.0292968
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e6868044c2eac6e54f75a7b4274f71321f239d3c",
+         "name" : "Pin Oak Mobile Home Community",
+         "place_id" : "ChIJNcQZ-HPlyIkRJzCHnjTw3pc",
+         "reference" : "CmRSAAAAvB9H8TBOnx8w-N21s2gT0cMh5HLSaP2skgNdDfAtjH9RKGNXPqqplhm6MLTjXDQYiW2fjagGKIjJJBUf74IShC932k4GSzIb_bGqXHhrW41Kn7WXPaTk6de5X3yWnysKEhBaKQhhjQvC4XrYTnwOCDWsGhTDheMao37mRWB8ajBK2-a9GBaOUQ",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "49 Aspen Road, Dillsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.214941,
+               "lng" : -76.87997
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21517774999999,
+                  "lng" : -76.87992830000002
+               },
+               "southwest" : {
+                  "lat" : 40.21423075,
+                  "lng" : -76.87998389999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "869033c022c639056f99d4e107174f7267820555",
+         "name" : "Harrisburg Comedy Zone",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103344470009723313233/photos\"\u003eHarrisburg Comedy Zone\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAerGG1qnWoYcccXbrZimPYKDbpjF_q67YVIC_K9Nyk-SWdRvO5AMzF8hL0_ZoJTNm5WtP8jT4HMuOyiq2YxczrFTbVkqhoqBvenJl4Im-C0qBmaeFLHrpkqIuaSvwaCOkWqW4UdeLnhLcOgI2dknVxn2sV7qfItdLeVEsz5M9ITEhBNEYqeyvE1GHcVcJ-WxWIlGhSEbdHGxunOeWlApUkn8Ae5OXTHDQ",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJC2jB0dbByIkRo4-Szz_wwvo",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAA5kXkZMq3RTUvl8gmqsIxDFFeTo3TSQnIbiCO9kqUoNLiVrjBvF0MLxGe9WkLcwJEZ2lWhAJ2CHoPHgg3LoOaNjzfzwmBkXH-PoKD1q5tahNKZAZqq9aStScsa9NaLyISEhANc1rCAjZWYK11butY5WERGhRVSHCHCa_-JNZOUEqMcC5Hk9L_qg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "110 Limekiln Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.161547,
+               "lng" : -77.000355
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.16164135,
+                  "lng" : -77.0003511
+               },
+               "southwest" : {
+                  "lat" : 40.16151555,
+                  "lng" : -77.00035629999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "32a128b113942f036a3ee6ce9d6b4016f5290d69",
+         "name" : "IY Hostel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJkVk96KLoyIkRHNTasi3-7jo",
+         "reference" : "CmRRAAAAfpi78_7_ulAlKz8hVKwNTsUJJLNDZCBxg-8FVf5YJN5CQ0EvlBlzwIe2VDSV65MHb39bdLf50TA9yNyWbXS77CYcAtWtvL3mzjSH0fGH7sKkYdcVZzjkvRc5U58WjnMZEhB6rNDyehpcWd7AfmIj_C4DGhSTbdZJUwNGIW8y3yXZ9HIITRw9zg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5539, Rolo Court, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.20483280000001,
+               "lng" : -76.96525240000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.20571644999999,
+                  "lng" : -76.96480400000002
+               },
+               "southwest" : {
+                  "lat" : 40.20453825000001,
+                  "lng" : -76.96659759999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5c3abb0a4e5a971c1447709e0e62d73a83e7faea",
+         "name" : "Country Inn & Suites By Carlson, Harrisburg West",
+         "place_id" : "ChIJGUIhXzPoyIkRw1deO8c4Xzc",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAADjksSEPaCCGCgP-YU4AySMJ0-lmP84ZgogjxjcUp0RnIwaB365BRuC8MkG4yJf3-OgXIYwEPBnGX1FjFtaTF5O7e9Ssy_HyO6QdNO8JZn9aPEoX-cwL0-YQBlBojuBlREhB2AxB6K_zChe1jY0rUH5wPGhR-mMovKiETZLcs-IWt17BzN6MTng",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4943 Gettysburg Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2056797,
+               "lng" : -76.9573273
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2057891,
+                  "lng" : -76.95729275000001
+               },
+               "southwest" : {
+                  "lat" : 40.20535149999999,
+                  "lng" : -76.95743094999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e34c6299c3630a4993b7cdc01af1aee17f2ea1f6",
+         "name" : "Townplace suites",
+         "place_id" : "ChIJv-WZjc7pyIkRD4jT8lLT-iQ",
+         "reference" : "CmRRAAAAvC7BwXqpuJzQDi3h9KoKFbDGjoMmy3358xFVnkvrDCcUyb9NVZscmTdH4q3mvitZZyqyzimYaFL1ngHoYa037xr-8cBZgjn1zWBDzeSLCU1dU4EsxpaIb4_pCnh804rgEhDT96XYolpYnTm4oPjC2lxtGhQGrsEx21zdFP35UvAN58tlOgyBMw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4930 Ritter Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.1091286,
+               "lng" : -76.9215944
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "ac4567edb1e660cc5c2e8733db2ca9d8d284fd85",
+         "name" : "Mountain View Lodge",
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102128190374318782677/photos\"\u003eRich Leiter\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAP-maqfqjCj81jsR2aCG4VzZp-tv9aVOBX7wBGyMid1sNYRN-X9NJHrkE4IstvedD7VyshSsVkIajRWhXyNs0f71C_FgoISnTYYl355Ew_qaa3s-M_2e2EpbVCj694mPmHKPSdf9_lCNHJbOtpn1vpQzh57NmsWiJzh7aXUNTjYmEhB-tlpUOlrDzNgkci5PH2JnGhSEMWIrq0Q5N5pt0qe0PjZG0aRfbQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ-4hngp7uyIkRtNpcFSfPFYg",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAKTON3aEbBroS5zSSOBHhaV4F-DyAWCa7mWIQ-CL4V9q4jDZuhCOWAPNrzQ-nKTovVpvx5nxsBTfHksu4KVliOgzmMG79mAAz3KzJZPj6KirsLjGI6vR2IfqVKc6tdVwOEhAOMtFRlRyq3qg3kDKMsoUWGhSP--gPfnCRdgklVaTO_FJo7SzUPw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Short Rd, Lewisberry"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2408946,
+               "lng" : -76.9821599
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.24138529999999,
+                  "lng" : -76.98184295
+               },
+               "southwest" : {
+                  "lat" : 40.2394225,
+                  "lng" : -76.98311074999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b6515ec087da416457f0381feddf367810f44c80",
+         "name" : "Premier Purchasing",
+         "place_id" : "ChIJL9GMpJTCyIkRCAbjNGoBft4",
+         "reference" : "CmRSAAAAGDi3EZ4A17gKuIR2FRP_NIuomgIY8b_dBXvFDTwwql5_mq7qQAizrsQa2z3o5XebEBCRU9vSx9RYK8qrgZM2soIVC12K-L2rm_Fw47emZo-WyahA6gEKejGqEpFn2MPxEhBlpNUcJ7L4IXRdzYj2y_dCGhQAdkiDZ_gZ0kI80u3oTqAOMrBFCA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5401 Carlisle Pike, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2393983,
+               "lng" : -76.9622665
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.23952994999999,
+                  "lng" : -76.96214380000001
+               },
+               "southwest" : {
+                  "lat" : 40.23900335,
+                  "lng" : -76.96263459999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "325a83dd0b3db167583ccc97e44ac298ea357f22",
+         "name" : "West Shore Elks",
+         "place_id" : "ChIJ84YnxF_CyIkRFH4yLLkTevk",
+         "reference" : "CmRSAAAAHO6WMmjuDZaVBtWnhkAEEMCEoIo-oJEgbFMJ1icnqhqhKZjbmuOVmuoLF3dj740tZSiF0rBh6MOj8hYVanQTaAlueFNuc3y9DUCQ0D8xcIHjS8hWzkSn_LGg9mfM5ahPEhAtfzRhuzdmJ8ufNa6h5eEuGhQ1pFOmZyidkmNgDVLTvCaCXnbvSg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "108 Saint Johns Road, Camp Hill"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2380467,
+               "lng" : -76.9459784
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.23929155000001,
+                  "lng" : -76.94592060000001
+               },
+               "southwest" : {
+                  "lat" : 40.23763175,
+                  "lng" : -76.9461518
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "31870229266f15201ffda0b0699efacd611ac60a",
+         "name" : "Hampton Inn (Not a Hilton affiliate)",
+         "place_id" : "ChIJ5Uht70HCyIkRzeZAJN6POWE",
+         "rating" : 4,
+         "reference" : "CmRRAAAAZDBrzCYNkixoH2HbwwJSyO1oI8_VPv_ZelDA0vf7VUtOtOxhD-TCWg0mp8ktytdjUWODGJSM5G_y7sstKmY3J6Otcl_vX2lM4zRFyyEMcfWXllCcuKQiqCDekPCx70wLEhBnRh32VaR7Qrci0WIgn-VjGhRp7BiyTZDwIyW2cut1lQntCDI8sw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "3721 Market Street, Camp Hill"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.237372,
+               "lng" : -77.001806
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.23739295,
+                  "lng" : -76.99892135
+               },
+               "southwest" : {
+                  "lat" : 40.23730915000001,
+                  "lng" : -77.00276755
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "c6413fa1ac7a595fae303b62228ef613e9cef588",
+         "name" : "Six Links Mobile Home Park",
+         "place_id" : "ChIJu03kHbHCyIkRicPPeaT09pU",
+         "reference" : "CmRSAAAA5263mXuB4sLeM9GcVEYz5XFYQjCWyTdUYU9tdfad7Wl4UmfPZRc0P1ZmqhSAdX89xfmTXskywgH98TzTnsWqP4SMUx8cXzPBKrlM3yCVGc4pJFqX1aADp3IGioDWfjfqEhBilRWDfX1wAyPttoC_lvzOGhRa-DmJ7qMRe6FJ-phhF8tIFXHZbQ",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "155 Salem Church Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.22784999999999,
+               "lng" : -76.91892969999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2280777,
+                  "lng" : -76.9187223
+               },
+               "southwest" : {
+                  "lat" : 40.22777409999998,
+                  "lng" : -76.91955189999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6b163349f4dfbff88527e7b49a7bfbba18e73aea",
+         "name" : "Bridge to Higher Health",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103734588941516751349/photos\"\u003eBridge to Higher Health\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMkx5qoaDfk60Yp8T8KTcrnyggaDUcqMAXtYV9KNEtYQDwRDIZ9wcgEu_me7PQ2fAvMfb7iJW8npiC97bhK4VtHCdnwHsQ3pl5DhnmbGM6Q1bgWoskZNfigLtoghP-kxwh754EPI8cTM3n7ZNZ_OontE20Cw2P_Dn2IvHwl9KsSkEhCIorAWy78qUDpcHjo8HEF7GhS5GtlI2EKhapII0pXbW1RZAoITvA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJk5Lijx3CyIkRbraoZfkDWS0",
+         "reference" : "CmRRAAAAFUov_meu7uzCW75kEgUJvrgm5aVgts19tL7duCyRkLiBONrP3p7frRnKX53ZMxKgvx14JR__Kxcdu1RnNXHzzdZ5Nvy-9rdak9Q8einEA3syYV3Np3P-AAUSvyyMHn7BEhDeoItSsqwjUxLuoK6SqIVlGhRrSDnkuqMpAnHSSnkV0-esBPyYRQ",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "lodging", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "2137 Orchard Road, Camp Hill"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.19503630000001,
+               "lng" : -76.90296649999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.19543005,
+                  "lng" : -76.90080245
+               },
+               "southwest" : {
+                  "lat" : 40.19385505,
+                  "lng" : -76.90368784999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "32561230636693b41e0f195da62d832f5c7c999c",
+         "name" : "Meadowbrook Mobile Home Park",
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102294697578015944402/photos\"\u003eAlise Weitkamp\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAenQoSyGjUR2v9Rh15mqtWH-77F0Rqye5o23rt70Ps-o73m83_4vEZrR1ceKV5CPyF4kplr-tE7WRHda1kJD2ADX5MGy3bTULV_RwZ0zMBKb3nV3cgIoWO0spOTxe9IbZXk6Hup-Huv-aKITdP0k2YU_aq4I6GUWXypPv0qMIqUEhA48GzyvElkNhn000-rGBg5GhRWiw4rXh5ln3HuqnZDaato_35GYw",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJlUmaGBTqyIkRNDdSmQxDJUg",
+         "rating" : 3.6,
+         "reference" : "CmRRAAAA4pjzO869Enm4bFGN8z4qMBPLF8-fukjeNPyPFQ875pyzJ4zlI6PPRjmEDC9DLTQmNw7NwvLta08zq4GuqJDM3u2I4EnnAxRb-JxUPFxiFSpnIsr42rff7ZNWCb-_ggrdEhBEy10-8VL7wLM6saCSPH3BGhSl97cMNN2jEfzwQJzBp-avoRcHdw",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "239 Shauffnertown Rd, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.24691199999999,
+               "lng" : -77.001091
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.24721604999999,
+                  "lng" : -77.00092230000001
+               },
+               "southwest" : {
+                  "lat" : 40.24599985,
+                  "lng" : -77.0015971
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "e74beb13ea4144c0b89b948699a768a64af8188f",
+         "name" : "Holiday Inn Express Harrisburg Sw - Mechanicsburg",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 333,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106253591038840034443/photos\"\u003eHoliday Inn Express Harrisburg Sw - Mechanicsburg\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJY19gM4YeaFoALA-okLO02zRwhIG7UkcKd-3rrdSGgxqesSXO0runjjQ_g0LLYQ5ON8G52ec5KyBs0e8jn_WaxBGp3bUOIIbGH7HPT76rzWIAsXjCG2crQazZdD-DJk8-WctLmGd-D7gmR30wSXFz5sxJRBIpobUOAW1WA8Wwt_EhCbm3Li55NYWpwbtwMUYDCoGhQDrJ71RV4Ki8kxyMKC8TKe411yjA",
+               "width" : 500
+            }
+         ],
+         "place_id" : "ChIJzzQtVMjCyIkRCS_6aSkXM1g",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAL8q1-XLRn0e_yqvY8ZrcUUAufRe0kSX-FkDZ4AMtrcAYf9USzCQqO7ojrU18eQQ1jDnOH3lFT2eLnXlWr8BjTAvi9lpPU3LtmhEmuR8ZJbdpfP5afcx2egWrKMHFWXJQEhDLIwBUAVAK_wKxi21Iq4ZFGhRoLFQg3bBxncihpFMXuAOuLHpInQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6325 Carlisle Pike, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.15236979999999,
+               "lng" : -77.0346309
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "0434c4bd047d04c8e0efc7150105c826fadd536b",
+         "name" : "Williams Grove Mobile Home Park",
+         "photos" : [
+            {
+               "height" : 5248,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105754902168503591014/photos\"\u003eJoshua Shay\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAG6YrOn_A-U4ygCrPj_3RO1w62jJhen1ko7f7JtSahOq_NfspWX-2_I0BmTFzM0oEstVsnJk3c38iiOHFzHynZ_yYoIYDZDbkAbAfSXyjfX5BqXaxtRnSMzQ0RQkpu-WOn96gXNzQ5uhMrCKZfL3btJzgH3EVRXzygNE2TOrnyy7EhDLZ-d5TFpdiBh5utYlzps2GhQThQZxgLSt-CXsl_aBFaHrlxvmig",
+               "width" : 2952
+            }
+         ],
+         "place_id" : "ChIJhRVGpQvmyIkRxbI7VTHXhDg",
+         "reference" : "CmRRAAAA-i8LfzulUcH03rSx1jJun2i0T3JZ1Hu3VEZ6gbCTwS-7dTnSKOxSFcIsggy0-Em-UK9CIESlC0bqUk_GZfJx3krJZUJ5c_wwoKoEYwyicn9TZsIUKi56RN3-gNc71501EhBSxt5tAifP3NfC41Ll2HmoGhQNPQVaxLpq_czLg_EwlSnATxDxog",
+         "scope" : "GOOGLE",
+         "types" : [ "rv_park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1550 Williams Grove Road, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2464003,
+               "lng" : -77.02368709999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.24649465,
+                  "lng" : -77.02368549999998
+               },
+               "southwest" : {
+                  "lat" : 40.24636885,
+                  "lng" : -77.0236919
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d44f0287f84648fdeadf5a685c72857c9a7e72a0",
+         "name" : "Park Inn",
+         "place_id" : "ChIJm6UhikfdyIkR8gixZ6TSO18",
+         "reference" : "CmRRAAAAh_BNR5UElA2gduz_nT9SHXRUAm1TptREbnwuv19Xgxo0kGzZ4lNB5zgRqi00Vv9Aps5naz8xyEqdP7Pj7fV3wuGfs0vfEzuhRSU4VC8jwqeSGEWCBLXHrOuYjUZ8cCNbEhCirUwMTGGqa2VW6F1e8iwoGhTURYlDjIoFHPpOEXUuznZtp-uO7A",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "Carlisle Pike, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2518886,
+               "lng" : -76.99947920000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2519819,
+                  "lng" : -76.9994727
+               },
+               "southwest" : {
+                  "lat" : 40.2518575,
+                  "lng" : -76.99949869999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "9ce6972e972ad64df2ad7ba54dd6d31ab3fb01cc",
+         "name" : "National Corporate Housing",
+         "place_id" : "ChIJg21hhc_CyIkRqiBK12d6GAk",
+         "reference" : "CmRRAAAAegbbjl0XZr2RzUKDTJn3ujattp7E56i0xWXHh3gHlo8g8LtyMK-Z8HjmmLgZ9tQUb4I18ATlSuEIN6w6a6jNEuIjfa3Be1qWzR0MngIDQ_UPsdKRYIBE_z8A2vQTfQ4NEhAbBOkVV7lvGMstM98uzjlQGhQLKznu2z96HuAlxJT5AIHSNgHEGw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6331 Galleon Drive, Mechanicsburg"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2151854,
+               "lng" : -76.88037249999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.2151945,
+                  "lng" : -76.8802213
+               },
+               "southwest" : {
+                  "lat" : 40.2151581,
+                  "lng" : -76.88082610000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "dcd373bfae73697e0171c0b88bac8e9dd4e0faa7",
+         "name" : "Harrisburg West Inn & Conference Center",
+         "place_id" : "ChIJC2jB0dbByIkRYjDV1wbGc04",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAA-4nM8-qI4c78UZvJDvju_gLCbnsebGHqKAfp3GjARq-sj95XEZ7SNucsHukWAf3ngbnU5fAExwB__1pEHW273D6YwivrwQX_t7rbakkyJGfsnw5PZVPbsmmHchLrt84TEhD-RyL2FFDgvT0vfuAde-ioGhRz2YaosETSoxpMTeCfvBSX98ne4Q",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "110 Limekiln Road, New Cumberland"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.219539,
+               "lng" : -76.939137
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21985505000001,
+                  "lng" : -76.93900745000001
+               },
+               "southwest" : {
+                  "lat" : 40.21943365000001,
+                  "lng" : -76.93952564999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "75856204be9bc9cc33c1dff338ef652c56f75074",
+         "name" : "Camp Hill Motel",
+         "place_id" : "ChIJYw6vHAvCyIkRFAvXO5TMxak",
+         "reference" : "CmRSAAAArFOtqVKNqKqq1ins1om4RZBsf4SQKpyvoxeXKNVheO8M4Tq43qLn7fNgheedMEsrtDVipRYemDeszWaKpardzyXvcuHLj17-FLYbCgufD_bJx1cP_gycNYHIsTF4V7i1EhAi6vZWKzh5JpYwS-cLvmiIGhQbHQoSjIwnGiIv33CKOpJNyyHjdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "3803 Glenwood Avenue, Camp Hill"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 40.2147842,
+               "lng" : -76.88029329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 40.21481929999999,
+                  "lng" : -76.88016789999999
+               },
+               "southwest" : {
+                  "lat" : 40.2146789,
+                  "lng" : -76.8806695
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4748e8be8ae4fb2f3159c9254a6c5657d729edd3",
+         "name" : "Budget Inn New Cumberland",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110951905080105096971/photos\"\u003eBudget Inn\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEZggfKpPnCljt5Copz-Swk-DomWeIHvMJfbsyOi89755_pt82X-6hC2PpVeC_hmWDFbfsR1ZQ7HMNpjLfx2Pc5cel2HZ-r65orPZD0axeczMSemsX7O8IatnbFYTwqmOoaI5gsJ2ao8I_t_JvmrIbsAB0n0ItrvgOTsDROgKN8cEhCGMNSU2ifP4O4XnTBCh1kyGhTnDZ6HdJY4Qs38hsOLohcLrEOyng",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJUxjkydbByIkR5hxg00tPrKE",
+         "rating" : 2.4,
+         "reference" : "CmRSAAAAdK9QC8tR2kFeZKU3d6s5lKNUo7YZSjpuJznhQ_Fgd64eGO4G4pv5XO6eZurEJXjrnsbqdZHb8Q05D2Yj-lqu6WeGvtTv7y47VeQT-PK_959bXzrvfAE7OfBRpcrqi_fLEhCAgV3nClEY7ojtlZ0ZceeQGhTy7PMEqb6FabmpxCVQp3Vop02Pxg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "110 Limekiln Road, New Cumberland"
+      }
+   ],
+   "status" : "OK"
+}
