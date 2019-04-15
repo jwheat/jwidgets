@@ -192,7 +192,7 @@ body, html {
 
 .athletics-tabs ul li a {
     color: #ffffff;
-    font-family: 'Aptifer Sans LT W01', sans-serif; 
+    font-family: 'Aptifer Sans LT W01', sans-serif;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -295,7 +295,7 @@ body, html {
 
 #group-fitness .slick-prev,
 #group-fitness .slick-next {
-    display: none !important; 
+    display: none !important;
 }
 
 /* --- End Kris --- */
@@ -1241,7 +1241,7 @@ margin: 0;
 
     .athletics#physical-fitness .wrapper.content.ath-slider {
         width: 1250px;
-    }    
+    }
 
     #physical-fitness .ath-collage .flexbox .ath-left-col {
         position: relative;
@@ -1336,7 +1336,7 @@ margin: 0;
     .parallax-slider{
         display: none;
     }
-  
+
     .fs-bg{
         background-image: url("img/athletics/hero-bg-athletics.jpg");
         background-repeat: no-repeat;
@@ -1579,4 +1579,3 @@ margin: 0;
 .ath-sticky-sports {
   margin-top: 65px;
 }
-

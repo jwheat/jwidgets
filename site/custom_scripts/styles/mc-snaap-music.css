@@ -77,6 +77,10 @@ body, html {
     padding: 0;
 }
 
+.lazyload-img{
+      min-height: 1px;
+}
+
 .center {
     text-align: center;
 }
@@ -338,12 +342,12 @@ body, html {
 }
 
 #section-2 h2::before {
-    content: url('./img/snaap/title-deco-left.png'); 
+    content: url('/site/custom_scripts/styles//img/snaap-music/title-deco-left.png'); 
     margin-right: 8px;
 }
 
 #section-2 h2::after {
-    content: url('./img/snaap/title-deco-right.png'); 
+    content: url('/site/custom_scripts/styles//img/snaap-music/title-deco-right.png'); 
     margin-left: 8px;
 }
 

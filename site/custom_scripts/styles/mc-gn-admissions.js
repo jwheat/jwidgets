@@ -12,7 +12,7 @@ $('#g-admissions-btn').click(function(){
     $('.undergraduate-container').addClass('hidden');
     $('.graduate-container').addClass('active');
     $('#g-sidenav').addClass('active');
-    $('#g-admissions-btn').addClass('active');
+    $('#g-admissions-btn').addClass('active'); 
 
     admission = 2;
     Cookies.set('mc_student_type', '1');
