@@ -13,6 +13,19 @@
       $pageVersion = "2";
     }
   }
+
+ if ( isset($_GET['type'])) {
+    if($_GET['type'] == 'ug'){
+      $pageVersion = "2";
+      $cookie_value = "0";
+    }
+    else if($_GET['type'] == 'grad'){
+      $pageVersion = "1";
+      $cookie_value = "1";
+    }
+    setcookie('mc_student_type', $cookie_value, time() + (86400 * 30), "/");
+  }
+
 ?>
     <link href="<?php echo $folder; ?>mc-search-programs.css?v=<?php echo $version; ?>" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $folder; ?>fonts/font-awesome/css/font-awesome.min.css">
