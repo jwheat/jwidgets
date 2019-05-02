@@ -717,6 +717,19 @@ right: 0;
     height: 15px;
 }
 
+#section-5 .accordion label:after{
+   content:'';
+    background-image: url(/site/custom_scripts/styles/img/ug-research/chevron-down-white.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 23px;
+    height: 15px;
+}
+
+
 #section-1 .accordion input:checked + label:after{
     content:'';
     background-image: url(/site/custom_scripts/styles/img/ug-research/chevron-up-blue.png);
