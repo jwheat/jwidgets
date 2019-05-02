@@ -5,7 +5,7 @@ var feed = new Instafeed({
 	    target: "mcinstafeed",
 	    userId: 267649716,
 	    limit: 10,
-	    accessToken: "267649716.ed96a3e.1ac493c5b5ed42a3ab41d68c8006bdff",
+	    accessToken: "267649716.d90570a.c266766ffa9e425f923bf7832e971a9e",
 	    resolution: "thumbnail",
 	    
 	    minItems: 9,

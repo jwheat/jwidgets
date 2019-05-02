@@ -574,7 +574,7 @@
             <div class="wrapper content">
                 <h3>Continue Exploring</h3>
                 <div>
-                    <a href="https://www.messiah.edu/download/downloads/id/2318/GraduateStudiesCatalog.pdf" class="primary-button">Graduate catalog (PDF)</a>
+                    <a href="https://www.messiah.edu/info/20108/academic_information/1306/academic_information" class="primary-button">Graduate catalog</a>
                     <a href="https://www.messiah.edu/info/22941/tuition_and_fees" class="primary-button">Graduate tuition</a>
                     <a href="https://www.messiah.edu/info/21084/graduate_admissions" class="primary-button">Graduate admissions</a>
                     <a href="https://www.messiah.edu/info/22865/student_services_and_information" class="primary-button">Graduate student services</a>

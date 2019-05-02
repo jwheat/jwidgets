@@ -1,0 +1,608 @@
+@font-face {
+    font-family: 'priori-sans-reg';
+    src: url('fonts/priori-sans-regular-1361508596-webfont.eot');
+    src: url('fonts/priori-sans-regular-1361508596-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/priori-sans-regular-1361508596-webfont.woff2') format('woff2'),
+         url('fonts/priori-sans-regular-1361508596-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'priori-sans-bold';
+      src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot'); 
+      src: url('fonts/ufonts.com_priori_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/ufonts.com_priori_sans_bold-webfont.woff') format('woff'),
+          url('fonts/ufonts.com_priori_sans_bold-webfont.ttf') format('truetype'),
+          url('fonts/ufonts.com_priori_sans_bold-webfont.svg#priori_sansbold') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'mendoza-medium';
+      src: url('fonts/mendozaroman-medium-webfont.eot');
+      src: url('fonts/mendozaroman-medium-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/mendozaroman-medium-webfont.woff') format('woff'),
+          url('fonts/mendozaroman-medium-webfont.ttf') format('truetype'),
+          url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'mendoza-book';
+      src: url('fonts/mendozaroman-book-webfont.eot');
+      src: url('fonts/mendozaroman-book-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/mendozaroman-book-webfont.woff') format('woff'),
+          url('fonts/mendozaroman-book-webfont.ttf') format('truetype'),
+          url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'mendoza-book-italic';
+      src: url('fonts/mendozaroman-bookitalic-webfont.eot');
+      src: url('fonts/mendozaroman-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/mendozaroman-bookitalic-webfont.woff') format('woff'),
+          url('fonts/mendozaroman-bookitalic-webfont.ttf') format('truetype'),
+          url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+          font-family: 'priori-sans-bold';
+          src: url('fonts/ufonts.com_ori_sans_bold-webfont.svg#ori_sansbold') format('svg');
+      }
+      @font-face {
+          font-family: 'mendoza-medium';
+          src: url('fonts/mendozaroman-medium-webfont.svg#itc_mendoza_romanmedium') format('svg');
+      }
+      @font-face {
+          font-family: 'mendoza-book-italic';
+          src: url('fonts/mendozaroman-bookitalic-webfont.svg#itc_mendoza_roman_bookitalic') format('svg');
+      }
+      @font-face {
+          font-family: 'mendoza-book';
+          src: url('fonts/mendozaroman-book-webfont.svg#itc_mendoza_roman_bookregular') format('svg');
+      }
+      @font-face {
+          font-family: 'aptifer-sans-bold';
+          src: url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+      }
+  }
+  
+/* ====== GENERAL STYLES ====== */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.lazyload-img {
+    opacity:0;
+    transition: all 500ms;
+    max-width: 100%;
+}
+
+.hero-img{
+    transform: scale(2);
+}
+
+.loaded-img {
+    opacity:1;
+}
+
+.loaded-img.hero-img{
+    transform: scale(1);
+}
+
+.main-holder{
+    background: transparent;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.section-top {
+    padding-bottom: 0px !important; 
+}
+
+.section-bottom {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.section p {
+    margin: 0 0 1.5em 0;
+}
+
+.section .wrapper.content {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.section .wrapper.content h1,
+.section .wrapper.content h2 {
+    color: #273d5e;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    margin: 0 0 .25em;
+}
+
+.section .wrapper.content h3 {
+    color: #273d5e;
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 .5em 0;
+    position: relative;
+}
+
+.section .wrapper.content p {
+    color: #273d5e;
+    font-family: 'AptiferSansLTW01-Light', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.section .wrapper.content .button {
+    background-color: #6697B8; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+.section .wrapper.content .button:hover {
+    background-color: #273d5e;
+    text-decoration: none;  
+}
+
+.section .wrapper.content .flexbox {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+
+.section .wrapper.content .col-50 {
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.section .wrapper.content .col-60 {
+    width: 60%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.section .wrapper.content .col-40 {
+    width: 40%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.section .wrapper.content .col-25 {
+    width: 25%;
+    padding: 15px 1.5%;
+    box-sizing: border-box;
+}
+
+.text-justify {
+    text-align: left;
+}
+
+.parallax-slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.hero-bg {
+    height: 785px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    color: #fff;
+}
+
+.hero-bg.loading-hero-img{ 
+    background-color: rgb(44,66,99);
+}
+
+.hero-bg .loading-gif{
+    width: 40px;
+    content: url('./img/theatre-outcomes/ajax-loader.gif');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-bg .title-wrapper {
+    width: 820px;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-40%);
+}
+
+.hero-bg .title-wrapper h2 {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-bg .title-wrapper p {
+    font-family: 'priori-sans-bold', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: .5em 0 1em 0;
+}
+
+.hero-bg .title-wrapper hr {
+    border: none;
+    height: 8px;
+    background: #9ec3de;
+    width: 50%;
+    margin: 1em 0;
+}
+
+.hero-bg .explore-messiah-btn{
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    width: 100px;
+    background: #fff;
+    line-height: 18px;
+    padding-top: 12px;
+    color: #273d5e;
+    font-family: 'Aptifer Sans LT W01', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.about-tabs .explore-button a img {
+    margin-top: 10px;
+}
+
+/* ====== CONTENT ====== */
+
+#section-1 .accordion{
+    /* margin-top: 30px; */
+    /* border-bottom: 1px solid #acacac; */
+}
+
+#section-1 h2{
+    color: #6697b8;
+    margin-bottom: 8px;
+}
+
+#section-1 h3{
+    font-family: 'priori-sans-reg', sans-serif;
+    font-weight: 400;
+}
+
+.accordion input[name='panel'] {
+    display: none;
+}
+
+.accordion label {
+    display: flex;
+    align-items: center;
+    font-family: 'priori-sans-reg', sans-serif;
+    font-size: 25px;
+    color: #273d5e;
+    padding: .96em 3em .96em 3em;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+    border-top: 1px solid #acacac;
+}
+
+.accordion label span {
+    position: absolute;
+    right: 80px;
+    font-size: .75em;
+    color: #6697B8;
+}
+
+.accordion label:after{
+    content:'';
+    background-image: url(img/accepted-student/chevron-down-blue.png);
+    width: 27px;
+    height: 20px;
+}
+
+.accordion label:after {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+}
+
+.accordion label .acc-img{
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    transform: translateY(-50%);max-width: 25px;width: auto;max-height: 30px;
+}
+
+.accordion label .acc-img.dollar-img{
+    left: 1.3em;
+}
+
+.accordion input:checked + label:after{
+    content:'';
+    background-image: url(img/accepted-student/chevron-up-blue.png);
+}
+
+.accordion .accordion__content {
+    overflow: hidden;
+    max-height: 0em;
+    position: relative;
+    padding: 0 1.5em;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+input[name='panel']:checked ~ .accordion__content {
+    max-height: 180em;
+}
+
+#section-2{
+    position: relative;
+    font-family: 'priori-sans-bold', sans-serif;
+}
+
+#section-2 .section-bg-img{
+    display: block;
+    width: 100%;
+    height: 575px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+#section-2.section{
+    padding: 0;
+    margin-top: 50px; 
+}
+
+#section-2 .content-box{
+    padding: 25px;
+    background-color: rgba(39, 61, 94, .6);
+    color: #ffffff;
+    max-width: 476px;
+    position: absolute;
+    left: 95px;
+    top: 0;
+    text-align: left;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
+
+#section-2 .content-box-title{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -0.27px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#section-2 .content-box-sub-title{
+    font-family: 'AptiferSansLTW01-Light', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#section-2 .content-box-list{
+    font-family: 'AptiferSansLTW01-Light', sans-serif;
+    list-style-type: none;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    font-weight: 300;
+}
+
+#section-2 .content-box-list li{
+    position: relative;
+    padding: 24px 0 24px 70px;
+}
+
+#section-2 .content-box-list li:nth-child(1):before,
+#section-2 .content-box-list li:nth-child(2):before,
+#section-2 .content-box-list li:nth-child(3):before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#section-2 .content-box-list li:nth-child(1):before{
+    content:url(img/accepted-student/cellphone-icon-white.png);
+}
+
+#section-2 .content-box-list li:nth-child(2):before{
+    content:url(img/accepted-student/envelope-icon-white.png);
+}
+
+#section-2 .content-box-list li:nth-child(3):before{
+    content:url(img/accepted-student/info-icon-white.png);
+    left: 2px;
+}
+
+#section-2 .content-box.inView{
+    -webkit-transform: translateY(63px);
+    -ms-transform: translateY(63px);
+    transform: translateY(63px);
+    opacity: 1;
+}
+
+#section-3 ul{
+    font-family: 'AptiferSansLTW01-Light', sans-serif;
+    color: #6697b8;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+#section-3 h3{
+    font-family: 'priori-sans-reg', sans-serif;
+    letter-spacing: -0.32px;
+    font-size: 45px;
+    margin-bottom: 41px;
+}
+  
+#section-3 li {
+    display: inline-block;
+    font-size: 35px;
+    list-style-type: none;
+    padding: 25px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+}
+
+#section-3 .countdown-text {
+    display: block;
+    font-size: 150px;
+    line-height: 140px;
+    font-weight: 700;
+}
+
+#section-3 #move-in-video{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*===== MOBILE =====*/
+
+@media (max-width:1100px) {
+
+    #section-3 li {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    #section-3 .countdown-text {
+        font-size: 90px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .section .wrapper.content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 1024px) and (hover:none) {
+    .parallax-slider{
+        display: none;
+    }
+    
+    .hero-bg{
+        background-image: url("img/accepted-student/hero-img.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+    }
+ }
+ 
+
+@media (max-width: 766px) and (hover:none) {
+    .hero-bg{
+        background-image: url("img/accepted-student/hero-img.jpg");
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-bg {
+        height: 600px;
+    }
+
+    .hero-bg .title-wrapper h2 {
+        font-size: 3em;
+        line-height: 1em;
+    }
+
+    .hero-bg .title-wrapper p {
+        font-size: 1.5em;
+        line-height: 1em; 
+    }
+
+    .hero-bg .title-wrapper hr {
+        width: 100%;
+    }
+
+    #section-2 .content-box {
+        background-color: rgb(39, 61, 94);
+        max-width: 100%;
+        position: relative;
+        right: unset;
+        bottom: unset;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    #section-2 .content-box.inView{
+        transform: translateY(0);
+        left: 0;
+    }
+
+    #section-2 img {
+        height: 400px;
+        object-position: 50% 50%;
+    }
+
+    #section-3 li {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    #section-3 .countdown-text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+  
+  
+  

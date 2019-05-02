@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '1';
+    $version = '2';
     $folder = '/site/custom_scripts/styles/';
   }
 ?>
@@ -24,7 +24,7 @@
                     <img 
                         class="lazyload-img hero-img" 
                         src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
-                        data-src="<?php echo $folder; ?>img/ug-research/hero-img-min.jpg" />
+                        data-src="<?php echo $folder; ?>img/ug-research/hero-img-min2.jpg" />
                 </picture>
             </div>
             <div class="hero-title-wrapper">
@@ -300,6 +300,7 @@
         <!-- ====== SECTION N_5 ====== -->
         <div class="section" id="section-5">
             <div class="wrapper content center">
+<div class="flexbox">
                  <h2>We support you—from proposal to presentation</h2>
                  <p class="section-description">Depending on your major, you may be able to begin a research project as early as your first year. You’ll have opportunities to work as part of a research team or one-on-one with a faculty mentor. We’ll help you identify, apply for and coordinate internal and external sources of research funding. Your professors can also help connect you with research-related internships, cross-cultural courses, service projects and summer research opportunities. </p>
                  <div class="accordion-container">
@@ -323,6 +324,7 @@
                  </div>
             </div>
         </div>
+ </div>
 
         <!-- ====== SECTION N_6 ====== -->
         <div class="section square-panel-section" id="section-6">
