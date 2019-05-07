@@ -17,12 +17,12 @@
 
     <!-- UNDERGRADUATE PAGE -->
     <div id="hero-section-wrapper">
-        <div class="hero-section loading-hero-img">  
+        <div class="hero-section loading-hero-img">
             <figure class="loading-gif"></figure>
             <div class="parallax-slider">
                 <picture>
-                    <img 
-                        class="lazyload-img hero-img" 
+                    <img
+                        class="lazyload-img hero-img"
                         src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                         data-src="<?php echo $folder; ?>img/ug-research/hero-img-min2.jpg" />
                 </picture>
@@ -70,8 +70,8 @@
                         </div>
                     </div>
                     <div class="col-33 center">
-                        <img 
-                            class="lazyload-img" 
+                        <img
+                            class="lazyload-img"
                             src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/ug-research/section-1-img-min.jpg" />
                     </div>
@@ -81,14 +81,14 @@
 
         <!-- ====== SECTION N_2 ====== -->
         <div class="section" id="section-2">
-            <div class="wrapper content center section-2-info"> 
+            <div class="wrapper content center section-2-info">
                 <h2>Faculty-student collaboration</h2>
                 <p class="section-description">Meaningful faculty-student relationships are an important part of the Messiah educational experience. Your professors strive to get to know you, your strengths and your aspirations.</p>
                 <div id="circle-flip">
                     <div class="flexbox circle-flip">
                         <div class="col-33">
                             <div class="circle-container">
-                                <img class="circular-image lazyload-img" 
+                                <img class="circular-image lazyload-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/round-img-1-min.png"
                                     alt="a discerning spirit image" />
@@ -98,8 +98,8 @@
                         </div>
                         <div class="col-33">
                             <div class="circle-container">
-                                <img 
-                                    class="circular-image lazyload-img" 
+                                <img
+                                    class="circular-image lazyload-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/round-img-2-min.png"
                                     alt="real world creativity image" />
@@ -109,8 +109,8 @@
                         </div>
                         <div class="col-33">
                             <div class="circle-container">
-                                <img 
-                                    class="circular-image lazyload-img" 
+                                <img
+                                    class="circular-image lazyload-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/round-img-3-min.png"
                                     alt="authentic power to lead image" />
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Overlay 1 -->
             <div class="section-2-overlay" id="overlay-1" style="display:none;">
                 <div class="wrapper content">
@@ -169,9 +169,9 @@
                             <li><a class="open-overlay-3">Important answers to important questions</a></li>
                         </ul>
                     </div>
-                    
+
                     <h3 class="center"><span>Faculty-student ratio</span></h3>
-                    
+
                     <div class="flexbox">
                         <div class="col-60">
                             <p>Our low faculty-to-student ratio makes Messiah an ideal place for you to collaborate on research projects with faculty and classmates. You’ll also benefit from the research connections and partnerships our faculty have with regional, national and global organizations.</p>
@@ -202,9 +202,9 @@
                             <li><a class="active">Important answers to important questions</a></li>
                         </ul>
                     </div>
-                    
+
                     <h3 class="center longer-title"><span>Important answers to important questions</span></h3>
-                    
+
                     <div class="flexbox">
                         <div class="col-60">
                             <p>At Messiah, we’ll help you apply what you’re learning so you can develop practical answers to important questions. Whether you’re passionate about science, engineering, health, business, education, social sciences, the humanities or the arts, you can contribute significant research in your area of study and make an impact on your chosen field—before you graduate. </p>
@@ -231,12 +231,12 @@
                         <p>
                         Messiah students promote the common good through research that serves others and improves the human condition.<br><br>
 
-                        Designing a prosthetic hand for a 5-year old girl who wants to ride a bike. Protecting genetic privacy in the age of DNA databases. Reducing food waste on college campuses. Digitally mapping the ethnic history of the capital city of Pennsylvania. Finding ways to remove arsenic from drinking water. These are just some of Messiah students’ research projects that are making the world a better place. 
+                        Designing a prosthetic hand for a 5-year old girl who wants to ride a bike. Protecting genetic privacy in the age of DNA databases. Reducing food waste on college campuses. Digitally mapping the ethnic history of the capital city of Pennsylvania. Finding ways to remove arsenic from drinking water. These are just some of Messiah students’ research projects that are making the world a better place.
                         </p>
                     </div>
                     <div class="col-50 center">
-                        <img 
-                            class="lazyload-img" 
+                        <img
+                            class="lazyload-img"
                             src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                             data-src="<?php echo $folder; ?>img/ug-research/section-3-img-min.jpg" />
                     </div>
@@ -255,11 +255,11 @@
 
                         <div class="page-slide" id="page-slide">
                             <div class="flex-container">
-                                <img 
-                                    class="lazyload-img" 
+                                <img
+                                    class="slide-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/alison_noble-min.png" />
-                                <div class="text-justify ml-25">
+                                <div class="slide-content text-justify ml-25">
                                     <p class="statement">“Students are at a distinct advantage if they have the chance to do high-level undergraduate research. Graduate schools love basic research—it equips students to ask good questions, figure out how to answer them, how to troubleshoot, and it develops a lot of persistence and character.”</p>
                                     <p class="name">Alison Noble</p>
                                     <p class="role">Assistant Provost, Associate Professor of Chemistry</p>
@@ -268,11 +268,11 @@
                         </div>
                         <div class="page-slide" id="page-slide">
                             <div class="flex-container">
-                                <img 
-                                    class="lazyload-img" 
+                                <img
+                                    class="slide-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/jessica-raboci.png" />
-                                <div class="text-justify ml-25">
+                                <div class="slide-content text-justify ml-25">
                                     <p class="statement">“I’m grateful for the opportunity that Messiah gives us to have a hands-on experience in an area of our field with others who have similar aspirations.”</p>
                                     <p class="name">Jessica Raboci</p>
                                     <p class="role">Engineering major</p>
@@ -281,11 +281,11 @@
                         </div>
                         <div class="page-slide" id="page-slide">
                             <div class="flex-container">
-                                <img 
-                                    class="lazyload-img" 
+                                <img
+                                    class="slide-img"
                                     src="<?php echo $folder; ?>img/ug-research/handtinytrans.gif"
                                     data-src="<?php echo $folder; ?>img/ug-research/jean-corey.png" />
-                                <div class="text-justify ml-25">
+                                <div class="slide-content text-justify ml-25">
                                     <p class="statement">“I think the beauty of undergraduate research is that students who never considered themselves ‘scholars’ discover the thrill and the power of research well done and well invested to transform the world around them.”</p>
                                     <p class="name">Jean Corey</p>
                                     <p class="role">Director, Messiah College Center for Public Humanities</p>
@@ -293,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
 
@@ -328,7 +328,7 @@
 
         <!-- ====== SECTION N_6 ====== -->
         <div class="section square-panel-section" id="section-6">
-            <div class="wrapper content center"> 
+            <div class="wrapper content center">
                 <h2>Changing the world one research<br>project at a time:</h2>
                 <p>View, listen and read the stories below as Messiah students and faculty members share the incredible learning, experiences and outcomes of their own research projects.   </p>
                 <div class="square-panel-section-wrapper">
@@ -407,8 +407,8 @@
                 </div>
             </div>
         </div>
-  
-       <!-- ====== SECTION N_7  ====== -->      
+
+       <!-- ====== SECTION N_7  ====== -->
  <div class="ug-research" id="continue-exploring">
         <div class="wrapper content">
             <h3>Continue Exploring</h3>

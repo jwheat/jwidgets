@@ -11,6 +11,17 @@ $(document).ready(function(){
     }
   });
 
+  var bLazy_carousel = new Blazy({
+    container: '.blue-bg-slider',
+    selector: '.slide-img',
+    loadInvisible: true
+});
+
+// Revalidate when changing slides
+$('.blue-bg-slider').on('afterChange', function(event, slick, direction){
+    bLazy_carousel.revalidate();
+});
+
   //Modals for circular images
   $('.open-overlay-1').click(function() {
     $('.section-2-overlay').hide();
