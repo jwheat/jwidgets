@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '2';
+    $version = '3';
     $folder = '/site/custom_scripts/styles/';
   }
 ?>
@@ -66,7 +66,7 @@
                         </div>
                         <div>
                             <a href="https://www.messiah.edu/homepage/3748/student_stories" class="primary-button">Student stories</a>
-                            <a href="#" class="primary-button">Quotes</a>
+                            <a href="#quotes" class="primary-button">Quotes</a>
                         </div>
                     </div>
                     <div class="col-33 center">
@@ -246,6 +246,7 @@
 
         <!-- ====== SECTION N_4 ====== -->
         <div class="section section-4" id="section-4">
+            <a name="quotes"></a>
             <div class="wrapper content">
                 <h2>In their own words</h2>
                 <div class="wrapper content center page-slider" id="slider-wrapper">
