@@ -69,6 +69,23 @@
 										</ul><!-- / step-list -->
 									</div><!-- / col-left -->
 									<div class="col-right">
+										<div class="info-holder">
+											<div class="ico">
+												<span><img src="http://mcweb.messiah.edu/_media/_img/img-admissions/ico-016.png" alt="image"></span>
+											</div>
+											<header>
+												<h3>learn more</h3>
+												<h4>About Messiah</h4>
+											</header>
+											<div class="subscribe-form">
+												<form action="http://www.messiah.edu/request-info" method='get'>
+													<input class="txt" type="text" value="First Name" name='fname'>
+													<input class="txt" type="text" value="Last Name" name='lname'>
+													<input class="txt" type="email" value="Email Address" name='email'>
+													<input class="btn-submit ie-fix" type="submit" value="Request Info">
+												</form>
+											</div><!-- / subscribe-form -->
+										</div><!-- / info-holder -->
 										<div class="student-box">
 											<p>Transfer and international students have a slightly different application process. Click the appropriate link to find out more.</p>
 											<div class="btn-group">
@@ -85,7 +102,8 @@
 										<ul class="step-list">
 											<li>
 												<h3 class="subtitle"><span class="num">1</span><span class="txt">Fill out the application</span></h3>
-												<p>Begin your Messiah College application by selecting your desired program in the blue box and click &apos;apply.&apos;</p>
+												<p>Start your application today! Typically the application only takes about 20-30 minutes to complete. </p>
+												<p><a class="button" href="https://www.messiah.edu/applytoday">Apply Now</a></p>
 											</li>
 											<li>
 												<h3 class="subtitle"><span class="num">2</span><span class="txt">Complete application file</span></h3>
@@ -110,30 +128,6 @@
 										</div>
 									</div><!-- / col-left -->
 									<div class="col-right">
-										<div class="info-holder">
-											<div class="ico">
-												<span><img src="http://mcweb.messiah.edu/_media/_img/img-admissions/ico-017.png" alt="image"></span>
-											</div>
-											<header>
-												<h3>apply today</h3>
-											</header>
-											<form name="apply">
-											<div class="apply-block">
-												<label for="apply-for">Apply for:</label>
-												<select name="selecttype" id="apply-for" class="sel-03">
-
-																	<option value="http://www.messiah.edu/applynow">Undergrad</option>
-																	<option value="http://www.messiah.edu/info/21329/apply">Graduate</option>
-																	<option value="http://www.messiah.edu/info/20102/dual_enrollment/1798/apply">Dual Enrollment</option>
-																	<option value="http://www.messiah.edu/admissions/application/pdf/ApplicationPart-timeStudy1011.PDF">Part-time</option>
-																	<option value="http://www.messiah.edu/admissions/application/pdf/ApplicationReadmission1112.pdf">Re-admission</option>
-																	<option value="http://www.messiah.edu/download/downloads/id/1913/ReEnrollmentApp.pdf">Re-enrollment</option>
-																	<option value="http://www.messiah.edu/info/20104/undergrad_online">Summer Online</option>
-																</select>
-																<input class="btn-submit ie-fix" type="button" onClick="location=document.apply.menu2.options[document.apply.menu2.selectedIndex].value;" value="GO">
-															</form>
-												</div>
-											</div><!-- / info-holder -->
 										<div class="student-box">
 											<p>Transfer and international students have a slightly different application process. Click the appropriate link to find out more.</p>
 											<div class="btn-group">
