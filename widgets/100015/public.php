@@ -43,7 +43,7 @@
 												<h3 class="subtitle"><span class="num">3</span><span class="txt">Connect</span></h3>
 												<p>Messiah&apos;s admissions team is ready to walk you through the application process and answer your questions. Identify your personal counselor based on their geographical territory or their area of specialty.</p>
 												<form name="jump">
-											
+
 												<div class="connect-form">
 													<form name="jump">
 														<p>Connect with your counselor.</p>
@@ -53,7 +53,7 @@
 																	<option value="http://www.messiah.edu/info/21356/meet_your_couneslor">Future student</option>
 																	<option value="http://www.messiah.edu/info/21363/meet_your_counselor">Transfer student</option>
 																	<option value="http://www.messiah.edu/info/21367/meet_your_counselors">International student</option>
-																	
+
 																</select>
 																<input class="btn-submit ie-fix" type="button" onClick="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="GO">
 															</div>
@@ -64,28 +64,11 @@
 											<li>
 												<h3 class="subtitle"><span class="num">4</span><span class="txt">Request Info</span></h3>
 												<p>Take a minute or two and fill out the inquiry form. That allows us to stay in touch and provide you with more information about the programs and people of interest to you at Messiah.</p>
-												
+
 											</li>
 										</ul><!-- / step-list -->
 									</div><!-- / col-left -->
 									<div class="col-right">
-										<div class="info-holder">
-											<div class="ico">
-												<span><img src="http://mcweb.messiah.edu/_media/_img/img-admissions/ico-016.png" alt="image"></span>
-											</div>
-											<header>
-												<h3>learn more</h3>
-												<h4>About Messiah</h4>
-											</header>
-											<div class="subscribe-form">
-												<form action="http://www.messiah.edu/request-info" method='get'>
-													<input class="txt" type="text" value="First Name" name='fname'>
-													<input class="txt" type="text" value="Last Name" name='lname'>
-													<input class="txt" type="email" value="Email Address" name='email'>
-													<input class="btn-submit ie-fix" type="submit" value="Request Info">
-												</form>
-											</div><!-- / subscribe-form -->
-										</div><!-- / info-holder -->
 										<div class="student-box">
 											<p>Transfer and international students have a slightly different application process. Click the appropriate link to find out more.</p>
 											<div class="btn-group">
@@ -136,20 +119,20 @@
 											</header>
 											<form name="apply">
 											<div class="apply-block">
-												<label for="apply-for">Apply for:</label> 
+												<label for="apply-for">Apply for:</label>
 												<select name="selecttype" id="apply-for" class="sel-03">
-																	
+
 																	<option value="http://www.messiah.edu/applynow">Undergrad</option>
 																	<option value="http://www.messiah.edu/info/21329/apply">Graduate</option>
 																	<option value="http://www.messiah.edu/info/20102/dual_enrollment/1798/apply">Dual Enrollment</option>
 																	<option value="http://www.messiah.edu/admissions/application/pdf/ApplicationPart-timeStudy1011.PDF">Part-time</option>
 																	<option value="http://www.messiah.edu/admissions/application/pdf/ApplicationReadmission1112.pdf">Re-admission</option>
 																	<option value="http://www.messiah.edu/download/downloads/id/1913/ReEnrollmentApp.pdf">Re-enrollment</option>
-																	<option value="http://www.messiah.edu/info/20104/undergrad_online">Summer Online</option>		
+																	<option value="http://www.messiah.edu/info/20104/undergrad_online">Summer Online</option>
 																</select>
 																<input class="btn-submit ie-fix" type="button" onClick="location=document.apply.menu2.options[document.apply.menu2.selectedIndex].value;" value="GO">
 															</form>
-												</div>											
+												</div>
 											</div><!-- / info-holder -->
 										<div class="student-box">
 											<p>Transfer and international students have a slightly different application process. Click the appropriate link to find out more.</p>
@@ -244,7 +227,7 @@
 				<script>
 					$(document).ready(function () {
 				        var aTag = $("a[name='process']");
-				        $('html,body').animate({scrollTop: aTag.offset().top - 50},'slow');						
+				        $('html,body').animate({scrollTop: aTag.offset().top - 50},'slow');
 
 				        $('#apply_process_tabs').tabs({
 				            show: {
@@ -257,4 +240,4 @@
 				</script>
 <?php
 	}
-?>					
+?>
