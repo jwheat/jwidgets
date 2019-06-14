@@ -74,17 +74,11 @@
 												<span><img src="http://mcweb.messiah.edu/_media/_img/img-admissions/ico-016.png" alt="image"></span>
 											</div>
 											<header>
-												<h3>learn more</h3>
-												<h4>About Messiah</h4>
+												<h3 style="text-align:center; ">learn more</h3>
+												<h4 style="text-align:center; ">About Messiah</h4>
 											</header>
-											<div class="subscribe-form">
-												<form action="http://www.messiah.edu/request-info" method='get'>
-													<input class="txt" type="text" value="First Name" name='fname'>
-													<input class="txt" type="text" value="Last Name" name='lname'>
-													<input class="txt" type="email" value="Email Address" name='email'>
-													<input class="btn-submit ie-fix" type="submit" value="Request Info">
-												</form>
-											</div><!-- / subscribe-form -->
+											<p style=" color:#ffffff; text-align:center;" >We would love to learn more about you and customize future communications. Get started by filling out our inquiry form. </p>
+											<p style="text-align:center;"><a class="button" href="https://www.messiah.edu/request-info"> Complete the form </a>
 										</div><!-- / info-holder -->
 										<div class="student-box">
 											<p>Transfer and international students have a slightly different application process. Click the appropriate link to find out more.</p>
