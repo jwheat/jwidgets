@@ -76,7 +76,7 @@
           <div class="career-wrapper center">
             <h2 class="department-title"></h2>
             <h3 class="big-h3">Where our graduates work</h3>
-            <p class="big-txt grad-work-caption-all">Among the various industries employing Messiah graduates, below is a sample of places our 2017 graduates are working</p>
+            <p class="big-txt grad-work-caption-all">Among the various industries employing Messiah graduates, below is a sample of places our 2018 graduates are working</p>
             <p class="big-txt grad-work-caption-dep" style="display:none"></p>
             <div class="logos">
               <ul class="slides">
@@ -103,7 +103,7 @@
           <div class="career-wrapper center">
             <h2 class="department-title"></h2>
             <h3 class="big-h3">Competitive in the marketplace</h3>
-            <p class="big-txt">2017 graduate salary ranges</p>
+            <p class="big-txt">2018 graduate salary ranges</p>
             <div class="salary-ranges" id="salary-ranges">
               <div id="range-1">
                 <div class="graph-bar" id="salary-range-1" >
@@ -177,7 +177,7 @@
         <div class="grad-industries padding-v">
           <div class="career-wrapper center">
             <h2 class="department-title"></h2>
-            <h3 class="big-h3">Industries represented by our 2017 graduates</h3>
+            <h3 class="big-h3">Industries represented by our 2018 graduates</h3>
           </div>
 
           <div class="career-wrapper">
@@ -262,7 +262,7 @@
           <div class="career-wrapper center">
             <h2 class="department-title"></h2>
             <h3 class="big-h3">Graduate and professional school information</h3>
-            <p class="big-txt">14% of the survey respondents from the Class of 2017 reported graduate or professional school as their primary activity following graduation. The numbers below represent the graduate level fields of study pursued by these graduates.</p>
+            <p class="big-txt">17% of the survey respondents from the Class of 2018 reported graduate or professional school as their primary activity following graduation. The numbers below represent the graduate level fields of study pursued by these graduates.</p>
           </div>
 
           <div class="career-wrapper">
@@ -296,7 +296,7 @@
               <img src="<?php echo $folder; ?>img/career/grad-outcomes-icon.png">
             </div>
             <div class="col-66">
-              <p class="big-txt"><span id="grad-school-rate"></span> of the Class of 2017 survey respondents reported graduate or professional school as their primary activity following graduation</p>
+              <p class="big-txt"><span id="grad-school-rate"></span> of the Class of 2018 survey respondents reported graduate or professional school as their primary activity following graduation</p>
               <ul id="grad-schools-attended">
               </ul>
             </div>
@@ -322,12 +322,12 @@
           <div id="peek-info">
             <h1>Our Survey</h1>
             <h2>Purpose</h2>
-            <p>The purpose of the annual first destination survey is to capture information on the employment and graduate school status of Messiah College alumni within six to nine months of graduation. For the purpose of this survey, the class of 2017 is defined as anyone who graduated in December 2016, May 2017 or August 2017.</p>
+            <p>The purpose of the annual first destination survey is to capture information on the employment and graduate school status of Messiah College alumni within six to nine months of graduation. For the purpose of this survey, the class of 2018 is defined as anyone who graduated in December 2017, May 2018 or August 2018.</p>
             <h2>Data Collection Methods</h2>
-            <p>Statistics provided are based on information received through a variety of methods, including an electronic survey that was distributed via email; a survey completed on-campus prior to graduation; information provided at the zero-year reunion at Homecoming; and follow-up surveys. Data from non-responders was also gathered from updated professional provides on social media sites like LinkedIn.</p>
-            <p>The collection process and reporting summary of results adheres to the professional guidelines set forth by NACE (the National Association for Colleges and Employers). </p>
+            <p>Statistics provided are based on information received through a variety of methods, including an electronic survey that was distributed via email; a survey completed on-campus prior to graduation; contact with department faculty; follow-up surveys; and updated professional profiles provided on social media sites like LinkedIn.</p>
+            <p>The collection process and reporting summary of results adheres to the professional guidelines set forth by NACE (the National Association for Colleges and Employers).</p>
             <h2>Response Rate</h2>
-            <p>Through this extensive process, we obtained a 68% knowledge rate of the Class of 2017. Knowledge rate is defined by NACE as the percent of graduates for which an institution has reasonable and verifiable information concerning the graduates post-graduation career activities.</p>
+            <p>Through this extensive process, we obtained a 74% knowledge rate of the Class of 2018 Knowledge rate is defined by NACE as the percent of graduates for which an institution has reasonable and verifiable information concerning the graduates post-graduation career activities.</p>
           </div>
         </div>
       </div>

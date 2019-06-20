@@ -17,29 +17,29 @@
             <div id="sl-circle-flip">
                 <div class="flexbox sl-circle-flip">
                     <div class="col-33">
-                        <img class="what-to-do-image fan-experience" id="fan-experience-image" src="<?php echo $folder; ?>img/student-life/wtd-1.png" alt="">
+                        <img class="what-to-do-image fan-experience" id="fan-experience-image" src="<?php echo $folder; ?>img/student-life/wtd-1.jpg" alt="">
                         <h3>Fan Experience</h3>
                     </div>
                     <div class="col-33">
-                        <img class="what-to-do-image sport-related-activities" id="sport-related-activities" src="<?php echo $folder; ?>img/student-life/wtd-2.png" alt="">
+                        <img class="what-to-do-image sport-related-activities" id="sport-related-activities" src="<?php echo $folder; ?>img/student-life/wtd-2.jpg" alt="">
                         <h3>Sport-Related Activities</h3>
                     </div>
                     <div class="col-33">
-                        <img class="what-to-do-image clubs-and-organizations" src="<?php echo $folder; ?>img/student-life/wtd-3.png" alt="">
+                        <img class="what-to-do-image clubs-and-organizations" src="<?php echo $folder; ?>img/student-life/wtd-3.jpg" alt="">
                         <h3>Clubs and Organizations</h3>
                     </div>
                 </div>
                 <div class="flexbox sl-circle-flip">
                     <div class="col-33">
-                        <img class="what-to-do-image campus-traditions" id="campus-traditions-image" src="<?php echo $folder; ?>img/student-life/wtd-4.png" alt="">
+                        <img class="what-to-do-image campus-traditions" id="campus-traditions-image" src="<?php echo $folder; ?>img/student-life/wtd-4.jpg" alt="">
                         <h3>Campus Traditions</h3>
                     </div>
                     <div class="col-33">
-                        <img class="what-to-do-image on-campus" src="<?php echo $folder; ?>img/student-life/wtd-5.png" alt="">
+                        <img class="what-to-do-image on-campus" src="<?php echo $folder; ?>img/student-life/wtd-5.jpg" alt="">
                         <h3>On-Campus</h3>
                     </div>
                     <div class="col-33">
-                        <img class="what-to-do-image off-campus-adventures" src="<?php echo $folder; ?>img/student-life/wtd-6.png" alt="">
+                        <img class="what-to-do-image off-campus-adventures" src="<?php echo $folder; ?>img/student-life/wtd-6.jpg" alt="">
                         <h3>Off-Campus Adventures</h3>
                     </div>
                 </div>

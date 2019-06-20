@@ -6,7 +6,7 @@ $(document).ready(function(){
     var maxItems = 10;
     var activeSearch;
 
-    var url = "//www.messiah.edu/a/messiah-programs/messiah-programs.json";    
+    var url = "//www.messiah.edu/a/messiah-programs/messiah-programs-search.json";
 
     $('#components').appendTo(document.body);
     

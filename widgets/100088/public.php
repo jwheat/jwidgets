@@ -154,7 +154,7 @@
                     </p>
                 </div>
                 <div class="col-50 center">
-                    <img src="<?php echo $folder; ?>img/athletics/in-the-game.png" alt="">
+                    <img src="<?php echo $folder; ?>img/athletics/in-the-game.jpg" alt="">
                 </div>
             </div>
         </div>

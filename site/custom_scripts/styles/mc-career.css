@@ -335,13 +335,13 @@ h2 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	padding: 10% 20%;
-    box-sizing: border-box;
+	padding: 13% 20% 10%;
+	box-sizing: border-box;
 }
 
 .grad-rate-nr {
 	color: #4d87a9;
-	font: 7em/1em 'priori-sans-bold', sans-serif;
+	font: 6em/1em 'priori-sans-bold', sans-serif;
 	margin: 0;
 }
 
@@ -389,11 +389,12 @@ h2 {
 }
 
 .grad-work ul {
-	text-align: left;
+	/* text-align: left; */
 	font-family: mendoza-medium, serif;
 	padding: 0;
 	margin: 0 0 40px 0;
 	list-style-type: none;
+	text-align: center;
 }
 
 .columns-4 {
@@ -405,7 +406,9 @@ h2 {
 .columns-3 {
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
-	column-count: 3;
+	column-count: 2;
+	/* text-align: center; */
+	/* column-gap: 100px; */
 }
 
 .grad-work .logos {

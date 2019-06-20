@@ -73,6 +73,21 @@
 }
 
 
+/* - CMS Edit Link _ */
+
+.edit-page {
+    color: transparent !important
+}
+
+.edit-page:hover {
+    color: transparent !important;
+    background-image: url(/images/jadu_logo.png);
+    background-size: 50px 16px;
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+
 #pageOfflive {
 	background: #f0f0f0;
 }

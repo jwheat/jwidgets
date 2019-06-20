@@ -84,7 +84,7 @@
     </tr>
 
     <tr>
-      <td class="label_cell"><label for="param_study_abroad_percent">MessiahÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs student body studies or serves abroad</label>
+      <td class="label_cell"><label for="param_study_abroad_percent">Messiah's student body studies or serves abroad</label>
       <td class="data_cell"><input type="text" size='4' value="" id="param_study_abroad_percent" name="param_study_abroad_percent" class='qlfield'></td>
     </tr>
     <tr>

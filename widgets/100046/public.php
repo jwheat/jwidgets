@@ -1,4 +1,5 @@
 <?php
+$fancybox = true;
 #if (!class_exists('MessiahDirectoryCategoryHelper')) {
     require_once "custom/academics/class.MessiahDirectoryCategoryHelper.php";
 #}
