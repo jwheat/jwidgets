@@ -1,4 +1,5 @@
 <?php
+    $fancybox = true;
     define('WEBROOT', '/a/academics/listing');
 
     $param_department = "";

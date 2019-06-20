@@ -4,7 +4,7 @@
   $version = date('YmdHis');
   $folder = '';
   if (!$dev) {
-    $version = '4';
+    $version = '5';
     $folder = '/site/custom_scripts/styles/';
   }
   $pageVersion = "1";
@@ -624,7 +624,7 @@
                 <div class="flexbox">
                     <div class="col-50">
                         <p>
-                        Messiah College is a nationally ranked private Christian college that integrates rigorous academics and Christian faith into all of our academic programs. Messiah's faculty are outstanding teachers, scholars and researchers who will mentor and advise you as you expand your possibilities. We offer bachelor's degrees in <a href="https://www.messiah.edu/majors-minors-programs">85+ majors</a>. Specialized programs include <a href="https://www.messiah.edu/info/20698/off_campus_programs">off-campus study</a>, research, <a href="https://www.messiah.edu/agape">service-learning</a>, <a href="https://www.messiah.edu/info/23064/internship_program">internships</a>, <a href="https://www.messiah.edu/3-allied-programs">partner programs with other institutions</a>, <a href="https://www.messiah.edu/info/20103/three-year_degree_options">three-year degree options</a> and a <a href="https://www.messiah.edu/info/20098/college_honors_program">flourishing College Honors Program</a>.
+                        Messiah College is a nationally ranked private Christian college that integrates rigorous academics and Christian faith into all of our academic programs. Messiah's faculty are outstanding teachers, scholars and researchers who will mentor and advise you as you expand your possibilities. We offer bachelor's degrees in <a href="https://www.messiah.edu/majors-minors-programs">85+ majors</a>. Specialized programs include <a href="https://www.messiah.edu/info/20698/off_campus_programs">off-campus study</a>, <a href="https://www.messiah.edu/homepage/3722/undergraduate_research">research</a>, <a href="https://www.messiah.edu/agape">service-learning</a>, <a href="https://www.messiah.edu/info/23064/internship_program">internships</a>, <a href="https://www.messiah.edu/3-allied-programs">partner programs with other institutions</a>, <a href="https://www.messiah.edu/info/20103/three-year_degree_options">three-year degree options</a> and a <a href="https://www.messiah.edu/info/20098/college_honors_program">flourishing College Honors Program</a>.
                         </p>
                     </div>
                     <div class="col-50 center">
@@ -664,6 +664,9 @@
                             alt="on campus icon" />
                         <p><span>12: 1</span> student faculty ratio</p>
                     </div>
+                </div>
+                <div class="overview-btn-wrapper center">
+                    <a class="primary-button" href="https://www.messiah.edu/info/20020/recognitions">VIEW MORE DISTINCTIVES</a>
                 </div>
             </div>
         </div>
@@ -792,6 +795,7 @@
         </div>
 
         <!-- ====== SECTION N_4 ====== -->
+        <span id="opportunities" name="opportunities"></span>
         <div class="section" id="academics-opportunities">
             <div class="wrapper content center ao-info">
                 <h2>Academic opportunities</h2>
@@ -933,6 +937,9 @@
                         <div class="col-50">
                             <p>Messiah College offers students a wide range of exciting and meaningful research opportunities across all academic programs. Our low faculty-to-student ratio makes Messiah an ideal place for you to collaborate with classmates, faculty, alumni and regional, national and global organizations.</p>
                             <div>
+                            </div>
+                            <div>
+                                <a href="https://www.messiah.edu/homepage/3722/undergraduate_research" class="primary-button">Student research at Messiah</a>
                             </div>
                         </div>
                         <div class="col-50 center">

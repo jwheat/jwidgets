@@ -82,7 +82,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>Europe</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/europe-img.png" alt="Europe">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/europe-img.jpg" alt="Europe">
                             <ul class="project-loc">
                                 <li>Lurgan, Northern Ireland<span>Agapé Service Team & International internship</span></li>
                                 <li>Dublin, Ireland<span>Gaiety School of Acting</span></li>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>North America</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/north-america-img.png" alt="North America">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/north-america-img.jpg" alt="North America">
                             <ul class="project-loc">
                                 <li>Ashland, Oregon (AZ, CA, TX, UT)<span>Oregon Extension</span></li>
                                 <li>Desert Southwest<span>Cross-Cultural Course</span></li>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>Latin America</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/south-america-img.png" alt="South America">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/south-america-img.jpg" alt="South America">
                             <ul class="project-loc">
                                 <li>Oaxaca, Mexico<span>Collaboratory Site Teams</span></li>
                                 <li>Somotillo, Nicaragua<span>AROMA Sports Ministry</span></li>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>Asia</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/asia-img.png" alt="Asia">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/asia-img.jpg" alt="Asia">
                             <ul class="project-loc">
                                 <li>Bengaluru, India<span>International Student Teaching</span></li>
                                 <li>Chiang Mai, Thailand<span>AROMA Sports Ministry, GO ED Mekong, Nursing Senior Practicum & Cross-Cultural Course</span></li>
@@ -182,7 +182,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>Africa</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/africa-img.png" alt="Africa">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/africa-img.jpg" alt="Africa">
                             <ul class="project-loc">
                                 <li>Accra and Tamale, Ghana<span>Collaboratory Site Teams & Cross-Cultural Course</span></li>
                                 <li>Macha, Zambia<span>AROMA Sports Ministry, Nursing Senior Practicum, Collaboratory Site Teams
@@ -203,7 +203,7 @@
                         </div>
                         <div class="col-60 fs-ge-list">
                             <h3>Oceania/South Pacific</h3>
-                            <img src="<?php echo $folder; ?>img/faith-and-service/australia-img.png" alt="Australia">
+                            <img src="<?php echo $folder; ?>img/faith-and-service/australia-img.jpg" alt="Australia">
                             <ul class="project-loc">
                                 <li>Brisbane Australia<span>Australia Studies Center</span></li>
                                 <li>Auckland, New Zealand<span>International Student Teaching</span></li>

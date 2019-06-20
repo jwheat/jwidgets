@@ -240,7 +240,7 @@ $(document).ready(function(){
         } else {
           $("#where-grads-work").removeClass("columns-4");
           $("#where-grads-work").addClass("columns-3");
-          $(".grad-work-caption-dep").text('Here is a sample of what some of our 2017 ' + data.entry_title + ' grads are doing and where they work.');
+          $(".grad-work-caption-dep").text('Here is a sample of what some of our 2018 ' + data.entry_title + ' grads are doing and where they work.');
           $(".grad-work-caption-all").hide();
           $(".grad-work-caption-dep").show();
         }

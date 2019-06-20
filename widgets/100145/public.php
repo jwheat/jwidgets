@@ -30,7 +30,7 @@
             <div class="hero-title-wrapper">
                 <h2>Undergraduate<br>research<br>opportunities</h2>
                 <hr>
-                <p>Contribute practical solutions to<br />real-world problems</p>
+                <p>Discover practical solutions to<br />real-world problems</p>
             </div>
         </div>
 
@@ -105,7 +105,7 @@
                                     alt="real world creativity image" />
                                 <div class="circle-overlay open-overlay-2"></div>
                             </div>
-                            <h3>low faculty-to-student<br>ratio </h3>
+                            <h3>low student-faculty <br>ratio </h3>
                         </div>
                         <div class="col-33">
                             <div class="circle-container">
@@ -132,7 +132,7 @@
                         <h2>Faculty-student collaboration</h2>
                         <ul class="section-2-overlay-tabs">
                             <li><a class="active">Faculty mentorship</a></li>
-                            <li><a class="open-overlay-2">Faculty-to-student ratio</a></li>
+                            <li><a class="open-overlay-2">Student-faculty ratio</a></li>
                             <li><a class="open-overlay-3">Important answers to important questions</a></li>
                         </ul>
                     </div>
@@ -142,14 +142,9 @@
                     <div class="flexbox">
                         <div class="col-60">
                             <p>Faculty mentorship is an important part of the Messiah experience. Your Messiah professors strive to really get to know you, your strengths and professional aspirations. That’s why our faculty―who are accomplished researchers in their own right―regularly invite students to join with them in research and scholarship, including co-authoring papers and co-presenting at professional conferences. You may even travel abroad as part of a faculty-student team to research special projects and challenges in international communities.</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/ug-research/faculty-student-mentorship.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -165,24 +160,19 @@
                         <h2>Faculty-student collaboration</h2>
                         <ul class="section-2-overlay-tabs">
                             <li><a class="open-overlay-1">Faculty mentorship</a></li>
-                            <li><a class="active">Faculty-student ratio</a></li>
+                            <li><a class="active">Student-faculty ratio</a></li>
                             <li><a class="open-overlay-3">Important answers to important questions</a></li>
                         </ul>
                     </div>
 
-                    <h3 class="center"><span>Faculty-student ratio</span></h3>
+                    <h3 class="center"><span>Student-faculty ratio</span></h3>
 
                     <div class="flexbox">
                         <div class="col-60">
-                            <p>Our low faculty-to-student ratio makes Messiah an ideal place for you to collaborate on research projects with faculty and classmates. You’ll also benefit from the research connections and partnerships our faculty have with regional, national and global organizations.</p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
+                            <p>Our low student-to-faculty ratio makes Messiah an ideal place for you to collaborate on research projects with faculty and classmates. You’ll also benefit from the research connections and partnerships our faculty have with regional, national and global organizations.</p>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/ug-research/student-faculty-ratio.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -198,7 +188,7 @@
                         <h2>Faculty-student collaboration</h2>
                         <ul class="section-2-overlay-tabs">
                             <li><a class="open-overlay-1">Faculty mentorship</a></li>
-                            <li><a class="open-overlay-2">Faculty-to-student ratio</a></li>
+                            <li><a class="open-overlay-2">Student-faculty ratio</a></li>
                             <li><a class="active">Important answers to important questions</a></li>
                         </ul>
                     </div>
@@ -208,14 +198,9 @@
                     <div class="flexbox">
                         <div class="col-60">
                             <p>At Messiah, we’ll help you apply what you’re learning so you can develop practical answers to important questions. Whether you’re passionate about science, engineering, health, business, education, social sciences, the humanities or the arts, you can contribute significant research in your area of study and make an impact on your chosen field—before you graduate. </p>
-                            <div>
-                                <a href="#" class="primary-button">Link Two</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                                <a href="#" class="primary-button">Another Link here</a>
-                            </div>
                         </div>
                         <div class="col-40 center">
-                            <img src="<?php echo $folder; ?>img/Rectangle-filler.png" alt="" />
+                            <img src="<?php echo $folder; ?>img/ug-research/practical-answer.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -225,7 +210,7 @@
         <!-- ====== SECTION N_3 ====== -->
         <div class="section">
             <div class="wrapper content">
-                <h2 class="center">Graduate studies academic overview</h2>
+                <h2 class="center">Improving the human condition</h2>
                 <div class="flexbox">
                     <div class="col-50">
                         <p>

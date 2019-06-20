@@ -1,4 +1,4 @@
-// accordion functionality
+/* accordion functionality
 	var acc = document.getElementsByClassName("acc");
 
 	for (i = 0; i < acc.length; i++) {
@@ -12,3 +12,4 @@
 			} 
 		});
 	}
+*/

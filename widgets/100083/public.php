@@ -63,4 +63,4 @@
     </script>
 
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
-    <script type="text/javascript" src="<?php echo $folder; ?>mc-search-programs.js?v=1"></script>
+    <script type="text/javascript" src="<?php echo $folder; ?>mc-search-programs.js?v=2"></script>
