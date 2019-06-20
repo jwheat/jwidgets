@@ -1,3 +1,14 @@
+var urlParams = new URLSearchParams(window.location.search);
+var type = urlParams.get('type');
+
+if (type == "ug"){
+  Cookies.set('mc_student_type', '0');
+}
+if (type == "grad"){
+  Cookies.set('mc_student_type', '1');
+}
+
+
 $(document).ready(function(){
   var faqItem = 1;
 
@@ -88,7 +99,7 @@ $(document).ready(function(){
     $('.why-messiah-info').hide();
     $('#overlay-0').show();
   });
-  
+
   $('.open-overlay-1').click(function() {
     $('.why-messiah-overlay').hide();
     $('.why-messiah-info').hide();
