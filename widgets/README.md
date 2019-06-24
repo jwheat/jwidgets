@@ -158,6 +158,11 @@
 - 100137     SNAAP - Theatre and Dance
 - 100138     Development Office Homepage
 - 100139     Static Homepage Feature
+- 100140	GN - Academics - Hero
+- 100141	SNAAP  - Theatre
+- 100142	Grad Program Listing
+- 100143	2.0 Department Course Listing
+- 100144	GN - Admissions Top Level
 - 100145    UG Research
 - 100146	Accepted Student - Hero
 - 100147	Accepted Student - Accordion
