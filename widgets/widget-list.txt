@@ -1,0 +1,181 @@
+3,Sub-category links,Displays all the sub-categories of the applied category
+24,Opinion poll,The live opinion poll
+2,Image,Adds a static image to the page
+4,Documents - Jadu,Displays the list of documents in the current category.
+6,Content,"Use this widget to put a block of text on your homepage, with the option of including a heading."
+23,Quick links 2.0,Create a list of navigation links.
+11,"What's new on site",List of the five newest items on your website
+13,"What's on",Pick of the week event.
+14,Latest news,"Latest news item on the site, either the last one published, or the top news "
+15,Middle adverts,"Middle adverts from the marketing module, that will change based upon user preferences."
+16,Right adverts,Right adverts from the marketing module.
+17,Homepage banner,Random homepage banner advert
+18,z. Jadu Events calendar,Calendar of events
+19,Top FAQs,List of top ten FAQs
+25,Multimedia,Embed a multimedia item into the homepage.
+26,Directory search,Provides a search box for Directories
+27,Employee Record,"Biography with photo, name, title, email, website, text area"
+34,Quick Links,"Quick links for homepages - includes image, alt text, heading, content and an unlimited set of links"
+32,Accordion,Accordion widget for homepages
+33,Multipurpose,"Multi-purpose widget that contains an image, heading, subheading, content and link (button)"
+35,Multipurpose (wide),"Widget that will display an image, headings, sub-heading, content, and a button. "
+36,Image Popup/Zoom,Add an image thumbnail and click to enlarge
+37,Image hover link,"image with overlay text header, and rollover content with button link"
+38,Quote (narrow),"Quote widget with image, name, and content area"
+39,"Slideshow ",Slideshow for multiple images
+40,UG ADmissions Next Steps,"Links for: 
+
+Apply
+Visit
+Request Info
+Cost and Aid"
+41,WYSIWYG - bad,Widget with just a WYSIWYG with a grey background
+42,Content (grey background),"Same as the regular content widget, but with a grey background"
+43,Employee Record (short),"widget with image, title, name, and read more button"
+44,Twitter Feed,Display a full feed or just your favorites
+154,Custom - Large Homepage Slider,Large Homepage Slider
+173,Events list (full width),Custom events
+175,Custom Gallery,Custom Gallery
+100000,Homepage: Quicklinks,Quicklinks ribbon for grad and ug students
+100001,Content Widget - H3,A content widget that uses h3 as its header
+100002,Link list,A Navigation widget that uses a h3 instead of a h2
+100003,Document list,"Custom clone of the Documents widget - lists only live documents  "
+100004,Homepage: What do you want to study,Homepage widget for messiah.edu only
+100005,Homepage: SEO,White ribbon with branding statement. To only be used on messiah.edu homepage
+100006,Old Homepage: Messiah by the numbers,Homepage ribbon with info graphics
+100007,Homepage: #messiahcollege,Instagram feed and social media links
+100008,Homepage: Visit area,"video and links to visit campus
+
+Old video links from Jon's code - 
+
+            <source src=""http://www.messiah.edu/a/video-fix/visit-video/visit.mp4"" type='video/mp4; codecs=""avc1.42E01E, mp4a.40.2""' />
+            <source src=""http://www.messiah.edu/a/video-fix/visit-video/visit.ogv"" type='video/ogg; codecs=""theora, vorbis""' />
+            <source src=""http://www.messiah.edu/a/video-fix/visit-video/visit.webm"" type='video/webm; codecs=""vp8, vorbis""' />"
+100009,Homepage: In the news,In the news widget for messiah.edu homepage
+100019,Academics - Academics in action,"academics in action widget for the academics homepage only. 3 slides that scroll . "
+100010,Academic Programs,Kris test
+100011,Advert Button,Button that expands 100% width of the widget. Includes title and link fieds
+100012,"Drop-down ","Widget that has image, copy, heading, and a drop-down list of links"
+100027,z-About tabs,About tabs for the about homepage
+100014,UG Admissions - Quick Links,"Widget for UG admissions "
+100015,UG Admissions - Process,The admissions process for UG students
+100022,Quick links (with image and content),"same as quick links widget, but with a clickable image and heading"
+100017,Academics - Quick facts,Quick facts widget for the academics homepage only
+100018,Academics - Search,Search function for the academics homepage
+100020,Department accordion,"This accordion includes information on all academic departments at MC. It's to be used on academic program pages only.  "
+100023,"library - search ",search feature for library
+100024,Events list (narrow list),"copy of the original events widget, but styled for small spaces. "
+100025,Heading <H2>,Just a H2 with no margin or padding
+100026,Custom Gallery 2,Custom Gallery for homepage
+100031,Homepage Quicklinks - No scroll to visit,Quick links widget for video feature
+100028,Homepage: video background,"widget to replace the homepage slider with a video background feature. (display:none; on mobile breakpoints) "
+100029,Safety Document PDF List,Specialized PDF list used to pull documents from MCWeb into Jadu
+100033,Quote (100% width),"Widget that will display an image (with quote icon), headings, sub-heading, content, and a button. "
+100034,Department Academic Listing,List programs for a specific department
+100048,Department Outcomes Stats,Grad Stats
+100036,Department Course Listing,department course listing with view links
+100049,"z - Featured event  (Jon's old widget)","Event widget that pulls in an image, title, teaser, date and time"
+100039,Faculty Directory,faculty directory
+100044,"Department - Alumni featured ",Featured Alumni Slider
+100042,Outcomes infographic,"Use this widget to put a block of text on your homepage, with the option of including a heading."
+100045,CTA Program page,Hard coded CTA. No widget UI
+100046,Department - Alumni list,Alumni List
+100047,Department Outcomes,Outcomes
+100050,xBridge_Slider,Bridge Website image slider
+100051,xBridge_Stories,Bridge story cards
+100052,The Bridge - Cards,Card widget for the Alumni Magazine (The Bridge)
+100055,Sub-site slider,Slider that can be added to a homepage
+100056,Events list (Featured),"Jon's featured event code from Chubby"
+100057,HTML,"A copy of the ""content"" widget. However, no CSS is applied to the widget container on the front-end. "
+100058,Pieces Past Map,Pieces Past Map
+100059,Pieces Past Map-R,Pieces Past Map
+100060,Wordpress Posts,Pulls in recent Wordpress posts
+8001,My Account: Forms,Shows the user their XFP forms
+100061,No index,this hides pages from Google search
+100063,Homepage: Messiah by the numbers,Infographic style widget for homepage
+100072,NEW Department Academic Listing,This one uses category ids
+100073,Delete - Dept. Academic Programs 2.0,Program listing for academic programs filtered by department
+100064,Grad RFI,Short RFI form for GRAD landing pages
+100065,YouTube Video,Place a youtube video and play it in a lightbox
+100066,Grad RFI - Full Form,full from for grad rfi
+100067,Visit Area 2,Visit area for the hompage with video background and event widget
+38001,My Account: Direct Debits,Shows the user their Direct Debits
+999,Events Custom Calendar,Events Calendar widget
+100069,At a glance,"Messiah college at a glance widget. Not for public use. "
+100070,"Rankings Carousel ","Carousel to display rankings as an infographic. Graphics should be 180px by 180px. "
+100074,WebProxy - Portal,Fetches a URL and renders it in page
+100075,2.0 - Department program listing,New program listing for academic departments
+100076,2.0 - Program listing,Program page - full listing
+100077,Grad RFI (SLATE),Slate RFI form for Grad programs
+100078,"QF - Slate ",slate
+100079,Careers and outcomes widget,Careers and outcomes widget for the about us portion of the site. Connects to a Jadu directory
+100080,Outcomes: Career Prep,Career prep widget for careers and outcomes site
+100082,Outcomes: Alumni Success,"Alumni success widget. Pulls ""featured"" alumni stories from the Alumni Database. "
+100083,Homepage: What do you want to study (search),Homepage widget for messiah.edu only that includes Lightbox search
+100084,2.0 - Study Abroad,Study abroad widget for the study abroad page at .edu/study-abroad
+100085,"2.0 - Homepage carousel ",New homepage carousel - Dusan is working on this
+28,Gallery,
+100086,Humanities Scholarship,"Temporary widget (hard coded) for the humanities scholarship program. 
+
+Built by Kris (1.29.18)"
+100087,GN - Athletics 01 - Hero,Hero widget for the athletics page hero
+100088,GN - Athletics 02 - Get in the game,Widget for the global navigation page
+100089,GN - Athletics 03 - Physical fitness,Global navigation page
+100090,GN - Athletics 04 - Group fitness,global navigation widget
+100091,GN - Athletics 05 - Game day,"Global Navigation "
+100092,"GN - Athletics 06 - High school sports ","global navigation "
+100093,"GN - Athletics 07 - Sports ministries ","Global navigation "
+100094,"GN - Continue exploring ","global navigation "
+100095,Recognitions widget,"This widgets pulls in recognitions from the recognitions directory by category "
+100096,No index,Add this widget to the bottom of a page so it will not be indexed by search engines. Remove before publishing
+100114,GN - Faith and Service - Footer,Footer scripts for faith and service
+100097,GN - Student Life 02 - Life on campus,"Life on campus widget "
+100098,"GN - Student Life 03 - What's there to do?","student life widget - what's there to do"
+100099,GN - Student Life 04 - No place like home,No place like home
+100100,GN - Student Life 05 - Living on campus,GN - Student Life 05 - Living on campus
+100101,GN - Student Life 06 - FAQs,GN - Student Life 06 - FAQs
+100102,GN - Student Life 07 - Hungry,GN - Student Life 07 - Hungry
+100103,GN - Student Life 08 - Diverse campus,GN - Student Life 08 - Diverse campus
+100104,"GN - Student Life 09 - We're here to support you","GN - Student Life 09 - We're here to support you"
+100105,GN - Student Life 01 - Hero,GN - Student Life 01 - Hero
+100106,GN - Athletics 09 - close scripts,Close the scripts on the athletics page
+100107,Grad Pages Accordion,Accordion styled specifically for the grad pages
+100108,"GR Page - Rankings carousel ",Rankings carousel designed for the grad program pages
+100109,GN - Student Life  - Supporting Footer,Supporting files for student life page
+100110,Recognitions Page,Recognitions widget that pulls in rankings from a directory
+100111,"Grad page admissions counselor ",This widget is used for the graduate program pages only
+100113,GN - Faith and Service 01 - Hero,Faith and service hero image
+100115,GN - Faith and Service 02 - Overview,GN - Faith and Service 02 - Overview
+100116,GN - Faith and Service 03 - Grow your faith,GN - Faith and Service 03 - Grow your faith
+100117,GN - Faith and Service 04 - Service,GN - Faith and Service 04 - Service
+100118,GN - Faith and Service 05 - Global Engagement,GN - Faith and Service 05 - Global Engagement
+100119,GN - Faith and Service 06 - Find a church,GN - Faith and Service 06 - Find a church
+100120,Faith and Service test,test
+100121,Welcome week countdown,Welcome week countdown
+100122,GN - About - 01 Hero,About page hero
+100123,GN - About - 02 Overview,GN - About - 02 Overview
+100124,GN - About - 03 Campus,GN - About - 03 Campus
+100125,GN - About - 04 Faith,GN - About - 04 Faith
+100126,GN - About - 05 See anew,GN - About - 05 See anew
+100127,GN - About - 06 History,GN - About - 06 History
+100128,GN - About - 07 Footer,GN - About - 07 Footer
+100132,Announcement Widget,"Announcement widget allows users to select an image and text to promote deadlines or events. "
+100133,SNAAP - General,SNAPP widget
+100131,Common Good - Full page,Common Good - Overview
+100134,GR accordion - Events list (full width),Custom events
+100135,"SNAAP - Art and Design ",Art outcomes widget /  page
+100136,SNAAP - Music,SNAAP Music Outcomes
+100137,SNAAP - Theatre and Dance,"SNAAP outcomes for theatre and dance
+
+Old"
+100138,Development Office Homepage,Development Office Homepage
+100139,Static Homepage Feature,"Featured homepage area for special events like move-in day, etc"
+100140,GN - Academics - Hero,Academics GN homepage
+100141,SNAAP  - Theatre,SNAAP outcomes data for the Department of Theatre and Dance
+100142,Grad Program Listing,Full listing of all grad programs
+100143,2.0 Department Course Listing,New course listing widget that pulls from the UG academics API and display course for specific programs
+100144,GN - Admissions Top Level,"Global Navigation Admissions quick links. "
+100145,UG Research,Undergrad Research at Messiah College
+100146,Accepted Student - Hero,"Accepted student landing page hero "
+100147,Accepted Student - Accordion,Accordion for the Accepted Student Landing page
+100148,"Accepted Student - Bottom ","Remaining accepted student page content after the accordion "
