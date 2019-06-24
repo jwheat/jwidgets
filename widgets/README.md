@@ -158,4 +158,7 @@
 - 100137     SNAAP - Theatre and Dance
 - 100138     Development Office Homepage
 - 100139     Static Homepage Feature
-- 100145    UG Research 
+- 100145    UG Research
+- 100146	Accepted Student - Hero
+- 100147	Accepted Student - Accordion
+- 100148	Accepted Student - Bottom  
