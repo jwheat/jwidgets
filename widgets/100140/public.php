@@ -977,7 +977,8 @@
                         <div class="col-60">
                             <p>Your college experience expands beyond our campus. Whether serving with a local partner nonprofit organization in nearby Harrisburg, doing construction in Appalachia on spring break, studying abroad in England for a semester or traveling on service and missions trips to Central America or Africa in early summer, you'll have ample opportunities to become a global citizen.</p>
                             <div>
-                                <a href="https://www.messiah.edu/info/20679/intercultural_office" class="primary-button">Intercultural Office</a>
+                                <a href="https://www.messiah.edu/study-abroad" class="primary-button">Study Abroad</a>
+                                <a href="https://www.messiah.edu/agape" class="primary-button">Center for Service & Learning</a>
 
                             </div>
                         </div>
