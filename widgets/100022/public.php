@@ -179,11 +179,15 @@
 #    }
 ?>
 <div class="widget-quick-links col">
-<?php
-    if ($img_src != "") { ?>
+<?php if ($img_src != "") { ?>
+      <?php if ($param_site_url != "") { ?>
         <a href='<?php print $param_site_url;?>'>
             <img border="0" class="hover" src="/images/<?php print $img_src;?>" alt="<?php print $param_image_alttext;?>" width="95%">
         </a>
+      <?php } else {
+          <img border="0" class="hover" src="/images/<?php print $img_src;?>" alt="<?php print $param_image_alttext;?>" width="95%">
+      }
+      ?>
     <?php } ?>
 
     <?php if ($param_heading != "") { ?>
@@ -192,7 +196,7 @@
                 <a href='<?php print $param_site_url;?>'>
                     <?php print $param_heading;?>
                 </a>
-            <?php } else { 
+            <?php } else {
                 print $param_heading;
             }
             ?>
