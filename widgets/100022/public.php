@@ -184,11 +184,11 @@
         <a href='<?php print $param_site_url;?>'>
             <img border="0" class="hover" src="/images/<?php print $img_src;?>" alt="<?php print $param_image_alttext;?>" width="95%">
         </a>
-      <?php } else {
-          <img border="0" class="hover" src="/images/<?php print $img_src;?>" alt="<?php print $param_image_alttext;?>" width="95%">
-      }
-      ?>
-    <?php } ?>
+      <?php } else { ?>
+  <img border="0" class="hover" src="/images/<?php print $img_src;?>" alt="<?php print $param_image_alttext;?>" width="95%">
+  <?php } ?>
+  ?>
+  <?php } ?><?php } ?>
 
     <?php if ($param_heading != "") { ?>
         <h2>
