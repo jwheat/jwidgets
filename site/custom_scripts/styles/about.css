@@ -1,3 +1,4 @@
+/* this is super cool */
 /* about tabs */
 #content .widget__z-about-tabs ul {
   margin-bottom: 0px !important;
@@ -54,7 +55,7 @@
     -webkit-transition:background-color .2s;
     -o-transition:background-color .2s;
     -ms-transition:background-color .2s;
-        text-decoration: none !important; 
+        text-decoration: none !important;
 
 }
 .about-box .block .btn-group a:hover {
@@ -72,8 +73,8 @@
     background:#ccc;
     content:"";
 }
-.about-box .block .btn-group .map-btn { 
-    background-image:url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico02.png); 
+.about-box .block .btn-group .map-btn {
+    background-image:url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico02.png);
 }
 .about-box .block .btn-group .statement { background-image:url(//www.messiah.edu/site/custom_scripts/styles/img/about/ico03.png); }
 /* about-tabs */
@@ -352,7 +353,7 @@ noindex:-o-prefocus, .about-tabs .nav-tabs li {
 
 /* At a glance */
 
-#messiah-glance {    
+#messiah-glance {
     font-family: priori-sans-bold, sans-serif;
 }
 
@@ -671,7 +672,7 @@ noindex:-o-prefocus, .about-tabs .nav-tabs li {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	right: 0;    
+	right: 0;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -865,7 +866,7 @@ noindex:-o-prefocus, .about-tabs .nav-tabs li {
         vertical-align: middle;
     }
 
-    #messiah-glance .plain-txt {        
+    #messiah-glance .plain-txt {
         background-position-x: 50% !important;
     }
 
@@ -1000,7 +1001,7 @@ noindex:-o-prefocus, .about-tabs .nav-tabs li {
     #messiah-glance .slide-content .third.pad-box {
         margin: 1% !important;
     }
-    
+
     #messiah-glance .slide-content .third.pad-box:before {
         padding-top: 100%;
     }
